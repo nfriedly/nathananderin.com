@@ -8,12 +8,21 @@
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
     <style type="text/css">
         body { background: #F1F1F1; font-size: 16px;}
+        @media ( max-width: 767px ) {
+            .container { padding: 0; }
+        }
         @media( min-width: 1024px ) {
             header { margin-top: 50px; }
         }
         header img { width: 100%; }
-        main { background: white; margin: 0 0 50px 0; padding: 20px 50px 50px 50px; }
-        img.thumbnail.pull-right { margin: 0 0 25px 25px; box-sizing: content-box; }
+        main { background: white; margin: 0 0 50px 0; padding: 20px; }
+        @media ( min-width: 768px ) {
+            main { padding: 20px 50px 50px 50px; }
+        }
+        img.thumbnail.pull-right { margin: 0 0 25px 25px; box-sizing: content-box; clear: right;}
+        @media (min-width: 480px) {
+            img.thumbnail.pull-right { clear: none; }
+        }
         h1 { margin-bottom: 20px; }
         h2 { font-size: 120%; clear: both; }
         li { word-wrap: break-word; }
@@ -70,5 +79,5 @@ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www')
 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
 </script>
-</body
+</body>
 </html>
