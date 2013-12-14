@@ -63,22 +63,22 @@
             Hosted on 
             <a href="https://github.com/nfriedly/nathananderin.com/"><i class="fa fa-github"></i> GitHub</a> and 
             <a href="http://www.bootstrapcdn.com/"><i class="fa fa-maxcdn"></i> Bootstrap CDN</a>.
-            
         </p>
     </footer>
 </div>
     
 <script type="text/javascript">
-    var $ = document.querySelectorAll.bind(document),
-        arr = [], 
-        each = arr.forEach && arr.forEach.call.bind(arr.forEach);
-    if ($ && each) {
-        each($('a[data-address]'), function(a) {
+    if (document.querySelectorAll) {
+        var slice = Array.prototype.slice;
+        function $(selector) {
+            return slice.call(document.querySelectorAll(selector));
+        }
+        $('a[data-address]').forEach(function(a) {
             var email = a.getAttribute('data-address') + '@nathananderin.com';
             a.href = 'mailto:' + email;
             a.innerHTML = '<i class="fa fa-envelope"></i> ' + email;
         });
-        each($('ul[data-address]'), function(ul) {
+        $('ul[data-address]').forEach(function(ul) {
             var email = ul.getAttribute('data-address') + '@nathananderin.com';
             var li = document.createElement('li');
             li.innerHTML = '<i class="fa-li fa fa-envelope"></i> <a href="mailto:' + email + '">' + email + '</a>';
