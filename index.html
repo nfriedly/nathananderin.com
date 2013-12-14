@@ -19,9 +19,10 @@
         @media ( min-width: 768px ) {
             main { padding: 20px 50px 50px 50px; }
         }
-        img.thumbnail.pull-right { margin: 0 0 25px 5px; box-sizing: content-box; clear: right;}
+        .oneline { white-space: pre; }
+        img.thumbnail { margin: 0px 8px 8px 8px; box-sizing: content-box; -moz-box-sizing: content-box; display: inline; }
         @media (min-width: 480px) {
-            img.thumbnail.pull-right { clear: none; margin-left: 25px;}
+            img.thumbnail { margin: 0 0 25px 25px; float: right; display: block; }
         }
         h1 { margin-bottom: 20px; }
         h2 { font-size: 120%; clear: both; }
@@ -36,16 +37,19 @@
     </header>
     <main>
         <h1>Nathan and Erin Friedly</h1>
-        <p>Hi, and God bless! You can email both of us at <a data-address="both">["both" at this website]</a> or reach us individually at the options below.</p>
+        <p>Hi, and God bless! You can email both of us at <a class="oneline" data-address="both">["both" at this website]</a> or reach us individually at the options below.</p>
         
-        <h2>Erin:<img class="pull-right thumbnail" src="http://images.ak.instagram.com/profiles/profile_5308686_75sq_1363439697.jpg" alt="" width="50" height="50" />
-        <img class="pull-right thumbnail" title="Erin" src="http://graph.facebook.com/BrillyantColor/picture" alt="" width="50" height="50" /></h2>
+        <h2>Erin:</h2>
+        <img class="thumbnail" src="http://images.ak.instagram.com/profiles/profile_5308686_75sq_1363439697.jpg" alt="" width="50" height="50" />
+        <img class="thumbnail" title="Erin" src="http://graph.facebook.com/BrillyantColor/picture" alt="" width="50" height="50" />
         <ul class="fa-ul" data-address="erin">
             <li><i class="fa-li fa fa-instagram"></i><a href="http://instagram.com/lollibows">http://instagram.com/lollibows</a></li>
             <li><i class="fa-li fa fa-facebook"></i><a href="https://www.facebook.com/BrillyantColor">https://www.facebook.com/BrillyantColor</a></li>
         </ul>
         
-        <h2>Nathan:<img class="pull-right thumbnail" src="https://lh5.googleusercontent.com/-9m6oyBOO3KU/AAAAAAAAAAI/AAAAAAAAAAA/UqbKmdUvhSQ/s49-c/photo.jpg" alt="" width="50" height="50" /><img class="pull-right thumbnail" title="Nathan" src="http://graph.facebook.com/nfriedly/picture" alt="" width="50" height="50" /></h2>
+        <h2>Nathan:</h2>
+        <img class="thumbnail" src="https://lh5.googleusercontent.com/-9m6oyBOO3KU/AAAAAAAAAAI/AAAAAAAAAAA/UqbKmdUvhSQ/s49-c/photo.jpg" alt="" width="50" height="50" />
+        <img class="thumbnail" title="Nathan" src="http://graph.facebook.com/nfriedly/picture" alt="" width="50" height="50" />
         <ul class="fa-ul" data-address="nathan">
             <li><i class="fa-li fa fa-home"></i><a href="http://nfriedly.com">http://nfriedly.com</a></li>
             <li><i class="fa-li fa fa-twitter"></i><a href="http://twitter.com/nfriedly">http://twitter.com/nfriedly</a></li>
