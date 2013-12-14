@@ -36,18 +36,17 @@
     </header>
     <main>
         <h1>Nathan and Erin Friedly</h1>
-        <p>Hi, and God bless! You can email us at "nathan", "erin", or "both" @ nathananderin.com, or find us on some of the other sites below:</p>
-        
+        <p>Hi, and God bless! You can email both of us at <a data-address="both">["both" at this website]</a> or reach us individually at the options below.</p>
         
         <h2>Erin:<img class="pull-right thumbnail" src="http://images.ak.instagram.com/profiles/profile_5308686_75sq_1363439697.jpg" alt="" width="50" height="50" />
         <img class="pull-right thumbnail" title="Erin" src="http://graph.facebook.com/BrillyantColor/picture" alt="" width="50" height="50" /></h2>
-        <ul class="fa-ul">
+        <ul class="fa-ul" data-address="erin">
             <li><i class="fa-li fa fa-instagram"></i><a href="http://instagram.com/lollibows">http://instagram.com/lollibows</a></li>
             <li><i class="fa-li fa fa-facebook"></i><a href="https://www.facebook.com/BrillyantColor">https://www.facebook.com/BrillyantColor</a></li>
         </ul>
         
         <h2>Nathan:<img class="pull-right thumbnail" src="https://lh5.googleusercontent.com/-9m6oyBOO3KU/AAAAAAAAAAI/AAAAAAAAAAA/UqbKmdUvhSQ/s49-c/photo.jpg" alt="" width="50" height="50" /><img class="pull-right thumbnail" title="Nathan" src="http://graph.facebook.com/nfriedly/picture" alt="" width="50" height="50" /></h2>
-        <ul class="fa-ul">
+        <ul class="fa-ul" data-address="nathan">
             <li><i class="fa-li fa fa-home"></i><a href="http://nfriedly.com">http://nfriedly.com</a></li>
             <li><i class="fa-li fa fa-twitter"></i><a href="http://twitter.com/nfriedly">http://twitter.com/nfriedly</a></li>
             <li><i class="fa-li fa fa-facebook"></i><a href="https://www.facebook.com/nfriedly">https://www.facebook.com/nfriedly</a></li>
@@ -70,14 +69,31 @@
 </div>
     
 <script type="text/javascript">
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-1735765-23']);
-_gaq.push(['_trackPageview']);
-(function() {
-var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
+    var $ = document.querySelectorAll.bind(document),
+        arr = [], 
+        each = arr.forEach && arr.forEach.call.bind(arr.forEach);
+    if ($ && each) {
+        each($('a[data-address]'), function(a) {
+            var email = a.getAttribute('data-address') + '@nathananderin.com';
+            a.href = 'mailto:' + email;
+            a.innerHTML = '<i class="fa fa-envelope"></i> ' + email;
+        });
+        each($('ul[data-address]'), function(ul) {
+            var email = ul.getAttribute('data-address') + '@nathananderin.com';
+            var li = document.createElement('li');
+            li.innerHTML = '<i class="fa-li fa fa-envelope"></i> <a href="mailto:' + email + '">' + email + '</a>';
+            ul.insertBefore(li, ul.firstChild);
+        });
+    }
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1735765-23']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
 </script>
 </body>
 </html>
