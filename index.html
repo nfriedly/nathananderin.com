@@ -122,11 +122,7 @@
         return jQuery.getJSON(url);
     });
     
-    // var renderMaizygram = _.template('<a href="<%= link %>" title="<%= caption.text %>" target="_blank"><img src="<%= images.low_resolution.url %>" class="img-thumbnail" alt="Maizygram!"></a>'); 
-    
-    $.when.apply($, jqXHRs).then(function() {
-        var datas = [].slice.call(arguments);
-        var responses = _.pluck(datas, 0);
+    function combineInsgagramFeeds(responses) {
         var images = _.reduce(responses, function(memo, response){
             if (response && response.meta.code == 200) {
                 return memo.concat(response.data);
@@ -135,16 +131,27 @@
             }
         }, []);
         
-        var mgs = images.sort(function(a,b) {
+        return images.sort(function(a,b) {
             return b.created_time - a.created_time;
-        }).slice(0,maxPhotosToShow);
-        var template, mg, html = [];
-        for (var i=0; i<mgs.length; i++) {
-            mg = mgs[i];
-            template = ['<a href="', mg.link, '" title="', mg.caption.text, '" target="_blank"><img src="', mg.images.low_resolution.url, '" class="img-thumbnail" alt="', mg.caption.text, '"></a>\n'];
-            html = html.concat(template);
-        }
-        $('#instagram').html(html.join(''));
+        });
+    } 
+    
+    var renderInstagram= _.template('<a href="<%= link %>" title="<%= caption.text %>" target="_blank"><img src="<%= images.low_resolution.url %>" class="img-thumbnail" alt="Instagram Photo: <%= caption.text %>"></a>');
+    
+    function renderInstagramFeed(combinedFeed) {
+        var trimmedFeed = combinedFeed.slice(0,maxPhotosToShow);
+        var  htmlSnippets = _.map(trimmedFeed, renderInstagram);
+        // todo: consider waiting for images to download and then fading them in
+        $('#instagram').html(htmlSnippets.join(''));
+    }
+    
+    $.when.apply($, jqXHRs).then(function() {
+        // arguments is an array with each item being an array of the arguments that each jqXHR called it's 'done' function with
+        // so arguments[0][0] = the response json for the first request, arguments[1][0] is the response json for the second request, etc
+        var datas = [].slice.call(arguments);
+        var responses = _.pluck(datas, 0);
+        var combinedFeed = combineInsgagramFeeds(responses);
+        renderInstagramFeed(combinedFeed);
     });
 </script>
 <script>
