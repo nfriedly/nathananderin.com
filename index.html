@@ -88,7 +88,7 @@
     </footer>
 </div>
     
-<script type="text/javascript">
+<script>
     if (document.querySelectorAll) {
         var slice = Array.prototype.slice;
         function $(selector) {
@@ -106,40 +106,55 @@
             ul.insertBefore(li, ul.firstChild);
         });        
     }
+</script>
+<!-- todo: grab jquery tag for old ie -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+<script>
+    var maxPhotosToShow = 2;
+    var instagramApiUrl = 'https://api.instagram.com/v1/users/self/media/recent/?access_token=#token#&count=' + maxPhotosToShow + '&callback=?';
+
+    // erin, nathan
+    var instagramAccessTokens = ['5308686.473ac98.7c15354b874849a3951c79fbbb9c18b9', '246834140.473ac98.07fc5097b18648328905e53fc13b67f9'];
     
-    var s = document.getElementsByTagName('script')[0];
+    var jqXHRs = _.map(instagramAccessTokens, function(token) {
+        var url = instagramApiUrl.replace('#token#', token);
+        return jQuery.getJSON(url);
+    });
     
+    // var renderMaizygram = _.template('<a href="<%= link %>" title="<%= caption.text %>" target="_blank"><img src="<%= images.low_resolution.url %>" class="img-thumbnail" alt="Maizygram!"></a>'); 
     
-    // todo: mix in Nathan's Feed, re-organize things a bit, shrink down the left side
-    function handleMaizygrams(response) {
-        if(response && response.meta.code == 200) {
-            var mgs = response.data.slice(0,2);
-            //console.log(mg);
-            var template, mg, html = [];
-            for (var i=0; i<mgs.length; i++) {
-                mg = mgs[i];
-                template = ['<a href="', mg.link, '" title="', mg.caption.text, '" target="_blank"><img src="', mg.images.low_resolution.url, '" class="img-thumbnail" alt="', mg.caption.text, '"></a>\n'];
-                html = html.concat(template);
+    $.when.apply($, jqXHRs).then(function() {
+        var datas = [].slice.call(arguments);
+        var responses = _.pluck(datas, 0);
+        var images = _.reduce(responses, function(memo, response){
+            if (response && response.meta.code == 200) {
+                return memo.concat(response.data);
+            } else {
+                console.error('Unexpected instagram response:', response);
             }
-            document.getElementById('instagram').innerHTML = html.join('');
+        }, []);
+        
+        var mgs = images.sort(function(a,b) {
+            return b.created_time - a.created_time;
+        }).slice(0,maxPhotosToShow);
+        var template, mg, html = [];
+        for (var i=0; i<mgs.length; i++) {
+            mg = mgs[i];
+            template = ['<a href="', mg.link, '" title="', mg.caption.text, '" target="_blank"><img src="', mg.images.low_resolution.url, '" class="img-thumbnail" alt="', mg.caption.text, '"></a>\n'];
+            html = html.concat(template);
         }
-    }
-
-    var callbackFnName = 'handleMaizygrams';
-    window[callbackFnName] = handleMaizygrams;
-    var instagramApiUrl = 'https://api.instagram.com/v1/users/self/media/recent/?access_token=5308686.473ac98.7c15354b874849a3951c79fbbb9c18b9&callback=' + callbackFnName;
-
-    var is = document.createElement('script');
-    is.src = instagramApiUrl;
-    s.parentNode.insertBefore(is, s);
-
+        $('#instagram').html(html.join(''));
+    });
+</script>
+<script>
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-1735765-23']);
     _gaq.push(['_trackPageview']);
     (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-     s.parentNode.insertBefore(ga, s);
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
 </script>
 </body>
