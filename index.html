@@ -14,22 +14,63 @@
         @media( min-width: 1024px ) {
             header { margin-top: 50px; }
         }
-        header img { width: 100%; }
+        header img { width: 100%;}
         main { background: white; margin: 0 0 50px 0; padding: 20px; }
         @media ( min-width: 768px ) {
-            main { padding: 20px 50px 50px 50px; }
+            main { padding: 50px; }
         }
         .oneline { white-space: pre; }
         img.thumbnail { margin: 0px 8px 8px 8px; box-sizing: content-box; -moz-box-sizing: content-box; display: inline; }
         @media (min-width: 480px) {
             img.thumbnail { margin: 0 0 25px 25px; float: right; display: block; }
         }
-        h1 { margin-bottom: 20px; }
+        h1 { margin-bottom: 20px; margin-top: 0;}
         h2 { font-size: 120%; clear: both; }
         li { word-wrap: break-word; }
         footer { margin: 50px; font-size: 80% }
         #instagram {text-align: center; color: #DDD;}
         #instagram p {margin-top: 30px;}
+        
+        @media (min-width: 768px) {
+            #instagram img { width: 49.9% }
+        }
+        
+        ul.links {
+            list-style-type: none;
+            padding-left: 0;
+            margin-bottom: 20px;
+        }
+        ul.links li {
+            display: inline-block;
+            vertical-align: top;
+            padding: 20px 4px 0px 58px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-right: 6px;
+            margin-top: 6px;
+        }
+        ul.links li a {
+            color: #444;
+            display: block;
+        }
+        ul.links li a:hover {
+            color: #111;
+        }
+        ul.links li i {
+            font-size: 59px;
+            margin-right: 6px;
+            float: left;
+            margin-left: -54px;
+            margin-top: -20px;
+        }
+        ul.links li img {
+            margin-top: -16px;
+            height: 50px;
+            vertical-align: text-bottom;
+            border-radius: 8px;
+            line-height: 20px
+        }
     </style>
 </head>
 <body>
@@ -38,29 +79,50 @@
         <img src="n-e-smooches-christmas-2013.jpg" alt="photo of Nathan and Erin">
     </header>
     <main class="row">
-        <div class="col-md-8">
+        <div class="col-xs-8 col-sm-4">
             <h1>Nathan and Erin Friedly</h1>
             <p>Hi, and God bless! You can email both of us at <a class="oneline" data-address="both">["both" at this website]</a> or reach us individually at the options below.</p>
 
             <h2>Erin:</h2>
+            <ul class="links">
+                <li><a href="mailto:erin@nathananderin.com"><i class="fa fa-envelope"></i>erin@nathananderin.com</a></li>
+                <li><a href="http://instagram.com/lollibows"><i class="fa fa-instagram"></i><img src="http://images.ak.instagram.com/profiles/profile_5308686_75sq_1363439697.jpg" alt="Lollibows on Instagram" /></a></li>
+                <li><a href="https://www.facebook.com/BrillyantColors"><i class="fa fa-facebook-square"></i><img src="http://graph.facebook.com/BrillyantColor/picture" alt="BrillyantColor on Facebook" /></a></li>
+                <li><a href="http://www.pinterest.com/brillyantcolor/"><i class="fa fa-pinterest-square"></i><img src="http://media-cache-ec0.pinimg.com/avatars/brillyantcolor-40_60.jpg" alt="BrillyantColor on Pinterest" /></a></li>
+                <li><a href="https://twitter.com/brillyantcolor"><i class="fa fa-twitter-square"></i><img src="https://pbs.twimg.com/profile_images/247109162/CroppedRainbow_bigger.jpg" alt="@BrillyantColor on Twitter"></a></li>
+            </ul>
+            
+            <!-- 
+            <hr />
             <img class="thumbnail" src="http://images.ak.instagram.com/profiles/profile_5308686_75sq_1363439697.jpg" alt="" width="50" height="50" />
             <img class="thumbnail" title="Erin" src="http://graph.facebook.com/BrillyantColor/picture" alt="" width="50" height="50" />
-            <ul class="fa-ul" data-address="erin">
+            <img class="thumbnail" title="Erin" src="http://media-cache-ec0.pinimg.com/avatars/brillyantcolor-40_60.jpg" alt="" width="50" height="50" />
+            <ul class="fa-ul" data-address="erin" style="display:none">
                 <li><i class="fa-li fa fa-instagram"></i><a href="http://instagram.com/lollibows">http://instagram.com/lollibows</a></li>
                 <li><i class="fa-li fa fa-facebook"></i><a href="https://www.facebook.com/BrillyantColor">https://www.facebook.com/BrillyantColor</a></li>
     <li><i class="fa fa-li fa-pinterest"></i><a href="http://www.pinterest.com/brillyantcolor/">http://www.pinterest.com/brillyantcolor/</a></li>
             </ul>
+            -->
         
             <h2>Nathan:</h2>
+            <ul class="links">
+                <li><a href="mailto:nathan@nathananderin.com"><i class="fa fa-envelope"></i>nathan@nathananderin.com</a></li>
+                <li><a href="http://nfriedly.com"><i class="fa fa-home"></i>nfriedly.com</a></li>
+                <li><a href="http://instagram.com/nfriedly"><i class="fa fa-instagram"></i><img src="http://images.ak.instagram.com/profiles/profile_246834140_75sq_1351977630.jpg" alt="nfriedly on Instagram" /></a></li>
+                <li><a href="https://www.facebook.com/nfriedly"><i class="fa fa-facebook-square"></i><img src="http://graph.facebook.com/nfriedly/picture" alt="nfriedly on Facebook" /></a></li>
+                <li><a href="https://twitter.com/nfriedly"><i class="fa fa-twitter-square"></i><img src="https://pbs.twimg.com/profile_images/378800000303832581/dceaf3269ac51174f2c517e02563776d.jpeg" alt="@nfriedly on Twitter"></a></li>
+                <li><a href="https://plus.google.com/+NathanFriedly"><i class="fa fa-google-plus-square"></i><img src="https://lh5.googleusercontent.com/-9m6oyBOO3KU/AAAAAAAAAAI/AAAAAAAAAAA/UqbKmdUvhSQ/s49-c/photo.jpg" alt="+NathanFriedly on Google+"></a></li>
+            </ul>
+            
+            <!--
             <img class="thumbnail" src="https://lh5.googleusercontent.com/-9m6oyBOO3KU/AAAAAAAAAAI/AAAAAAAAAAA/UqbKmdUvhSQ/s49-c/photo.jpg" alt="" width="50" height="50" />
             <img class="thumbnail" title="Nathan" src="http://graph.facebook.com/nfriedly/picture" alt="" width="50" height="50" />
             <ul class="fa-ul" data-address="nathan">
                 <li><i class="fa-li fa fa-home"></i><a href="http://nfriedly.com">http://nfriedly.com</a></li>
                 <li><i class="fa-li fa fa-twitter"></i><a href="http://twitter.com/nfriedly">http://twitter.com/nfriedly</a></li>
                 <li><i class="fa-li fa fa-facebook"></i><a href="https://www.facebook.com/nfriedly">https://www.facebook.com/nfriedly</a></li>
-                <li><i class="fa-li fa fa-google-plus"></i><a href="https://plus.google.com/+NathanFriedly">https://plus.google.com/+NathanFriedly</a></li>
             </ul>
-        
+            -->
             <h1>&iexcl;Baby Registries!</h1>
             <ul class="fa-ul">
                 <li><i class="fa-li fa fa-gift"></i><a href="http://www.greenmountaindiapers.com/giftregs.php?eventid=1165">The "Everyone Poops" diaper registry</a></li>
@@ -68,7 +130,7 @@
                 <li><i class="fa-li fa fa-gift"></i><a href="http://www.amazon.com/registry/baby/1CBIS58KXRPKZ">Amazon.com</a></li>
             </ul>
         </div>
-        <div class="col-md-4" id="instagram">
+        <div class="col-sx-4 col-sm-8" id="instagram">
             <p>Loading Instagram...</p>
             <p><i class="fa fa-spinner fa-spin"></i></p>
         </div>
@@ -112,7 +174,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
 <script>
-    var maxPhotosToShow = 2;
+    var maxPhotosToShow = 6;
     var instagramApiUrl = 'https://api.instagram.com/v1/users/self/media/recent/?access_token=#token#&count=' + maxPhotosToShow + '&callback=?';
 
     // erin, nathan
