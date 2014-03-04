@@ -24,8 +24,8 @@
         h2 { font-size: 120%; clear: both; }
         li { word-wrap: break-word; }
         footer { margin: 50px; font-size: 80%; }
-        #instagram.loading {text-align: center; color: #DDD;}
-        #instagram.loading p {margin-top: 30px;}
+        .loading {text-align: center; color: #aaa;}
+        .loading p {margin-top: 30px;}
         
         @media (min-width: 992px) {
             #instagram img { width: 49.9% }
@@ -117,7 +117,7 @@
             </ul>
         </div>
         <div class="col-xs-4 col-sm-5 col-md-8" id="instagram" class="loading">
-            <p>Loading Instagram...</p>
+            <p>Loading Instagram feeds...</p>
             <p><i class="fa fa-spinner fa-spin"></i></p>
         </div>
     </main>
@@ -191,7 +191,7 @@
         var trimmedFeed = combinedFeed.slice(0,maxPhotosToShow);
         var  htmlSnippets = _.map(trimmedFeed, renderInstagram);
         // todo: consider waiting for images to download and then fading them in
-        $('#instagram').html(htmlSnippets.join(''));
+        $('#instagram').html(htmlSnippets.join('')).removeClass('loading');
     }
     
     $.when.apply($, jqXHRs).then(function() {
