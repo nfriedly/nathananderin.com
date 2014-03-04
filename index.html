@@ -89,8 +89,7 @@
             <p>Hi, and God bless! You can email both of us at <a class="oneline" data-address="both">["both" at this website]</a> or reach us individually at the options below.</p>
 
             <h2>Erin:</h2>
-            <ul class="links">
-                <li class="text"><a href="mailto:erin@nathananderin.com"><i class="fa fa-envelope"></i>erin@nathananderin.com</a></li>
+            <ul class="links" data-address="erin">
                 <li><a href="http://instagram.com/lollibows"><i class="fa fa-instagram"></i><img src="http://images.ak.instagram.com/profiles/profile_5308686_75sq_1363439697.jpg" alt="Lollibows on Instagram" /></a></li>
                 <li><a href="https://www.facebook.com/BrillyantColors"><i class="fa fa-facebook-square"></i><img src="http://graph.facebook.com/BrillyantColor/picture" alt="BrillyantColor on Facebook" /></a></li>
                 <li><a href="http://www.pinterest.com/brillyantcolor/"><i class="fa fa-pinterest-square"></i><img src="http://media-cache-ec0.pinimg.com/avatars/brillyantcolor-40_60.jpg" alt="BrillyantColor on Pinterest" /></a></li>
@@ -99,8 +98,7 @@
 
         
             <h2>Nathan:</h2>
-            <ul class="links">
-                <li class="text"><a href="mailto:nathan@nathananderin.com"><i class="fa fa-envelope"></i>nathan@nathananderin.com</a></li>
+            <ul class="links" data-address="nathan">
                 <li><a href="http://instagram.com/nfriedly"><i class="fa fa-instagram"></i><img src="http://images.ak.instagram.com/profiles/profile_246834140_75sq_1351977630.jpg" alt="nfriedly on Instagram" /></a></li>
                 <li><a href="https://www.facebook.com/nfriedly"><i class="fa fa-facebook-square"></i><img src="http://graph.facebook.com/nfriedly/picture" alt="nfriedly on Facebook" /></a></li>
                 <li><a href="https://twitter.com/nfriedly"><i class="fa fa-twitter-square"></i><img src="https://pbs.twimg.com/profile_images/378800000303832581/dceaf3269ac51174f2c517e02563776d.jpeg" alt="@nfriedly on Twitter"></a></li>
@@ -151,7 +149,8 @@
         $('ul[data-address]').forEach(function(ul) {
             var email = ul.getAttribute('data-address') + '@nathananderin.com';
             var li = document.createElement('li');
-            li.innerHTML = '<i class="fa-li fa fa-envelope"></i> <a href="mailto:' + email + '">' + email + '</a>';
+            li.className = "text";
+            li.innerHTML = ['<a href="mailto:', email, '"><i class="fa fa-envelope"></i>', email, '</a>'].join('');
             ul.insertBefore(li, ul.firstChild);
         });        
     }
