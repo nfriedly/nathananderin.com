@@ -158,7 +158,7 @@
     var instagramApiUrl = 'https://api.instagram.com/v1/users/self/media/recent/?access_token=#token#&count=' + maxPhotosToShow + '&callback=?';
 
     // erin, nathan
-    var instagramAccessTokens = ['5308686.473ac98.7c15354b874849a3951c79fbbb9c18b9', '246834140.473ac98.07fc5097b18648328905e53fc13b67f9'];
+    var instagramAccessTokens = ['5308686.473ac98.7c15354b874849a3951c79fbbb9c18b9', '246834140.473ac98.6c64f65ceec24098a8c1569a02a614cc'];
     
     var jqXHRs = _.map(instagramAccessTokens, function(token) {
         var url = instagramApiUrl.replace('#token#', token);
@@ -167,7 +167,7 @@
     
     function combineInsgagramFeeds(responses) {
         var images = _.reduce(responses, function(memo, response){
-            if (response && response.meta.code == 200) {
+            if (response && response.meta && response.meta.code == 200) {
                 return memo.concat(response.data);
             } else {
                 console.error('Unexpected instagram response:', response);
