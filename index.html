@@ -171,6 +171,7 @@
                 return memo.concat(response.data);
             } else {
                 console.error('Unexpected instagram response:', response);
+                return memo;
             }
         }, []);
         
