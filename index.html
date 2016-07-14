@@ -159,7 +159,7 @@
     var instagramApiUrl = 'https://api.instagram.com/v1/users/self/media/recent/?access_token=#token#&count=' + maxPhotosToShow + '&callback=?';
 
     // erin, nathan
-    var instagramAccessTokens = ['5308686.539b3c7.9d35c8cc943d41b89ae35647fd59932b', '246834140.473ac98.6c64f65ceec24098a8c1569a02a614cc'];
+    var instagramAccessTokens = ['5308686.539b3c7.9d35c8cc943d41b89ae35647fd59932b', '246834140.473ac98.90ed8c32f46b4c84a18d3d9a4e32b261'];
     
     var jqXHRs = _.map(instagramAccessTokens, function(token) {
         var url = instagramApiUrl.replace('#token#', token);
