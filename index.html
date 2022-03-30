@@ -41,11 +41,7 @@
             display: inline-block;
             vertical-align: top;
             padding: 20px 4px 0px 60px;
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            margin-right: 6px;
-            margin-top: 6px;
+
         }
         /*
         ul.links li a {
@@ -59,16 +55,9 @@
         ul.links li i {
             font-size: 59px;
             margin-right: 6px;
-            position: absolute;
+            position: relative;
             margin-left: -56px;
             margin-top: -20px;
-        }
-        ul.links li img {
-            margin-top: -16px;
-            height: 50px;
-            vertical-align: text-bottom;
-            border-radius: 8px;
-            line-height: 20px
         }
         ul.links li.text i {
             font-size: 51px;
@@ -76,6 +65,7 @@
         ul.links li.text {
             line-height: 14px;
             min-height: 54px;
+            display: block;
         }
     </style>
 </head>
@@ -84,35 +74,30 @@
     <header class="row">
         <img src="n-e-n-birthday-2014.jpg" alt="photo of Nathan, Erin, and baby Nathan">
     </header>
-    <main class="row">
-        <div class="col-sm-7 col-md-4">
-            <h1>Nathan and Erin Friedly</h1>
-            <p>Hi, and God bless! You can email both of us at <a class="oneline" data-address="both">["both" at this website]</a> or reach us individually at the options below.</p>
+    <main>
+        <h1>Nathan and Erin Friedly</h1>
+        <p>Hi, and God bless! You can email both of us at <a class="oneline" data-address="both">["both" at this website]</a> or reach us individually at the options below.</p>
 
-            <h2>Erin:</h2>
-            <ul class="links" data-address="erin">
-                <li><a href="http://instagram.com/lollibows"><i class="fa fa-instagram"></i><img src="https://scontent.cdninstagram.com/hphotos-xta1/t51.2885-19/12071154_1486142258355571_184426150_a.jpg" alt="Lollibows on Instagram" /></a></li>
-                <li><a href="https://www.facebook.com/BrillyantColors"><i class="fa fa-facebook-square"></i><img src="http://graph.facebook.com/559262638052/picture" alt="BrillyantColor on Facebook" /></a></li>
-                <li><a href="http://www.pinterest.com/brillyantcolor/"><i class="fa fa-pinterest-square"></i><img src="http://media-cache-ec0.pinimg.com/avatars/brillyantcolor-40_60.jpg" alt="BrillyantColor on Pinterest" /></a></li>
-                <li><a href="https://twitter.com/brillyantcolor"><i class="fa fa-twitter-square"></i><img src="https://pbs.twimg.com/profile_images/247109162/CroppedRainbow_bigger.jpg" alt="@BrillyantColor on Twitter"></a></li>
-                <li class="text"><a href="http://books.nathananderin.com"><i class="fa fa-book"></i>Childrens Books</a></li>
-            </ul>
-
-        
-            <h2>Nathan:</h2>
-            <ul class="links" data-address="nathan">
-                <li><a href="http://instagram.com/nfriedly"><i class="fa fa-instagram"></i><img src="https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-19/11358155_408466866022690_981034664_a.jpg" alt="nfriedly on Instagram" /></a></li>
-                <li><a href="https://www.facebook.com/nfriedly"><i class="fa fa-facebook-square"></i><img src="http://graph.facebook.com/215902661/picture" alt="nfriedly on Facebook" /></a></li>
-                <li><a href="https://twitter.com/nfriedly"><i class="fa fa-twitter-square"></i><img src="https://pbs.twimg.com/profile_images/378800000303832581/dceaf3269ac51174f2c517e02563776d.jpeg" alt="@nfriedly on Twitter"></a></li>
-                <li><a href="https://plus.google.com/+NathanFriedly"><i class="fa fa-google-plus-square"></i><img src="https://lh5.googleusercontent.com/-9m6oyBOO3KU/AAAAAAAAAAI/AAAAAAAAAAA/UqbKmdUvhSQ/s49-c/photo.jpg" alt="+NathanFriedly on Google+"></a></li>
-                <li class="text"><a href="http://nfriedly.com"><i class="fa fa-home"></i>nfriedly.com</a></li>
-            </ul>
-
-            
-        </div>
-        <div class="col-sm-5 col-md-8 loading" id="instagram">
-            <p>Loading Instagram feeds...</p>
-            <p><i class="fa fa-spinner fa-spin"></i></p>
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>Erin:</h2>
+                <ul class="links" data-address="erin">
+                    <li><a href="http://instagram.com/lollibows"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/BrillyantColors"><i class="fa fa-facebook-square"></i></a></li>
+                    <li><a href="http://www.pinterest.com/brillyantcolor/"><i class="fa fa-pinterest-square"></i></a></li>
+                    <li><a href="https://twitter.com/brillyantcolor"><i class="fa fa-twitter-square"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <h2>Nathan:</h2>
+                <ul class="links" data-address="nathan">
+                    <li class="text"><a href="http://nfriedly.com"><i class="fa fa-home"></i>nfriedly.com</a></li>
+                    <li><a href="http://instagram.com/nfriedly"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/nfriedly"><i class="fa fa-facebook-square"></i></a></li>
+                    <li><a href="https://twitter.com/nfriedly"><i class="fa fa-twitter-square"></i></a></li>
+                    <li><a href="https://twitter.com/nfriedly"><i class="fa fa-yc"></i></a></li>
+                </ul>
+            </div>
         </div>
     </main>
     <footer>
@@ -150,54 +135,6 @@
             ul.insertBefore(li, ul.firstChild);
         });        
     }
-</script>
-<!-- todo: grab jquery tag for old ie -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
-<script>
-    var maxPhotosToShow = 6;
-    var instagramApiUrl = 'https://api.instagram.com/v1/users/self/media/recent/?access_token=#token#&count=' + maxPhotosToShow + '&callback=?';
-
-    // erin, nathan
-    var instagramAccessTokens = ['5308686.539b3c7.9d35c8cc943d41b89ae35647fd59932b', '246834140.473ac98.90ed8c32f46b4c84a18d3d9a4e32b261'];
-    
-    var jqXHRs = _.map(instagramAccessTokens, function(token) {
-        var url = instagramApiUrl.replace('#token#', token);
-        return jQuery.getJSON(url);
-    });
-    
-    function combineInsgagramFeeds(responses) {
-        var images = _.reduce(responses, function(memo, response){
-            if (response && response.meta && response.meta.code == 200) {
-                return memo.concat(response.data);
-            } else {
-                console.error('Unexpected instagram response:', response);
-                return memo;
-            }
-        }, []);
-        
-        return images.sort(function(a,b) {
-            return b.created_time - a.created_time;
-        });
-    } 
-    
-    var renderInstagram= _.template('<a href="<%= link %>" title="<%= caption.text %>" target="_blank"><img src="<%= images.low_resolution.url %>" class="img-thumbnail" alt="Instagram Photo: <%= caption.text %>"></a>');
-    
-    function renderInstagramFeed(combinedFeed) {
-        var trimmedFeed = combinedFeed.slice(0,maxPhotosToShow);
-        var  htmlSnippets = _.map(trimmedFeed, renderInstagram);
-        // todo: consider waiting for images to download and then fading them in
-        $('#instagram').html(htmlSnippets.join('')).removeClass('loading');
-    }
-    
-    $.when.apply($, jqXHRs).then(function() {
-        // arguments is an array with each item being an array of the arguments that each jqXHR called it's 'done' function with
-        // so arguments[0][0] = the response json for the first request, arguments[1][0] is the response json for the second request, etc
-        var datas = [].slice.call(arguments);
-        var responses = _.pluck(datas, 0);
-        var combinedFeed = combineInsgagramFeeds(responses);
-        renderInstagramFeed(combinedFeed);
-    });
 </script>
 <script>
     var _gaq = _gaq || [];
