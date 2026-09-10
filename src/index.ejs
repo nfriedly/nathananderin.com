@@ -1,0 +1,54 @@
+---
+layout: main
+section: home
+title: "N & E"
+fullTitle: "N & E"
+nav: false
+---
+
+<header class="hero">
+    <img src="fall-2024-silhouette.jpg" alt="photo of Nathan, Erin, and baby Nathan">
+</header>
+<main>
+    <h1>Nathan and Erin Friedly</h1>
+    <p>Hi, and God bless! You can email both of us at <a class="oneline" data-address="both">["both" at this website]</a> or reach us individually at the options below.</p>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <h2>Erin:</h2>
+            <ul class="links" data-address="erin">
+                <li><a href="http://instagram.com/lollibows"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/BrillyantColors"><i class="fa-brands fa-facebook-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="col-sm-6">
+            <h2>Nathan:</h2>
+            <ul class="links" data-address="nathan">
+                <li class="text"><a href="http://nfriedly.com"><i class="fa fa-home"></i>nfriedly.com</a></li>
+                <li><a href="http://instagram.com/nfriedly"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/nfriedly"><i class="fa-brands fa-facebook-square"></i></a></li>
+                <li><a href="https://mastodon.social/@nfriedly"><i class="fa-brands fa-mastodon"></i></a></li>
+                <li><a href="https://news.ycombinator.com/user?id=nfriedly"><i class="fa-brands fa-y-combinator"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="affiliate">
+        <h2>Recent Reviews</h2>
+        <% for (const post of collections.reviews.filter(p => p.data.featured).slice(0, 4)) { %>
+            <%- include('_includes/partials/review-card.ejs', {
+                productImage: post.data.images && post.data.images.product && (post.url + post.data.images.product),
+                photo: post.data.images && post.data.images.photos && post.data.images.photos[0] && (post.url + post.data.images.photos[0]),
+                showBoth: false,
+                url: post.url,
+                title: post.data.title,
+                stars: post.data.stars,
+                author: post.data.author,
+                product: post.data.product,
+                excerpt: post.data.excerpt,
+                tags: post.data.tags || []
+            }) %>
+        <% } %>
+        <p><a href="/reviews/">Browse all of our reviews &raquo;</a></p>
+    </section>
+</main>

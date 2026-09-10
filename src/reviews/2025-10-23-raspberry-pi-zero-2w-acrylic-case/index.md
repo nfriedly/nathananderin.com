@@ -1,0 +1,21 @@
+---
+title: "Works great! My Pi zero 2w fits perfectly. I didn't realize…"
+orderDate: "2025-10-23"
+author: nathan
+source: purchased
+stars: 5
+product:
+  name: New Raspberry Pi Zero W Official Case RPI Zero Box Cover Shell Enclosure Cases compatible for Raspberry Pi Zero V 1.3 Pi0
+  price: "US $2.09"
+  site: AliExpress
+orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8205454448286022"
+orderId: "8205454448276022"
+images:
+  product: product.webp
+tags:
+  - tech
+  - raspberry-pi
+  - case
+---
+
+Works great! My Pi zero 2w fits perfectly. I didn't realize that there's no way to remove the microSD card while it's in the case, but I guess that's a feature for some folks. I haven't tested the camera cable.

@@ -1,0 +1,13 @@
+<%_ let hasAmazonLinks = false;
+if (product) {
+    if (product.urls && product.urls.length) {
+        hasAmazonLinks = product.urls.some(l => l.url && /amazon/i.test(l.url));
+    } else if (product.url) {
+        hasAmazonLinks = /amazon/i.test(product.url);
+    }
+}
+if (!hasAmazonLinks && typeof reviewUrl !== 'undefined' && reviewUrl) {
+    hasAmazonLinks = /amazon/i.test(reviewUrl);
+}
+_%>
+<p class="disclosure"><% if (typeof customDisclaimer !== 'undefined' && customDisclaimer) { %><%= customDisclaimer %><% } else { %>Disclaimer: <% if (source === 'purchase' || source === 'purchased') { %>This product was purchased with my own money.<% } else if (source === 'vine') { %>This product was provided to me through the Amazon Vine program solely for my honest review. No money exchanged hands either way.<% } %><% if (hasAmazonLinks) { %> Some links use affiliate codes - it earns me a small percentage and costs you nothing.<% } %><% } %></p>

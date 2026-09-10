@@ -1,0 +1,26 @@
+{
+  "name": "nathananderin.com",
+  "version": "1.0.0",
+  "description": "Nathan and Erin Friedly: reviews of things we buy",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "capture-server": "node local-notes/capture-server.js",
+    "test": "npm run lint && npm run build",
+    "lint": "ejslint src/_includes/"
+  },
+  "keywords": [
+    "reviews",
+    "eleventy",
+    "family"
+  ],
+  "author": "Nathan Friedly",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-img": "^7.0.0",
+    "@11ty/eleventy-plugin-ejs": "^1.0.0",
+    "ejs-lint": "^2.0.0"
+  }
+}

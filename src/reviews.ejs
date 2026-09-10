@@ -1,0 +1,169 @@
+---
+layout: main
+title: Reviews
+section: reviews
+---
+
+<main>
+<h1>Reviews <small>of things we've bought</small></h1>
+<p>We review products we actually use. Buying through the links helps support this site at no extra cost to you.</p>
+
+<div class="review-filters">
+	<span class="review-filters-label">Filter by reviewer:</span>
+	<a class="review-filter btn btn-default btn-xs" data-author="" href="/reviews/">All</a>
+	<a class="review-filter btn btn-default btn-xs" data-author="nathan" href="/reviews/?author=nathan">Nathan <span class="badge"><%= collections.reviews.filter(p => p.data.author === 'nathan').length %></span></a>
+	<a class="review-filter btn btn-default btn-xs" data-author="erin" href="/reviews/?author=erin">Erin <span class="badge"><%= collections.reviews.filter(p => p.data.author === 'erin').length %></span></a>
+</div>
+
+<%
+	var tagCounts = {};
+	for (const p of collections.reviews) {
+		for (const t of (p.data.tags || [])) {
+			if (t === 'review') continue;
+			tagCounts[t] = (tagCounts[t] || 0) + 1;
+		}
+	}
+	var tagList = Object.keys(tagCounts).sort(function (a, b) {
+		return tagCounts[b] - tagCounts[a] || a.localeCompare(b);
+	});
+	var topTags = tagList.filter(function (t) { return tagCounts[t] >= 4; });
+	var moreTags = tagList.filter(function (t) { return tagCounts[t] < 4; });
+%>
+
+<div class="review-filters">
+	<span class="review-filters-label">Filter by tag:</span>
+	<a class="review-filter btn btn-default btn-xs" data-tag="" href="/reviews/">All</a>
+	<% for (const t of topTags) { %>
+	<a class="review-filter btn btn-default btn-xs" data-tag="<%= t %>" href="/reviews/?tag=<%= t %>"><%= t %> <span class="badge"><%= tagCounts[t] %></span></a>
+	<% } %>
+	<% if (moreTags.length) { %>
+	<button type="button" class="review-tags-toggle btn btn-default btn-xs">More tags&hellip;</button>
+	<span class="review-tags-more" hidden>
+		<% for (const t of moreTags) { %>
+		<a class="review-filter btn btn-default btn-xs" data-tag="<%= t %>" href="/reviews/?tag=<%= t %>"><%= t %> <span class="badge"><%= tagCounts[t] %></span></a>
+		<% } %>
+	</span>
+	<% } %>
+	<a class="review-filter-clear" href="/reviews/">Clear filter [X]</a>
+</div>
+
+<div class="reviews">
+<% for (const post of collections.reviews) { %>
+    <%- include('_includes/partials/review-card.ejs', {
+        productImage: post.data.images && post.data.images.product && (post.url + post.data.images.product),
+        photo: post.data.images && post.data.images.photos && post.data.images.photos[0] && (post.url + post.data.images.photos[0]),
+        showBoth: true,
+        url: post.url,
+        title: post.data.title,
+        stars: post.data.stars,
+        author: post.data.author,
+        product: post.data.product,
+        excerpt: post.data.excerpt,
+        tags: post.data.tags || []
+    }) %>
+<% } %>
+</div>
+</main>
+
+<script>
+    (function () {
+        var cards = Array.prototype.slice.call(document.querySelectorAll('.review-card'));
+        var links = Array.prototype.slice.call(document.querySelectorAll('.review-filter'));
+
+        // each filter is a querystring key that may appear multiple times
+        // (e.g. ?author=nathan&author=erin or ?tag=tech&tag=wifi); read them
+        // all out of the URL
+        function getFilters() {
+            var params = new URLSearchParams(window.location.search);
+            return {
+                author: params.getAll('author'),
+                tag: params.getAll('tag')
+            };
+        }
+
+        function cardHasTag(card, tag) {
+            return (card.getAttribute('data-tags') || '').split(' ').indexOf(tag) !== -1;
+        }
+
+        function cardVisible(filters, card) {
+            var noAuthor = filters.author.length === 0;
+            var noTag = filters.tag.length === 0;
+            var authorOk = noAuthor || filters.author.indexOf(card.getAttribute('data-author')) !== -1;
+            var tagOk = noTag || filters.tag.some(function (tag) { return cardHasTag(card, tag); });
+            return authorOk && tagOk;
+        }
+
+        function applyFilter() {
+            var filters = getFilters();
+            var none = filters.author.length === 0 && filters.tag.length === 0;
+            cards.forEach(function (card) {
+                var show = cardVisible(filters, card);
+                card.style.display = show ? '' : 'none';
+            });
+            links.forEach(function (link) {
+                var isAuthor = link.hasAttribute('data-author');
+                var value = link.getAttribute(isAuthor ? 'data-author' : 'data-tag');
+                var selected = isAuthor ? filters.author : filters.tag;
+                var active = value === '' ? (isAuthor ? filters.author.length === 0 : filters.tag.length === 0) : selected.indexOf(value) !== -1;
+                link.classList.toggle('active', active);
+            });
+            // "clear all" only shows when anything is filtered
+            var clear = document.querySelector('.review-filter-clear');
+            if (clear) clear.style.display = none ? 'none' : 'inline';
+        }
+
+        function updateUrl(updater) {
+            var url = new URL(window.location.href);
+            updater(url.searchParams);
+            var next = url.pathname + url.search + url.hash;
+            history.pushState(null, '', next);
+            applyFilter();
+        }
+
+        links.forEach(function (link) {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                var isAuthor = link.hasAttribute('data-author');
+                var value = link.getAttribute(isAuthor ? 'data-author' : 'data-tag');
+                var filters = getFilters();
+                var selected = (isAuthor ? filters.author : filters.tag).slice();
+                if (value === '') {
+                    updateUrl(function (p) { p.delete(isAuthor ? 'author' : 'tag'); });
+                } else if (selected.indexOf(value) !== -1) {
+                    // clicking an active filter removes it
+                    updateUrl(function (p) {
+                        p.delete(isAuthor ? 'author' : 'tag');
+                        selected.filter(function (v) { return v !== value; }).forEach(function (v) { p.append(isAuthor ? 'author' : 'tag', v); });
+                    });
+                } else {
+                    updateUrl(function (p) { p.append(isAuthor ? 'author' : 'tag', value); });
+                }
+            });
+        });
+
+        window.addEventListener('popstate', applyFilter);
+
+        var tagsToggle = document.querySelector('.review-tags-toggle');
+        var moreTags = Array.prototype.slice.call(document.querySelectorAll('.review-tags-more'));
+
+        function revealMoreTags() {
+            moreTags.forEach(function (el) { el.hidden = false; });
+            if (tagsToggle) tagsToggle.hidden = true;
+        }
+
+        if (tagsToggle) {
+            tagsToggle.addEventListener('click', revealMoreTags);
+        }
+
+        // if an active tag filter is in the hidden set, reveal it on load
+        var activeTags = getFilters().tag;
+        if (activeTags.length) {
+            var hiddenVals = moreTags.reduce(function (arr, el) {
+                return arr.concat(Array.prototype.slice.call(el.querySelectorAll('.review-filter')).map(function (a) { return a.getAttribute('data-tag'); }));
+            }, []);
+            if (activeTags.some(function (t) { return hiddenVals.indexOf(t) !== -1; })) revealMoreTags();
+        }
+
+        applyFilter();
+    })();
+</script>
