@@ -7,7 +7,7 @@ stars: 4
 reviewId: R3FS6B1ES1DRTO
 reviewUrl: "https://amazon.com/gp/customer-reviews/R3FS6B1ES1DRTO"
 product:
-  name: "Outdoor Projector Screen with Stand, SCREENMAX 120 inch Foldable Projector Screens with Portable Carry Bag, 16:9 4k HD Rear Front Wrinkle-Free Projection Screen for Movie Night and Indoor Home Theater"
+  name: "SCREENMAX 120\" Foldable Projector Screen with Carry Bag"
   url: "https://www.amazon.com/dp/B0DH2G3C18"
   title: "Outdoor Projector Screen with Stand, SCREENMAX 120 inch Foldable Projector Screens with Portable Carry Bag, 16:9 4k HD Rear Front Wrinkle-Free Projection Screen for Movie Night and Indoor Home Theater"
 images:

@@ -16,10 +16,10 @@ cssClass: review single
 } _%>
 
 <h1><%= title %></h1>
+<% if (typeof product !== 'undefined' && product && product.name && product.title) { %> <h2><%= product.name %> Review</h2><% } %>
 <p class="review-meta">
     <%- starsHtml(stars) %>
     by <%= author === 'erin' ? 'Erin' : 'Nathan' %> Friedly
-    <% if (typeof product !== 'undefined' && product && product.name) { %> &middot; <%= product.name %><% } %>
 </p>
 
 <% if ((typeof product !== 'undefined' && product && (product.name || product.title)) || (typeof images !== 'undefined' && images && images.product) || (typeof reviewUrl !== 'undefined' && reviewUrl)) { %>
@@ -49,10 +49,19 @@ cssClass: review single
                     <i class="fa fa-cart-shopping"></i> Buy from <%= (product && product.site) || 'Amazon' %>
                 </a>
             </p>
+            <% } else if (product && product.oldUrl) { %>
+                <% const isAmazon = product.oldUrl.includes('amazon.com'); %>
+                <% if (isAmazon && (product.title || product.name)) { %>
+                <p>
+                    <a class="btn btn-primary btn-buy" href="<%= amazonSearchUrl(product.title || product.name) %>" target="_blank" rel="nofollow sponsored noopener">
+                        <i class="fa fa-magnifying-glass"></i> Search Amazon for <%= product.title || product.name %>
+                    </a>
+                </p>
+                <% } %>
             <% } %>
-            <% if (typeof reviewUrl !== 'undefined' && reviewUrl) { %>
-            <p><a href="<%= affiliateUrl(reviewUrl) %>" target="_blank" rel="noopener">Read this review on Amazon <i class="fa fa-external-link"></i></a></p>
-            <% } %>
+            <% if (typeof orderDate !== 'undefined' && orderDate) { %><p>Ordered on: <%= orderDate %></p><% } %>
+            <% if (typeof reviewDate !== 'undefined' && reviewDate) { %><p>Reviewed on: <%= reviewDate %></p><% } %>
+            <% if (product && product.oldUrl) { %><p>Original URL: <code><%= product.oldUrl %></code></p><% } %>
         </div>
     </div>
 </div>

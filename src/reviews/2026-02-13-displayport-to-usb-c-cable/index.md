@@ -22,6 +22,7 @@ tags:
   - cable
   - display
 ---
+<!-- eslint-disable-next-line markdown/no-missing-label-refs -->
 Works great! I was even able to use it with a 5k2k (5120x2160) display at 60hz with a crisp and stable picture! (Using DP 1.4 & DSC [Display Stream Compression] - I'm not sure if that actually uses more bandwidth than 4k without DSC or not.)
 
 IMO, the 6 foot measurement is a little dishonest, because it includes the strain relief, housing, and even the DP connector itself (the part that goes inside the plug). Measuring just the cable itself I got a little over 67 inches (5'7").

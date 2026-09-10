@@ -8,7 +8,7 @@ reviewId: RFYZ2G6MS4TGX
 reviewUrl: "https://amazon.com/gp/customer-reviews/RFYZ2G6MS4TGX"
 product:
   name: "NOOT battery for Samsung Galaxy S3"
-  title: "NOOT 2200mAh Li-ion Battery For Samsung Galaxy S3, GT-I9300, I535(Verizon), I747(AT&T), T999(T-Mobile), R530(U.S. Cellular), L710(Sprint), Fits EB-L1G6LLU ,[24-Month Warranty No Hassle Money Back Guarantee]"
+  title: "NOOT 2200mAh Li-ion Battery For Samsung Galaxy S3, GT-I9300, I535(Verizon), I747(AT&T), T999(T-Mobile), R530(U.S. Cellular), L710(Sprint), Fits EB-L1G6LLU"
   url: "https://www.amazon.com/dp/B00HVLNST6"
 images:
   product: 

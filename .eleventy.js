@@ -74,6 +74,10 @@ module.exports = function (eleventyConfig) {
       });
   });
 
+  eleventyConfig.addGlobalData("amazonSearchUrl", () => {
+    return (query) => `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=nathananderin-20`;
+  });
+
   eleventyConfig.addGlobalData("affiliateUrl", () => {
     return (url) => {
       if (typeof url !== "string") return url;
@@ -83,7 +87,7 @@ module.exports = function (eleventyConfig) {
           urlObj.searchParams.set("tag", "nathananderin-20");
           return urlObj.toString();
         }
-      } catch (e) {
+      } catch (_e) {
         // URL parsing failed, return original
       }
       return url;
@@ -115,7 +119,7 @@ module.exports = function (eleventyConfig) {
           formats: ["jpeg"],
           outputDir: path.join(reviewsOut, slug, "thumbs"),
           urlPath: path.posix.join("/reviews", slug, "thumbs"),
-          filenameFormat: (id, src, width, format) =>
+          filenameFormat: (_id, src, _width, _format) =>
             `${path.basename(src, path.extname(src))}.jpg`,
         });
         thumbnailed++;

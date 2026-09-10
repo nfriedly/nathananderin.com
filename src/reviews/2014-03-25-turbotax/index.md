@@ -7,9 +7,8 @@ stars: 2
 reviewId: R2M0A9DX9EFHX1
 reviewUrl: "https://amazon.com/gp/customer-reviews/R2M0A9DX9EFHX1"
 product:
-  name: 
-  url: "https://www.amazon.com/dp/B00FFINXBU"
   oldUrl: "https://www.amazon.com/dp/B00FFINXBU"
+  name: "TurboTax Home and Business"
   title: "[Old Version] TurboTax Home and Business Mac Fed + e-file + State 2013"
 images:
   product: product.jpg
