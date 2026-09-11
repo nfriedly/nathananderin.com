@@ -7,9 +7,10 @@ stars: 1
 reviewId: R1P5EZG7W87DMI
 reviewUrl: "https://amazon.com/gp/customer-reviews/R1P5EZG7W87DMI"
 product:
-  name: The Rise and Fall of Prohibition; The Human Side of What the Eighteenth Amendment and the Volstead Act Have Done to the United States
+  name: The Rise and Fall of Prohibition
   url: "https://www.amazon.com/dp/1153137011"
   oldUrl: https://www.amazon.com/dp/1153137011
+  title: "The Rise and Fall of Prohibition; The Human Side of What the Eighteenth Amendment and the Volstead Act Have Done to the United States"
 images:
   product: 
   photos:

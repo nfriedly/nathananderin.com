@@ -5,7 +5,8 @@ author: nathan
 source: purchased
 stars: 5
 product:
-  name: COOLCIRC 120mm Square DC 12V 2-Pin High-Speed PSU Cooling Fan- Silent Operation for PC Power Supply & Chassis Thermal Management
+  name: COOLCIRC 120mm PSU Fan
+  title: "COOLCIRC 120mm Square DC 12V 2-Pin High-Speed PSU Cooling Fan- Silent Operation for PC Power Supply & Chassis Thermal Management"
   price: "US $4.50"
   site: AliExpress
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8205268486536022"

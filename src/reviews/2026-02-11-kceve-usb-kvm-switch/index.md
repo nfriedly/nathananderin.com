@@ -8,7 +8,7 @@ stars: 2
 reviewId: R19WX3L7TZ8OB5
 reviewUrl: "https://amazon.com/gp/customer-reviews/R19WX3L7TZ8OB5"
 product:
-  name: KCEVE USB3.0 Switch 2 Computers, USB Switch 2 in 1 Out for 2 Computers Share Mouse, Keyboard for 1 Monitor, Wired Remote(4K USB 2 in 1 Out KVM)
+  name: KCEVE USB KVM Switch (2 PCs)
   price: 15.99
   url: "https://www.amazon.com/dp/B0GCDQ3NVW"
   title: "KCEVE USB3.0 Switch 2 Computers, USB Switch 2 in 1 Out for 2 Computers Share Mouse, Keyboard for 1 Monitor, Wired Remote(4K USB 2 in 1 Out KVM)"

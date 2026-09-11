@@ -8,7 +8,7 @@ stars: 4
 reviewId: R1L0L4OO1YS2GS
 reviewUrl: "https://amazon.com/gp/customer-reviews/R1L0L4OO1YS2GS"
 product:
-  name: FJHEPERPOO 240W USB C to USB C Cable, 2-Pack 3.3ft, Nylon
+  name: 240W USB-C Cable (2-pack, 3.3ft)
   price: 12.99
   url: "https://www.amazon.com/dp/B0G6K792FK"
   title: "FJHEPERPOO 240W USB C to USB C Cable, 2-Pack 3.3ft, Nylon | Fast Charging, iPhone 17 16 15 Pro Max Compatible, MacBook Pro/Air Compatible, iPad Pro Compatible, Galaxy S25 S24 Compatible"

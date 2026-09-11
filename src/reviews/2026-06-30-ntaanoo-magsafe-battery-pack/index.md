@@ -8,7 +8,7 @@ stars: 4
 reviewId: R17P8M6ODC8X0Y
 reviewUrl: "https://amazon.com/gp/customer-reviews/R17P8M6ODC8X0Y"
 product:
-  name: Ntaanoo for iPhone MagSafe Battery Pack, Magnetic Power Bank, Wireless Portable Charger 5000mAh, 20W Powerbank Compatible with iPhone 17/16/15/14/13/12 Only
+  name: Ntaanoo MagSafe Battery Pack
   price: 9.99
   url: "https://www.amazon.com/dp/B0GFLT9255"
   title: "Ntaanoo for iPhone MagSafe Battery Pack, Magnetic Power Bank, Wireless Portable Charger 5000mAh, 20W Powerbank Compatible with iPhone 17/16/15/14/13/12 Only"

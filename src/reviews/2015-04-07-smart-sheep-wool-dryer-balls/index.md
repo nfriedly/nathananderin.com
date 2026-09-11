@@ -7,7 +7,7 @@ stars: 5
 reviewId: R3CNX3OGFOPFCS
 reviewUrl: "https://amazon.com/gp/customer-reviews/R3CNX3OGFOPFCS"
 product:
-  name: Wool Dryer Balls - Smart Sheep 6-Pack - XL Premium Natural Fabric Softener Award-Winning - Wool Balls Replaces Dryer Sheets - Wool Balls for Dryer - Laundry Balls for Dryer, 6 Count (Pack of 1)
+  name: Smart Sheep Wool Dryer Balls
   url: "https://www.amazon.com/dp/B00GA9P5P0"
   title: "Wool Dryer Balls - Smart Sheep 6-Pack - XL Premium Natural Fabric Softener Award-Winning - Wool Balls Replaces Dryer Sheets - Wool Balls for Dryer - Laundry Balls for Dryer, 6 Count (Pack of 1)"
 images:

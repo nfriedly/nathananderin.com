@@ -7,7 +7,7 @@ stars: 3
 reviewId: RSARSG1MJ5HRX
 reviewUrl: "https://amazon.com/gp/customer-reviews/RSARSG1MJ5HRX"
 product:
-  name: 3Pack Lightning to 3.5mm Aux Adapter Jack Converter Braided Audio Aux Cord Earbuds Splitter Adaptor Compatible with iPhone 14/14 Pro Max/13/13
+  name: bcall Lightning to 3.5mm Adapter (3-pack)
   url: "https://www.amazon.com/dp/B0C4TB19C2"
   title: "borcall 3Pack Lightning to 3.5mm Aux Adapter Jack Converter Braided Audio Aux Cord Earbuds Splitter Adaptor Compatible with iPhone 14/14 Pro Max/13/13"
 images:

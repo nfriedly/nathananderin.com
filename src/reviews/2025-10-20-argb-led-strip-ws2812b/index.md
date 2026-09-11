@@ -5,7 +5,8 @@ author: nathan
 source: purchased
 stars: 5
 product:
-  name: 5V 3PIN ARGB LED Strip Light WS2812B IC Addressable Rainbow Light Digital Header PC Host Case Asus Aura Sync RGBIC Fusion RGBIC
+  name: ARGB LED Strip (WS2812B)
+  title: "5V 3PIN ARGB LED Strip Light WS2812B IC Addressable Rainbow Light Digital Header PC Host Case Asus Aura Sync RGBIC Fusion RGBIC"
   price: "US $5.22"
   site: AliExpress
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8205058755396022"

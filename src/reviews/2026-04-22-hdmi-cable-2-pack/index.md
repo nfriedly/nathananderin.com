@@ -8,7 +8,7 @@ stars: 5
 reviewId: R3N5FD0ZL2V18W
 reviewUrl: "https://amazon.com/gp/customer-reviews/R3N5FD0ZL2V18W"
 product:
-  name: LNOSANLO HDMI Cable 6FT 2-Pack, Shielded HDMI 2.0 Cable, Computer Monitor HDMI TV Cable-4K for HDR, HDCP 2.2 & 2.3, 3D for Computer, Monitor, TV, PS4, PS5 and More
+  name: HDMI 2.0 Cable (2-pack, 6ft)
   price: 7.99
   url: "https://www.amazon.com/dp/B0G2YM4PFQ"
   title: "LNOSANLO HDMI Cable 6FT 2-Pack, Shielded HDMI 2.0 Cable, Computer Monitor HDMI TV Cable-4K for HDR, HDCP 2.2 & 2.3, 3D for Computer, Monitor, TV, PS4, PS5 and More"

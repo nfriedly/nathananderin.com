@@ -5,7 +5,8 @@ author: nathan
 source: purchased
 stars: 5
 product:
-  name: USB C 3.1 Gen2 10Gbps Extension Cable Type C to C PD 100W QC4.0 3.0 5A Fast Charging Cable For MacBook Pro 4k 60Hz Video Cable
+  name: USB-C 3.1 Gen2 Extension Cable
+  title: "USB C 3.1 Gen2 10Gbps Extension Cable Type C to C PD 100W QC4.0 3.0 5A Fast Charging Cable For MacBook Pro 4k 60Hz Video Cable"
   price: "US $4.02"
   site: AliExpress
   url: https://www.aliexpress.us/item/3256803753526454.html

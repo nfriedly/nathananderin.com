@@ -8,7 +8,7 @@ stars: 4
 reviewId: R2E9UNGQDIU4BH
 reviewUrl: "https://amazon.com/gp/customer-reviews/R2E9UNGQDIU4BH"
 product:
-  name: Lamicall Bike Frame Bag Waterproof - [1.6L Large Capacity] Bike Phone Bag
+  name: Lamicall Bike Frame Bag
   price: 29.99
   url: "https://www.amazon.com/dp/B0GL13N8BK"
   title: "Lamicall Bike Frame Bag Waterproof - [1.6L Large Capacity] Bike Phone Bag | Bike Phone Holder Mount, Bicycle Front Bag, Cycling Pouch with Rain Cover, Bike Accessories for Phones Under 7\""

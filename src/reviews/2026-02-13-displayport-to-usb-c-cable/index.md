@@ -8,7 +8,7 @@ stars: 5
 reviewId: R2FCA3A49TV0WT
 reviewUrl: "https://amazon.com/gp/customer-reviews/R2FCA3A49TV0WT"
 product:
-  name: DisplayPort to USB C Cable 6.6FT, 4K@60Hz DP to USB-C Adapter with Power Supply & Touch Support, DP Male to Type-C Male Converter for Studio Display, AR Glasses Xreal, Nreal Air VR, Portable Monitor
+  name: DisplayPort to USB-C Cable
   price: 6.99
   url: "https://www.amazon.com/dp/B0GDQV2TWB"
   title: "DisplayPort to USB C Cable 6.6FT, 4K@60Hz DP to USB-C Adapter with Power Supply & Touch Support, DP Male to Type-C Male Converter for Studio Display, AR Glasses Xreal, Nreal Air VR, Portable Monitor"

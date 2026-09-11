@@ -8,7 +8,7 @@ stars: 5
 reviewId: R2HSMXOR19AKNE
 reviewUrl: "https://amazon.com/gp/customer-reviews/R2HSMXOR19AKNE"
 product:
-  name: Pattern Prime USB C to USB Adapter [3 Pack] – USB 3.0 Female to Type-C Male Converter, High-Speed Data Transfer, Compatible with Thunderbolt, MacBook, iPad, iPhone, Galaxy, Surface, Dell & Chromebook
+  name: Pattern Prime USB-C to USB-A Adapters (3-pack)
   price: 4.99
   url: "https://www.amazon.com/dp/B0FRGJ5M87"
   title: "Pattern Prime USB C to USB Adapter [3 Pack] – USB 3.0 Female to Type-C Male Converter, High-Speed Data Transfer, Compatible with Thunderbolt, MacBook, iPad, iPhone, Galaxy, Surface, Dell & Chromebook"

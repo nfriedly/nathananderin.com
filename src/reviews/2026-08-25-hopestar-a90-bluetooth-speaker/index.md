@@ -7,7 +7,8 @@ featured: true
 source: purchased
 stars: 4
 product:
-  name: Hopestar A90 700W Portable Bluetooth Party Speaker with Karaoke Microphone
+  name: Hopestar A90 Bluetooth Speaker
+  title: "Hopestar A90 700W Portable Bluetooth Party Speaker with Karaoke Microphone"
   url: "https://www.alibaba.com/product-detail/Original-Hopestar-A90-Party-Speaker-Loud_1601676691467.html"
   site: Alibaba
 images:

@@ -9,7 +9,7 @@ stars: 4
 reviewId: R2LSOQUXX7VQH7
 reviewUrl: "https://amazon.com/gp/customer-reviews/R2LSOQUXX7VQH7"
 product:
-  name: earbuds
+  name: YD05 Waterproof Bluetooth Earbuds
   price: 6.99
   url: "https://www.amazon.com/dp/B0G48S6922"
   title: "Wireless Earbuds, Bluetooth 5.5 Headphones Bass Stereo, Ear Buds with Noise Cancelling Mic, LED Display in Ear Earphones 80H Playtime, USB-C IP7 Waterproof Bluetooth Earbuds for Phones/Sports/Work"

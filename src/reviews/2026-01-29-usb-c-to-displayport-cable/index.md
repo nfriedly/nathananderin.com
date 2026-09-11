@@ -8,7 +8,7 @@ stars: 5
 reviewId: R1UGBXAW1VYT9T
 reviewUrl: "https://amazon.com/gp/customer-reviews/R1UGBXAW1VYT9T"
 product:
-  name: USB-C DP cable
+  name: USB-C to DisplayPort Cable
   price: 8.99
   url: "https://www.amazon.com/dp/B0G13NW1F5"
   title: "USB C to DisplayPort, USBC to DP 1.4 8K@60Hz 4K@240Hz Cable 6ft, 32.4Gbps | Thunderbolt 3/4/5 to Display Port Cord for MacBook Air/Pro Laptop iPhone 17 iPad 11/10th Galaxy S26 to Monitor"

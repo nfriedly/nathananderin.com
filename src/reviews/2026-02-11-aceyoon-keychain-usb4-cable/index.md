@@ -8,7 +8,7 @@ stars: 5
 reviewId: R1CWWQAWOFNTZL
 reviewUrl: "https://amazon.com/gp/customer-reviews/R1CWWQAWOFNTZL"
 product:
-  name: aceyoon 240W USB C to USB C Short Cable, 5 Inch Keychain Design, USB4.0 80Gbps, PD3.1, 8K@60Hz, Thunderbolt 4/3 Compatible, for Laptop & Tablet
+  name: aceyoon Keychain USB-C Cable (240W)
   price: 12.99
   url: "https://www.amazon.com/dp/B0G6594BY6"
   title: "aceyoon 240W USB C to USB C Short Cable, 5 Inch Keychain Design, USB4.0 80Gbps, PD3.1, 8K@60Hz, Thunderbolt 4/3 Compatible, for Laptop & Tablet"

@@ -7,7 +7,7 @@ stars: 3
 reviewId: RYGC8BJ59AWY8
 reviewUrl: "https://amazon.com/gp/customer-reviews/RYGC8BJ59AWY8"
 product:
-  name: "BEZGAR RC Cars for Boys - 1:14 Off Road Blue RC Truck with LED Headlight"
+  name: BEZGAR RC Car (1:14 Truck)
   url: "https://www.amazon.com/dp/B0040UTBHY"
   title: "BEZGAR RC Cars for Boys - 1:14 Off Road RC Truck with LED Headlight | 2.4GHz steady wireless signal, shock-absorbing suspension, bright front lamp, fun toy for kids & adult beginners"
 images:

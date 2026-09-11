@@ -7,9 +7,10 @@ stars: 2
 reviewId: R18305L6J60KPB
 reviewUrl: "https://amazon.com/gp/customer-reviews/R18305L6J60KPB"
 product:
-  name: Lighting EVER Dimmable 4W GU10 LED Bulbs, 35W Equivalent, Recessed Lighting, Track Lighting, Warm White
+  name: Lighting EVER GU10 LED Bulb (4W)
   url: 
   oldUrl: "https://www.amazon.com/dp/B007V1VO06"
+  title: "Lighting EVER Dimmable 4W GU10 LED Bulbs, 35W Equivalent, Recessed Lighting, Track Lighting, Warm White"
 images:
   product: product.jpg 
   photos:

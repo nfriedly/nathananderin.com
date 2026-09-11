@@ -5,7 +5,8 @@ author: nathan
 source: purchased
 stars: 5
 product:
-  name: For ADATA XPG CORE Reactor 850w 650w PCIE 6 Pin To ITX SATA 15pin Power Supply Cable Port Multiplier IDE Molex PSU Cable Kit
+  name: XPG Core Reactor SATA Power cable
+  title: "For ADATA XPG CORE Reactor 850w 650w PCIE 6 Pin To ITX SATA 15pin Power Supply Cable Port Multiplier IDE Molex PSU Cable Kit"
   price: "US $4.74"
   site: AliExpress
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8205058755506022"

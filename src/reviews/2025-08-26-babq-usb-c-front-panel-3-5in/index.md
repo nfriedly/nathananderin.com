@@ -5,7 +5,8 @@ author: nathan
 source: purchased
 stars: 5
 product:
-  name: BABQ USB3.2 GEN2 TYPE-C 3.5-Inch Floppy Front Panel 2 Port USB3.2 + 1 Port USB3.2 Type-C 20Gbps for 3.5 Inch Floppy Drive Bay
+  name: "BABQ USB-C Front Panel (3.5\")"
+  title: "BABQ USB3.2 GEN2 TYPE-C 3.5-Inch Floppy Front Panel 2 Port USB3.2 + 1 Port USB3.2 Type-C 20Gbps for 3.5 Inch Floppy Drive Bay"
   price: "US $13.36"
   site: AliExpress
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8203383708746022"

@@ -8,7 +8,7 @@ stars: 5
 reviewId: R3LDJI9VNDN48M
 reviewUrl: "https://amazon.com/gp/customer-reviews/R3LDJI9VNDN48M"
 product:
-  name: Stainless Steel Facial Grooming Scissors, Eyebrow Nose & Beard Precision Trimming Set
+  name: Facial Grooming Scissors
   price: 2.98
   url: "https://www.amazon.com/dp/B0G8GV5RKY"
   title: "Stainless Steel Facial Grooming Scissors, Eyebrow Nose & Beard Precision Trimming Set"

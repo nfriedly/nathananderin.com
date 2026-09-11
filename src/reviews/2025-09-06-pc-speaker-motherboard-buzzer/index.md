@@ -5,7 +5,8 @@ author: nathan
 source: purchased
 stars: 5
 product:
-  name: 100pcs/10pcs Mini Plug Speaker Motherboard Sounder Buzzer Board Beep Alarm Speaker For PC Interanal BIOS Computer Onboard Case
+  name: PC Motherboard Buzzer
+  title: "100pcs/10pcs Mini Plug Speaker Motherboard Sounder Buzzer Board Beep Alarm Speaker For PC Interanal BIOS Computer Onboard Case"
   price: "US $2.02"
   site: AliExpress
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8204394306926022"

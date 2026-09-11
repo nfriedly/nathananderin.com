@@ -7,7 +7,7 @@ stars: 5
 reviewId: R4UJVLZ0O6J4A
 reviewUrl: "https://amazon.com/gp/customer-reviews/R4UJVLZ0O6J4A"
 product:
-  name: Sound Card, USB Sound Card, USB Type C/A to Optical Audio Adapter, DAC Audio Converter 24Bit/96kHz SPDIF Converter 3.5mm Jack Audio Adapter AUX Output External Sound Card Headphone Amp
+  name: USB to Optical Sound Card
   url: "https://www.amazon.com/dp/B0B9H53KD9"
   title: "Sound Card, USB Sound Card, USB Type C/A to Optical Audio Adapter, DAC Audio Converter 24Bit/96kHz SPDIF Converter 3.5mm Jack Audio Adapter AUX Output External Sound Card Headphone Amp"
 images:

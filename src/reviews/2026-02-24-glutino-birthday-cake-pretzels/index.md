@@ -7,7 +7,7 @@ stars: 5
 reviewId: R22Y28BMO0Y2P2
 reviewUrl: "https://amazon.com/gp/customer-reviews/R22Y28BMO0Y2P2"
 product:
-  name: Glutino Gluten Free Birthday Cake Pretzel Twists, Gluten Free Snacks, 5.5 oz.
+  name: Glutino Birthday Cake Pretzel Twists
   url: "https://www.amazon.com/dp/B0CWW9TXKQ"
   title: "Glutino Gluten Free Birthday Cake Pretzel Twists, Gluten Free Snacks, 5.5 oz."
 images:

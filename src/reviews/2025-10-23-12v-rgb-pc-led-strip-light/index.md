@@ -5,7 +5,8 @@ author: nathan
 source: purchased
 stars: 5
 product:
-  name: 12V 4 Pin RGB Gaming PC Led Strip Light 5050 RGB Tape For Aura Sync MSI Mystic Light Motherboard Control Computer Case Backlight
+  name: 12V RGB PC LED Strip
+  title: "12V 4 Pin RGB Gaming PC Led Strip Light 5050 RGB Tape For Aura Sync MSI Mystic Light Motherboard Control Computer Case Backlight"
   price: "US $5.28"
   site: AliExpress
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8205037450256022"

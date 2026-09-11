@@ -5,7 +5,8 @@ author: nathan
 source: purchased
 stars: 5
 product:
-  name: WiFi 6E Antenna 2T2R 2.4G/5G/6G for Asus ROG B660 H670 M13H Z690 Motherboard
+  name: WiFi 6E 2T2R Antenna
+  title: "WiFi 6E Antenna 2T2R 2.4G/5G/6G for Asus ROG B660 H670 M13H Z690 Motherboard"
   price: "US $6.76"
   site: AliExpress
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8204394307006022"

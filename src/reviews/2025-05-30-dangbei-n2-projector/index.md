@@ -8,7 +8,7 @@ stars: 4
 reviewId: R2DTCIJYI8HCLG
 reviewUrl: "https://amazon.com/gp/customer-reviews/R2DTCIJYI8HCLG"
 product:
-  name: Dangbei N2 Smart Projector 1080P with Stand, 400 ISO Lumens, Netflix Officially-Licensed, 120-Inch Picture, Smart Home Projector with WiFi and Bluetooth with Dual 6W Dolby Audio Speaker, Auto Focus
+  name: Dangbei N2 Projector
   url: "https://www.amazon.com/dp/B0D7BFHWC3"
   title: "Dangbei N2 Smart Projector 1080P, 400 ISO Lumens, Officially Licensed Netflix, 120-Inch Display, Portable Home Projector with WiFi and Bluetooth with Dual 6W Dolby Audio Speaker, Auto Focus (Grey)"
 images:

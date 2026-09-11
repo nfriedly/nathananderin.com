@@ -8,7 +8,7 @@ stars: 4
 reviewId: RMR01QH4FPEEK
 reviewUrl: "https://amazon.com/gp/customer-reviews/RMR01QH4FPEEK"
 product:
-  name: Guiheng Wired Crack Rainbow Gaming Keyboard, 104 Keys Light Up Mechanical Feeling Computer Keyboard for Windows, Laptop, PC Gamers Office Device, Travel, Easy to Carry on Business Trip,Woking(Black)
+  name: Guiheng Rainbow Backlit Keyboard (104-key)
   price: 21.99
   url: "https://www.amazon.com/dp/B0GCDBJ41W"
   title: "Guiheng Wired Crack Rainbow Gaming Keyboard, 104 Keys Light Up Mechanical Feeling Computer Keyboard for Windows, Laptop, PC Gamers Office Device, Travel, Easy to Carry on Business Trip,Woking(Black)"

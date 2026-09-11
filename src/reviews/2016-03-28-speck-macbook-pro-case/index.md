@@ -7,7 +7,7 @@ stars: 1
 reviewId: RH3RHVLB2FARK
 reviewUrl: "https://amazon.com/gp/customer-reviews/RH3RHVLB2FARK"
 product:
-  name: Speck Products SeeThru Case for MacBook Pro 15-Inch with Retina Display (SPK-A2975) DOES NOT FIT NON-RETINA MACBOOK
+  name: "Speck SeeThru Case (MacBook Pro 15\")"
   url: "https://www.amazon.com/dp/B00OY3DI1W"
   title: "Speck Products SeeThru Case for MacBook Pro 15-Inch with Retina Display (SPK-A2411) Does NOT FIT Non-Retina MacBook"
 images:

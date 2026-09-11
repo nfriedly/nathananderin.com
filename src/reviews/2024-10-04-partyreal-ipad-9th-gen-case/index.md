@@ -7,7 +7,7 @@ stars: 5
 reviewId: R2QDJ57X6NW2CX
 reviewUrl: "https://amazon.com/gp/customer-reviews/R2QDJ57X6NW2CX"
 product:
-  name: Partyreal SSSSS9307
+  name: Partyreal iPad Case (9th Gen)
   url: "https://www.amazon.com/dp/B0BP6Y6TM7"
   title: "Partyreal SSSSS9307"
 images:

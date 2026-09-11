@@ -8,7 +8,7 @@ stars: 5
 reviewId: RHUZHCR6A8MLR
 reviewUrl: "https://amazon.com/gp/customer-reviews/RHUZHCR6A8MLR"
 product:
-  name: WEACT Beanie for Women Mens Winter Hats Comfy Soft Skull Caps Fashion Accessories Gifts for Men Women Cyan
+  name: WEACT Beanie Hat
   price: 9.98
   url: "https://www.amazon.com/dp/B0G6JP2VN3"
   title: "WEACT Beanie for Women Mens Winter Hats Comfy Soft Skull Caps Fashion Accessories Gifts for Men Women"

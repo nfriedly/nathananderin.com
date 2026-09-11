@@ -7,7 +7,7 @@ stars: 2
 reviewId: R39UKNHJNJSK96
 reviewUrl: "https://amazon.com/gp/customer-reviews/R39UKNHJNJSK96"
 product:
-  name: EcoVessel Stainless Steel Water Bottle with Insulated Dual Lid, Insulated Water Bottle with Strainer and Silicone Bottle Bumper, Coffee Mug (Mountain Green, 24 oz)
+  name: EcoVessel Insulated Water Bottle
   url: "https://www.amazon.com/dp/B08YSPMT14"
   title: "EcoVessel Stainless Steel Water Bottle with Insulated Dual Lid, Insulated Water Bottle with Strainer and Silicone Bottle Bumper, Coffee Mug – 32oz (Deep Sea)"
 images:

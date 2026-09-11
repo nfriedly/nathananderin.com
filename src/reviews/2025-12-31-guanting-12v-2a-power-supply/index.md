@@ -7,7 +7,7 @@ stars: 5
 reviewId: R3EB7WCAIEODXC
 reviewUrl: "https://amazon.com/gp/customer-reviews/R3EB7WCAIEODXC"
 product:
-  name: GuanTing Universal AC Adapter 12V 2A Power Supply Charger 24W AC110V to DC12V 2000mA 1500mA 1000mA 500mA Power Driver 11 DC Plug Tips 12 Volt Converter Inverter Transformer ac dc Adapter(DC12V~2A)
+  name: GuanTing 12V 2A Power Supply
   url: "https://www.amazon.com/dp/B086T1N5R4"
   title: "GuanTing Universal AC Adapter 12V 2A Power Supply Charger 24W AC110V to DC12V 2000mA 1500mA 1000mA 500mA Power Driver 11 DC Plug Tips 12 Volt Converter Inverter Transformer ac dc Adapter(DC12V~2A)"
 images:

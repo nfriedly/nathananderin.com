@@ -5,7 +5,8 @@ author: nathan
 source: purchased
 stars: 3
 product:
-  name: New Raspberry Pi Zero W Official Case RPI Zero Box Cover Shell Enclosure Cases compatible for Raspberry Pi Zero V 1.3 Pi0
+  name: Raspberry Pi Zero Acrylic Case
+  title: "New Raspberry Pi Zero W Official Case RPI Zero Box Cover Shell Enclosure Cases compatible for Raspberry Pi Zero V 1.3 Pi0"
   price: "US $1.57"
   site: AliExpress
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8205058755486022"

@@ -5,7 +5,8 @@ author: nathan
 source: purchased
 stars: 5
 product:
-  name: SATA 2x15Pin to Graphics card PCI-e PCIE 6/8 Pin Video Card Power Supply Cable 6/8pin to Dual Sata Y Splitter Adapter 18CM 18AWG
+  name: SATA to PCIe Power Cable
+  title: "SATA 2x15Pin to Graphics card PCI-e PCIE 6/8 Pin Video Card Power Supply Cable 6/8pin to Dual Sata Y Splitter Adapter 18CM 18AWG"
   price: "US $1.77"
   site: AliExpress
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8205582465426022"

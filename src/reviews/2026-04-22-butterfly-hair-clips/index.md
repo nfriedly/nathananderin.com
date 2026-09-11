@@ -8,7 +8,7 @@ stars: 5
 reviewId: REHOT6C7HBBEJ
 reviewUrl: "https://amazon.com/gp/customer-reviews/REHOT6C7HBBEJ"
 product:
-  name: 80Pcs 0.6In Mini Butterfly Hair Claw Clips for Girls Women Small Barrettes
+  name: Mini Butterfly Hair Clips (80-pack)
   price: 6.64
   url: "https://www.amazon.com/dp/B0G4JTK3TK"
   title: "80Pcs 0.6In Mini Butterfly Hair Claw Clips for Girls Women Small Barrettes | 10 Colors 90s Outfits Y2k Accessories Tiny Little Hair Pins Bulk for Fine Short Thin Back To School Teacher Gifts Kids Teens"

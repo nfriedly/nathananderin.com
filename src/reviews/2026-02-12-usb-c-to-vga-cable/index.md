@@ -8,7 +8,7 @@ stars: 5
 reviewId: R1YER0LLHG39UQ
 reviewUrl: "https://amazon.com/gp/customer-reviews/R1YER0LLHG39UQ"
 product:
-  name: UVOOI USB C to VGA Cable 3FT, USB C to VGA Adapter for Monitor Compatible with (Thunderbolt 3/4/5) MacBook Pro/Air, Phone, Laptop, Projector
+  name: UVOOI USB-C to VGA Cable
   price: 6.99
   url: "https://www.amazon.com/dp/B0GC5DG371"
   title: "UVOOI USB C to VGA Cable 3FT, USB C to VGA Adapter for Monitor Compatible with (Thunderbolt 3/4/5) MacBook Pro/Air, Phone, Laptop, Projector"

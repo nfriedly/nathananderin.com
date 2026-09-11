@@ -6,7 +6,8 @@ featured: true
 source: purchased
 stars: 4
 product:
-  name: Young Electric 4-Bike Hitch Bike Rack, EASY FOLD Bike Carrier, 120 LBS Capacity, Fits 1.25'' and 2'' Receiver
+  name: Young Electric 4-Bike Hitch Rack
+  title: "Young Electric 4-Bike Hitch Bike Rack, EASY FOLD Bike Carrier, 120 LBS Capacity, Fits 1.25'' and 2'' Receiver"
   urls:
     - site: Young Electric
       url: "https://youngelectricbikes.com/collections/hitch-bike-rack/products/4-bike-hitch-bike-rack-easy-fold-bike-carrier-120-lbs-capacity-fits-1-25-and-2-receiver"

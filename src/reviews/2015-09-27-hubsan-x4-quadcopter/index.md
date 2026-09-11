@@ -7,7 +7,7 @@ stars: 5
 reviewId: R1NBBSW8JPZAFK
 reviewUrl: "https://amazon.com/gp/customer-reviews/R1NBBSW8JPZAFK"
 product:
-  name: Hubsan X4 (H107L) 4 Channel 2.4GHz RC Quadcopter, Black
+  name: Hubsan X4 Quadcopter (H107L)
   url: "https://www.amazon.com/dp/B00IZC6C8E"
   title: "Hubsan X4 (H107L) 4 Channel 2.4GHz RC Quadcopter, Black"
 images:

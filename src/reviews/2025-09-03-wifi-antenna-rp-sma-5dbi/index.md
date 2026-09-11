@@ -5,7 +5,8 @@ author: nathan
 source: purchased
 stars: 5
 product:
-  name: 6 PCS New Metal Wifi Antenna Of RP-SMA Interface With 5Dbi 2.4G/5G Dual-Band Wireless Wifi Antenna For ASUS RT-AC68U
+  name: WiFi RP-SMA Antenna (5dBi)
+  title: "6 PCS New Metal Wifi Antenna Of RP-SMA Interface With 5Dbi 2.4G/5G Dual-Band Wireless Wifi Antenna For ASUS RT-AC68U"
   price: "US $4.28"
   site: AliExpress
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8204394307026022"

@@ -8,7 +8,7 @@ stars: 4
 reviewId: RPUFNCTY769TV
 reviewUrl: "https://amazon.com/gp/customer-reviews/RPUFNCTY769TV"
 product:
-  name: xieoery HDMI Dummy Plug 2K QHD EDID Emulator, 2560x1440@60Hz Virtual Display Adapter, Headless Display Dongle for Remote Desktop, GPU Rigs, Servers and Industrial PCs, Multi-Resolution EDID Support
+  name: HDMI Dummy Plug (2K)
   price: 4.98
   url: "https://www.amazon.com/dp/B0G34G7J86"
   title: "xieoery HDMI Dummy Plug 2K QHD EDID Emulator, 2560x1440@60Hz Virtual Display Adapter, Headless Display Dongle for Remote Desktop, GPU Rigs, Servers and Industrial PCs, Multi-Resolution EDID Support"

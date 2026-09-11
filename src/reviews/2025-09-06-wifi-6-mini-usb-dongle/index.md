@@ -5,7 +5,8 @@ author: nathan
 source: purchased
 stars: 4
 product:
-  name: Wifi 6 Mini USB Dongle Network Card BT 5.4 Receiver Dongle AX900 For Win 10/11 PC Dual Band 2.4G/5Ghz
+  name: WiFi 6 Mini USB Dongle (AX900)
+  title: "Wifi 6 Mini USB Dongle Network Card BT 5.4 Receiver Dongle AX900 For Win 10/11 PC Dual Band 2.4G/5Ghz"
   price: "US $3.17"
   site: AliExpress
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8204429349816022"

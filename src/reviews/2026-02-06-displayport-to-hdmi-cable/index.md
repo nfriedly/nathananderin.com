@@ -8,7 +8,7 @@ stars: 3
 reviewId: RWM8WXYAMVCD8
 reviewUrl: "https://amazon.com/gp/customer-reviews/RWM8WXYAMVCD8"
 product:
-  name: HDMI-DP cable
+  name: DisplayPort to HDMI Cable
   price: 9.99
   url: "https://www.amazon.com/dp/B0FPDZBSFL"
   title: "Reborn 4K DisplayPort to HDMI Cable 6FT, 4K@60Hz/2K@120Hz, Unidirectional | DP 1.2 Source to HDMI 1.4 Screen, Display Port to HDMI Cable for Computer, NVIDIA, AMD, Dell, Lenovo, Gaming Monitor"

@@ -8,7 +8,7 @@ stars: 4
 reviewId: R26KW7FEWGKXDJ
 reviewUrl: "https://amazon.com/gp/customer-reviews/R26KW7FEWGKXDJ"
 product:
-  name: SAMONPOW USB C Charger Block Dual Port Type C Wall Charger Fast Charging Multiport Adpater PD 25W USB-C & QC 3.0 USB-A Port Charging Block for iPhone 17/16/15/14/13/12/11/X/8, iPad, Galaxy 25/24 More
+  name: SAMONPOW 25W Dual-Port USB-C Charger
   price: 9.99
   url: "https://www.amazon.com/dp/B0GC5T7SYZ"
   title: "SAMONPOW USB C Charger Block Dual Port Type C Wall Charger Fast Charging Multiport Adpater PD 25W USB-C & QC 3.0 USB-A Port Charging Block for iPhone 17/16/15/14/13/12/11/X/8, iPad, Galaxy 25/24 More"
