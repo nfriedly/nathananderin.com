@@ -1,0 +1,14 @@
+<p class="disclosure">
+{% if customDisclaimer %}
+    {{ customDisclaimer }}
+{% else %}
+    Disclaimer:
+    {% if source == 'purchase' or source == 'purchased' %}
+        This product was purchased with my own money.
+    {% elif source == 'vine' %}
+        This product was provided to me through the Amazon Vine program solely for my honest review. No money exchanged hands either way.
+    {% endif %}
+    {% if hasAmazonLinks(product, reviewUrl) %}
+        Some links use affiliate codes - it earns me a small percentage and costs you nothing.
+    {% endif %}
+{% endif %}</p>

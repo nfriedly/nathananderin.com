@@ -11,11 +11,11 @@ nav: true
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title><%= fullTitle || (title ? title + ' | ' : '') + 'Nathan and Erin Friedly' %></title>
+    <title>{% if fullTitle %}{{ fullTitle }}{% else %}{% if title %}{{ title }} | {% endif %}Nathan and Erin Friedly{% endif %}</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="canonical" href="https://www.nathananderin.com<%= page.url %>" />
-    <%- metaTags %>
+    <link rel="canonical" href="https://www.nathananderin.com{{ page.url }}" />
+    {{ metaTags | safe }}
     <meta name="description" content="Nathan and Erin Friedly: reviews of the things we buy.">
     <meta name="generator" content="Eleventy">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -23,9 +23,9 @@ nav: true
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.min.css" integrity="sha512-L+sMmtHht2t5phORf0xXFdTC0rSlML1XcraLTrABli/0MMMylsJi3XA23ReVQkZ7jLkOEIMicWGItyK4CAt2Xw==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="/styles/styles.css">
 </head>
-<body class="<%= cssClass %>">
+<body class="{{ cssClass }}">
 
-<% if (nav !== false) { %>
+{% if nav != false %}
 <nav class="navbar navbar-default navbar-static-top">
     <div class="container">
         <div class="navbar-header">
@@ -39,22 +39,16 @@ nav: true
         </div>
         <div id="nav-menu" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <%_ function activeAttrIf(menuSection) {
-                    if (section === menuSection) {
-                      return 'class="active"';
-                    }
-                    return '';
-                } _%>
-                <li <%- activeAttrIf('home') -%>><a href="/"><i class="fa fa-home"></i> Home</a></li>
-                <li <%- activeAttrIf('reviews') -%>><a href="/reviews/"><i class="fa fa-star"></i> Reviews</a></li>
+                <li{% if section == 'home' %} class="active"{% endif %}><a href="/"><i class="fa fa-home"></i> Home</a></li>
+                <li{% if section == 'reviews' %} class="active"{% endif %}><a href="/reviews/"><i class="fa fa-star"></i> Reviews</a></li>
             </ul>
         </div>
     </div>
 </nav>
-<% } %>
+{% endif %}
 
 <div class="container">
-    <%- content %>
+    {{ content | safe }}
 </div>
 
 <footer>

@@ -11,57 +11,34 @@ section: reviews
 <div class="review-filters">
 	<span class="review-filters-label">Filter by reviewer:</span>
 	<a class="review-filter btn btn-default btn-xs" data-author="" href="/reviews/">All</a>
-	<a class="review-filter btn btn-default btn-xs" data-author="nathan" href="/reviews/?author=nathan">Nathan <span class="badge"><%= collections.reviews.filter(p => p.data.author === 'nathan').length %></span></a>
-	<a class="review-filter btn btn-default btn-xs" data-author="erin" href="/reviews/?author=erin">Erin <span class="badge"><%= collections.reviews.filter(p => p.data.author === 'erin').length %></span></a>
+	<a class="review-filter btn btn-default btn-xs" data-author="nathan" href="/reviews/?author=nathan">Nathan <span class="badge">{{ collections.reviews | countByAuthor('nathan') }}</span></a>
+	<a class="review-filter btn btn-default btn-xs" data-author="erin" href="/reviews/?author=erin">Erin <span class="badge">{{ collections.reviews | countByAuthor('erin') }}</span></a>
 </div>
 
-<%
-	var tagCounts = {};
-	for (const p of collections.reviews) {
-		for (const t of (p.data.tags || [])) {
-			if (t === 'review') continue;
-			tagCounts[t] = (tagCounts[t] || 0) + 1;
-		}
-	}
-	var tagList = Object.keys(tagCounts).sort(function (a, b) {
-		return tagCounts[b] - tagCounts[a] || a.localeCompare(b);
-	});
-	var topTags = tagList.filter(function (t) { return tagCounts[t] >= 4; });
-	var moreTags = tagList.filter(function (t) { return tagCounts[t] < 4; });
-%>
+{% set tagFilters = collections.reviews | tagGroups %}
 
 <div class="review-filters">
 	<span class="review-filters-label">Filter by tag:</span>
 	<a class="review-filter btn btn-default btn-xs" data-tag="" href="/reviews/">All</a>
-	<% for (const t of topTags) { %>
-	<a class="review-filter btn btn-default btn-xs" data-tag="<%= t %>" href="/reviews/?tag=<%= t %>"><%= t %> <span class="badge"><%= tagCounts[t] %></span></a>
-	<% } %>
-	<% if (moreTags.length) { %>
+	{% for t in tagFilters.topTags %}
+	<a class="review-filter btn btn-default btn-xs" data-tag="{{ t.name }}" href="/reviews/?tag={{ t.name }}">{{ t.name }} <span class="badge">{{ t.count }}</span></a>
+	{% endfor %}
+	{% if tagFilters.moreTags.length %}
 	<button type="button" class="review-tags-toggle btn btn-default btn-xs">More tags&hellip;</button>
 	<span class="review-tags-more" hidden>
-		<% for (const t of moreTags) { %>
-		<a class="review-filter btn btn-default btn-xs" data-tag="<%= t %>" href="/reviews/?tag=<%= t %>"><%= t %> <span class="badge"><%= tagCounts[t] %></span></a>
-		<% } %>
+		{% for t in tagFilters.moreTags %}
+		<a class="review-filter btn btn-default btn-xs" data-tag="{{ t.name }}" href="/reviews/?tag={{ t.name }}">{{ t.name }} <span class="badge">{{ t.count }}</span></a>
+		{% endfor %}
 	</span>
-	<% } %>
+	{% endif %}
 	<a class="review-filter-clear" href="/reviews/">Clear filter [X]</a>
 </div>
 
 <div class="reviews">
-<% for (const post of collections.reviews) { %>
-    <%- include('_includes/partials/review-card.ejs', {
-        productImage: post.data.images && post.data.images.product && (post.url + post.data.images.product),
-        photo: post.data.images && post.data.images.photos && post.data.images.photos[0] && (post.url + post.data.images.photos[0]),
-        showBoth: true,
-        url: post.url,
-        title: post.data.title,
-        stars: post.data.stars,
-        author: post.data.author,
-        product: post.data.product,
-        excerpt: post.data.excerpt,
-        tags: post.data.tags || []
-    }) %>
-<% } %>
+{% set showBoth = true %}
+{% for post in collections.reviews %}
+    {% include "partials/review-card.njk" %}
+{% endfor %}
 </div>
 </main>
 

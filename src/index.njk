@@ -35,20 +35,10 @@ nav: false
 
     <section class="affiliate">
         <h2>Recent Reviews</h2>
-        <% for (const post of collections.reviews.filter(p => p.data.featured).slice(0, 4)) { %>
-            <%- include('_includes/partials/review-card.ejs', {
-                productImage: post.data.images && post.data.images.product && (post.url + post.data.images.product),
-                photo: post.data.images && post.data.images.photos && post.data.images.photos[0] && (post.url + post.data.images.photos[0]),
-                showBoth: false,
-                url: post.url,
-                title: post.data.title,
-                stars: post.data.stars,
-                author: post.data.author,
-                product: post.data.product,
-                excerpt: post.data.excerpt,
-                tags: post.data.tags || []
-            }) %>
-        <% } %>
+        {% for post in collections.reviews | featuredReviews(4) %}
+            {% set showBoth = false %}
+            {% include "partials/review-card.njk" %}
+        {% endfor %}
         <p><a href="/reviews/">Browse all of our reviews &raquo;</a></p>
     </section>
 </main>

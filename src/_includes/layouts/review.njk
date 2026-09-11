@@ -1,0 +1,65 @@
+---
+layout: main
+cssClass: review single
+---
+
+<p><a href="/reviews/"><i class="fa fa-arrow-left"></i> All reviews</a></p>
+
+<h1>{{ title }}</h1>
+{% if product and product.name and product.title %} <h2>{{ product.name }} Review</h2>{% endif %}
+<p class="review-meta">
+    {{ stars | starsHtml | safe }}
+    by {{ authorName(author) }} Friedly
+</p>
+
+{% if (product and (product.name or product.title)) or (images and images.product) or reviewUrl %}
+<div class="review-box">
+    <div class="row">
+        {% if images and images.product %}
+        <div class="col-sm-3">
+            <img class="img-responsive" src="{{ page.url }}{{ images.product }}" alt="{{ product.title or product.name or '' }}">
+        </div>
+        <div class="col-sm-9">
+        {% else %}
+        <div class="col-sm-12">
+        {% endif %}
+            {% if product and (product.title or product.name) %}<h2>{{ product.title or product.name }}</h2>{% endif %}
+            {% if product and product.price %}<p class="product-price">Price: {% if product.price is number %}${{ product.price | money }}{% else %}{{ product.price }}{% endif %}</p>{% endif %}
+            {% if product and product.urls and product.urls.length %}
+            <p>
+                {% for link in product.urls %}
+                <a class="btn btn-primary btn-buy" href="{{ affiliateUrl(link.url) }}" target="_blank" rel="nofollow sponsored noopener">
+                    <i class="fa fa-cart-shopping"></i> Buy from {{ link.site or product.site or 'Amazon' }}
+                </a>
+                {% endfor %}
+            </p>
+            {% elif product and product.url %}
+            <p>
+                <a class="btn btn-primary btn-buy" href="{{ affiliateUrl(product.url) }}" target="_blank" rel="nofollow sponsored noopener">
+                    <i class="fa fa-cart-shopping"></i> Buy from {{ product.site or 'Amazon' }}
+                </a>
+            </p>
+            {% elif product and product.oldUrl and isAmazonUrl(product.oldUrl) and (product.title or product.name) %}
+            <p>
+                <a class="btn btn-primary btn-buy" href="{{ amazonSearchUrl(product.title or product.name) }}" target="_blank" rel="nofollow sponsored noopener">
+                    <i class="fa fa-magnifying-glass"></i> Search Amazon for {{ product.title or product.name }}
+                </a>
+            </p>
+            {% endif %}
+            {% if orderDate %}<p>Ordered on: {{ orderDate }}</p>{% endif %}
+            {% if reviewDate %}<p>Reviewed on: {{ reviewDate }}</p>{% endif %}
+            {% if product and product.oldUrl %}<p>Original URL: <code>{{ product.oldUrl }}</code></p>{% endif %}
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<div class="review-body">
+{{ content | safe }}
+</div>
+
+{% if reviewUrl %}
+<p class="review-origin">This review originally appeared on <a href="{{ affiliateUrl(reviewUrl) }}" rel="alternate">{{ reviewUrl | sourceLabel }}</a>, however nathananderin.com should be considered the canonical source as I keep it up-to-date over time.</p>
+{% endif %}
+
+{% include "partials/disclosure.njk" %}

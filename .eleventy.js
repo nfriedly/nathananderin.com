@@ -1,6 +1,5 @@
 const path = require("path");
 const fs = require("fs");
-const ejsPlugin = require("@11ty/eleventy-plugin-ejs");
 const { default: eleventyImage } = require("@11ty/eleventy-img");
 
 function splitFrontmatter(text) {
@@ -33,17 +32,103 @@ function makeExcerpt(body) {
   return text;
 }
 
+function starsHtml(n) {
+  let s = '<span class="stars" aria-label="' + n + ' out of 5 stars">';
+  for (let i = 1; i <= 5; i++) {
+    s += n >= i
+      ? '<i class="fa-solid fa-star"></i>'
+      : n >= i - 0.5
+        ? '<i class="fa-solid fa-star-half-stroke"></i>'
+        : '<i class="fa-regular fa-star"></i>';
+  }
+  return s + "</span>";
+}
+
+function thumbUrl(url) {
+  if (!url) return "";
+  const m = url.match(/^(.*\/)([^/]+)$/);
+  if (!m) return url;
+  const base = m[2].replace(/\.[^.]+$/, "");
+  return m[1] + "thumbs/" + base + ".jpg";
+}
+
+function money(price) {
+  return Number(price).toFixed(2);
+}
+
+function dataTags(tags) {
+  return (tags || []).filter((t) => t !== "review").join(" ");
+}
+
+function sourceLabel(url) {
+  url = String(url).replace(/^https?:\/\//i, "").replace(/^www\./i, "");
+  const host = url.split("/")[0].split(":")[0];
+  const labels = {
+    "amazon.com": "Amazon", "amazon.ca": "Amazon", "amazon.co.uk": "Amazon", "amazon.de": "Amazon", "amazon.fr": "Amazon",
+    "aliexpress.com": "Ali Express", "alibaba.com": "Ali Baba",
+  };
+  return labels[host] || host;
+}
+
+function authorName(author) {
+  return author === "erin" ? "Erin" : "Nathan";
+}
+
+function isAmazonUrl(url) {
+  if (typeof url !== "string") return false;
+  try {
+    return new URL(url).hostname.includes("amazon.");
+  } catch (_e) {
+    return false;
+  }
+}
+
+function hasAmazonLinks(product, reviewUrl) {
+  if (product) {
+    if (product.urls && product.urls.length) {
+      return product.urls.some((l) => l.url && /amazon/i.test(l.url));
+    }
+    if (product.url) return /amazon/i.test(product.url);
+  }
+  if (reviewUrl) return /amazon/i.test(String(reviewUrl));
+  return false;
+}
+
+function featuredReviews(posts, count) {
+  return posts.filter((p) => p.data.featured).slice(0, count);
+}
+
+function countByAuthor(posts, author) {
+  return posts.filter((p) => p.data.author === author).length;
+}
+
+function tagGroups(posts) {
+  const tagCounts = {};
+  for (const p of posts) {
+    for (const t of p.data.tags || []) {
+      if (t === "review") continue;
+      tagCounts[t] = (tagCounts[t] || 0) + 1;
+    }
+  }
+  const tagList = Object.keys(tagCounts).sort((a, b) => tagCounts[b] - tagCounts[a] || a.localeCompare(b));
+  const toItems = (tags) => tags.map((name) => ({ name, count: tagCounts[name] }));
+  return {
+    topTags: toItems(tagList.filter((t) => tagCounts[t] >= 4)),
+    moreTags: toItems(tagList.filter((t) => tagCounts[t] < 4)),
+  };
+}
+
 module.exports = function (eleventyConfig) {
   const settings = {
     dir: {
       input: "src",
       output: "_site",
     },
-    templateFormats: ["html", "md", "njk", "ejs"],
+    templateFormats: ["html", "md", "njk"],
   };
 
-  eleventyConfig.addLayoutAlias("main", "layouts/main.ejs");
-  eleventyConfig.addLayoutAlias("review", "layouts/review.ejs");
+  eleventyConfig.addLayoutAlias("main", "layouts/main.njk");
+  eleventyConfig.addLayoutAlias("review", "layouts/review.njk");
 
   eleventyConfig.addPassthroughCopy("src/CNAME");
   eleventyConfig.addPassthroughCopy("src/.nojekyll");
@@ -56,7 +141,18 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/**/*.webp");
   eleventyConfig.addPassthroughCopy("src/**/*.mp4");
 
-  eleventyConfig.addPlugin(ejsPlugin);
+  eleventyConfig.addFilter("starsHtml", starsHtml);
+  eleventyConfig.addFilter("thumbUrl", thumbUrl);
+  eleventyConfig.addFilter("money", money);
+  eleventyConfig.addFilter("dataTags", dataTags);
+  eleventyConfig.addFilter("sourceLabel", sourceLabel);
+  eleventyConfig.addFilter("featuredReviews", featuredReviews);
+  eleventyConfig.addFilter("countByAuthor", countByAuthor);
+  eleventyConfig.addFilter("tagGroups", tagGroups);
+
+  eleventyConfig.addGlobalData("authorName", () => authorName);
+  eleventyConfig.addGlobalData("isAmazonUrl", () => isAmazonUrl);
+  eleventyConfig.addGlobalData("hasAmazonLinks", () => hasAmazonLinks);
 
   // newest first; folder names are date-prefixed (YYYY-MM-DD-...) so sorting
   // by inputPath descending sorts by date, newest review first.

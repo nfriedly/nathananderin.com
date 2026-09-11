@@ -1,0 +1,14 @@
+{% set productImage = false %}
+{% set photo = false %}
+{% if post.data.images and post.data.images.product %}{% set productImage = post.url ~ post.data.images.product %}{% endif %}
+{% if post.data.images and post.data.images.photos and post.data.images.photos.length %}{% set photo = post.url ~ post.data.images.photos[0] %}{% endif %}
+{% set thumb = photo or productImage %}
+<a class="review-card" href="{{ post.url }}" data-author="{{ post.data.author }}" data-tags="{{ post.data.tags | dataTags }}">
+	{% if showBoth and productImage and thumb and productImage != thumb %}
+		<img class="product-photo" src="{{ productImage | thumbUrl }}" alt="">
+	{% endif %}
+	{% if thumb %}<img class="product-thumb" src="{{ thumb | thumbUrl }}" alt="">{% endif %}
+	<h2>{{ post.data.title }}</h2>
+	<p class="review-meta">{{ post.data.stars | starsHtml | safe }}{% if post.data.product and post.data.product.name %} &middot; {{ post.data.product.name }}{% endif %}</p>
+	<p class="excerpt">{{ post.data.excerpt }}</p>
+</a>
