@@ -1,6 +1,8 @@
 const path = require("path");
 const fs = require("fs");
 const { default: eleventyImage } = require("@11ty/eleventy-img");
+const aliExpressLinks = require("./lib/ali-express-links");
+const favicons = require("./lib/favicons");
 
 function splitFrontmatter(text) {
   const m = /^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/.exec(text);
@@ -118,6 +120,96 @@ function tagGroups(posts) {
   };
 }
 
+function amazonSearchUrl(query) {
+  return `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=nathananderin-20`;
+}
+
+function amazonAffiliateUrl(url) {
+  const urlObj = new URL(url);
+  urlObj.searchParams.set("tag", "nathananderin-20");
+  return urlObj.toString();
+}
+
+function isAliexpressItemUrl(url) {
+  return aliExpressLinks.isAliexpressItemUrl(url);
+}
+
+// affiliateUrl core: Amazon URLs get the tag appended, AliExpress item URLs
+// are swapped for a CSV tracking link when available, otherwise a search URL
+// built from the product title (which may itself have a tracking link).
+function applyAffiliateUrl(url, title) {
+  if (typeof url !== "string") return url;
+  try {
+    if (isAliexpressItemUrl(url)) {
+      return aliExpressLinks.resolveAliExpress(url, title).href;
+    }
+    if (new URL(url).hostname.includes("amazon.")) {
+      return amazonAffiliateUrl(url);
+    }
+  } catch (_e) {
+    // URL parsing failed, return original
+  }
+  return url;
+}
+
+function linkSite(url, site) {
+  return site || sourceLabel(url) || "Amazon";
+}
+
+// Normalized list of buy buttons for the review-box: one entry per product
+// url (or a search button for stale Amazon oldUrls). originalUrl is set when
+// the button is a search fallback so the template can show the old link.
+function buildBuyLinks(product) {
+  if (!product) return [];
+  const title = product.title || product.name || "";
+  const links = [];
+
+  const pushLink = (url, site, displayOriginal) => {
+    if (!url) return;
+    let href;
+    let originalUrl;
+    if (isAliexpressItemUrl(url)) {
+      const resolved = aliExpressLinks.resolveAliExpress(url, title);
+      href = resolved.href;
+      if (resolved.kind === "search") originalUrl = url;
+    } else {
+      href = applyAffiliateUrl(url, title);
+    }
+    if (displayOriginal) originalUrl = displayOriginal;
+    links.push({
+      href,
+      site: linkSite(url, site),
+      favicon: favicons.faviconUrl(favicons.hostForUrl(url)),
+      originalUrl: originalUrl || null,
+    });
+  };
+
+  if (product.urls && product.urls.length) {
+    for (const link of product.urls) {
+      pushLink(link.url, link.site || product.site, null);
+    }
+  } else if (product.url) {
+    pushLink(product.url, product.site, null);
+  } else if (product.oldUrl && isAmazonUrl(product.oldUrl) && title) {
+    pushLink(amazonSearchUrl(title), "Amazon", product.oldUrl);
+  }
+  return links;
+}
+
+function reviewFaviconHosts() {
+  const hosts = ["amazon.com", "aliexpress.com"];
+  for (const data of aliExpressLinks.collectReviewData()) {
+    const product = data && data.product;
+    if (!product) continue;
+    hosts.push(favicons.hostForUrl(product.url));
+    hosts.push(favicons.hostForUrl(product.oldUrl));
+    if (Array.isArray(product.urls)) {
+      for (const link of product.urls) hosts.push(favicons.hostForUrl(link && link.url));
+    }
+  }
+  return hosts;
+}
+
 module.exports = function (eleventyConfig) {
   const settings = {
     dir: {
@@ -133,7 +225,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/CNAME");
   eleventyConfig.addPassthroughCopy("src/.nojekyll");
   eleventyConfig.addPassthroughCopy("src/*.jpg");
-  eleventyConfig.addPassthroughCopy("src/src-images");
   eleventyConfig.addPassthroughCopy("src/styles");
   eleventyConfig.addPassthroughCopy("src/**/*.jpg");
   eleventyConfig.addPassthroughCopy("src/**/*.png");
@@ -170,29 +261,27 @@ module.exports = function (eleventyConfig) {
       });
   });
 
-  eleventyConfig.addGlobalData("amazonSearchUrl", () => {
-    return (query) => `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=nathananderin-20`;
-  });
+  eleventyConfig.addGlobalData("amazonSearchUrl", () => amazonSearchUrl);
 
   eleventyConfig.addGlobalData("affiliateUrl", () => {
-    return (url) => {
-      if (typeof url !== "string") return url;
-      try {
-        const urlObj = new URL(url);
-        if (urlObj.hostname.includes("amazon.")) {
-          urlObj.searchParams.set("tag", "nathananderin-20");
-          return urlObj.toString();
-        }
-      } catch (_e) {
-        // URL parsing failed, return original
-      }
-      return url;
-    };
+    return (url, title) => applyAffiliateUrl(url, title);
+  });
+
+  eleventyConfig.addGlobalData("buyLinks", () => {
+    return (product) => buildBuyLinks(product);
   });
 
   eleventyConfig.addShortcode("siteUrl", () => "https://www.nathananderin.com");
 
   eleventyConfig.addShortcode("buildDate", () => new Date().toUTCString());
+
+  // Append any AliExpress product/search links we still don't have tracking
+  // links for to data/ali_express_links.csv (idempotent), and make sure a
+  // local favicon exists for every site referenced by a review.
+  eleventyConfig.on("eleventy.before", async () => {
+    aliExpressLinks.updateUploadCsv();
+    await favicons.ensureFavicons(reviewFaviconHosts());
+  });
 
   // Generate 200px-wide JPEG thumbnails for every image in each review
   // directory, written into _site/reviews/<slug>/thumbs/. The review-card

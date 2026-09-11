@@ -25,30 +25,20 @@ cssClass: review single
         {% endif %}
             {% if product and (product.title or product.name) %}<h2>{{ product.title or product.name }}</h2>{% endif %}
             {% if product and product.price %}<p class="product-price">Price: {% if product.price is number %}${{ product.price | money }}{% else %}{{ product.price }}{% endif %}</p>{% endif %}
-            {% if product and product.urls and product.urls.length %}
+            {% set buys = buyLinks(product) %}
+            {% if buys.length %}
             <p>
-                {% for link in product.urls %}
-                <a class="btn btn-primary btn-buy" href="{{ affiliateUrl(link.url) }}" target="_blank" rel="nofollow sponsored noopener">
-                    <i class="fa fa-cart-shopping"></i> Buy from {{ link.site or product.site or 'Amazon' }}
+                {% for buy in buys %}
+                <a class="btn btn-primary btn-buy" href="{{ buy.href }}" target="_blank" rel="nofollow sponsored noopener">
+                    {% if buy.favicon %}<img class="site-favicon" src="{{ buy.favicon }}" alt="" width="16" height="16">{% endif %}
+                    {{ buy.site }}
                 </a>
                 {% endfor %}
             </p>
-            {% elif product and product.url %}
-            <p>
-                <a class="btn btn-primary btn-buy" href="{{ affiliateUrl(product.url) }}" target="_blank" rel="nofollow sponsored noopener">
-                    <i class="fa fa-cart-shopping"></i> Buy from {{ product.site or 'Amazon' }}
-                </a>
-            </p>
-            {% elif product and product.oldUrl and isAmazonUrl(product.oldUrl) and (product.title or product.name) %}
-            <p>
-                <a class="btn btn-primary btn-buy" href="{{ amazonSearchUrl(product.title or product.name) }}" target="_blank" rel="nofollow sponsored noopener">
-                    <i class="fa fa-magnifying-glass"></i> Search Amazon for {{ product.title or product.name }}
-                </a>
-            </p>
+            {% for buy in buys %}{% if buy.originalUrl %}<p>Original URL: <code>{{ buy.originalUrl }}</code></p>{% endif %}{% endfor %}
             {% endif %}
             {% if orderDate %}<p>Ordered on: {{ orderDate }}</p>{% endif %}
             {% if reviewDate %}<p>Reviewed on: {{ reviewDate }}</p>{% endif %}
-            {% if product and product.oldUrl %}<p>Original URL: <code>{{ product.oldUrl }}</code></p>{% endif %}
         </div>
     </div>
 </div>

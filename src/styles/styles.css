@@ -141,4 +141,12 @@ ul.links li.text {
     margin: 0 8px 4px 0;
 }
 
+.btn-buy .site-favicon {
+    height: 16px;
+    width: auto;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: -2px;
+}
+
 .affiliate { margin-top: 30px; }

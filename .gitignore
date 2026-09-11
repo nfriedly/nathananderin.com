@@ -3,3 +3,4 @@ _site/
 .npm-cache/
 .DS_Store
 *.log
+data/links-to-upload.csv
