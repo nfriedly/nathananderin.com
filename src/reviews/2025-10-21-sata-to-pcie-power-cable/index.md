@@ -9,6 +9,7 @@ product:
   title: "SATA 2x15Pin to Graphics card PCI-e PCIE 6/8 Pin Video Card Power Supply Cable 6/8pin to Dual Sata Y Splitter Adapter 18CM 18AWG"
   price: "US $1.77"
   site: AliExpress
+  url: "https://www.aliexpress.com/item/3256804050745036.html"
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8205582465426022"
 orderId: "8205582465416022"
 images:

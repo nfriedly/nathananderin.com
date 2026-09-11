@@ -9,6 +9,7 @@ product:
   title: "USB 3.0 HUB 4 Port Multi USB 3.0 Splitter Hub With USB C Charging Port Power Adapter Multiple Type C Expander Dock For Laptop PC"
   price: "US $2.93"
   site: AliExpress
+  url: "https://www.aliexpress.com/item/3256809727797716.html"
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8205454448326022"
 orderId: "8205454448316022"
 images:

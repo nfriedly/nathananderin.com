@@ -9,6 +9,7 @@ product:
   title: "RGEEK 50cm Type-E To USB-C Type C Female Connector USB 3.1 Front Panel Header Extension Wire Cable +Panel Mount Screw"
   price: "US $5.25"
   site: AliExpress
+  url: "https://www.aliexpress.com/item/3256807684298551.html"
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8203383708786022"
 orderId: "8203383708776022"
 images:

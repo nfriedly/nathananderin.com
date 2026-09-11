@@ -9,7 +9,7 @@ product:
   title: "USB C 3.1 Gen2 10Gbps Extension Cable Type C to C PD 100W QC4.0 3.0 5A Fast Charging Cable For MacBook Pro 4k 60Hz Video Cable"
   price: "US $4.02"
   site: AliExpress
-  url: https://www.aliexpress.us/item/3256803753526454.html
+  url: "https://www.aliexpress.com/item/3256803753526454.html"
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8203383708806022"
 orderId: "8203383708796022"
 images:

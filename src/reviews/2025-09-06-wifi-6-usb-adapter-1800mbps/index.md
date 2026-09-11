@@ -9,6 +9,7 @@ product:
   title: "1800Mbps WiFi 6 USB Adapter 5G/2.4GHz USB3.0 Wi-fi Dongle Wireless 802.11ax Network Card High Gain Antenna For Windows 10 11"
   price: "US $5.40"
   site: AliExpress
+  url: "https://www.aliexpress.com/item/3256808035010583.html"
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8204429349876022"
 orderId: "8204429349866022"
 images:

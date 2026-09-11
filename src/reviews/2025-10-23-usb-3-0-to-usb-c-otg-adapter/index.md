@@ -9,6 +9,7 @@ product:
   title: "USB 3.0 To Type C Adapter OTG Type C Male To USB Female Converter For Laptop Xiaomi Samsung USBC Adaptador usb a tipo c"
   price: "US $2.34"
   site: AliExpress
+  url: "https://www.aliexpress.com/item/3256805455145768.html"
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8205454448266022"
 orderId: "8205454448256022"
 images:
