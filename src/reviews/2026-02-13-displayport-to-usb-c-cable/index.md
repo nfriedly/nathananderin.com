@@ -12,11 +12,6 @@ product:
   price: 6.99
   url: "https://www.amazon.com/dp/B0GDQV2TWB"
   title: "DisplayPort to USB C Cable 6.6FT, 4K@60Hz DP to USB-C Adapter with Power Supply & Touch Support, DP Male to Type-C Male Converter for Studio Display, AR Glasses Xreal, Nreal Air VR, Portable Monitor"
-images:
-  product: product.jpg
-  photos:
-    - photo-1.jpg
-    - photo-2.jpg
 tags:
   - tech
   - cable
@@ -32,7 +27,3 @@ The housing is fairly chunky at about 20mm across, 38mm long, and 11-14mm deep d
 There is a modest amount of strain relief (8.5mm), and the cable itself is fairly thin (5mm) and flexible.
 
 All-in-all, it's a pretty good cable for $7.
-
-![review photo 1](photo-1.jpg)
-
-![review photo 2](photo-2.jpg)

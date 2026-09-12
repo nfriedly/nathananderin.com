@@ -11,10 +11,6 @@ product:
   url: "https://www.amazon.com/dp/1153137011"
   oldUrl: https://www.amazon.com/dp/1153137011
   title: "The Rise and Fall of Prohibition; The Human Side of What the Eighteenth Amendment and the Volstead Act Have Done to the United States"
-images:
-  product: 
-  photos:
-    []
 tags:
   - book
   - history

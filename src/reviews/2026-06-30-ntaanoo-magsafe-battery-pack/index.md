@@ -12,14 +12,6 @@ product:
   price: 9.99
   url: "https://www.amazon.com/dp/B0GFLT9255"
   title: "Ntaanoo for iPhone MagSafe Battery Pack, Magnetic Power Bank, Wireless Portable Charger 5000mAh, 20W Powerbank Compatible with iPhone 17/16/15/14/13/12 Only"
-images:
-  product: product.jpg
-  photos:
-    - photo-1.jpg
-    - photo-2.jpg
-    - photo-3.jpg
-    - photo-4.jpg
-    - photo-5.jpg
 tags:
   - tech
   - power-bank
@@ -36,13 +28,3 @@ The magnet's strength seems "just right" - strong enough that it won't fall off 
 It can both charge and discharge over USB-C so that's a good option if the heat is a concern. It can also charge two phones at once if you do it that way - I tested it with my Pixel connected to USB and a iPhone 15 Pro connected magnetically and both reported charging at the same time!
 
 While I have some concerns about the heat, the convenience of this thing really won me over and I find myself using it more often than any other power bank.
-
-![review photo 1](photo-1.jpg)
-
-![review photo 2](photo-2.jpg)
-
-![review photo 3](photo-3.jpg)
-
-![review photo 4](photo-4.jpg)
-
-![review photo 5](photo-5.jpg)

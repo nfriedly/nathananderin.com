@@ -12,14 +12,6 @@ product:
   price: 12.99
   url: "https://www.amazon.com/dp/B0G6K792FK"
   title: "FJHEPERPOO 240W USB C to USB C Cable, 2-Pack 3.3ft, Nylon | Fast Charging, iPhone 17 16 15 Pro Max Compatible, MacBook Pro/Air Compatible, iPad Pro Compatible, Galaxy S25 S24 Compatible"
-images:
-  product: product.jpg
-  photos:
-    - photo-1.jpg
-    - photo-2.jpg
-    - photo-3.jpg
-    - photo-4.jpg
-    - photo-5.jpg
 tags:
   - tech
   - cable
@@ -40,13 +32,3 @@ It's labeled 240W on one end, which I appreciate. Labeling the other end would a
 The cable is braided and flexible and feels pretty nice. It's about 4.5mm thick. The housing measures 6.3 x 10.6mm, which is small enough to fit in my phone's case easily. It's 20.3mm long, enough to get a good grip on. There is no strain relief at all. Each cable has a nice velcro strap to wrap it up.
 
 All in all, the cable is mostly fine, but if it confused my cable tester, then there's a reasonable chance that it will confuse other devices too, so I can't give it a full 5 stars.
-
-![review photo 1](photo-1.jpg)
-
-![review photo 2](photo-2.jpg)
-
-![review photo 3](photo-3.jpg)
-
-![review photo 4](photo-4.jpg)
-
-![review photo 5](photo-5.jpg)

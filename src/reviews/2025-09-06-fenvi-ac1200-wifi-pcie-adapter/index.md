@@ -12,17 +12,9 @@ product:
   url: "https://www.aliexpress.com/item/3256807396053775.html"
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8204429349856022"
 orderId: "8204429349846022"
-images:
-  product: product.webp
-
-  photos:
-    - photo-1.webp
 tags:
   - tech
   - wifi
   - computer
 ---
-
 Works good, real-world download speeds of ~725mbps! Windows 11 has a built-in driver. The way the antennas are connected to the bracket makes it a bit more work to swap between half-height and full-height, but it is do-able, and the half-height bracket is included. Bluetooth appeared to work, although I didn't actually test it.
-
-![review photo 1](photo-1.webp)

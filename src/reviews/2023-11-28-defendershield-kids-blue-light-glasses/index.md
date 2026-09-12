@@ -10,10 +10,6 @@ product:
   name: DefenderShield Blue Light Glasses (Kids)
   url: "https://www.amazon.com/dp/B08C1QTMDF"
   title: "DefenderShield Blue Light Blocking Glasses Kid Series for Computer, Mobile, Gaming, Sleep-Purple - Anti Eye Strain, Headache"
-images:
-  product: product.jpg
-  photos:
-    []
 tags:
   - kids
   - glasses

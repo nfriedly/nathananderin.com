@@ -12,12 +12,9 @@ product:
   url: "https://www.aliexpress.com/item/3256806645594282.html"
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8205454448286022"
 orderId: "8205454448276022"
-images:
-  product: product.webp
 tags:
   - tech
   - raspberry-pi
   - case
 ---
-
 Works great! My Pi zero 2w fits perfectly. I didn't realize that there's no way to remove the microSD card while it's in the case, but I guess that's a feature for some folks. I haven't tested the camera cable.

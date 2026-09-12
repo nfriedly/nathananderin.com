@@ -12,19 +12,9 @@ product:
   url: https://www.aliexpress.com/item/3256806718235771.html
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8204429349836022"
 orderId: "8204429349826022"
-images:
-  product: product.webp
-
-  photos:
-    - photo-1.webp
-    - photo-2.webp
 tags:
   - tech
   - wifi
   - computer
 ---
-
 Works great! Real-world download speeds of nearly 2Gbps on my LAN, and 565Mbps on the internet! I also, appreciate that it includes the low-profile adapter (which is fairly easy to install), the internal USB cable (for BT?), and even some extra screws. Bluetooth appeared to work, although I didn't actually test it. Aside from the nonsense "5374Mbps" advertising, I'm very happy with it.
-
-![review photo 1](photo-1.webp)
-![review photo 2](photo-2.webp)

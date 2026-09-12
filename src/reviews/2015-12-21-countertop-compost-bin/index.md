@@ -11,10 +11,6 @@ product:
   title: Chef'n 401-420-120 EcoCrock Counter Compost Bin Black and White 3.3 liter 1
   url: https://www.amazon.com/dp/B006LWR2RU
   oldUrl: "https://www.amazon.com/dp/B00MTLGAQQ"
-images:
-  product: 
-  photos:
-    []
 tags:
   - kitchen
   - compost

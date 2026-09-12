@@ -12,14 +12,6 @@ product:
   price: 12.99
   url: "https://www.amazon.com/dp/B0G6594BY6"
   title: "aceyoon 240W USB C to USB C Short Cable, 5 Inch Keychain Design, USB4.0 80Gbps, PD3.1, 8K@60Hz, Thunderbolt 4/3 Compatible, for Laptop & Tablet"
-images:
-  product: product.jpg
-  photos:
-    - photo-1.jpg
-    - photo-2.jpg
-    - photo-3.jpg
-    - photo-4.jpg
-    - photo-5.jpg
 tags:
   - tech
   - cable
@@ -44,13 +36,3 @@ The cap / keychain connector has a surprisingly strong grip on the cable. I was 
 The little metal carabiner-like connector also feels fairly sturdy and reliable.
 
 All-in-all, I'm very happy with this cable. It's going to come with me on a regular basis, and just by virtue of having it on me, I think it's going to see a lot of use.
-
-![review photo 1](photo-1.jpg)
-
-![review photo 2](photo-2.jpg)
-
-![review photo 3](photo-3.jpg)
-
-![review photo 4](photo-4.jpg)
-
-![review photo 5](photo-5.jpg)

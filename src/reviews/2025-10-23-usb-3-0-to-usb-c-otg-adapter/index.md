@@ -12,18 +12,9 @@ product:
   url: "https://www.aliexpress.com/item/3256805455145768.html"
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8205454448266022"
 orderId: "8205454448256022"
-images:
-  product: product.webp
-
-  photos:
-    - photo-1.webp
-
 tags:
   - tech
   - adapter
   - usb-c
 ---
-
 They're only USB 2.0, not 3.0. They don't even have the extra pins for USB 3.0, and if you try to transfer files, the best you can get is about 40MB/s, even with an external SSD that can do 800-900MB/s with a real USB 3.0 adapter. I didn't test the 10A claim, but I don't know of any chargers that can output more than 3A on a USB Type-A port, so it's probably fine in that regard.
-
-![review photo 1](photo-1.webp)

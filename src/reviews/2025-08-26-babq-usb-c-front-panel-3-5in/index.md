@@ -12,12 +12,9 @@ product:
   url: "https://www.aliexpress.com/item/3256808339279217.html"
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8203383708746022"
 orderId: "8203383708736022"
-images:
-  product: product.webp
 tags:
   - tech
   - computer
   - usb-c
 ---
-
 Works great! I can only get 5gbps out of the USB-C port, but that's a limitation of my motherboard, I assume this would operate faster if my motherboard could. Shipped 2 days after placing the order, and arrived in Ohio 9 days after placing the order.

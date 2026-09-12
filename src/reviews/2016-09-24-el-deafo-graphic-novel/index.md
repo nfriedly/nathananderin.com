@@ -10,10 +10,6 @@ product:
   name: "El Deafo: A Graphic Novel"
   url: "https://www.amazon.com/dp/B00LW8U2UM"
   title: "El Deafo: A Graphic Novel"
-images:
-  product: product.jpg
-  photos:
-    []
 tags:
   - book
   - graphic-novel

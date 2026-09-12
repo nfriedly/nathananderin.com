@@ -10,10 +10,6 @@ product:
   name: Anker Astro E1 5200mAh Power Bank
   url: "https://www.amazon.com/dp/B00P7N0320"
   title: "Anker Astro E1 5200mAh Candy bar-Sized Ultra Compact Portable Charger (External Battery Power Bank) with High-Speed Charging PowerIQ Technology (Black)"
-images:
-  product: product.jpg
-  photos:
-    []
 tags:
   - tech
   - power-bank

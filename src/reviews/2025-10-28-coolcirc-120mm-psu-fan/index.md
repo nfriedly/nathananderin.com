@@ -12,12 +12,9 @@ product:
   url: "https://www.aliexpress.com/item/3256808709819558.html"
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8205268486536022"
 orderId: "8205268486526022"
-images:
-  product: product.webp
 tags:
   - tech
   - computer
   - fan
 ---
-
 Works great, brought new life to an old PSU.

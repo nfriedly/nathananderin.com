@@ -11,10 +11,6 @@ product:
   title: Epsoak Epsom Salt 19 lb. Magnesium Sulfate USP. Resealable Epsom Salt Bag Unscented, Made in The USA, Cruelty-Free Certified 
   url: https://www.amazon.com/Epsoak-Epsom-Magnesium-Sulfate-Resealable/dp/B004N7DQHA
   oldUrl: "https://www.amazon.com/dp/B0091WDQS6"
-images:
-  product: 
-  photos:
-    []
 tags:
   - bath
   - wellness

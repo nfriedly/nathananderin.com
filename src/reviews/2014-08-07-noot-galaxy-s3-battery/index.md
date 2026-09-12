@@ -13,9 +13,6 @@ product:
     I747(AT&T), T999(T-Mobile), R530(U.S. Cellular), L710(Sprint), Fits
     EB-L1G6LLU
   oldUrl: 'https://www.amazon.com/dp/B00HVLNST6'
-images:
-  product: null
-  photos: []
 tags:
   - tech
   - phone

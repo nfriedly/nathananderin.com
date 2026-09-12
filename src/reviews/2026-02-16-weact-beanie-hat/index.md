@@ -12,11 +12,6 @@ product:
   price: 9.98
   url: "https://www.amazon.com/dp/B0G6JP2VN3"
   title: "WEACT Beanie for Women Mens Winter Hats Comfy Soft Skull Caps Fashion Accessories Gifts for Men Women"
-images:
-  product: product.jpg
-  photos:
-    - photo-1.jpg
-    - photo-2.jpg
 tags:
   - clothing
   - winter
@@ -28,7 +23,3 @@ This was a day when it got above freezing and things were just starting to melt.
 I'm also a fan of the teal blue color, I think it looks nice, but I also think it's a color that stands out without screaming "high visibility".
 
 All told, I'm very happy with this hat.
-
-![review photo 1](photo-1.jpg)
-
-![review photo 2](photo-2.jpg)

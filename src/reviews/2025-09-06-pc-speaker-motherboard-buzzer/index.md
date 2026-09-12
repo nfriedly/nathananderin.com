@@ -12,12 +12,9 @@ product:
   url: "https://www.aliexpress.com/item/3256809092450988.html"
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8204394306926022"
 orderId: "8204394306916022"
-images:
-  product: product.webp
 tags:
   - tech
   - computer
   - audio
 ---
-
 Beep! Works great, helps with debugging when you don't have a video signal.

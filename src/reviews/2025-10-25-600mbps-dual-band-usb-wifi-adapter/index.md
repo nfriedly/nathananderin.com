@@ -12,12 +12,9 @@ product:
   url: "https://www.aliexpress.com/item/3256809169437893.html"
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8205058755426022"
 orderId: "8205058755416022"
-images:
-  product: product.webp
 tags:
   - tech
   - wifi
   - usb
 ---
-
 Windows 11 has a built-in driver so it just works, no need to run some sketch exe. Gets about 300mbps in real-world conditions.

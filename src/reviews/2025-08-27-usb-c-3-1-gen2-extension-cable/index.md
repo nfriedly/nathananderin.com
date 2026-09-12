@@ -12,12 +12,9 @@ product:
   url: "https://www.aliexpress.com/item/3256803753526454.html"
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8203383708806022"
 orderId: "8203383708796022"
-images:
-  product: product.webp
 tags:
   - tech
   - cable
   - usb-c
 ---
-
 Works, and at the correct speed. I tested with a ESD310 USB SSD connected via this extension cable - about 950MB/s (7.6gbps) via the cable vs 980MB/s (7.84gbps) when connected directly to my laptop.

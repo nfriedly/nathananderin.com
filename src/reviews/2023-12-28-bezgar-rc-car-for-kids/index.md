@@ -10,10 +10,6 @@ product:
   name: BEZGAR RC Car (1:14 Truck)
   url: "https://www.amazon.com/dp/B0040UTBHY"
   title: "BEZGAR RC Cars for Boys - 1:14 Off Road RC Truck with LED Headlight | 2.4GHz steady wireless signal, shock-absorbing suspension, bright front lamp, fun toy for kids & adult beginners"
-images:
-  product: product.jpg
-  photos:
-    []
 tags:
   - kids
   - rc

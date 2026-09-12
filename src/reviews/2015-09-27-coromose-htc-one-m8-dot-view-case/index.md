@@ -10,10 +10,6 @@ product:
   name: Coromose Dot View Case (HTC One M8)
   url: "https://www.amazon.com/dp/B00NAMMI5U"
   title: "Coromose Gray Ultra Thin Dot View Flip Leather Case for HTC One M8"
-images:
-  product: product.jpg
-  photos:
-    []
 tags:
   - tech
   - phone

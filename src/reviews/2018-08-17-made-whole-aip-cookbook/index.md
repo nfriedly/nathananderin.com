@@ -10,10 +10,6 @@ product:
   name: "Made Whole: More Than 145 Anti-Inflammatory Keto-Paleo Recipes to Nourish You from the Inside Out"
   url: "https://www.amazon.com/dp/1628602945"
   title: "Made Whole: More Than 145 Anti-Inflammatory Keto-Paleo Recipes to Nourish You from the Inside Out"
-images:
-  product: product.jpg
-  photos:
-    []
 tags:
   - cookbook
   - food

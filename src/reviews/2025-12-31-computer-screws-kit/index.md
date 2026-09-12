@@ -13,8 +13,6 @@ product:
     Short Kit PC Radiator Mount Screw Computer Chassis Fans Components
     #6-32x30mm 30PCS / M5x10mm 30PCS
   oldUrl: 'https://www.amazon.com/dp/B0F4MWTLPC'
-images:
-  product: product.jpg
 tags:
   - tech
   - computer

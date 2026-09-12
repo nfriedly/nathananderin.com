@@ -12,14 +12,6 @@ product:
   price: 14.99
   url: "https://www.amazon.com/dp/B0GCCCWKPN"
   title: "BQKOZFIN Large Capacity Sturdy Trunk Storage Organizer, Water Resistant Collapsible Organization Container, Multi-Compartment Car or SUV Accessories, Black"
-images:
-  product: product.jpg
-  photos:
-    - photo-1.jpg
-    - photo-2.jpg
-    - photo-3.jpg
-    - photo-4.jpg
-    - photo-5.jpg
 tags:
   - car
   - organization
@@ -35,13 +27,3 @@ I think all the little pockets on the one side might get more use if it did beco
 The asking price of $20 seems OK, although certainly not the lowest on the market.
 
 Overall, I'm pretty happy with it and I think it serves its purpose well.
-
-![review photo 1](photo-1.jpg)
-
-![review photo 2](photo-2.jpg)
-
-![review photo 3](photo-3.jpg)
-
-![review photo 4](photo-4.jpg)
-
-![review photo 5](photo-5.jpg)

@@ -12,11 +12,6 @@ product:
   price: 8.99
   url: "https://www.amazon.com/dp/B0FXTZ9YMK"
   title: "USB C to 3.5mm Audio Headphone Adapter - HiFi Compatible with Apple iPhone 17 16/16 Pro/15/15 Pro/Pro Max/Plus Type C Aux Audio Dongle Cable Cord Compatible with iPad, Samsung Galaxy S23/S23/（3 Pack）"
-images:
-  product: product.jpg
-  photos:
-    - photo-1.jpg
-    - photo-2.jpg
 tags:
   - tech
   - audio
@@ -40,7 +35,3 @@ The connector body / housing on the USB-C end is fairly slim, about 6mm thick an
 These adapters seem pretty durable. Time will tell, but the adapters have good strain relief (bendy rubber bits on either end) and the cable itself is a decently thick braided cable that feels pretty good.
 
 $9 for three of these feels like a great deal - Apple charges that much for just one, and it looks less durable than these!
-
-![review photo 1](photo-1.jpg)
-
-![review photo 2](photo-2.jpg)

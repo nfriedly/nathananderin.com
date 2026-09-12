@@ -10,19 +10,6 @@ product:
   name: USB-C cables (4-pack)
   price: 7.49
   url: "https://www.amazon.com/dp/B0G35K252Q"
-images:
-  product: 
-  photos:
-    - photo-1.jpg
-    - photo-2.jpg
-    - photo-3.jpg
-    - photo-4.jpg
-    - photo-5.jpg
-    - photo-6.jpg
-    - photo-7.jpg
-    - photo-8.jpg
-    - photo-9.jpg
-    - photo-10.jpg
 tags:
   - tech
   - cable
@@ -39,23 +26,3 @@ The cables are about 3'1" long + a bit for the connectors themselves. They are f
 The internal resistance of 174mΩ in the cable I measured is pretty good - that equates to less than 3% power loss at it's maximum charging speed.
 
 Overall these seem like decent cables and a 4-pack means you're more likely to have one when you need it!
-
-![review photo 1](photo-1.jpg)
-
-![review photo 2](photo-2.jpg)
-
-![review photo 3](photo-3.jpg)
-
-![review photo 4](photo-4.jpg)
-
-![review photo 5](photo-5.jpg)
-
-![review photo 6](photo-6.jpg)
-
-![review photo 7](photo-7.jpg)
-
-![review photo 8](photo-8.jpg)
-
-![review photo 9](photo-9.jpg)
-
-![review photo 10](photo-10.jpg)

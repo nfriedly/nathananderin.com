@@ -10,10 +10,6 @@ product:
   name: Weller WESD51 Digital Soldering Station
   url: "https://www.amazon.com/dp/B000ARU9PO"
   title: "Weller WESD51 Digital Soldering Station"
-images:
-  product: product.jpg
-  photos:
-    []
 tags:
   - tech
   - tool

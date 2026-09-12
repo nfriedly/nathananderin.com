@@ -12,11 +12,6 @@ product:
   price: 7.99
   url: "https://www.amazon.com/dp/B0G4VR56C2"
   title: "6FT Printer Cable to USB 2.0, High Speed USB A to USB B Cable HP Scanner/Printer Cord for Canon, Brother, Samsung, Dell, Epson, Lexmark, Xerox, and More(Black)"
-images:
-  product: product.jpg
-  photos:
-    - photo-1.jpg
-    - photo-2.jpg
 tags:
   - tech
   - cable
@@ -31,7 +26,3 @@ The cable is only USB 2.0 speed, so some devices will be limited by that, but it
 The cable is thin and flexible, but it feels sturdy enough. The connectors are easy to get a grip on and there's a reasonable amount of strain relief.
 
 $8 feels like a fair price for what you're getting.
-
-![review photo 1](photo-1.jpg)
-
-![review photo 2](photo-2.jpg)

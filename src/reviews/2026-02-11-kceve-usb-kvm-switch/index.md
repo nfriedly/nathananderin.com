@@ -12,14 +12,6 @@ product:
   price: 15.99
   url: "https://www.amazon.com/dp/B0GCDQ3NVW"
   title: "KCEVE USB3.0 Switch 2 Computers, USB Switch 2 in 1 Out for 2 Computers Share Mouse, Keyboard for 1 Monitor, Wired Remote(4K USB 2 in 1 Out KVM)"
-images:
-  product: product.jpg
-  photos:
-    - photo-1.jpg
-    - photo-2.jpg
-    - photo-3.jpg
-    - photo-4.jpg
-    - photo-5.jpg
 tags:
   - tech
   - computer
@@ -67,13 +59,3 @@ Also, it claims to support external power via the USB-C port (that you would oth
 * With a USB-A to USB-C power cable, the device remains connected to one computer, but pressing the button disconnects it from both.
 
 If you can get past all that jank, though, it could actually be helpful for sharing a single USB device between two computers. It's half-baked and poorly advertised, but it's not completely useless.
-
-![review photo 1](photo-1.jpg)
-
-![review photo 2](photo-2.jpg)
-
-![review photo 3](photo-3.jpg)
-
-![review photo 4](photo-4.jpg)
-
-![review photo 5](photo-5.jpg)

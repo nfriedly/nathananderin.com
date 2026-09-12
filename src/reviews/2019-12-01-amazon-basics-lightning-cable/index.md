@@ -11,10 +11,6 @@ product:
   url: "https://www.amazon.com/dp/B07DWD58FZ"
   
   title: "Amazon Basics USB A Cable with Lightning Connector, Premium Collection, MFi Certified Apple iPhone Charger, 3 Foot, Blue"
-images:
-  product: product.jpg
-  photos:
-    []
 tags:
   - tech
   - cable

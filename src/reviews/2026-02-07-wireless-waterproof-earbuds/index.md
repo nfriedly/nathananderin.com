@@ -13,11 +13,6 @@ product:
   price: 6.99
   url: "https://www.amazon.com/dp/B0G48S6922"
   title: "Wireless Earbuds, Bluetooth 5.5 Headphones Bass Stereo, Ear Buds with Noise Cancelling Mic, LED Display in Ear Earphones 80H Playtime, USB-C IP7 Waterproof Bluetooth Earbuds for Phones/Sports/Work"
-images:
-  product: product.jpg
-  photos:
-    - photo-1.jpg
-    - photo-2.jpg
 tags:
   - tech
   - earbuds
@@ -127,7 +122,3 @@ I didn't test the range with the "game mode" enabled, although my guess is that 
 Conclusion
 
 Overall I'm really happy with these earbuds, I now carry them with me everyday.
-
-![review photo 1](photo-1.jpg)
-
-![review photo 2](photo-2.jpg)

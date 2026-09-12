@@ -12,12 +12,9 @@ product:
   url: "https://www.aliexpress.com/item/3256806319779966.html"
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8204394307026022"
 orderId: "8204394307016022"
-images:
-  product: product.webp
 tags:
   - tech
   - wifi
   - antenna
 ---
-
 Works great; a little bit taller than the ones that came with my motherboard, which I assume gives it a better signal.

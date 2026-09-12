@@ -10,10 +10,6 @@ product:
   name: VTech DM221 Baby Monitor
   url: "https://www.amazon.com/dp/B007NG5UF4"
   title: "VTech Communications DM221 Audio Baby Monitor with up to 1,000 ft of Range, Vibrating Sound-Alert, Talk Back Intercom & Night Light Loop, White/Silver"
-images:
-  product: product.jpg
-  photos:
-    []
 tags:
   - baby
   - tech

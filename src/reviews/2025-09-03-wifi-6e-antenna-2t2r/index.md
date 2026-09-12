@@ -12,12 +12,9 @@ product:
   url: "https://www.aliexpress.com/item/3256807239720093.html"
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8204394307006022"
 orderId: "8204394306996022"
-images:
-  product: product.webp
 tags:
   - tech
   - wifi
   - antenna
 ---
-
 Works fine. The magnetic bottom is nice both for snapping it to things and for giving it a bit of weight to make it stay put on non-metal surfaces.

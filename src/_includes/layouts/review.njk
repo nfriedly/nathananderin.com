@@ -48,6 +48,31 @@ cssClass: review single
 {{ content | safe }}
 </div>
 
+{% if images and images.photos and images.photos.length %}
+<div class="review-photos row">
+  {% for photo in images.photos %}
+    {% set alt = photo | stripExt | stripLeadingNumber %}
+    {% set thumbSrc = page.url ~ "thumbs/" ~ photo | stripExt ~ ".jpg" %}
+    {% if photo.endsWith('.mp4') %}
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <figure>
+        <video controls preload="metadata" style="max-width:100%;height:auto">
+          <source src="{{ page.url }}{{ photo }}" type="video/mp4">
+        </video>
+        <figcaption>{{ alt }}</figcaption>
+      </figure>
+    </div>
+    {% else %}
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <a href="{{ page.url }}{{ photo }}" class="thumbnail" target="_blank" rel="noopener">
+        <img src="{{ thumbSrc }}" alt="{{ alt }}" loading="lazy">
+      </a>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}
+
 {% if reviewUrl %}
 <p class="review-origin">This review originally appeared on <a href="{{ affiliateUrl(reviewUrl) }}" rel="alternate">{{ reviewUrl | sourceLabel }}</a>, however nathananderin.com should be considered the canonical source as I keep it up-to-date over time.</p>
 {% endif %}

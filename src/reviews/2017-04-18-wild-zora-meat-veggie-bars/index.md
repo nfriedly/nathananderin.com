@@ -10,10 +10,6 @@ product:
   name: Wild Zora Meat & Veggie Bars (Lamb)
   url: "https://www.amazon.com/dp/B01FG0447S"
   title: "Wild Zora Meat & Veggie Bars, Mediterranean Lamb, 10-Pack, 100% Grass Fed Lamb, Healthy Jerky Paleo Snacks, AIP Friendly, Gluten Free, Soy Free, High Protein, No Added Sweetener, Lamb Jerky Snacks"
-images:
-  product: product.jpg
-  photos:
-    []
 tags:
   - food
   - snack

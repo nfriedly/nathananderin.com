@@ -10,10 +10,6 @@ product:
   name: Partyreal iPad Case (9th Gen)
   url: "https://www.amazon.com/dp/B0BP6Y6TM7"
   title: "Partyreal SSSSS9307"
-images:
-  product: product.jpg
-  photos:
-    []
 tags:
   - tech
   - tablet

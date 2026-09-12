@@ -10,10 +10,6 @@ product:
   name: "Tibetan Singing Bowl (3.5\")"
   url: "https://www.amazon.com/dp/B01A6B0ICC"
   title: "Handcrafted Tibetan Singing Bowl Set – 3.5” Sound Bowl for Meditation, Sound Healing & Yoga – Healing Instrument with Wooden Striker & Cushion – Authentic Hand-Hammered in Nepal"
-images:
-  product: product.jpg
-  photos:
-    []
 tags:
   - wellness
   - meditation

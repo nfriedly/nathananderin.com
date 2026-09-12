@@ -10,10 +10,6 @@ product:
   oldUrl: "https://www.amazon.com/dp/B00FFINXBU"
   name: "TurboTax Home and Business"
   title: "[Old Version] TurboTax Home and Business Mac Fed + e-file + State 2013"
-images:
-  product: product.jpg
-  photos:
-    []
 tags:
   - software
 ---

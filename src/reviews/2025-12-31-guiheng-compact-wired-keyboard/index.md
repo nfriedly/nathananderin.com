@@ -10,10 +10,6 @@ product:
   name: Guiheng Compact Keyboard (68-key)
   url: "https://www.amazon.com/dp/B0F21W8RBR"
   title: "Guiheng Wired Portable 60% Mechanical Feeling Gaming Keyboard,RGB LED Backlit Compact 68 Keys Mini Wired Office Keyboard for Windows Laptop PC Mac Gamer, Typist, Travel on Business Trip Black–Grey"
-images:
-  product: product.jpg
-  photos:
-    []
 tags:
   - tech
   - keyboard

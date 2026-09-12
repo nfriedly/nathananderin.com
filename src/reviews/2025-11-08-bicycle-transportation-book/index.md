@@ -10,10 +10,6 @@ product:
   name: "Bicycle Transportation, Second Edition: A Handbook for Cycling Transportation Engineers"
   url: "https://www.amazon.com/dp/0262560798"
   title: "Bicycle Transportation, Second Edition: A Handbook for Cycling Transportation Engineers"
-images:
-  product: product.jpg
-  photos:
-    []
 tags:
   - book
   - cycling

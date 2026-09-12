@@ -12,12 +12,6 @@ product:
   price: 12.99
   url: "https://www.amazon.com/dp/B0GD2B12VH"
   title: "Date Night Food Decision Dice: 3 PCS Real Wood Dice Set | Date Ideas for Couples,Dinner Dice Love Dice with Portable Gift Box,Valentines Gifts for Him Her Boyfriend Girlfriend"
-images:
-  product: product.jpg
-  photos:
-    - photo-1.jpg
-    - photo-2.jpg
-    - photo-3.jpg
 tags:
   - game
   - couples
@@ -27,9 +21,3 @@ This is a fun idea, and it feels pretty well made, but... my wife and I just are
 That said, I do think they could be good for some couples.
 
 They're made out of wood, about 30mm across, and have a lot of ideas.
-
-![review photo 1](photo-1.jpg)
-
-![review photo 2](photo-2.jpg)
-
-![review photo 3](photo-3.jpg)

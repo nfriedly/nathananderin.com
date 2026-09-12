@@ -12,14 +12,6 @@ product:
   price: 5.99
   url: "https://www.amazon.com/dp/B0GGQD32WC"
   title: "Hagibis Wedge Joint USB-C Cable, 240W Fast Charging Cable Flexible USB Type C Cable 480Mbps Data Transfer USB-C Cord for iPhone 17 16 15 Pro Max, MacBook Pro Air (Orange, 0.5FT)"
-images:
-  product: product.jpg
-  photos:
-    - photo-1.jpg
-    - photo-2.jpg
-    - photo-3.jpg
-    - photo-4.jpg
-    - photo-5.jpg
 tags:
   - tech
   - cable
@@ -40,13 +32,3 @@ The braided cable looks and feels nice and is fairly flexible.
 It's labeled with it's 240W charging speed on one side of each connector, but the other side just has it's "HAGiBiS" branding. It doesn't have the data speed anywhere.
 
 Overall, it's a good cable that does what it says.
-
-![review photo 1](photo-1.jpg)
-
-![review photo 2](photo-2.jpg)
-
-![review photo 3](photo-3.jpg)
-
-![review photo 4](photo-4.jpg)
-
-![review photo 5](photo-5.jpg)

@@ -12,12 +12,9 @@ product:
   url: "https://www.aliexpress.com/item/3256806951413197.html"
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8203383708766022"
 orderId: "8203383708756022"
-images:
-  product: product.webp
 tags:
   - tech
   - smartwatch
   - cable
 ---
-
 It works!

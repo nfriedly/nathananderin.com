@@ -12,12 +12,9 @@ product:
   url: "https://www.aliexpress.com/item/3256807684298551.html"
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8203383708786022"
 orderId: "8203383708776022"
-images:
-  product: product.webp
 tags:
   - tech
   - computer
   - usb-c
 ---
-
 Works great! I couldn't test the full speed because my motherboard doesn't support it, but 5Gbps worked fine.

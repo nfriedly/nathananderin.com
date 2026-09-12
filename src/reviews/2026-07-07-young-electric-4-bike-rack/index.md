@@ -13,18 +13,10 @@ product:
       url: "https://youngelectricbikes.com/collections/hitch-bike-rack/products/4-bike-hitch-bike-rack-easy-fold-bike-carrier-120-lbs-capacity-fits-1-25-and-2-receiver"
     - site: "Lowe's"
       url: "https://www.lowes.com/pd/Young-Electric-4-bike-rack-mount-carrier-with-2-in-or-1-1-4-in-hitch-receiver/5017175329"
-images:
-  product: product.jpg
-  photos:
-    - photo-1.jpg
-    - photo-2.jpg
-    - photo-3.jpg
-    - photo-4.jpg
 tags:
   - car
   - cycling
 ---
-
 Now that I've got it working, I really like the bike rack, but out of the box it was completely unusable. 
 
 When they welded it together, they were sloppy and a little blob of material got left inside one of the holes that the pin is supposed to slide through to lock wreck and it's upright bike carrying position. When I tried to use it, the pin would not fit in the hole at all. 
@@ -40,11 +32,3 @@ One thing to be aware of: once you remove the locking pin that lets it swing dow
 Overall, I'm not going to ding it too hard because it does feel like a pretty good value. But I wish they had done a tiny bit of Quality Assurance before shipping it out. 
 
 Oh, also, I found the product on the manufacturer's website because I wanted to know if there was a per-bike weight limit, in addition to the overall 120 lb limit. The specs on the page really confused me until I realized they were for a completely different 2-bike rack, that I assume somebody just copy-pasted and forgot to update.
-
-![review photo 1](photo-1.jpg)
-
-![review photo 2](photo-2.jpg)
-
-![review photo 3](photo-3.jpg)
-
-![review photo 4](photo-4.jpg)

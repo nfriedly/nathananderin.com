@@ -11,15 +11,12 @@ product:
   title: "Hopestar A90 700W Portable Bluetooth Party Speaker with Karaoke Microphone"
   url: "https://www.alibaba.com/product-detail/Original-Hopestar-A90-Party-Speaker-Loud_1601676691467.html"
   site: Alibaba
-images:
-  product: product.jpg
 tags:
   - tech
   - speaker
   - bluetooth
   - audio
 ---
-
 This speaker has awesome sound, impressive volume, and a ton of features.. but many of the features seem half-baked. Still, the core functionality is very solid.
 
 Over bluetooth or playing from microSD, audio sounds amazing.

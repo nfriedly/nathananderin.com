@@ -62,6 +62,14 @@ function dataTags(tags) {
   return (tags || []).filter((t) => t !== "review").join(" ");
 }
 
+function stripExt(filename) {
+  return filename.replace(/\.[^.]+$/, "");
+}
+
+function stripLeadingNumber(filename) {
+  return filename.replace(/^\d+\.\s*/, "");
+}
+
 function sourceLabel(url) {
   url = String(url).replace(/^https?:\/\//i, "").replace(/^www\./i, "");
   const host = url.split("/")[0].split(":")[0];
@@ -237,6 +245,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("money", money);
   eleventyConfig.addFilter("dataTags", dataTags);
   eleventyConfig.addFilter("sourceLabel", sourceLabel);
+  eleventyConfig.addFilter("stripExt", stripExt);
+  eleventyConfig.addFilter("stripLeadingNumber", stripLeadingNumber);
   eleventyConfig.addFilter("featuredReviews", featuredReviews);
   eleventyConfig.addFilter("countByAuthor", countByAuthor);
   eleventyConfig.addFilter("tagGroups", tagGroups);
@@ -257,6 +267,23 @@ module.exports = function (eleventyConfig) {
           const fm = splitFrontmatter(raw);
           if (fm) item.data.excerpt = makeExcerpt(fm.body);
         }
+
+        // Auto-populate images from filesystem
+        if (item.inputPath && /\.(md)$/.test(item.inputPath)) {
+          const reviewDir = path.dirname(item.inputPath);
+          if (fs.existsSync(reviewDir)) {
+            const files = fs
+              .readdirSync(reviewDir)
+              .filter((f) => /\.(jpe?g|png|webp|gif|mp4)$/i.test(f))
+              .sort();
+            const productFile = files.find((f) => /^product\./i.test(f));
+            const photoFiles = files.filter((f) => !/^product\./i.test(f));
+            item.data.images = item.data.images || {};
+            if (productFile) item.data.images.product = productFile;
+            if (photoFiles.length) item.data.images.photos = photoFiles;
+          }
+        }
+
         return item;
       });
   });

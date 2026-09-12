@@ -13,9 +13,6 @@ product:
     15600mAh Portable Power Bank with 4.8A Output and PowerIQ Technology for
     iPhone, iPad, Samsung Galaxy and More (Black)
   oldUrl: 'https://www.amazon.com/dp/B00VLNT9KW'
-images:
-  product: null
-  photos: []
 tags:
   - tech
   - power-bank

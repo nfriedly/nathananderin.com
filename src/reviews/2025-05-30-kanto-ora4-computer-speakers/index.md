@@ -11,10 +11,6 @@ product:
   name: Kanto ORA4 Desktop Speakers
   url: "https://www.amazon.com/dp/B0DH8N2S3T"
   title: "Kanto ORA4 Powered Bluetooth Desktop Speakers - Pair Matte Black"
-images:
-  product: product.jpg
-  photos:
-    []
 tags:
   - tech
   - speaker

@@ -6,9 +6,6 @@ source: purchased
 customDisclaimer: "Disclaimer: Both e-bikes were purchased with my own money."
 stars: 5
 product:
-images:
-  photos:
-    - photo-1.jpg
 tags:
   - ebike
   - tech

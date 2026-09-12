@@ -12,15 +12,6 @@ product:
   price: 8.99
   url: "https://www.amazon.com/dp/B0G13NW1F5"
   title: "USB C to DisplayPort, USBC to DP 1.4 8K@60Hz 4K@240Hz Cable 6ft, 32.4Gbps | Thunderbolt 3/4/5 to Display Port Cord for MacBook Air/Pro Laptop iPhone 17 iPad 11/10th Galaxy S26 to Monitor"
-images:
-  product: product.jpg
-  photos:
-    - photo-1.jpg
-    - photo-2.jpg
-    - photo-3.jpg
-    - photo-4.jpg
-    - photo-5.jpg
-    - photo-6.jpg
 tags:
   - tech
   - cable
@@ -39,15 +30,3 @@ The housing around the DP connector is 20.7x10.1mm, the USB-C end is 11.8x6.8mm 
 The cable is braided with a nice feel and decently thick at 5mm.
 
 There's not a lot of strain relief at either end, but overall it feels sturdy and reliable.
-
-![review photo 1](photo-1.jpg)
-
-![review photo 2](photo-2.jpg)
-
-![review photo 3](photo-3.jpg)
-
-![review photo 4](photo-4.jpg)
-
-![review photo 5](photo-5.jpg)
-
-![review photo 6](photo-6.jpg)

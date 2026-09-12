@@ -12,10 +12,6 @@ product:
   price: 21.99
   url: "https://www.amazon.com/dp/B0GCDBJ41W"
   title: "Guiheng Wired Crack Rainbow Gaming Keyboard, 104 Keys Light Up Mechanical Feeling Computer Keyboard for Windows, Laptop, PC Gamers Office Device, Travel, Easy to Carry on Business Trip,Woking(Black)"
-images:
-  product: product.jpg
-  photos:
-    - photo-1.jpg
 tags:
   - tech
   - keyboard
@@ -34,5 +30,3 @@ All that said I'm partial to the rainbow pattern (even if I would prefer it to b
 The "cracked" design is kind of meh - I like that it lets a little bit more light through, and I could imagine it fitting well with a certain build, but it isn't my thing.
 
 All in all, it's fine. I'm going to use it to type things and play games, and it works well enough for that.
-
-![review photo 1](photo-1.jpg)

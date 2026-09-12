@@ -12,12 +12,6 @@ product:
   price: 2.98
   url: "https://www.amazon.com/dp/B0G8GV5RKY"
   title: "Stainless Steel Facial Grooming Scissors, Eyebrow Nose & Beard Precision Trimming Set"
-images:
-  product: product.jpg
-  photos:
-    - photo-1.jpg
-    - photo-2.jpg
-    - photo-3.jpg
 tags:
   - grooming
   - personal-care
@@ -31,9 +25,3 @@ I tested both one out, and was satisfied with the cuts that each gave me. For th
 I also like that they're both stainless steel, so they're not going to rust just from being in a humid bathroom.
 
 Overall, I'm very happy with these and I expect they will meet my needs for sometime to come. For $3, there's really not much more you could ask for.
-
-![review photo 1](photo-1.jpg)
-
-![review photo 2](photo-2.jpg)
-
-![review photo 3](photo-3.jpg)

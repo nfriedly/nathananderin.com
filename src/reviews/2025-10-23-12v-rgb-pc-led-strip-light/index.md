@@ -12,13 +12,9 @@ product:
   url: "https://www.aliexpress.com/item/3256805490746571.html"
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8205037450256022"
 orderId: "8205037450246022"
-images:
-  product: product.webp
-
 tags:
   - tech
   - lighting
   - computer
 ---
-
 Works great! Adds a little fun to my computer. Nice for slightly older systems that only support the 4-pin 12v option.

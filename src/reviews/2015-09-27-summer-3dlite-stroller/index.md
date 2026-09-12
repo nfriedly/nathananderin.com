@@ -10,10 +10,6 @@ product:
   name: Summer 3Dlite Stroller
   url: "https://www.amazon.com/dp/B00O20OCQC"
   title: "Summer 3Dlite Convenience Stroller, Green – Lightweight Stroller with Aluminum Frame, Large Seat Area, 4 Position Recline, Extra Large Storage Basket – Infant Stroller for Travel and More"
-images:
-  product: product.jpg
-  photos:
-    []
 tags:
   - baby
   - kids

@@ -12,11 +12,6 @@ product:
   price: 6.99
   url: "https://www.amazon.com/dp/B0GC5DG371"
   title: "UVOOI USB C to VGA Cable 3FT, USB C to VGA Adapter for Monitor Compatible with (Thunderbolt 3/4/5) MacBook Pro/Air, Phone, Laptop, Projector"
-images:
-  product: product.jpg
-  photos:
-    - photo-1.jpg
-    - photo-2.jpg
 tags:
   - tech
   - cable
@@ -35,7 +30,3 @@ The USB-C housing is smaller at 12.0 x 6.5 x 26.9mm, and has only a modest bit o
 It's worth calling out that this cable cannot charge the connected device, so if it's something like a phone with only a single USB-C port, it will have to run on battery while using this cable.
 
 Overall I'm very happy with it.
-
-![review photo 1](photo-1.jpg)
-
-![review photo 2](photo-2.jpg)

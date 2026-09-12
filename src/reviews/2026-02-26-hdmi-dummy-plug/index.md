@@ -12,11 +12,6 @@ product:
   price: 4.98
   url: "https://www.amazon.com/dp/B0G34G7J86"
   title: "xieoery HDMI Dummy Plug 2K QHD EDID Emulator, 2560x1440@60Hz Virtual Display Adapter, Headless Display Dongle for Remote Desktop, GPU Rigs, Servers and Industrial PCs, Multi-Resolution EDID Support"
-images:
-  product: product.jpg
-  photos:
-    - photo-1.jpg
-    - photo-2.jpg
 tags:
   - tech
   - hdmi
@@ -29,7 +24,3 @@ Also in my case it defaulted to 1080i at 59.94hz despite being labeled "Default:
 This adapter did wake back up when I let the computer go to sleep and then woke it up again, so that was good.
 
 Overall, I'm pretty happy with it and I think it will serve its main purpose of letting me do game streaming without having to have a real monitor connected and powered on.
-
-![review photo 1](photo-1.jpg)
-
-![review photo 2](photo-2.jpg)

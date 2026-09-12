@@ -12,16 +12,6 @@ product:
   price: 15.99
   url: "https://www.amazon.com/dp/B0FRSNR831"
   title: "65W USB C Charger Fit for HP Spectre x360 Envy Chromebook Omnibook Laptop | Fast Charging Cord Type C, GaN New Slim, 10ft Braided Power AC Adapter, Travel, Protable, EliteBook, Pavilion, Elite, ProBook"
-images:
-  product: product.jpg
-  photos:
-    - photo-1.jpg
-    - photo-2.jpg
-    - photo-3.jpg
-    - photo-4.jpg
-    - photo-5.jpg
-    - photo-6.jpg
-    - photo-7.jpg
 tags:
   - tech
   - charger
@@ -60,17 +50,3 @@ The USB-C cord is about 6' long and not replaceable, which is a bit of a bummer.
 The AC cable is about 2.5' long and uses the standard IEC 60320 C5 connector (sometimes called a "Micky mouse cable"). It is replaceable, which is convenient if you need a longer or shorter one, or you're going to a country that uses a different electrical outlet. (The charger supports 100-240V input, although I only tested ~110V.)
 
 In summary, it's a good charger, suitable most use cases that call for USB-C power.
-
-![review photo 1](photo-1.jpg)
-
-![review photo 2](photo-2.jpg)
-
-![review photo 3](photo-3.jpg)
-
-![review photo 4](photo-4.jpg)
-
-![review photo 5](photo-5.jpg)
-
-![review photo 6](photo-6.jpg)
-
-![review photo 7](photo-7.jpg)

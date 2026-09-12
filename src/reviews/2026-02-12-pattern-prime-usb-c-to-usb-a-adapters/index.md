@@ -12,13 +12,6 @@ product:
   price: 4.99
   url: "https://www.amazon.com/dp/B0FRGJ5M87"
   title: "Pattern Prime USB C to USB Adapter [3 Pack] – USB 3.0 Female to Type-C Male Converter, High-Speed Data Transfer, Compatible with Thunderbolt, MacBook, iPad, iPhone, Galaxy, Surface, Dell & Chromebook"
-images:
-  product: product.jpg
-  photos:
-    - photo-1.jpg
-    - photo-2.jpg
-    - photo-3.jpg
-    - photo-4.jpg
 tags:
   - tech
   - adapter
@@ -35,11 +28,3 @@ They're about as small as feasibly possible - the main part around the USB-A por
 I tested mine with a couple of different devices, including an external SSD that I was able to connect at 10Gbps and it showed no performance loss in Crystal Disk Mark.
 
 $5 for 3 feels like a pretty good price - you can get cheaper, but they're usually janky and unreliable and/or only USB 2.0. These ones are are stable, fast, and reliable.
-
-![review photo 1](photo-1.jpg)
-
-![review photo 2](photo-2.jpg)
-
-![review photo 3](photo-3.jpg)
-
-![review photo 4](photo-4.jpg)

@@ -12,15 +12,6 @@ product:
   price: 7.99
   url: "https://www.amazon.com/dp/B0FVFQLJ99"
   title: "USB C to Mini USB Cable 6FT, Type C to Mini B Fast Charging Cord Compatible with GoPro Hero 3+, PS3 Controller, MP3 Player, Dash Cam, Garmin Nuvi GPS, Camera, GPS Receiver, Snowball iCE Mic, TI-84"
-images:
-  product: product.jpg
-  photos:
-    - photo-1.jpg
-    - photo-2.jpg
-    - photo-3.jpg
-    - photo-4.jpg
-    - photo-5.jpg
-    - photo-6.jpg
 tags:
   - tech
   - cable
@@ -37,15 +28,3 @@ The USB-C end of the connector measures 5.8 x 11.2mm for the first 1.8mm (the li
 The housing around the Mini-B end measures 11.0x6.9mm without a smaller bit by the connector.
 
 I measured the resistance of the cable at 605 mΩ, which equates to about 6% loss. That's not amazing, but at the power levels this cable could be expected to support, it's perfectly fine.
-
-![review photo 1](photo-1.jpg)
-
-![review photo 2](photo-2.jpg)
-
-![review photo 3](photo-3.jpg)
-
-![review photo 4](photo-4.jpg)
-
-![review photo 5](photo-5.jpg)
-
-![review photo 6](photo-6.jpg)

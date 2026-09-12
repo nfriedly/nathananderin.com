@@ -10,10 +10,6 @@ product:
   name: Blue Orange Gobblet Gobblers
   url: "https://www.amazon.com/dp/B00TS6PYK8"
   title: "Blue Orange Gobblet Gobblers, Plastic - Tic Tac Toe Strategy Game for Kids, Families and Adults, Educational and Award Winning"
-images:
-  product: product.jpg
-  photos:
-    []
 tags:
   - game
   - kids

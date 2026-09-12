@@ -10,10 +10,6 @@ product:
   name: "Healing Kitchen: 175+ Quick & Easy Paleo Recipes to Help You Thrive"
   url: "https://www.amazon.com/dp/1628600942"
   title: "Healing Kitchen: 175+ Quick & Easy Paleo Recipes to Help You Thrive"
-images:
-  product: product.jpg
-  photos:
-    []
 tags:
   - cookbook
   - food

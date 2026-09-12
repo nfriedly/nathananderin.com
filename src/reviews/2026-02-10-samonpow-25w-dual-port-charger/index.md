@@ -12,14 +12,6 @@ product:
   price: 9.99
   url: "https://www.amazon.com/dp/B0GC5T7SYZ"
   title: "SAMONPOW USB C Charger Block Dual Port Type C Wall Charger Fast Charging Multiport Adpater PD 25W USB-C & QC 3.0 USB-A Port Charging Block for iPhone 17/16/15/14/13/12/11/X/8, iPad, Galaxy 25/24 More"
-images:
-  product: product.jpg
-  photos:
-    - photo-1.jpg
-    - photo-2.jpg
-    - photo-3.jpg
-    - photo-4.jpg
-    - photo-5.jpg
 tags:
   - tech
   - charger
@@ -36,13 +28,3 @@ It's also worth pointing out that it can only charge at 5v when both ports are i
 Additionally, when going from 1 port in use to 2 ports, it briefly cuts power to both - even if it was already at 5v. So, probably not a great choice for powering something like Raspberry Pi that doesn't take kindly to it's power being interrupted.
 
 The artwork seems cute, it reminds me of Minnie Mouse - I think my daughter will like it.
-
-![review photo 1](photo-1.jpg)
-
-![review photo 2](photo-2.jpg)
-
-![review photo 3](photo-3.jpg)
-
-![review photo 4](photo-4.jpg)
-
-![review photo 5](photo-5.jpg)

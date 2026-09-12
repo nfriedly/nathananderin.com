@@ -10,10 +10,6 @@ product:
   name: "SCREENMAX 120\" Foldable Projector Screen with Carry Bag"
   url: "https://www.amazon.com/dp/B0DH2G3C18"
   title: "Outdoor Projector Screen with Stand, SCREENMAX 120 inch Foldable Projector Screens with Portable Carry Bag, 16:9 4k HD Rear Front Wrinkle-Free Projection Screen for Movie Night and Indoor Home Theater"
-images:
-  product: product.jpg
-  photos:
-    []
 tags:
   - tech
   - projector

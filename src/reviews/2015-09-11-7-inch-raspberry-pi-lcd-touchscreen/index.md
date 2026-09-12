@@ -10,10 +10,6 @@ product:
   name: "7\" Raspberry Pi LCD Touchscreen"
   url: "https://www.amazon.com/dp/B00XUAIP9K"
   title: "7 inch 800×480 Capacitive Touch Screen HDMI Interface Custom Raspbian LCD Monitor Mini PC Supports Raspberry Pi 4 3 2 1 Model B B+ A+ & BeagleBone Black & Banana Pi/Banana Pro @XYGStudy"
-images:
-  product: product.jpg
-  photos:
-    []
 tags:
   - tech
   - display

@@ -11,10 +11,6 @@ product:
   url: 
   oldUrl: "https://www.amazon.com/dp/B007V1VO06"
   title: "Lighting EVER Dimmable 4W GU10 LED Bulbs, 35W Equivalent, Recessed Lighting, Track Lighting, Warm White"
-images:
-  product: product.jpg 
-  photos:
-    []
 tags:
   - tech
   - lighting

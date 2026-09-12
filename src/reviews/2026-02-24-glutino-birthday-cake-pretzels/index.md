@@ -10,10 +10,6 @@ product:
   name: Glutino Birthday Cake Pretzel Twists
   url: "https://www.amazon.com/dp/B0CWW9TXKQ"
   title: "Glutino Gluten Free Birthday Cake Pretzel Twists, Gluten Free Snacks, 5.5 oz."
-images:
-  product: product.jpg
-  photos:
-    []
 tags:
   - food
   - snack

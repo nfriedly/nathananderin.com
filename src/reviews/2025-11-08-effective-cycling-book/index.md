@@ -10,10 +10,6 @@ product:
   name: Effective Cycling, seventh edition
   url: "https://www.amazon.com/dp/B08BT1JHT5"
   title: "Effective Cycling, seventh edition"
-images:
-  product: product.jpg
-  photos:
-    []
 tags:
   - book
   - cycling

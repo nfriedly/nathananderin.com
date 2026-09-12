@@ -10,10 +10,6 @@ product:
   name: "The Nutrient-Dense Kitchen: 125 Autoimmune Paleo Recipes for Deep Healing and Vibrant Health"
   url: "https://www.amazon.com/dp/0692042024"
   title: "The Nutrient-Dense Kitchen: 125 Autoimmune Paleo Recipes for Deep Healing and Vibrant Health"
-images:
-  product: product.jpg
-  photos:
-    []
 tags:
   - cookbook
   - food

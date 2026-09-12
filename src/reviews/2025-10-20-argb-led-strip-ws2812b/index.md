@@ -12,12 +12,9 @@ product:
   url: "https://www.aliexpress.com/item/3256809093129753.html"
 orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8205058755396022"
 orderId: "8205058755386022"
-images:
-  product: product.webp
 tags:
   - tech
   - lighting
   - computer
 ---
-
 Fun lights, pair it with an ARGB controller (or compatible motherboard) to add a bit of sparkle to a computer. There's adhesive on the back, which makes it fairly easy to stick to the inside of a computer and have it stay put.

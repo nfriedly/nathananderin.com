@@ -10,10 +10,6 @@ product:
   name: Hubsan X4 Quadcopter (H107L)
   url: "https://www.amazon.com/dp/B00IZC6C8E"
   title: "Hubsan X4 (H107L) 4 Channel 2.4GHz RC Quadcopter, Black"
-images:
-  product: product.jpg
-  photos:
-    []
 tags:
   - tech
   - drone

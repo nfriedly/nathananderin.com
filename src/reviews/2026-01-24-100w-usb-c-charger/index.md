@@ -12,12 +12,6 @@ product:
   price: 15.99
   url: "https://www.amazon.com/dp/B0F8JL9T6L"
   title: "SLRIOYS 100W-USB C Laptop Charger Compatible with Lenovo Thinkpad HP Dell Asus MacBook Samsung Galaxy Surface Pro 11 10 9 8 7 Universal Chromebook Replacement Power Cord and Other USB-C Devices"
-images:
-  product: product.jpg
-  photos:
-    - photo-1.jpg
-    - photo-2.jpg
-    - photo-3.jpg
 tags:
   - tech
   - charger
@@ -62,9 +56,3 @@ The AC cable is about 3' long and uses the standard IEC 60320 C5 connector
 (sometimes called a "Micky mouse cable"). It is replaceable, which is convenient if you need a longer or shorter one, or you're going to a country that uses a different electrical outlet. (The charger supports 100-240V input, although I only tested ~110V.) It's a very snug fit; it took me a couple of tries to get the plug all the way into the brick.
 
 All in all, it's a decent charger for $16.
-
-![review photo 1](photo-1.jpg)
-
-![review photo 2](photo-2.jpg)
-
-![review photo 3](photo-3.jpg)

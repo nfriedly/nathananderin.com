@@ -12,13 +12,6 @@ product:
   price: 9.99
   url: "https://www.amazon.com/dp/B0GBTNW415"
   title: "IYUANEPRO USB 2.0 9Pin to Dual 9Pin Splitter Adapter, Motherboard Header Expansion Hub, 1 to 2 Port Converter"
-images:
-  product: product.jpg
-  photos:
-    - photo-1.jpg
-    - photo-2.jpg
-    - photo-3.jpg
-    - photo-4.jpg
 tags:
   - tech
   - computer
@@ -53,11 +46,3 @@ Device Connection Speed : High-Speed
 Self powered : yes
 
 Demanded Current : 100 mA
-
-![review photo 1](photo-1.jpg)
-
-![review photo 2](photo-2.jpg)
-
-![review photo 3](photo-3.jpg)
-
-![review photo 4](photo-4.jpg)

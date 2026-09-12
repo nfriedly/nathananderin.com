@@ -10,10 +10,6 @@ product:
   name: HitLights Dura GU10 LED Bulb (5W)
   url: "https://www.amazon.com/dp/B005AW6QA6"
   title: "HitLights Dura 5W Warm White (2700K) MR16 Dimmable LED Light Bulb, GU10 Twisted Base, Equivalent to 45W Halogen, Philips 3535L Chip, 3-Year Warranty, Standard Size, UL listed"
-images:
-  product: 
-  photos:
-    []
 tags:
   - tech
   - lighting
