@@ -84,6 +84,27 @@ function authorName(author) {
   return author === "erin" ? "Erin" : "Nathan";
 }
 
+function reviewH1Title(data) {
+  if (data.title) return data.title;
+  if (data.product?.name) return data.product.name + " Review";
+  return "Review";
+}
+
+function reviewH2Title(data) {
+  if (data.title && data.product?.name) {
+    return data.product.name + " Review";
+  }
+  return null;
+}
+
+function reviewPageTitle(data) {
+  const parts = [];
+  parts.push(reviewH1Title(data));
+  const h2 = reviewH2Title(data);
+  if (h2) parts.push(h2);
+  return parts.join(" - ");
+}
+
 function isAmazonUrl(url) {
   if (typeof url !== "string") return false;
   try {
@@ -247,6 +268,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("sourceLabel", sourceLabel);
   eleventyConfig.addFilter("stripExt", stripExt);
   eleventyConfig.addFilter("stripLeadingNumber", stripLeadingNumber);
+  eleventyConfig.addFilter("reviewH1Title", reviewH1Title);
+  eleventyConfig.addFilter("reviewH2Title", reviewH2Title);
+  eleventyConfig.addFilter("reviewPageTitle", reviewPageTitle);
   eleventyConfig.addFilter("featuredReviews", featuredReviews);
   eleventyConfig.addFilter("countByAuthor", countByAuthor);
   eleventyConfig.addFilter("tagGroups", tagGroups);
@@ -283,6 +307,9 @@ module.exports = function (eleventyConfig) {
             if (photoFiles.length) item.data.images.photos = photoFiles;
           }
         }
+
+        // Set fullTitle for page <title> tag
+        item.data.fullTitle = reviewPageTitle(item.data);
 
         return item;
       });
