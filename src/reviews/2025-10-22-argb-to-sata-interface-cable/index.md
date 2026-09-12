@@ -1,17 +1,19 @@
 ---
-title: "Adds a fun little bit of pizazz to a computer when paired…"
-orderDate: "2025-10-22"
+orderDate: '2025-10-22'
 author: nathan
 source: purchased
 stars: 5
 product:
   name: ARGB Light Controller
-  title: "1/2PCS ARGB 5V 3PIN To SATA Interface Extension Cable Mini RGB Controller 3PIN Hub water-Cooling Fan Light Adapter  for PC Case"
-  price: "US $2.75"
+  title: >-
+    1/2PCS ARGB 5V 3PIN To SATA Interface Extension Cable Mini RGB Controller
+    3PIN Hub water-Cooling Fan Light Adapter  for PC Case
+  price: US $2.75
   site: AliExpress
-  url: "https://www.aliexpress.com/item/3256809680066013.html"
-orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8205058755526022"
-orderId: "8205058755516022"
+  url: 'https://www.aliexpress.com/item/3256809680066013.html'
+orderLink: >-
+  https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8205058755526022
+orderId: '8205058755516022'
 tags:
   - tech
   - cable

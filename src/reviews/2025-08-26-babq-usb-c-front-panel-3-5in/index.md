@@ -1,17 +1,19 @@
 ---
-title: "Works great! I can only get 5gbps out of the USB-C port,…"
-orderDate: "2025-08-26"
+orderDate: '2025-08-26'
 author: nathan
 source: purchased
 stars: 5
 product:
-  name: "BABQ USB-C Front Panel (3.5\")"
-  title: "BABQ USB3.2 GEN2 TYPE-C 3.5-Inch Floppy Front Panel 2 Port USB3.2 + 1 Port USB3.2 Type-C 20Gbps for 3.5 Inch Floppy Drive Bay"
-  price: "US $13.36"
+  name: BABQ USB-C Front Panel (3.5")
+  title: >-
+    BABQ USB3.2 GEN2 TYPE-C 3.5-Inch Floppy Front Panel 2 Port USB3.2 + 1 Port
+    USB3.2 Type-C 20Gbps for 3.5 Inch Floppy Drive Bay
+  price: US $13.36
   site: AliExpress
-  url: "https://www.aliexpress.com/item/3256808339279217.html"
-orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8203383708746022"
-orderId: "8203383708736022"
+  url: 'https://www.aliexpress.com/item/3256808339279217.html'
+orderLink: >-
+  https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8203383708746022
+orderId: '8203383708736022'
 tags:
   - tech
   - computer

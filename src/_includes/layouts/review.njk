@@ -5,8 +5,8 @@ cssClass: review single
 
 <p><a href="/reviews/"><i class="fa fa-arrow-left"></i> All reviews</a></p>
 
-<h1>{{ title }}</h1>
-{% if product and product.name and product.title %} <h2>{{ product.name }} Review</h2>{% endif %}
+<h1>{{ title or (product.name ~ " Review") }}</h1>
+{% if title and product and product.name %} <h2>{{ product.name }} Review</h2>{% endif %}
 <p class="review-meta">
     {{ stars | starsHtml | safe }}
     by {{ authorName(author) }} Friedly

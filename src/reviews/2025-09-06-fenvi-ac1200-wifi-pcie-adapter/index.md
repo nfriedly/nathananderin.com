@@ -1,17 +1,19 @@
 ---
-title: "Works good, real-world download speeds of ~725mbps! Windows…"
-orderDate: "2025-09-06"
+orderDate: '2025-09-06'
 author: nathan
 source: purchased
 stars: 5
 product:
   name: FENVI AC1200 WiFi PCIe Adapter
-  title: "FENVI WIFI 5 AC1200 Wireless Adapter Bluetooth 4.0 Dual Band 2.4G/5GHz PCI-E 802.11AC Network Card Lan Receiver for Win7/10/11"
-  price: "US $6.62"
+  title: >-
+    FENVI WIFI 5 AC1200 Wireless Adapter Bluetooth 4.0 Dual Band 2.4G/5GHz PCI-E
+    802.11AC Network Card Lan Receiver for Win7/10/11
+  price: US $6.62
   site: AliExpress
-  url: "https://www.aliexpress.com/item/3256807396053775.html"
-orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8204429349856022"
-orderId: "8204429349846022"
+  url: 'https://www.aliexpress.com/item/3256807396053775.html'
+orderLink: >-
+  https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8204429349856022
+orderId: '8204429349846022'
 tags:
   - tech
   - wifi

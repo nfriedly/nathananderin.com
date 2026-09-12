@@ -1,17 +1,19 @@
 ---
-title: "Works fine, real-world wifi speeds are around 160-180Mbps…"
-orderDate: "2025-09-06"
+orderDate: '2025-09-06'
 author: nathan
 source: purchased
 stars: 4
 product:
   name: WiFi 6 Mini USB Dongle (AX900)
-  title: "Wifi 6 Mini USB Dongle Network Card BT 5.4 Receiver Dongle AX900 For Win 10/11 PC Dual Band 2.4G/5Ghz"
-  price: "US $3.17"
+  title: >-
+    Wifi 6 Mini USB Dongle Network Card BT 5.4 Receiver Dongle AX900 For Win
+    10/11 PC Dual Band 2.4G/5Ghz
+  price: US $3.17
   site: AliExpress
-  url: "https://www.aliexpress.com/item/3256809093095519.html"
-orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8204429349816022"
-orderId: "8204429349806022"
+  url: 'https://www.aliexpress.com/item/3256809093095519.html'
+orderLink: >-
+  https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8204429349816022
+orderId: '8204429349806022'
 tags:
   - tech
   - wifi

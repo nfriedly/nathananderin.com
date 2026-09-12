@@ -1,17 +1,19 @@
 ---
-title: "Works, and at the correct speed. I tested with a ESD310 USB…"
-orderDate: "2025-08-27"
+orderDate: '2025-08-27'
 author: nathan
 source: purchased
 stars: 5
 product:
   name: USB-C 3.1 Gen2 Extension Cable
-  title: "USB C 3.1 Gen2 10Gbps Extension Cable Type C to C PD 100W QC4.0 3.0 5A Fast Charging Cable For MacBook Pro 4k 60Hz Video Cable"
-  price: "US $4.02"
+  title: >-
+    USB C 3.1 Gen2 10Gbps Extension Cable Type C to C PD 100W QC4.0 3.0 5A Fast
+    Charging Cable For MacBook Pro 4k 60Hz Video Cable
+  price: US $4.02
   site: AliExpress
-  url: "https://www.aliexpress.com/item/3256803753526454.html"
-orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8203383708806022"
-orderId: "8203383708796022"
+  url: 'https://www.aliexpress.com/item/3256803753526454.html'
+orderLink: >-
+  https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8203383708806022
+orderId: '8203383708796022'
 tags:
   - tech
   - cable

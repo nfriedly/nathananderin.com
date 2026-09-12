@@ -1,17 +1,19 @@
 ---
-title: "Uses USB 3.0 connectors, but has a USB 2.0 chip inside, so…"
-orderDate: "2025-10-23"
+orderDate: '2025-10-23'
 author: nathan
 source: purchased
 stars: 2
 product:
   name: 4-Port USB 3.0 Hub
-  title: "USB 3.0 HUB 4 Port Multi USB 3.0 Splitter Hub With USB C Charging Port Power Adapter Multiple Type C Expander Dock For Laptop PC"
-  price: "US $2.93"
+  title: >-
+    USB 3.0 HUB 4 Port Multi USB 3.0 Splitter Hub With USB C Charging Port Power
+    Adapter Multiple Type C Expander Dock For Laptop PC
+  price: US $2.93
   site: AliExpress
-  url: "https://www.aliexpress.com/item/3256809727797716.html"
-orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8205454448326022"
-orderId: "8205454448316022"
+  url: 'https://www.aliexpress.com/item/3256809727797716.html'
+orderLink: >-
+  https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8205454448326022
+orderId: '8205454448316022'
 tags:
   - tech
   - usb

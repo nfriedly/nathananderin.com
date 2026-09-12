@@ -1,17 +1,19 @@
 ---
-title: "Works great, an excellent way of adding a bit more…"
-orderDate: "2025-10-21"
+orderDate: '2025-10-21'
 author: nathan
 source: purchased
 stars: 5
 product:
   name: SATA to PCIe Power Cable
-  title: "SATA 2x15Pin to Graphics card PCI-e PCIE 6/8 Pin Video Card Power Supply Cable 6/8pin to Dual Sata Y Splitter Adapter 18CM 18AWG"
-  price: "US $1.77"
+  title: >-
+    SATA 2x15Pin to Graphics card PCI-e PCIE 6/8 Pin Video Card Power Supply
+    Cable 6/8pin to Dual Sata Y Splitter Adapter 18CM 18AWG
+  price: US $1.77
   site: AliExpress
-  url: "https://www.aliexpress.com/item/3256804050745036.html"
-orderLink: "https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8205582465426022"
-orderId: "8205582465416022"
+  url: 'https://www.aliexpress.com/item/3256804050745036.html'
+orderLink: >-
+  https://www.aliexpress.com/p/order/snapshot.html?tradeOrderLineId=8205582465426022
+orderId: '8205582465416022'
 tags:
   - tech
   - cable
