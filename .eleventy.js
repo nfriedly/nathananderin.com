@@ -213,6 +213,7 @@ function buildBuyLinks(product) {
     });
   };
 
+  // Add product.urls or product.url links
   if (product.urls && product.urls.length) {
     for (const link of product.urls) {
       pushLink(link.url, link.site || product.site, null);
@@ -222,6 +223,27 @@ function buildBuyLinks(product) {
   } else if (product.oldUrl && isAmazonUrl(product.oldUrl) && title) {
     pushLink(amazonSearchUrl(title), "Amazon", product.oldUrl);
   }
+
+  // Add product.search links
+  if (product.search && product.search.length) {
+    for (const searchEntry of product.search) {
+      if (typeof searchEntry === "string") {
+        // Simple keyword: "amazon" or "aliexpress"
+        if (searchEntry === "amazon") {
+          pushLink(amazonSearchUrl(title), "Amazon", null);
+        } else if (searchEntry === "aliexpress") {
+          const searchUrl = aliExpressLinks.buildSearchUrl(title);
+          if (searchUrl) pushLink(searchUrl, "AliExpress", null);
+        }
+        // Unknown keywords are ignored
+      } else if (typeof searchEntry === "object" && searchEntry.url) {
+        // Custom search URL with optional site override
+        const site = searchEntry.site || sourceLabel(searchEntry.url);
+        pushLink(searchEntry.url, site, null);
+      }
+    }
+  }
+
   return links;
 }
 
@@ -300,8 +322,8 @@ module.exports = function (eleventyConfig) {
               .readdirSync(reviewDir)
               .filter((f) => /\.(jpe?g|png|webp|gif|mp4)$/i.test(f))
               .sort();
-            const productFile = files.find((f) => /^product\./i.test(f));
-            const photoFiles = files.filter((f) => !/^product\./i.test(f));
+            const productFile = files.find((f) => /^(product|cover)\./i.test(f));
+            const photoFiles = files.filter((f) => !/^(product|cover)\./i.test(f));
             item.data.images = item.data.images || {};
             if (productFile) item.data.images.product = productFile;
             if (photoFiles.length) item.data.images.photos = photoFiles;

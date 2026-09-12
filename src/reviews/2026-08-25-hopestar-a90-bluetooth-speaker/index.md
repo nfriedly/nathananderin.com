@@ -1,7 +1,7 @@
 ---
 title: Awesome sound, half-baked features
 reviewDate: "2026-08-25"
-orderDate: 2026-06-25
+orderDate: "2026-06-25"
 author: nathan
 featured: true
 source: purchased
@@ -9,8 +9,10 @@ stars: 4
 product:
   name: Hopestar A90 Bluetooth Speaker
   title: "Hopestar A90 700W Portable Bluetooth Party Speaker with Karaoke Microphone"
-  url: "https://www.alibaba.com/product-detail/Original-Hopestar-A90-Party-Speaker-Loud_1601676691467.html"
+  oldUrl: "https://www.alibaba.com/product-detail/Original-Hopestar-A90-Party-Speaker-Loud_1601676691467.html"
   site: Alibaba
+  search:
+   - aliexpress
 tags:
   - tech
   - speaker
