@@ -5,7 +5,7 @@
     <link>https://www.nathananderin.com/reviews/</link>
     <description>Reviews of things we&apos;ve bought and used.</description>
     <atom:link href="https://www.nathananderin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 12 Sep 2026 12:04:32 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 12:49:26 GMT</lastBuildDate>
     <item>
       <title>Awesome sound, half-baked features</title>
       <link>https://www.nathananderin.com/reviews/2026-08-25-hopestar-a90-bluetooth-speaker/</link>
@@ -320,6 +320,54 @@
     </item>
     <item>
       <title></title>
+      <link>https://www.nathananderin.com/reviews/2025-10-06-thermalright-tl-s12-s-fans-3-pack/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-06-thermalright-tl-s12-s-fans-3-pack/</guid>
+      <description>I bought a 3-pack, but only two of them worked. They gave me a 1/3 refund, so I guess it&#39;s fine. My motherboard doesn&#39;t have the right connections for the RGB, it only has the 12v 4-pin, whereas this…</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://www.nathananderin.com/reviews/2025-10-06-teamgroup-mp34-4tb-nvme-ssd/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-06-teamgroup-mp34-4tb-nvme-ssd/</guid>
+      <description>This drive has been a great workhorse for a filesystem cache and running docker images from. I like that it has it&#39;s own DRAM, so it doesn&#39;t have to rely on the HMB. Also, somehow I managed to get it at…</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://www.nathananderin.com/reviews/2025-10-06-sapphire-radeon-vii-video-card/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-06-sapphire-radeon-vii-video-card/</guid>
+      <description>Awesome GPU for AI nonsense. I haven&#39;t tried gaming on it yet, but might eventually.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://www.nathananderin.com/reviews/2025-10-06-mushkin-essentials-64gb-ddr4-memory/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-06-mushkin-essentials-64gb-ddr4-memory/</guid>
+      <description>Works great. The 3200 speed is JDEC, so any system that supports it just gets it automatically, no need to turn on XMP.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://www.nathananderin.com/reviews/2025-10-06-cougar-pioneer-x-case/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-06-cougar-pioneer-x-case/</guid>
+      <description>Fine for the price I paid, and it can handle a lot of hard drives. The hot-swap drive bay on the top is a nice touch.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://www.nathananderin.com/reviews/2025-10-06-asus-strix-b350-f-motherboard/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-06-asus-strix-b350-f-motherboard/</guid>
+      <description>This MB has been great. First in my desktop, where it saw a Ryzen 1600, 2600, and 5700X3D, and now in my home file server where, combined with an LSI SAS card in IT mode, I can have 12 HDDs + an NVMe…</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://www.nathananderin.com/reviews/2025-10-06-amd-ryzen-5-2600/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-06-amd-ryzen-5-2600/</guid>
+      <description>Awesome CPU, and a great value these days. I think it&#39;s just below the cutoff for official Windows 11 support, but if you bypass the requirements check (e.g. via rufus), windows actually runs great on…</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://www.nathananderin.com/reviews/2025-10-06-adata-xpg-core-reactor-850-psu/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-06-adata-xpg-core-reactor-850-psu/</guid>
+      <description>Works great, all the cables and connectors I need and then some.</description>
+    </item>
+    <item>
+      <title></title>
       <link>https://www.nathananderin.com/reviews/2025-09-06-wifi-6-usb-adapter-1800mbps/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-09-06-wifi-6-usb-adapter-1800mbps/</guid>
       <description>It initially shows up as a USB flash drive with an exe file to install the driver, which seems a little sketchy, although VirusTotal mostly passed it (71/72 scanners said it was safe, 1 said it was…</description>
@@ -383,6 +431,36 @@
       <link>https://www.nathananderin.com/reviews/2025-08-26-babq-usb-c-front-panel-3-5in/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-08-26-babq-usb-c-front-panel-3-5in/</guid>
       <description>Works great! I can only get 5gbps out of the USB-C port, but that&#39;s a limitation of my motherboard, I assume this would operate faster if my motherboard could. Shipped 2 days after placing the order,…</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://www.nathananderin.com/reviews/2025-08-18-id-cooling-se-214-xt-cpu-cooler/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-08-18-id-cooling-se-214-xt-cpu-cooler/</guid>
+      <description>Great cooler for ~$16.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://www.nathananderin.com/reviews/2025-08-18-evga-rtx-2070-video-card/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-08-18-evga-rtx-2070-video-card/</guid>
+      <description>Great GPU, just wildly overpriced. I picked it up for just over $300 after the 20-super series launched and, honestly, that should have been the launch MSRP. It&#39;s literally the most I&#39;ve ever spent on a…</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://www.nathananderin.com/reviews/2025-08-18-dell-p2715q-monitor/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-08-18-dell-p2715q-monitor/</guid>
+      <description>Pros: beautiful, crisp picture, with excellent factory calibration. USB Hub. Two DP inputs (with a miniDP cable/adapter).</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://www.nathananderin.com/reviews/2025-08-18-crucial-ballistix-sport-lt-16gb-ddr4-memory/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-08-18-crucial-ballistix-sport-lt-16gb-ddr4-memory/</guid>
+      <description>Good RAM, served me well for years. A single 2x8gb kit works great at the advertised XMP speeds, but 2 kits (4 sticks) had to drop down to slower JDEC speeds. Might have just been the motherboard,…</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://www.nathananderin.com/reviews/2025-08-18-amd-ryzen-5-3600/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-08-18-amd-ryzen-5-3600/</guid>
+      <description>Solid gaming and all-rounder CPU. Very happy with it in general, and especially at the garage-sale price I paid for it!</description>
     </item>
     <item>
       <title>Looks good, but poor quality control makes for a bit harder assembly</title>
