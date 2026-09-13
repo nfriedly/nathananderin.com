@@ -12,6 +12,8 @@ cssClass: review single
     by {{ authorName(author) }} Friedly
 </p>
 
+<main>
+
 {% if (product and (product.name or product.title)) or (images and images.product) or reviewUrl %}
 <div class="review-box">
     <div class="row">
@@ -76,5 +78,7 @@ cssClass: review single
 {% if reviewUrl %}
 <p class="review-origin">This review originally appeared on <a href="{{ affiliateUrl(reviewUrl) }}" rel="alternate">{{ reviewUrl | sourceLabel }}</a>, however nathananderin.com should be considered the canonical source as I keep it up-to-date over time.</p>
 {% endif %}
+
+</main>
 
 {% include "partials/disclosure.njk" %}

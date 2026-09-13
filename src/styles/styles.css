@@ -120,7 +120,7 @@ ul.links li.text {
     margin: 25px 0;
 }
 .review-box h2 { margin-top: 0; font-size: 115%; }
-.review-box .stars { color: #f0a51b; }
+.review .stars { color: #f0a51b; }
 .review-box p { margin-bottom: 5px; }
 
 .disclosure {
