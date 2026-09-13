@@ -5,7 +5,7 @@
     <link>https://www.nathananderin.com/reviews/</link>
     <description>Reviews of things we&apos;ve bought and used.</description>
     <atom:link href="https://www.nathananderin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 12 Sep 2026 12:49:26 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 00:40:51 GMT</lastBuildDate>
     <item>
       <title>Awesome sound, half-baked features</title>
       <link>https://www.nathananderin.com/reviews/2026-08-25-hopestar-a90-bluetooth-speaker/</link>
@@ -272,6 +272,12 @@
     </item>
     <item>
       <title></title>
+      <link>https://www.nathananderin.com/reviews/2025-10-23-sata-psu-cable-xpg-core-reactor/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-23-sata-psu-cable-xpg-core-reactor/</guid>
+      <description>Works great.</description>
+    </item>
+    <item>
+      <title></title>
       <link>https://www.nathananderin.com/reviews/2025-10-23-raspberry-pi-zero-acrylic-case/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-23-raspberry-pi-zero-acrylic-case/</guid>
       <description>Acrylic case works and looks nice, as long as you don&#39;t mind the &quot;feet&quot; being slightly different heights, causing it to sit at an angle. Assembly was a little bit confusing and I&#39;m not sure I got it…</description>
@@ -284,14 +290,8 @@
     </item>
     <item>
       <title></title>
-      <link>https://www.nathananderin.com/reviews/2025-10-23-pcie-to-sata-psu-cable/</link>
-      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-23-pcie-to-sata-psu-cable/</guid>
-      <description>Works great.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://www.nathananderin.com/reviews/2025-10-23-12v-rgb-pc-led-strip-light/</link>
-      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-23-12v-rgb-pc-led-strip-light/</guid>
+      <link>https://www.nathananderin.com/reviews/2025-10-23-12v-rgb-pc-led-light-strip/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-23-12v-rgb-pc-led-light-strip/</guid>
       <description>Works great! Adds a little fun to my computer. Nice for slightly older systems that only support the 4-pin 12v option.</description>
     </item>
     <item>
@@ -302,8 +302,8 @@
     </item>
     <item>
       <title></title>
-      <link>https://www.nathananderin.com/reviews/2025-10-22-argb-to-sata-interface-cable/</link>
-      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-22-argb-to-sata-interface-cable/</guid>
+      <link>https://www.nathananderin.com/reviews/2025-10-22-argb-controller/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-22-argb-controller/</guid>
       <description>Adds a fun little bit of pizazz to a computer when paired with an ARGB light strip/fan/etc. I really like the default rainbow effect, and there&#39;s lots of other effects to choose from. The connector was…</description>
     </item>
     <item>
@@ -517,6 +517,12 @@
       <description>Update: after less than a week&#39;s worth of use, the steering stopped working on my son&#39;s car. It just twitches a little now instead of turning all the way over.</description>
     </item>
     <item>
+      <title>Goodenough</title>
+      <link>https://www.nathananderin.com/reviews/2023-12-04-orico-4-port-usb-3-0-hub/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2023-12-04-orico-4-port-usb-3-0-hub/</guid>
+      <description>Pros: - 2/3 of USB 3.0 speeds Light is soft and difused</description>
+    </item>
+    <item>
       <title>Hugely helpful for my son</title>
       <link>https://www.nathananderin.com/reviews/2023-11-28-defendershield-kids-blue-light-glasses/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2023-11-28-defendershield-kids-blue-light-glasses/</guid>
@@ -524,8 +530,8 @@
     </item>
     <item>
       <title>The station wagon and the batmobile!</title>
-      <link>https://www.nathananderin.com/reviews/2023-09-05-station-wagon-and-batmobile-ebikes/</link>
-      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2023-09-05-station-wagon-and-batmobile-ebikes/</guid>
+      <link>https://www.nathananderin.com/reviews/2023-09-05-radwagon-4-aventon-aventure.2-ebikes/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2023-09-05-radwagon-4-aventon-aventure.2-ebikes/</guid>
       <description>We got my wife the orange RadWagon 4 a bit over a month ago, and we both liked it so much that we decided to get a second #ebike, the blue Aventon Aventure.2.</description>
     </item>
     <item>
@@ -545,6 +551,12 @@
       <link>https://www.nathananderin.com/reviews/2019-12-24-tibetan-singing-bowl/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2019-12-24-tibetan-singing-bowl/</guid>
       <description>I have been wanting something like this for my own meditation practice. It has a beautiful tone, and has become the way I wake up my son in the morning. We both enjoy it very much. Would buy again.…</description>
+    </item>
+    <item>
+      <title>Does NOT have 60W power delivery, otherwise it&#39;s fine</title>
+      <link>https://www.nathananderin.com/reviews/2019-12-15-lg-43mu79-b-4k-monitor/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2019-12-15-lg-43mu79-b-4k-monitor/</guid>
+      <description>Pros: - Big, beautiful screen. Big enough that you don&#39;t have to scale things Identical to the LG 43UD79-B except with a better warranty (3-year vs 1-year). (Some of the specs are different, but the…</description>
     </item>
     <item>
       <title>&quot;blue&quot; is really purple</title>
@@ -677,6 +689,12 @@
       <link>https://www.nathananderin.com/reviews/2014-03-25-turbotax/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2014-03-25-turbotax/</guid>
       <description>This was my first time trying out turbotax and it seemed like it was doing a good job, but at the end, it told me that I&#39;d have to pay an extra $25 to finish filing my taxes. I was under the impression…</description>
+    </item>
+    <item>
+      <title>Suprisingly small, perfect for light usage</title>
+      <link>https://www.nathananderin.com/reviews/2014-03-20-gigabyte-gb-bxa8-5545-mini-pc/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2014-03-20-gigabyte-gb-bxa8-5545-mini-pc/</guid>
+      <description>Pros: - Surprisingly small - I was expecting something closer to the size of a mac mini, but this is significantly smaller. Extremely fast and easy to assemble, at least once you get the bottom…</description>
     </item>
     <item>
       <title>Favorite song on a great album</title>
