@@ -76,6 +76,7 @@ function sourceLabel(url) {
   const labels = {
     "amazon.com": "Amazon", "amazon.ca": "Amazon", "amazon.co.uk": "Amazon", "amazon.de": "Amazon", "amazon.fr": "Amazon",
     "aliexpress.com": "Ali Express", "alibaba.com": "Ali Baba",
+    "bhphotovideo.com": "B&H",
   };
   return labels[host] || host;
 }
