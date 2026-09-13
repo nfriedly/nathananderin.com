@@ -1,14 +1,20 @@
-<p class="disclosure">
+{% set purchasedNote = (source == 'purchase' or source == 'purchased') and not (tags is defined and 'book-review' in tags) %}
+{% set vineNote = source == 'vine' %}
+{% set affiliateNote = hasAmazonLinks(product, reviewUrl) %}
 {% if customDisclaimer %}
+<p class="disclosure">
     {{ customDisclaimer }}
-{% else %}
+</p>
+{% elif purchasedNote or vineNote or affiliateNote %}
+<p class="disclosure">
     Disclaimer:
-    {% if source == 'purchase' or source == 'purchased' %}
+    {% if purchasedNote %}
         This product was purchased with my own money.
-    {% elif source == 'vine' %}
+    {% elif vineNote %}
         This product was provided to me through the Amazon Vine program solely for my honest review. No money exchanged hands either way.
     {% endif %}
-    {% if hasAmazonLinks(product, reviewUrl) %}
+    {% if affiliateNote %}
         Some links use affiliate codes - it earns me a small percentage and costs you nothing.
     {% endif %}
-{% endif %}</p>
+</p>
+{% endif %}

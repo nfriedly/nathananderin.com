@@ -35,6 +35,7 @@ function makeExcerpt(body) {
 }
 
 function starsHtml(n) {
+  if (!n) return ""; // no stars field (or stars: 0) → render no star row at all
   let s = '<span class="stars" aria-label="' + n + ' out of 5 stars">';
   for (let i = 1; i <= 5; i++) {
     s += n >= i
@@ -59,7 +60,7 @@ function money(price) {
 }
 
 function dataTags(tags) {
-  return (tags || []).filter((t) => t !== "review").join(" ");
+  return (tags || []).filter((t) => t !== "review" && t !== "book-review").join(" ");
 }
 
 function stripExt(filename) {
@@ -85,15 +86,25 @@ function authorName(author) {
   return author === "erin" ? "Erin" : "Nathan";
 }
 
+// Heading suffix for a product name: book-section items that don't already
+// have "book" in the name get "Book Review"; everything else stays "Review"
+// (so "One Golden Summer" -> "One Golden Summer Book Review", but "The Such
+// and Such Cookbook" -> "The Such and Such Cookbook Review"). Section tag is
+// "book-review" (added by src/book-reviews/book-reviews.json dir data).
+function reviewSuffix(name, tags) {
+  const isBook = Array.isArray(tags) && tags.includes("book-review");
+  return isBook && !/book/i.test(name) ? " Book Review" : " Review";
+}
+
 function reviewH1Title(data) {
   if (data.title) return data.title;
-  if (data.product?.name) return data.product.name + " Review";
+  if (data.product?.name) return data.product.name + reviewSuffix(data.product.name, data.tags);
   return "Review";
 }
 
 function reviewH2Title(data) {
   if (data.title && data.product?.name) {
-    return data.product.name + " Review";
+    return data.product.name + reviewSuffix(data.product.name, data.tags);
   }
   return null;
 }
@@ -130,6 +141,10 @@ function featuredReviews(posts, count) {
   return posts.filter((p) => p.data.featured).slice(0, count);
 }
 
+function recentReviews(posts, count) {
+  return (posts || []).slice(0, count);
+}
+
 function countByAuthor(posts, author) {
   return posts.filter((p) => p.data.author === author).length;
 }
@@ -138,7 +153,7 @@ function tagGroups(posts) {
   const tagCounts = {};
   for (const p of posts) {
     for (const t of p.data.tags || []) {
-      if (t === "review") continue;
+      if (t === "review" || t === "book-review") continue;
       tagCounts[t] = (tagCounts[t] || 0) + 1;
     }
   }
@@ -292,9 +307,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("stripExt", stripExt);
   eleventyConfig.addFilter("stripLeadingNumber", stripLeadingNumber);
   eleventyConfig.addFilter("reviewH1Title", reviewH1Title);
+  eleventyConfig.addFilter("reviewSuffix", reviewSuffix);
   eleventyConfig.addFilter("reviewH2Title", reviewH2Title);
   eleventyConfig.addFilter("reviewPageTitle", reviewPageTitle);
   eleventyConfig.addFilter("featuredReviews", featuredReviews);
+  eleventyConfig.addFilter("recentReviews", recentReviews);
   eleventyConfig.addFilter("countByAuthor", countByAuthor);
   eleventyConfig.addFilter("tagGroups", tagGroups);
 
@@ -302,41 +319,56 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addGlobalData("isAmazonUrl", () => isAmazonUrl);
   eleventyConfig.addGlobalData("hasAmazonLinks", () => hasAmazonLinks);
 
-  // newest first; folder names are date-prefixed (YYYY-MM-DD-...) so sorting
-  // by inputPath descending sorts by date, newest review first.
-  eleventyConfig.addCollection("reviews", function (collectionApi) {
-    return collectionApi
-      .getFilteredByTag("review")
-      .sort((a, b) => String(b.inputPath).localeCompare(String(a.inputPath), undefined, { numeric: true }))
-      .map((item) => {
-        if (!item.data.excerpt && item.inputPath && /\.(md)$/.test(item.inputPath)) {
-          const raw = fs.readFileSync(item.inputPath, "utf8");
-          const fm = splitFrontmatter(raw);
-          if (fm) item.data.excerpt = makeExcerpt(fm.body);
-        }
+// newest first; folder names are date-prefixed (YYYY-MM-DD-...) so sorting
+// by inputPath descending sorts by date, newest review first.
+const byInputPathDesc = (a, b) => String(b.inputPath).localeCompare(String(a.inputPath), undefined, { numeric: true });
 
-        // Auto-populate images from filesystem
-        if (item.inputPath && /\.(md)$/.test(item.inputPath)) {
-          const reviewDir = path.dirname(item.inputPath);
-          if (fs.existsSync(reviewDir)) {
-            const files = fs
-              .readdirSync(reviewDir)
-              .filter((f) => /\.(jpe?g|png|webp|gif|mp4)$/i.test(f))
-              .sort();
-            const productFile = files.find((f) => /^(product|cover)\./i.test(f));
-            const photoFiles = files.filter((f) => !/^(product|cover)\./i.test(f));
-            item.data.images = item.data.images || {};
-            if (productFile) item.data.images.product = productFile;
-            if (photoFiles.length) item.data.images.photos = photoFiles;
-          }
-        }
+function mapReviewItem(item) {
+  // Auto-build excerpt from the review body
+  if (!item.data.excerpt && item.inputPath && /\.(md)$/.test(item.inputPath)) {
+    const raw = fs.readFileSync(item.inputPath, "utf8");
+    const fm = splitFrontmatter(raw);
+    if (fm) item.data.excerpt = makeExcerpt(fm.body);
+  }
 
-        // Set fullTitle for page <title> tag
-        item.data.fullTitle = reviewPageTitle(item.data);
+  // Auto-populate images from filesystem
+  if (item.inputPath && /\.(md)$/.test(item.inputPath)) {
+    const reviewDir = path.dirname(item.inputPath);
+    if (fs.existsSync(reviewDir)) {
+      const files = fs
+        .readdirSync(reviewDir)
+        .filter((f) => /\.(jpe?g|png|webp|gif|mp4)$/i.test(f))
+        .sort();
+      const productFile = files.find((f) => /^(product|cover)\./i.test(f));
+      const photoFiles = files.filter((f) => !/^(product|cover)\./i.test(f));
+      item.data.images = item.data.images || {};
+      if (productFile) item.data.images.product = productFile;
+      if (photoFiles.length) item.data.images.photos = photoFiles;
+    }
+  }
 
-        return item;
-      });
-  });
+  // Set fullTitle for page <title> tag
+  item.data.fullTitle = reviewPageTitle(item.data);
+
+  return item;
+}
+
+eleventyConfig.addCollection("reviews", function (collectionApi) {
+  return collectionApi.getFilteredByTag("review").sort(byInputPathDesc).map(mapReviewItem);
+});
+
+eleventyConfig.addCollection("bookReviews", function (collectionApi) {
+  return collectionApi.getFilteredByTag("book-review").sort(byInputPathDesc).map(mapReviewItem);
+});
+
+// Merged newest-first feed/homepage collection of product + book reviews
+eleventyConfig.addCollection("allReviews", function (collectionApi) {
+  return collectionApi
+    .getFilteredByTag("review")
+    .concat(collectionApi.getFilteredByTag("book-review"))
+    .sort(byInputPathDesc)
+    .map(mapReviewItem);
+});
 
   eleventyConfig.addGlobalData("amazonSearchUrl", () => amazonSearchUrl);
 
@@ -361,31 +393,40 @@ module.exports = function (eleventyConfig) {
   });
 
   // Generate 200px-wide JPEG thumbnails for every image in each review
-  // directory, written into _site/reviews/<slug>/thumbs/. The review-card
+  // directory, written into _site/<section>/<slug>/thumbs/. The review-card
   // partial references them via post.url + "thumbs/" so the list page never
   // ships the full-size images (detail pages keep the originals).
-  eleventyConfig.on("eleventy.after", async () => {
-    const reviewsSrc = path.join(__dirname, "src", "reviews");
-    const reviewsOut = path.join(__dirname, "_site", "reviews");
-    if (!fs.existsSync(reviewsSrc)) return;
+  async function thumbnailReviewsSection(srcDir, outDir, urlPrefix) {
+    if (!fs.existsSync(srcDir)) return 0;
     let thumbnailed = 0;
-    for (const slug of fs.readdirSync(reviewsSrc)) {
-      const srcDir = path.join(reviewsSrc, slug);
-      if (!fs.statSync(srcDir).isDirectory()) continue;
+    for (const slug of fs.readdirSync(srcDir)) {
+      const reviewDir = path.join(srcDir, slug);
+      if (!fs.statSync(reviewDir).isDirectory()) continue;
       const files = fs
-        .readdirSync(srcDir)
+        .readdirSync(reviewDir)
         .filter((f) => /\.(jpe?g|webp)$/i.test(f));
       for (const f of files) {
-        await eleventyImage(path.join(srcDir, f), {
+        await eleventyImage(path.join(reviewDir, f), {
           widths: [200],
           formats: ["jpeg"],
-          outputDir: path.join(reviewsOut, slug, "thumbs"),
-          urlPath: path.posix.join("/reviews", slug, "thumbs"),
+          outputDir: path.join(outDir, slug, "thumbs"),
+          urlPath: urlPrefix + slug + "/thumbs",
           filenameFormat: (_id, src, _width, _format) =>
             `${path.basename(src, path.extname(src))}.jpg`,
         });
         thumbnailed++;
       }
+    }
+    return thumbnailed;
+  }
+  eleventyConfig.on("eleventy.after", async () => {
+    const sections = [
+      [path.join(__dirname, "src", "reviews"), path.join(__dirname, "_site", "reviews"), "/reviews/"],
+      [path.join(__dirname, "src", "book-reviews"), path.join(__dirname, "_site", "book-reviews"), "/book-reviews/"],
+    ];
+    let thumbnailed = 0;
+    for (const [srcDir, outDir, urlPrefix] of sections) {
+      thumbnailed += await thumbnailReviewsSection(srcDir, outDir, urlPrefix);
     }
     if (thumbnailed) {
       console.log(`[eleventy-img] generated ${thumbnailed} thumbnails`);

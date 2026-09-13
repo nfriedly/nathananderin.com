@@ -1,0 +1,82 @@
+---
+layout: main
+title: Book Reviews
+section: books
+---
+
+<main>
+<h1>Book Reviews by Nathan and Erin</h1>
+
+<div class="review-filters">
+	<span class="review-filters-label">Filter by reviewer:</span>
+	<a class="review-filter btn btn-default btn-xs" data-author="" href="/book-reviews/">All</a>
+	<a class="review-filter btn btn-default btn-xs" data-author="nathan" href="/book-reviews/?author=nathan">Nathan <span class="badge">{{ collections.bookReviews | countByAuthor('nathan') }}</span></a>
+	<a class="review-filter btn btn-default btn-xs" data-author="erin" href="/book-reviews/?author=erin">Erin <span class="badge">{{ collections.bookReviews | countByAuthor('erin') }}</span></a>
+	<a class="review-filter-clear" href="/book-reviews/">Clear filter [X]</a>
+</div>
+
+<div class="reviews">
+{% set showBoth = true %}
+{% for post in collections.bookReviews %}
+    {% include "partials/review-card.njk" %}
+{% endfor %}
+</div>
+</main>
+
+<script>
+    (function () {
+        var cards = Array.prototype.slice.call(document.querySelectorAll('.review-card'));
+        var links = Array.prototype.slice.call(document.querySelectorAll('.review-filter[data-author]'));
+
+        function getAuthors() {
+            return new URLSearchParams(window.location.search).getAll('author');
+        }
+
+        function cardVisible(authors, card) {
+            return authors.length === 0 || authors.indexOf(card.getAttribute('data-author')) !== -1;
+        }
+
+        function applyFilter() {
+            var authors = getAuthors();
+            var none = authors.length === 0;
+            cards.forEach(function (card) {
+                card.style.display = cardVisible(authors, card) ? '' : 'none';
+            });
+            links.forEach(function (link) {
+                var value = link.getAttribute('data-author');
+                var active = value === '' ? none : authors.indexOf(value) !== -1;
+                link.classList.toggle('active', active);
+            });
+            var clear = document.querySelector('.review-filter-clear');
+            if (clear) clear.style.display = none ? 'none' : 'inline';
+        }
+
+        function updateUrl(updater) {
+            var url = new URL(window.location.href);
+            updater(url.searchParams);
+            history.pushState(null, '', url.pathname + url.search + url.hash);
+            applyFilter();
+        }
+
+        links.forEach(function (link) {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                var value = link.getAttribute('data-author');
+                var authors = getAuthors().slice();
+                if (value === '') {
+                    updateUrl(function (p) { p.delete('author'); });
+                } else if (authors.indexOf(value) !== -1) {
+                    updateUrl(function (p) {
+                        p.delete('author');
+                        authors.filter(function (v) { return v !== value; }).forEach(function (v) { p.append('author', v); });
+                    });
+                } else {
+                    updateUrl(function (p) { p.append('author', value); });
+                }
+            });
+        });
+
+        window.addEventListener('popstate', applyFilter);
+        applyFilter();
+    })();
+</script>

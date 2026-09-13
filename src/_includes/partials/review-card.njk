@@ -9,6 +9,11 @@
 	{% endif %}
 	{% if thumb %}<img class="product-thumb" src="{{ thumb | thumbUrl }}" alt="">{% endif %}
 	<h2>{{ post.data | reviewH1Title }}</h2>
-	<p class="review-meta">{{ post.data.stars | starsHtml | safe }}{% if post.data.product and post.data.product.name %} &middot; {{ post.data.product.name }}{% endif %}</p>
+	{% set nameOnFirst = not post.data.title %}
+	{% set showName = not nameOnFirst and post.data.product and post.data.product.name %}
+	{% set showStars = post.data.stars %}
+	{% if showStars or showName %}
+	<p class="review-meta">{{ post.data.stars | starsHtml | safe }}{% if showStars and showName %} &middot; {{ post.data.product.name }}{% endif %}</p>
+	{% endif %}
 	<p class="excerpt">{{ post.data.excerpt }}</p>
 </a>

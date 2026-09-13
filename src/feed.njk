@@ -7,10 +7,10 @@ eleventyExcludeFromCollections: true
   <channel>
     <title>Nathan and Erin Friedly — Reviews</title>
     <link>https://www.nathananderin.com/reviews/</link>
-    <description>Reviews of things we&apos;ve bought and used.</description>
+    <description>Reviews of products we&apos;ve bought and books we&apos;ve read.</description>
     <atom:link href="https://www.nathananderin.com/feed.xml" rel="self" type="application/rss+xml"/>
     <lastBuildDate>{% buildDate %}</lastBuildDate>
-    {%- for post in collections.reviews %}
+    {%- for post in collections.allReviews %}
     <item>
       <title>{{ post.data | reviewH1Title }}</title>
       <link>https://www.nathananderin.com{{ post.url }}</link>
