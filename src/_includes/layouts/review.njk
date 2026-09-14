@@ -6,7 +6,8 @@ cssClass: review single
 <p><a href="/reviews/"><i class="fa fa-arrow-left"></i> All reviews</a></p>
 
 <h1>{{ title or (product.name ~ (product.name | reviewSuffix(tags))) }}</h1>
-{% if title and product and product.name %} <h2>{{ product.name ~ (product.name | reviewSuffix(tags)) }}</h2>{% endif %}
+{% if subTitle %}<h2>{{ subTitle }}</h2>
+{% elif title and product and product.name %} <h2>{{ product.name ~ (product.name | reviewSuffix(tags)) }}</h2>{% endif %}
 <p class="review-meta">
     {{ stars | starsHtml | safe }}
     by {{ authorName(author) }} Friedly
@@ -51,28 +52,30 @@ cssClass: review single
 </div>
 
 {% if images and images.photos and images.photos.length %}
+{% for row in images.photos | batch(4) %}
 <div class="review-photos row">
-  {% for photo in images.photos %}
+  {% for photo in row %}
     {% set alt = photo | stripExt | stripLeadingNumber %}
-    {% set thumbSrc = page.url ~ "thumbs/" ~ photo | stripExt ~ ".jpg" %}
-    {% if photo.endsWith('.mp4') %}
+    {% set src = page.url ~ photo %}
     <div class="col-xs-12 col-sm-6 col-md-3">
-      <figure>
-        <video controls preload="metadata" style="max-width:100%;height:auto">
-          <source src="{{ page.url }}{{ photo }}" type="video/mp4">
-        </video>
-        <figcaption>{{ alt }}</figcaption>
+      <figure class="thumbnail">
+        {% if photo.endsWith('.mp4') %}
+          <video controls preload="metadata">
+            <source src="{{ src }}" type="video/mp4">
+          </video>
+        {% else %}
+          <a href="{{ src }}">
+            <img width="228" src="{{ src }}" alt="{{ alt }}">
+          </a>
+        {% endif %}
+        {% if " " in alt %}
+        <figcaption class="caption">{{ alt }}</figcaption>
+        {% endif %}
       </figure>
     </div>
-    {% else %}
-    <div class="col-xs-12 col-sm-6 col-md-3">
-      <a href="{{ page.url }}{{ photo }}" class="thumbnail" target="_blank" rel="noopener">
-        <img src="{{ thumbSrc }}" alt="{{ alt }}" loading="lazy">
-      </a>
-    </div>
-    {% endif %}
   {% endfor %}
 </div>
+{% endfor %}
 {% endif %}
 
 {% if reviewUrl %}

@@ -1,6 +1,6 @@
 const path = require("path");
 const fs = require("fs");
-const { default: eleventyImage } = require("@11ty/eleventy-img");
+const { default: eleventyImage, eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 const aliExpressLinks = require("./lib/ali-express-links");
 const favicons = require("./lib/favicons");
 
@@ -75,8 +75,9 @@ function sourceLabel(url) {
   url = String(url).replace(/^https?:\/\//i, "").replace(/^www\./i, "");
   const host = url.split("/")[0].split(":")[0];
   const labels = {
-    "amazon.com": "Amazon", "amazon.ca": "Amazon", "amazon.co.uk": "Amazon", "amazon.de": "Amazon", "amazon.fr": "Amazon",
-    "aliexpress.com": "Ali Express", "alibaba.com": "Ali Baba",
+    "amazon.com": "Amazon",
+    "aliexpress.com": "Ali Express",
+    "alibaba.com": "Ali Baba",
     "bhphotovideo.com": "B&H",
   };
   return labels[host] || host;
@@ -103,6 +104,7 @@ function reviewH1Title(data) {
 }
 
 function reviewH2Title(data) {
+  if (data.subTitle) return data.subTitle;
   if (data.title && data.product?.name) {
     return data.product.name + reviewSuffix(data.product.name, data.tags);
   }
@@ -286,6 +288,8 @@ module.exports = function (eleventyConfig) {
     templateFormats: ["html", "md", "njk"],
   };
 
+	eleventyConfig.addPlugin(eleventyImageTransformPlugin);
+
   eleventyConfig.addLayoutAlias("main", "layouts/main.njk");
   eleventyConfig.addLayoutAlias("review", "layouts/review.njk");
 
@@ -293,6 +297,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/.nojekyll");
   eleventyConfig.addPassthroughCopy("src/*.jpg");
   eleventyConfig.addPassthroughCopy("src/styles");
+  eleventyConfig.addPassthroughCopy("src/favicon.ico");
   eleventyConfig.addPassthroughCopy("src/**/*.jpg");
   eleventyConfig.addPassthroughCopy("src/**/*.png");
   eleventyConfig.addPassthroughCopy("src/**/*.jpeg");
@@ -392,45 +397,11 @@ eleventyConfig.addCollection("allReviews", function (collectionApi) {
     await favicons.ensureFavicons(reviewFaviconHosts());
   });
 
-  // Generate 200px-wide JPEG thumbnails for every image in each review
-  // directory, written into _site/<section>/<slug>/thumbs/. The review-card
-  // partial references them via post.url + "thumbs/" so the list page never
-  // ships the full-size images (detail pages keep the originals).
-  async function thumbnailReviewsSection(srcDir, outDir, urlPrefix) {
-    if (!fs.existsSync(srcDir)) return 0;
-    let thumbnailed = 0;
-    for (const slug of fs.readdirSync(srcDir)) {
-      const reviewDir = path.join(srcDir, slug);
-      if (!fs.statSync(reviewDir).isDirectory()) continue;
-      const files = fs
-        .readdirSync(reviewDir)
-        .filter((f) => /\.(jpe?g|webp)$/i.test(f));
-      for (const f of files) {
-        await eleventyImage(path.join(reviewDir, f), {
-          widths: [200],
-          formats: ["jpeg"],
-          outputDir: path.join(outDir, slug, "thumbs"),
-          urlPath: urlPrefix + slug + "/thumbs",
-          filenameFormat: (_id, src, _width, _format) =>
-            `${path.basename(src, path.extname(src))}.jpg`,
-        });
-        thumbnailed++;
-      }
-    }
-    return thumbnailed;
-  }
   eleventyConfig.on("eleventy.after", async () => {
     const sections = [
       [path.join(__dirname, "src", "reviews"), path.join(__dirname, "_site", "reviews"), "/reviews/"],
       [path.join(__dirname, "src", "book-reviews"), path.join(__dirname, "_site", "book-reviews"), "/book-reviews/"],
     ];
-    let thumbnailed = 0;
-    for (const [srcDir, outDir, urlPrefix] of sections) {
-      thumbnailed += await thumbnailReviewsSection(srcDir, outDir, urlPrefix);
-    }
-    if (thumbnailed) {
-      console.log(`[eleventy-img] generated ${thumbnailed} thumbnails`);
-    }
   });
 
   return settings;

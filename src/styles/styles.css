@@ -74,7 +74,6 @@ ul.links li.text {
 .review-card .product-thumb {
     float: left;
     width: 90px;
-    height: 90px;
     object-fit: contain;
     margin: 0 15px 10px 0;
     border: 1px solid #eee;
@@ -82,8 +81,7 @@ ul.links li.text {
 }
 .review-card .product-photo {
     float: right;
-    width: 70px;
-    height: 70px;
+    width: 90px;
     object-fit: contain;
     margin: 0 0 10px 15px;
     border: 1px solid #eee;
@@ -111,6 +109,8 @@ ul.links li.text {
 }
 .review-body img.left { float: left; margin: 5px 15px 10px 0; max-width: 45%; }
 .review-body img.right { float: right; margin: 5px 0 10px 15px; max-width: 45%; }
+
+.review-photos img, .review-photos video { max-width:100%; height:auto; }
 
 .review-box {
     background: #f8f8f8;

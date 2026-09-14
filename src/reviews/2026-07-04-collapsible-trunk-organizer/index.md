@@ -27,3 +27,7 @@ I think all the little pockets on the one side might get more use if it did beco
 The asking price of $20 seems OK, although certainly not the lowest on the market.
 
 Overall, I'm pretty happy with it and I think it serves its purpose well.
+
+Update:
+
+A couple of months in I found that I wasn't using it very much in my car, but it turned out to be a perfect fit for the caboose on my [Radwagon 4](/reviews/2023-09-05-radwagon-4-aventon-aventure.2-ebikes)!
