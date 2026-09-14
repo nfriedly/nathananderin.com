@@ -68,9 +68,7 @@ cssClass: review single
             <img width="228" src="{{ src }}" alt="{{ alt }}">
           </a>
         {% endif %}
-        {% if " " in alt %}
         <figcaption class="caption">{{ alt }}</figcaption>
-        {% endif %}
       </figure>
     </div>
   {% endfor %}
