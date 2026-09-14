@@ -5,13 +5,32 @@ cssClass: review single
 
 <p><a href="/reviews/"><i class="fa fa-arrow-left"></i> All reviews</a></p>
 
-<h1>{{ title or (product.name ~ (product.name | reviewSuffix(tags))) }}</h1>
-{% if subTitle %}<h2>{{ subTitle }}</h2>
-{% elif title and product and product.name %} <h2>{{ product.name ~ (product.name | reviewSuffix(tags)) }}</h2>{% endif %}
+{% set h1 = title or (product.name ~ (product.name | reviewSuffix(tags))) %}
+{% if subTitle %}
+    {% set h2 = subTitle %}
+{% elif title and product and product.name %}
+    {% set h2 = product.name ~ (product.name | reviewSuffix(tags)) %}
+{% else %}
+    {% set h2 = '' %}
+{% endif %}
+
+{% if images and images.hero %}
+<header class="hero review-hero" style="--bg-img: url('{{ images.hero }}');">
+    <h1><span>{{ h1 }}</span></h1>
+    {% if h2 %}<h2><span>{{ h2 }}</span></h2>{% endif %}
+    <p class="review-meta"><span>
+        {{ stars | starsHtml | safe }}
+        by {{ authorName(author) }} Friedly
+    </span></p>
+</header>
+{% else %}
+<h1>{{ h1 }}</h1>
+{% if h2 %}<h2>{{ h2 }}</h2>{% endif %}
 <p class="review-meta">
     {{ stars | starsHtml | safe }}
     by {{ authorName(author) }} Friedly
 </p>
+{% endif %}
 
 <main>
 

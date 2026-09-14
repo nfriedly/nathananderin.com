@@ -55,6 +55,16 @@ function thumbUrl(url) {
   return m[1] + "thumbs/" + base + ".jpg";
 }
 
+// Resolve a review's `hero:` frontmatter value to an image URL. Bare values
+// (a filename or sub-path) are relative to the review folder; absolute paths
+// and http(s) URLs are used as-is.
+function heroImageUrl(pageUrl, hero) {
+  if (!hero) return "";
+  hero = String(hero);
+  if (/^(?:https?:)?\/\//i.test(hero) || hero.startsWith("/")) return hero;
+  return (pageUrl || "/") + hero;
+}
+
 function money(price) {
   return Number(price).toFixed(2);
 }
@@ -349,6 +359,17 @@ function mapReviewItem(item) {
       item.data.images = item.data.images || {};
       if (productFile) item.data.images.product = productFile;
       if (photoFiles.length) item.data.images.photos = photoFiles;
+
+      // Hero image for the top of the review page: an explicit `hero:`
+      // frontmatter value wins, otherwise use the first non-video photo.
+      const reviewUrl = item.url && !item.url.endsWith("/") ? item.url + "/" : item.url || "/";
+      let hero = heroImageUrl(reviewUrl, item.data.hero);
+      if (/\.mp4$/i.test(hero)) hero = ""; // can't use a video as a background
+      if (!hero) {
+        const firstPhoto = photoFiles.find((f) => !/\.mp4$/i.test(f));
+        if (firstPhoto) hero = reviewUrl + firstPhoto;
+      }
+      if (hero) item.data.images.hero = hero;
     }
   }
 

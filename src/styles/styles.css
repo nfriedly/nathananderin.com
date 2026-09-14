@@ -22,6 +22,48 @@ header.hero {
 }
 header.hero img { width: 100%; display: block; }
 
+/* Review hero: full-width cover photo with title/subtitle/rating overlaid in
+   per-line white highlight boxes (background lives on an inner <span>) so the
+   text stays legible over any part of the photo and each line keeps its own row. */
+header.hero.review-hero {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2) 60%, rgba(0, 0, 0, 0.6)), var(--bg-img);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 45vh;
+    padding: 40px 15px;
+    box-sizing: border-box;
+}
+header.hero.review-hero h1 > span,
+header.hero.review-hero h2 > span,
+header.hero.review-hero .review-meta > span {
+    display: inline;
+    background: rgba(255, 255, 255, 0.9);
+    color: #222;
+    border-radius: 6px;
+    padding: 0.1em 0.5em;
+    line-height: 1.5;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+header.hero.review-hero h1 {
+    margin: 0 0 0.4em 0;
+    font-size: 220%;
+    line-height: 1.25;
+}
+header.hero.review-hero h2 {
+    clear: none;
+    margin: 0 0 0.4em 0;
+}
+header.hero.review-hero .review-meta {
+    margin: 0;
+}
+
 li { word-wrap: break-word; }
 footer { margin: 50px; font-size: 80%; color: #555; }
 footer a { color: #555; }
