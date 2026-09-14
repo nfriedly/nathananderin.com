@@ -3,9 +3,9 @@
   <channel>
     <title>Nathan and Erin Friedly — Reviews</title>
     <link>https://www.nathananderin.com/reviews/</link>
-    <description>Reviews of things we&apos;ve bought and used.</description>
+    <description>Reviews of products we&apos;ve bought and books we&apos;ve read.</description>
     <atom:link href="https://www.nathananderin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 13 Sep 2026 00:40:51 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 01:05:31 GMT</lastBuildDate>
     <item>
       <title>Awesome sound, half-baked features</title>
       <link>https://www.nathananderin.com/reviews/2026-08-25-hopestar-a90-bluetooth-speaker/</link>
@@ -241,223 +241,211 @@
       <description>Exactly what I needed, with plenty to spare.</description>
     </item>
     <item>
-      <title>Not worth your time</title>
-      <link>https://www.nathananderin.com/reviews/2025-11-08-effective-cycling-book/</link>
-      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-11-08-effective-cycling-book/</guid>
-      <description>An absolutely terrible book that no one should ever read. The author, John Forrester, is single-handedly responsible for setting back cycling in the United States by at least 30 years.</description>
-    </item>
-    <item>
-      <title>Cyclists would be better off if this book didn&#39;t exist</title>
-      <link>https://www.nathananderin.com/reviews/2025-11-08-bicycle-transportation-book/</link>
-      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-11-08-bicycle-transportation-book/</guid>
-      <description>This book is full of pseudoscience and absolutely terrible, downright harmful advice. It is indirectly responsible for the deaths of countless cyclists by encouraging only infrastructure that treats…</description>
-    </item>
-    <item>
-      <title></title>
+      <title>COOLCIRC 120mm PSU Fan Review</title>
       <link>https://www.nathananderin.com/reviews/2025-10-28-coolcirc-120mm-psu-fan/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-28-coolcirc-120mm-psu-fan/</guid>
       <description>Works great, brought new life to an old PSU.</description>
     </item>
     <item>
-      <title></title>
+      <title>Dual-Band USB WiFi Adapter (600Mbps) Review</title>
       <link>https://www.nathananderin.com/reviews/2025-10-25-600mbps-dual-band-usb-wifi-adapter/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-25-600mbps-dual-band-usb-wifi-adapter/</guid>
       <description>Windows 11 has a built-in driver so it just works, no need to run some sketch exe. Gets about 300mbps in real-world conditions.</description>
     </item>
     <item>
-      <title></title>
+      <title>USB 3.0 to USB-C OTG Adapter Review</title>
       <link>https://www.nathananderin.com/reviews/2025-10-23-usb-3-0-to-usb-c-otg-adapter/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-23-usb-3-0-to-usb-c-otg-adapter/</guid>
       <description>They&#39;re only USB 2.0, not 3.0. They don&#39;t even have the extra pins for USB 3.0, and if you try to transfer files, the best you can get is about 40MB/s, even with an external SSD that can do 800-900MB/s…</description>
     </item>
     <item>
-      <title></title>
+      <title>XPG Core Reactor SATA Power cable Review</title>
       <link>https://www.nathananderin.com/reviews/2025-10-23-sata-psu-cable-xpg-core-reactor/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-23-sata-psu-cable-xpg-core-reactor/</guid>
       <description>Works great.</description>
     </item>
     <item>
-      <title></title>
+      <title>Raspberry Pi Zero Acrylic Case Review</title>
       <link>https://www.nathananderin.com/reviews/2025-10-23-raspberry-pi-zero-acrylic-case/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-23-raspberry-pi-zero-acrylic-case/</guid>
       <description>Acrylic case works and looks nice, as long as you don&#39;t mind the &quot;feet&quot; being slightly different heights, causing it to sit at an angle. Assembly was a little bit confusing and I&#39;m not sure I got it…</description>
     </item>
     <item>
-      <title></title>
+      <title>Raspberry Pi Zero 2W Acrylic Case Review</title>
       <link>https://www.nathananderin.com/reviews/2025-10-23-raspberry-pi-zero-2w-acrylic-case/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-23-raspberry-pi-zero-2w-acrylic-case/</guid>
       <description>Works great! My Pi zero 2w fits perfectly. I didn&#39;t realize that there&#39;s no way to remove the microSD card while it&#39;s in the case, but I guess that&#39;s a feature for some folks. I haven&#39;t tested the…</description>
     </item>
     <item>
-      <title></title>
+      <title>12V RGB PC LED Strip Review</title>
       <link>https://www.nathananderin.com/reviews/2025-10-23-12v-rgb-pc-led-light-strip/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-23-12v-rgb-pc-led-light-strip/</guid>
       <description>Works great! Adds a little fun to my computer. Nice for slightly older systems that only support the 4-pin 12v option.</description>
     </item>
     <item>
-      <title></title>
+      <title>4-Port USB 3.0 Hub Review</title>
       <link>https://www.nathananderin.com/reviews/2025-10-23-4-port-usb-3-0-hub/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-23-4-port-usb-3-0-hub/</guid>
       <description>Uses USB 3.0 connectors, but has a USB 2.0 chip inside, so it only operates at USB 2.0 speeds - about 40MB/s. Also, it back-feeds 5v into the USB-A male plug when powered via USB-C. I suppose some folks…</description>
     </item>
     <item>
-      <title></title>
+      <title>ARGB Light Controller Review</title>
       <link>https://www.nathananderin.com/reviews/2025-10-22-argb-controller/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-22-argb-controller/</guid>
       <description>Adds a fun little bit of pizazz to a computer when paired with an ARGB light strip/fan/etc. I really like the default rainbow effect, and there&#39;s lots of other effects to choose from. The connector was…</description>
     </item>
     <item>
-      <title></title>
+      <title>SATA to PCIe Power Cable Review</title>
       <link>https://www.nathananderin.com/reviews/2025-10-21-sata-to-pcie-power-cable/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-21-sata-to-pcie-power-cable/</guid>
       <description>Works great, an excellent way of adding a bit more performance to a basic office PC. Having two SATA connectors means it isn&#39;t exceeding the 54W (4.5A @ 12V) of the SATA specification if the GPU draws…</description>
     </item>
     <item>
-      <title></title>
+      <title>ARGB LED Strip (WS2812B) Review</title>
       <link>https://www.nathananderin.com/reviews/2025-10-20-argb-led-strip-ws2812b/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-20-argb-led-strip-ws2812b/</guid>
       <description>Fun lights, pair it with an ARGB controller (or compatible motherboard) to add a bit of sparkle to a computer. There&#39;s adhesive on the back, which makes it fairly easy to stick to the inside of a…</description>
     </item>
     <item>
-      <title></title>
+      <title>Thermalright TL-S12-S X3 47.6 CFM 120 mm Fans 3-Pack Review</title>
       <link>https://www.nathananderin.com/reviews/2025-10-06-thermalright-tl-s12-s-fans-3-pack/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-06-thermalright-tl-s12-s-fans-3-pack/</guid>
       <description>I bought a 3-pack, but only two of them worked. They gave me a 1/3 refund, so I guess it&#39;s fine. My motherboard doesn&#39;t have the right connections for the RGB, it only has the 12v 4-pin, whereas this…</description>
     </item>
     <item>
-      <title></title>
+      <title>TEAMGROUP MP34 4 TB M.2-2280 PCIe 3.0 X4 NVME Solid State Drive Review</title>
       <link>https://www.nathananderin.com/reviews/2025-10-06-teamgroup-mp34-4tb-nvme-ssd/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-06-teamgroup-mp34-4tb-nvme-ssd/</guid>
       <description>This drive has been a great workhorse for a filesystem cache and running docker images from. I like that it has it&#39;s own DRAM, so it doesn&#39;t have to rely on the HMB. Also, somehow I managed to get it at…</description>
     </item>
     <item>
-      <title></title>
+      <title>Sapphire Radeon VII 16GB Graphics Card Review</title>
       <link>https://www.nathananderin.com/reviews/2025-10-06-sapphire-radeon-vii-video-card/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-06-sapphire-radeon-vii-video-card/</guid>
       <description>Awesome GPU for AI nonsense. I haven&#39;t tried gaming on it yet, but might eventually.</description>
     </item>
     <item>
-      <title></title>
+      <title>Mushkin Essentials 64 GB (2 x 32 GB) DDR4-3200 CL22 Memory Review</title>
       <link>https://www.nathananderin.com/reviews/2025-10-06-mushkin-essentials-64gb-ddr4-memory/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-06-mushkin-essentials-64gb-ddr4-memory/</guid>
       <description>Works great. The 3200 speed is JDEC, so any system that supports it just gets it automatically, no need to turn on XMP.</description>
     </item>
     <item>
-      <title></title>
+      <title>Cougar Pioneer-X ATX Mid Tower Case Review</title>
       <link>https://www.nathananderin.com/reviews/2025-10-06-cougar-pioneer-x-case/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-06-cougar-pioneer-x-case/</guid>
       <description>Fine for the price I paid, and it can handle a lot of hard drives. The hot-swap drive bay on the top is a nice touch.</description>
     </item>
     <item>
-      <title></title>
+      <title>Asus STRIX B350-F GAMING ATX AM4 Motherboard Review</title>
       <link>https://www.nathananderin.com/reviews/2025-10-06-asus-strix-b350-f-motherboard/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-06-asus-strix-b350-f-motherboard/</guid>
       <description>This MB has been great. First in my desktop, where it saw a Ryzen 1600, 2600, and 5700X3D, and now in my home file server where, combined with an LSI SAS card in IT mode, I can have 12 HDDs + an NVMe…</description>
     </item>
     <item>
-      <title></title>
+      <title>AMD Ryzen 5 2600 3.4 GHz 6-Core Processor Review</title>
       <link>https://www.nathananderin.com/reviews/2025-10-06-amd-ryzen-5-2600/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-06-amd-ryzen-5-2600/</guid>
       <description>Awesome CPU, and a great value these days. I think it&#39;s just below the cutoff for official Windows 11 support, but if you bypass the requirements check (e.g. via rufus), windows actually runs great on…</description>
     </item>
     <item>
-      <title></title>
+      <title>ADATA XPG CORE Reactor 850 850 W 80+ Gold Certified Fully Modular ATX Power Supply Review</title>
       <link>https://www.nathananderin.com/reviews/2025-10-06-adata-xpg-core-reactor-850-psu/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-10-06-adata-xpg-core-reactor-850-psu/</guid>
       <description>Works great, all the cables and connectors I need and then some.</description>
     </item>
     <item>
-      <title></title>
+      <title>WiFi 6 USB Adapter (1800Mbps) Review</title>
       <link>https://www.nathananderin.com/reviews/2025-09-06-wifi-6-usb-adapter-1800mbps/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-09-06-wifi-6-usb-adapter-1800mbps/</guid>
       <description>It initially shows up as a USB flash drive with an exe file to install the driver, which seems a little sketchy, although VirusTotal mostly passed it (71/72 scanners said it was safe, 1 said it was…</description>
     </item>
     <item>
-      <title></title>
+      <title>WiFi 6 Mini USB Dongle (AX900) Review</title>
       <link>https://www.nathananderin.com/reviews/2025-09-06-wifi-6-mini-usb-dongle/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-09-06-wifi-6-mini-usb-dongle/</guid>
       <description>Works fine, real-world wifi speeds are around 160-180Mbps (5Ghz, Wifi 6, 1 gigabit internet connection). Bluetooth appears to work, although I didn&#39;t connect it to anything, I just scanned for nearby…</description>
     </item>
     <item>
-      <title></title>
+      <title>PC Motherboard Buzzer Review</title>
       <link>https://www.nathananderin.com/reviews/2025-09-06-pc-speaker-motherboard-buzzer/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-09-06-pc-speaker-motherboard-buzzer/</guid>
       <description>Beep! Works great, helps with debugging when you don&#39;t have a video signal.</description>
     </item>
     <item>
-      <title></title>
+      <title>FENVI AC1200 WiFi PCIe Adapter Review</title>
       <link>https://www.nathananderin.com/reviews/2025-09-06-fenvi-ac1200-wifi-pcie-adapter/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-09-06-fenvi-ac1200-wifi-pcie-adapter/</guid>
       <description>Works good, real-world download speeds of ~725mbps! Windows 11 has a built-in driver. The way the antennas are connected to the bracket makes it a bit more work to swap between half-height and…</description>
     </item>
     <item>
-      <title></title>
+      <title>AX210 WiFi 6E PCIe Adapter Review</title>
       <link>https://www.nathananderin.com/reviews/2025-09-06-ax210-wifi-6e-pci-e-adapter/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-09-06-ax210-wifi-6e-pci-e-adapter/</guid>
       <description>Works great! Real-world download speeds of nearly 2Gbps on my LAN, and 565Mbps on the internet! I also, appreciate that it includes the low-profile adapter (which is fairly easy to install), the…</description>
     </item>
     <item>
-      <title></title>
+      <title>WiFi RP-SMA Antenna (5dBi) Review</title>
       <link>https://www.nathananderin.com/reviews/2025-09-03-wifi-antenna-rp-sma-5dbi/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-09-03-wifi-antenna-rp-sma-5dbi/</guid>
       <description>Works great; a little bit taller than the ones that came with my motherboard, which I assume gives it a better signal.</description>
     </item>
     <item>
-      <title></title>
+      <title>WiFi 6E 2T2R Antenna Review</title>
       <link>https://www.nathananderin.com/reviews/2025-09-03-wifi-6e-antenna-2t2r/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-09-03-wifi-6e-antenna-2t2r/</guid>
       <description>Works fine. The magnetic bottom is nice both for snapping it to things and for giving it a bit of weight to make it stay put on non-metal surfaces.</description>
     </item>
     <item>
-      <title></title>
+      <title>USB-C 3.1 Gen2 Extension Cable Review</title>
       <link>https://www.nathananderin.com/reviews/2025-08-27-usb-c-3-1-gen2-extension-cable/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-08-27-usb-c-3-1-gen2-extension-cable/</guid>
       <description>Works, and at the correct speed. I tested with a ESD310 USB SSD connected via this extension cable - about 950MB/s (7.6gbps) via the cable vs 980MB/s (7.84gbps) when connected directly to my laptop.</description>
     </item>
     <item>
-      <title></title>
+      <title>RGEEK USB-C Front Panel Extension Review</title>
       <link>https://www.nathananderin.com/reviews/2025-08-27-rgeek-usb-c-front-panel-extension/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-08-27-rgeek-usb-c-front-panel-extension/</guid>
       <description>Works great! I couldn&#39;t test the full speed because my motherboard doesn&#39;t support it, but 5Gbps worked fine.</description>
     </item>
     <item>
-      <title></title>
+      <title>Magnetic Charger for Fitbit Charge 5/6 Review</title>
       <link>https://www.nathananderin.com/reviews/2025-08-27-fitbit-charge-5-6-magnetic-charger/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-08-27-fitbit-charge-5-6-magnetic-charger/</guid>
       <description>It works!</description>
     </item>
     <item>
-      <title></title>
+      <title>BABQ USB-C Front Panel (3.5&quot;) Review</title>
       <link>https://www.nathananderin.com/reviews/2025-08-26-babq-usb-c-front-panel-3-5in/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-08-26-babq-usb-c-front-panel-3-5in/</guid>
       <description>Works great! I can only get 5gbps out of the USB-C port, but that&#39;s a limitation of my motherboard, I assume this would operate faster if my motherboard could. Shipped 2 days after placing the order,…</description>
     </item>
     <item>
-      <title></title>
+      <title>ID-COOLING SE-214-XT ARGB 68.2 CFM CPU Cooler Review</title>
       <link>https://www.nathananderin.com/reviews/2025-08-18-id-cooling-se-214-xt-cpu-cooler/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-08-18-id-cooling-se-214-xt-cpu-cooler/</guid>
       <description>Great cooler for ~$16.</description>
     </item>
     <item>
-      <title></title>
+      <title>EVGA Black GeForce RTX 2070 8 GB Video Card Review</title>
       <link>https://www.nathananderin.com/reviews/2025-08-18-evga-rtx-2070-video-card/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-08-18-evga-rtx-2070-video-card/</guid>
       <description>Great GPU, just wildly overpriced. I picked it up for just over $300 after the 20-super series launched and, honestly, that should have been the launch MSRP. It&#39;s literally the most I&#39;ve ever spent on a…</description>
     </item>
     <item>
-      <title></title>
+      <title>Dell P2715Q 27.0&quot; 3840 x 2160 60 Hz Monitor Review</title>
       <link>https://www.nathananderin.com/reviews/2025-08-18-dell-p2715q-monitor/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-08-18-dell-p2715q-monitor/</guid>
       <description>Pros: beautiful, crisp picture, with excellent factory calibration. USB Hub. Two DP inputs (with a miniDP cable/adapter).</description>
     </item>
     <item>
-      <title></title>
+      <title>Crucial Ballistix Sport LT 16 GB (2 x 8 GB) DDR4-3200 CL16 Memory Review</title>
       <link>https://www.nathananderin.com/reviews/2025-08-18-crucial-ballistix-sport-lt-16gb-ddr4-memory/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-08-18-crucial-ballistix-sport-lt-16gb-ddr4-memory/</guid>
       <description>Good RAM, served me well for years. A single 2x8gb kit works great at the advertised XMP speeds, but 2 kits (4 sticks) had to drop down to slower JDEC speeds. Might have just been the motherboard,…</description>
     </item>
     <item>
-      <title></title>
+      <title>AMD Ryzen 5 3600 3.6 GHz 6-Core Processor Review</title>
       <link>https://www.nathananderin.com/reviews/2025-08-18-amd-ryzen-5-3600/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2025-08-18-amd-ryzen-5-3600/</guid>
       <description>Solid gaming and all-rounder CPU. Very happy with it in general, and especially at the garage-sale price I paid for it!</description>
@@ -535,6 +523,18 @@
       <description>We got my wife the orange RadWagon 4 a bit over a month ago, and we both liked it so much that we decided to get a second #ebike, the blue Aventon Aventure.2.</description>
     </item>
     <item>
+      <title>Great way to add Ethernet to a laptop or PC</title>
+      <link>https://www.nathananderin.com/reviews/2021-08-04-tp-link-ue300-usb-3-0-gigabit/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2021-08-04-tp-link-ue300-usb-3-0-gigabit/</guid>
+      <description>Works fine with Windows and Mac. This adapter can basically max out a gigabit Ethernet connection. I have it connected to a USB port on the back of my monitor so that a single cable gets me not only…</description>
+    </item>
+    <item>
+      <title>Super-fast</title>
+      <link>https://www.nathananderin.com/reviews/2021-08-04-silicon-power-256gb-superior-v30-microsd/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2021-08-04-silicon-power-256gb-superior-v30-microsd/</guid>
+      <description>Probably the fastest microSD card I&#39;ve ever used. Makes writing a large image file to the card much more bearable.</description>
+    </item>
+    <item>
       <title>Flavor without Fuss or Nightshades</title>
       <link>https://www.nathananderin.com/reviews/2020-03-07-nutrient-dense-kitchen-aip-cookbook/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2020-03-07-nutrient-dense-kitchen-aip-cookbook/</guid>
@@ -575,12 +575,6 @@
       <link>https://www.nathananderin.com/reviews/2017-04-18-wild-zora-meat-veggie-bars/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2017-04-18-wild-zora-meat-veggie-bars/</guid>
       <description>These bars are an excellent snack! We keep them on hand for both us (the parents) and our almost three year old and he loves them as do we. It&#39;s nice to have a snack that is AIP friendly and has a great…</description>
-    </item>
-    <item>
-      <title>Such a sweet book</title>
-      <link>https://www.nathananderin.com/reviews/2016-09-24-el-deafo-graphic-novel/</link>
-      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2016-09-24-el-deafo-graphic-novel/</guid>
-      <description>I read this because of an interview with the author on the podcast The Longest Shortest Time. This book is about growing up and being different and embracing what makes you different. I loved it!</description>
     </item>
     <item>
       <title>Bad design, breaks almost immediately</title>
@@ -685,6 +679,12 @@
       <description>This is the first dimmable LED I&#39;ve tried. It works great at full brightness, but the hood that I installed it in has a lower 2 levels of brightness, and at the lower level this bulb flickers just…</description>
     </item>
     <item>
+      <title>Does the job</title>
+      <link>https://www.nathananderin.com/reviews/2014-03-31-comprehensive-dp2hdmf-displayport-to-hdmi/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2014-03-31-comprehensive-dp2hdmf-displayport-to-hdmi/</guid>
+      <description>This came with a monitor I bought. It works great, although I mainly use the DVI cable.</description>
+    </item>
+    <item>
       <title>Misleading description: requires an extra $25 payment for state efile</title>
       <link>https://www.nathananderin.com/reviews/2014-03-25-turbotax/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2014-03-25-turbotax/</guid>
@@ -703,9 +703,1437 @@
       <description>I first heard this song when my mom was in the middle of battling cancer. It meant a lot to me then and means a lot to me now. Great words. Truly inspired.</description>
     </item>
     <item>
+      <title>One Golden Summer Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-09-05-one-golden-summer-barrys-bay-2/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-09-05-one-golden-summer-barrys-bay-2/</guid>
+      <description>This is probably my favorite book of Carley’s and I’m not entirely sure I would have read it without it fulfilling a reading challenge prompt. I have had it on my TBR since it released, but just hadn’t…</description>
+    </item>
+    <item>
+      <title>Bury Our Bones in the Midnight Soil Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-09-03-bury-our-bones-in-the-midnight-soil/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-09-03-bury-our-bones-in-the-midnight-soil/</guid>
+      <description>This book did not deliver what I thought was promised and is also very, very long. It is beautifully written and the narrators do their job well. I was just expecting a lot more for the time investment.…</description>
+    </item>
+    <item>
+      <title>World&#39;s Okayest Oracle (Reluctantly) Seeks Demon Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-09-02-worlds-okayest-oracle-reluctantly-seeks-demon/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-09-02-worlds-okayest-oracle-reluctantly-seeks-demon/</guid>
+      <description>I have throughly enjoyed this series so far, and I’m not usually a zombie girl. Vampires and demons, yes; but zombies, no. Is this “serious literature?” Hell no, do I love it anyway and…</description>
+    </item>
+    <item>
+      <title>Little Dog, Lost Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-08-24-little-dog-lost/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-08-24-little-dog-lost/</guid>
+      <description>This was cute. My eldest felt it a little too young for him, he’s 12, but he stuck it out. My 7 year old daughter loved it.</description>
+    </item>
+    <item>
+      <title>Burn Down Master&#39;s House Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-08-24-burn-down-masters-house/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-08-24-burn-down-masters-house/</guid>
+      <description>This was book was exquisitely done and the author’s performance for the audiobook is also very well done. I could see how the author would not want to pass the task of reading such a work to anyone…</description>
+    </item>
+    <item>
+      <title>Embrace Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-08-22-embrace-off-the-ice-4/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-08-22-embrace-off-the-ice-4/</guid>
+      <description>This is fine. I read the entire series. I’m not sure I found much in this book or series memorable. Like there is love and spice and it’s cute and all, and nothing stood out as bad.</description>
+    </item>
+    <item>
+      <title>The People We Keep Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-08-20-the-people-we-keep/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-08-20-the-people-we-keep/</guid>
+      <description>This book absolutely filled me with heartache.</description>
+    </item>
+    <item>
+      <title>The Labors of Hercules Beal Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-08-20-the-labors-of-hercules-beal/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-08-20-the-labors-of-hercules-beal/</guid>
+      <description>My kids and I really liked this one. The last few chapters really pack an emotional punch.</description>
+    </item>
+    <item>
+      <title>The Someday Garden Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-08-17-the-someday-garden/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-08-17-the-someday-garden/</guid>
+      <description>I read Ashley Poston for her magical realism. She is almost laughably bad at writing sex scenes but I don’t care because I’m usually here for the magic and humans falling in love.</description>
+    </item>
+    <item>
+      <title>Sea of Charms Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-08-15-sea-of-charms-spellshop-3/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-08-15-sea-of-charms-spellshop-3/</guid>
+      <description>I hope this series never ends. I love it so much, and it is the coziest little romantic fantasy. I’ve love every single book in the series so far and want to read more by the author because duh, I’d be…</description>
+    </item>
+    <item>
+      <title>A Place to Hang the Moon Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-08-12-a-place-to-hang-the-moon/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-08-12-a-place-to-hang-the-moon/</guid>
+      <description>After finishing the book, I was a little surprised by how much everyone seemed to love and rave about this book. I thought it a good, enjoyable read aloud but I don’t think it’s one I would rave about…</description>
+    </item>
+    <item>
+      <title>Medea Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-08-10-medea/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-08-10-medea/</guid>
+      <description>This was very well done, but very hard for me to read. I felt very emotional especially by the ending. Medea is a monster but that is not all she is. The tragedy in this story is profound. What cannot…</description>
+    </item>
+    <item>
+      <title>Extracurricular Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-08-07-extracurricular/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-08-07-extracurricular/</guid>
+      <description>I’m tempted to give this 4 stars just for not having a third act break up because I hate a third act break up every single time. However this book is not for me.</description>
+    </item>
+    <item>
+      <title>Killers of the Flower Moon Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-08-03-killers-of-the-flower-moon/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-08-03-killers-of-the-flower-moon/</guid>
+      <description>I read this and then my son read the version for young readers. It spurred lots of good conversations about the love of money and the idea of ownership and personal property.</description>
+    </item>
+    <item>
+      <title>Vera Stein Is Fine Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-07-28-vera-stein-is-fine/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-07-28-vera-stein-is-fine/</guid>
+      <description>I related to this FMC way more than I’d like to admit and I really enjoy the way Julie Murphy tells a story. I’ll keep reading her because she hasn’t let me down yet. This is also open door if that…</description>
+    </item>
+    <item>
+      <title>Die for Me Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-07-26-die-for-me/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-07-26-die-for-me/</guid>
+      <description>I will read everything Shirlene writes. I’m not sure I can say more. I’ve read everything she’s written and loved each one.</description>
+    </item>
+    <item>
+      <title>Theo of Golden Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-06-14-theo-of-golden/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-06-14-theo-of-golden/</guid>
+      <description>Words fail to describe just how beautiful and meaningful I found this story. It was an invitation to slow down, to notice, and to see.</description>
+    </item>
+    <item>
+      <title>The Trumpet of the Swan Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-06-12-the-trumpet-of-the-swan/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-06-12-the-trumpet-of-the-swan/</guid>
+      <description>This is our second time through this audiobook as read by the author and my kids still love it. We like this even better than Charlotte’s Web.</description>
+    </item>
+    <item>
+      <title>Immortal Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-06-01-immortal/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-06-01-immortal/</guid>
+      <description>This story and the audiobook performance are top tier. Thank you Sue Lynn Tan and Natalie Naudus! The yearning and world building and intrigue were all very, very good. I throughly enjoyed my listen to…</description>
+    </item>
+    <item>
+      <title>The Shippers Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-05-25-the-shippers/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-05-25-the-shippers/</guid>
+      <description>Maybe my second favorite Katherine Center book. I’m a total sucker for the friends to lovers trope. That said even in it’s silliness and predictability I enjoyed the story. This was fun and not gut…</description>
+    </item>
+    <item>
+      <title>The C*ck Down the Block Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-05-09-the-c-ck-down-the-block-the-cocky-kingmans-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-05-09-the-c-ck-down-the-block-the-cocky-kingmans-1/</guid>
+      <description>Okay. I loved this. It is absolutely fluffy smut but it is fluffy smut I throughly enjoyed listening to. I’m not sure I would have enjoyed actually reading the text nearly as much as the audiobook. This…</description>
+    </item>
+    <item>
+      <title>Happy Ending Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-04-27-happy-ending/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-04-27-happy-ending/</guid>
+      <description>I’m usually a really big fan of Chloe’s writing, but this book was not quite what I had hoped it would be. I dragged my feet finishing it and almost didn’t. It all felt a little too hard for me to…</description>
+    </item>
+    <item>
+      <title>Shadow of Night Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-04-21-shadow-of-night-all-souls-trilogy-2/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-04-21-shadow-of-night-all-souls-trilogy-2/</guid>
+      <description>I had some trouble with how this book began. I had only just finished reading How to Burn a Witch when I began reading this so excuse me, if I was like WTF who in their right mind would take a witch…</description>
+    </item>
+    <item>
+      <title>No Matter What Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-04-18-no-matter-what/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-04-18-no-matter-what/</guid>
+      <description>I like Cara Bastone’s books, but this might be my favorite one yet. To all those yammering on about the miscommunication in the reviews and how this book would only be 10 pages without it you can just…</description>
+    </item>
+    <item>
+      <title>And Now, Back to You Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-04-14-and-now-back-to-you-heartstrings-2/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-04-14-and-now-back-to-you-heartstrings-2/</guid>
+      <description>I loved this book, but I seriously HATE the pet name baby. That pet name nearly killed this book for me and I LOVED Jackson and Delilah.</description>
+    </item>
+    <item>
+      <title>The Night We Met Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-04-08-the-night-we-met-say-youll-remember-me-2/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-04-08-the-night-we-met-say-youll-remember-me-2/</guid>
+      <description>Abby is leaning into telling her stories at least in this series with less spice and more heart, if you can believe that, and I’m here for it.</description>
+    </item>
+    <item>
+      <title>A Curious Kind of Magic Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-03-30-a-curious-kind-of-magic/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-03-30-a-curious-kind-of-magic/</guid>
+      <description>This was a delightfully cozy and magical read that I throughly enjoyed.</description>
+    </item>
+    <item>
+      <title>This Is a Love Story Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-03-23-this-is-a-love-story/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-03-23-this-is-a-love-story/</guid>
+      <description>I can understand why others like this book, and I can understand why yet others don’t like this book.</description>
+    </item>
+    <item>
+      <title>Fundamentals of Being a Good Girl: A Novel Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-03-21-fundamentals-of-being-a-good-girl-a-novel/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-03-21-fundamentals-of-being-a-good-girl-a-novel/</guid>
+      <description>I’m well aware that is book is accurately described as raunch-com but I am 100% here for it. I actually enjoyed this WAY more than the other books by this same author duo, but if you are not ready for…</description>
+    </item>
+    <item>
+      <title>The Re-Do List Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-03-18-the-re-do-list/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-03-18-the-re-do-list/</guid>
+      <description>I liked the focus on trying new things and healing. The romance and the spice felt just right to me. I enjoy Denise Williams and will read more of her books.</description>
+    </item>
+    <item>
+      <title>The Wedding People Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-03-14-the-wedding-people/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-03-14-the-wedding-people/</guid>
+      <description>To begin with this book should have come with all the trigger warnings from suicidal ideation to an actual suicide attempt, parental loss to infidelity, and don’t forget miscarriage, cheating, and…</description>
+    </item>
+    <item>
+      <title>Cinder House Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-03-10-cinder-house/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-03-10-cinder-house/</guid>
+      <description>This retelling is not for everyone. Having throughly enjoyed The Last Binding Trilogy I thought I would give this novella a try. I love retold fairy tales. I was not disappointed. As this is a novella…</description>
+    </item>
+    <item>
+      <title>The Dutch House Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-03-09-the-dutch-house/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-03-09-the-dutch-house/</guid>
+      <description>Ann Patchett does a masterful job of capturing in her fiction the parts of life that seem stranger than fiction. I wasn’t sure what to expect but with how much I loved Tom Lake I wanted to give another…</description>
+    </item>
+    <item>
+      <title>A Discovery of Witches Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-03-07-a-discovery-of-witches-all-souls-trilogy-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-03-07-a-discovery-of-witches-all-souls-trilogy-1/</guid>
+      <description>It is long but I didn’t find myself loosing interest or getting bored. I want to read more and will be reading the second book.</description>
+    </item>
+    <item>
+      <title>In Your Dreams Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-02-17-in-your-dreams-when-in-rome-4/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-02-17-in-your-dreams-when-in-rome-4/</guid>
+      <description>I liked it. It felt like a fitting closing to the series.</description>
+    </item>
+    <item>
+      <title>No More Mediocre: A Call to Reimagine Our Relationships and Demand More Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-02-15-no-more-mediocre-a-call-to-reimagine-our-relationships-and-demand-more/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-02-15-no-more-mediocre-a-call-to-reimagine-our-relationships-and-demand-more/</guid>
+      <description>I would recommend this book to anyone and everyone who is willing to be honest and do the work. This book is not for those wanting to maintain the status quo. This book also points any one who reads it…</description>
+    </item>
+    <item>
+      <title>Kit McBride Gets a Wife Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-02-10-kit-mcbride-gets-a-wife-the-mcbrides-of-montana-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-02-10-kit-mcbride-gets-a-wife-the-mcbrides-of-montana-1/</guid>
+      <description>Cute and closed door. 🚪 I’m not sure what I was expecting but this was sweet, silly, and enjoyable, if that is what you are looking for I would recommend.</description>
+    </item>
+    <item>
+      <title>And Then There Was You Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-02-08-and-then-there-was-you/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-02-08-and-then-there-was-you/</guid>
+      <description>I liked this, I think. 🤔 I know I wanted to like this but I kept getting hung up on the sci-fi plot twist I did not see coming. Rob as a character brought on the uncanny valley effect for me at least.…</description>
+    </item>
+    <item>
+      <title>The Enchantress Returns Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-02-05-the-enchantress-returns-the-land-of-stories-2/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-02-05-the-enchantress-returns-the-land-of-stories-2/</guid>
+      <description>Again my kids are absolutely eating these books up and while I think they are absolutely wonderful for them and fun for all there is still something I’m not quite loving about these loving about this…</description>
+    </item>
+    <item>
+      <title>The Teacher of Nomad Land: A World War II Story Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-02-01-the-teacher-of-nomad-land-a-world-war-ii-story/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-02-01-the-teacher-of-nomad-land-a-world-war-ii-story/</guid>
+      <description>My son and I enjoyed reading/listening to this book. It is well written/told. As the reader you feel for the kids and for the impossible position they are in, but also you feel how the son and daughter…</description>
+    </item>
+    <item>
+      <title>The Pumpkin Spice Café Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-01-30-the-pumpkin-spice-caf-dream-harbor-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-01-30-the-pumpkin-spice-caf-dream-harbor-1/</guid>
+      <description>This was exactly what I was expecting. Nothing to rave about and not a whole lot to tell. I agree with the others on here that have said the MMC needed to get his ass the therapy though, honestly the…</description>
+    </item>
+    <item>
+      <title>Deja Dead: A Novel Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-01-26-deja-dead-a-novel/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-01-26-deja-dead-a-novel/</guid>
+      <description>I’m a fan of Bones and have been meaning the read this series for a while now.</description>
+    </item>
+    <item>
+      <title>The Wishing Spell Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-01-23-the-wishing-spell-the-land-of-stories-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-01-23-the-wishing-spell-the-land-of-stories-1/</guid>
+      <description>My children absolutely LOVED this book and could not wait to read the next one. We listened to the audiobook and are really familiar with all the fairy tales. It was clearly a ⭐️⭐️⭐️⭐️⭐️ listen for them.</description>
+    </item>
+    <item>
+      <title>The Girl Who Drank the Moon Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-01-08-the-girl-who-drank-the-moon/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-01-08-the-girl-who-drank-the-moon/</guid>
+      <description>I loved reading listening to this with my two kids (boy-11, girl-7). Kelly Barnhill has so much magic in her writing. My kids and I always want more.</description>
+    </item>
+    <item>
+      <title>The Geographer&#39;s Map to Romance Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2026-01-06-the-geographers-map-to-romance-loves-academic-2/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2026-01-06-the-geographers-map-to-romance-loves-academic-2/</guid>
+      <description>I’m a sucker for all the pining, every single time. This is my favorite in this series so far. I’m not sure they make much sense to me long term but it was fun during the story.</description>
+    </item>
+    <item>
+      <title>First-Time Caller Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-12-19-first-time-caller-heartstrings-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-12-19-first-time-caller-heartstrings-1/</guid>
+      <description>Third act break ups can take a long walk off a short pier. I liked Lucie and Aiden. I loved their slow burn but once the heat came on I was roasting. 🥵 I guess that is my only complaint besides the…</description>
+    </item>
+    <item>
+      <title>Second Chance Romance: A Harlot&#39;s Bay Novel Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-12-09-second-chance-romance-a-harlots-bay-novel/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-12-09-second-chance-romance-a-harlots-bay-novel/</guid>
+      <description>I haven’t read a romance by Olivia Dade I didn’t like. I love the utter ridiculousness of the little plot twists and nothing is taken too seriously except the love and spice. Olivia Dade just delivers…</description>
+    </item>
+    <item>
+      <title>Recipes for an Unexpected Afterlife Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-12-07-recipes-for-an-unexpected-afterlife/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-12-07-recipes-for-an-unexpected-afterlife/</guid>
+      <description>I loved this. All of it. Every minute. More please.</description>
+    </item>
+    <item>
+      <title>Daddy Issues Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-12-01-daddy-issues/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-12-01-daddy-issues/</guid>
+      <description>Kate Goldbeck, GIRL! She does it again. This book was emotional and 🥵! I don’t know how she does it but her characters feel real and the way she writes in queer representation and neurodivergent…</description>
+    </item>
+    <item>
+      <title>Brigands &amp; Breadknives Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-11-30-brigands-and-breadknives-legends-and-lattes-2/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-11-30-brigands-and-breadknives-legends-and-lattes-2/</guid>
+      <description>This is probably my second favorite book in the Legends &amp; Latte series. My favorite being Bookshops and Bonedust. Travis Baldree seems to strike the very nearly perfect balance between cozy fantasy and…</description>
+    </item>
+    <item>
+      <title>Sweep: The Story of a Girl and Her Monster Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-11-17-sweep-the-story-of-a-girl-and-her-monster/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-11-17-sweep-the-story-of-a-girl-and-her-monster/</guid>
+      <description>I’m not sure what I was expecting. This book had been recommended to me as a family read aloud by a few people and I’m glad I finally read it/listened to it. My children loved it and so did I. It had my…</description>
+    </item>
+    <item>
+      <title>I&#39;m Still Here: Black Dignity in a World Made for Whiteness Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-11-17-im-still-here-black-dignity-in-a-world-made-for-whiteness/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-11-17-im-still-here-black-dignity-in-a-world-made-for-whiteness/</guid>
+      <description>This is a very quick read, but it is eloquent and succinct. There is a lot of wisdom here also.</description>
+    </item>
+    <item>
+      <title>This Princess Kills Monsters Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-11-16-this-princess-kills-monsters/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-11-16-this-princess-kills-monsters/</guid>
+      <description>It feels hard to know if it lived up to The Princess Bride and Shrek because those movies are ones I absolutely adore and both have a unique and special place in my heart.</description>
+    </item>
+    <item>
+      <title>When the Tides Held the Moon Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-11-13-when-the-tides-held-the-moon/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-11-13-when-the-tides-held-the-moon/</guid>
+      <description>This was a sweet little queer fantasy, but I wanted more.</description>
+    </item>
+    <item>
+      <title>Not worth your time</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-11-08-effective-cycling-book/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-11-08-effective-cycling-book/</guid>
+      <description>An absolutely terrible book that no one should ever read. The author, John Forrester, is single-handedly responsible for setting back cycling in the United States by at least 30 years.</description>
+    </item>
+    <item>
+      <title>Cyclists would be better off if this book didn&#39;t exist</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-11-08-bicycle-transportation-book/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-11-08-bicycle-transportation-book/</guid>
+      <description>This book is full of pseudoscience and absolutely terrible, downright harmful advice. It is indirectly responsible for the deaths of countless cyclists by encouraging only infrastructure that treats…</description>
+    </item>
+    <item>
+      <title>The Keeper of Magical Things Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-11-01-the-keeper-of-magical-things/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-11-01-the-keeper-of-magical-things/</guid>
+      <description>I throughly enjoyed this cozy fantasy sapphic romance. I enjoyed The Teller of Small Fortunes enough to know I was going to listen to this audiobook as soon as I could get it on Libby.</description>
+    </item>
+    <item>
+      <title>Keep Moving: Notes on Loss, Creativity, and Change Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-10-27-keep-moving-notes-on-loss-creativity-and-change/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-10-27-keep-moving-notes-on-loss-creativity-and-change/</guid>
+      <description>I would recommend this for almost anyone going through difficulty which feels like all of us these days. It is a book full of how one creative writer got through her own difficult divorce and…</description>
+    </item>
+    <item>
+      <title>Mate Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-10-20-mate-bride-2/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-10-20-mate-bride-2/</guid>
+      <description>Hmmm… I liked this one, but didn’t love it as much as I loved Bride. I wanted to believe that it wasn’t just the trauma and mating bond that made them good for each other. The book left me wanting more.</description>
+    </item>
+    <item>
+      <title>Crenshaw Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-10-15-crenshaw/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-10-15-crenshaw/</guid>
+      <description>This book is heartrending. I wasn’t sure what to expect but Katherine Applegate hasn’t let me down yet.</description>
+    </item>
+    <item>
+      <title>Tusk Love Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-10-09-tusk-love/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-10-09-tusk-love/</guid>
+      <description>I’m a straight up sucker for this book and all books like it. I will love it with everything in me for always. I like the silly playful parts, the adventure, the fantastic, and of course the happy…</description>
+    </item>
+    <item>
+      <title>A Resistance of Witches Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-10-06-a-resistance-of-witches/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-10-06-a-resistance-of-witches/</guid>
+      <description>I really liked this. While I wouldn’t call it a thriller it kept me wanting to read. The ending was chef’s kiss I actually teared up.</description>
+    </item>
+    <item>
+      <title>Roll for Romance Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-09-30-roll-for-romance/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-09-30-roll-for-romance/</guid>
+      <description>I liked it, what else can I say? I enjoyed the D&amp;D campaign and the romance. This was sweet and fun.</description>
+    </item>
+    <item>
+      <title>Vera Wong&#39;s Guide to Snooping (On a Dead Man) Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-09-25-vera-wongs-guide-to-snooping-on-a-dead-man-vera-wong-2/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-09-25-vera-wongs-guide-to-snooping-on-a-dead-man-vera-wong-2/</guid>
+      <description>This is as cozy as cozy murder mysteries get. I love this series so far and I really hope the narrator Eunice Wong can continue on as the narrator for any future books in the series. She totally takes…</description>
+    </item>
+    <item>
+      <title>Vera Wong&#39;s Unsolicited Advice for Murderers Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-09-22-vera-wongs-unsolicited-advice-for-murderers-vera-wong-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-09-22-vera-wongs-unsolicited-advice-for-murderers-vera-wong-1/</guid>
+      <description>Listening to the audiobook version of this book and it was an absolute delight. Eunice Wong as narrator definitely took my enjoyment of this book to the next level. Loved it.</description>
+    </item>
+    <item>
+      <title>The Unmaking of June Farrow Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-09-14-the-unmaking-of-june-farrow/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-09-14-the-unmaking-of-june-farrow/</guid>
+      <description>I liked this book but found the tension of not knowing uncomfortable to say the least. It was good but I’m not sure why I keep reading books with time travel/time loops.</description>
+    </item>
+    <item>
+      <title>Nathan Coulter Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-09-10-nathan-coulter/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-09-10-nathan-coulter/</guid>
+      <description>This book made me feel sad and helped me understand the meaning of the words terrible lonesome.</description>
+    </item>
+    <item>
+      <title>Frindle Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-09-10-frindle/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-09-10-frindle/</guid>
+      <description>This was a sweet one afternoon listen with my 6 and 11 year old. Would recommend.</description>
+    </item>
+    <item>
+      <title>Slow Burn Summer Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-09-04-slow-burn-summer/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-09-04-slow-burn-summer/</guid>
+      <description>I always feel some trepidation at picking up a Josie Silver story. As I was telling a friend her books usually have a bittersweet tang that sometimes spoils it for me. This however did not. It was still…</description>
+    </item>
+    <item>
+      <title>The Diamond of Darkhold: The Fourth Book of Ember (The City of Ember) by Jeanne DuPrau (2008-08-26) Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-09-03-the-diamond-of-darkhold-the-fourth-book-of-ember-the-city-of-ember-by-jeanne-duprau-2008-08-26/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-09-03-the-diamond-of-darkhold-the-fourth-book-of-ember-the-city-of-ember-by-jeanne-duprau-2008-08-26/</guid>
+      <description>I feel like we could take a lesson from these books.</description>
+    </item>
+    <item>
+      <title>Sworn to the Orc: Hidden Hollow, Book 1 Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-09-03-sworn-to-the-orc-hidden-hollow-book-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-09-03-sworn-to-the-orc-hidden-hollow-book-1/</guid>
+      <description>I enjoyed the plot and fantasy elements of this one, but the pet name baby always gives me the ick. Also not a fan of the way the spice read or was written. Found myself laughing out loud more than…</description>
+    </item>
+    <item>
+      <title>The Enchanted Greenhouse Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-08-31-the-enchanted-greenhouse-the-spellshop-2/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-08-31-the-enchanted-greenhouse-the-spellshop-2/</guid>
+      <description>There is something to be said for books that let you feel like you can put them down and come back to them and read them at your own pace. This book was like a warm blanket or a perfect cup of tea. It…</description>
+    </item>
+    <item>
+      <title>Red Clay Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-08-23-red-clay/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-08-23-red-clay/</guid>
+      <description>Especially for a debut this is a really good book. The only reason I gave it four stars instead of 5 is because there are parts that felt unnecessary and other parts that feel unresolved.</description>
+    </item>
+    <item>
+      <title>Everyone in My Family Has Killed Someone Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-08-11-everyone-in-my-family-has-killed-someone-ernest-cunningham-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-08-11-everyone-in-my-family-has-killed-someone-ernest-cunningham-1/</guid>
+      <description>I enjoyed this book, but nothing stood out to me as exceptional. The quote “ Family is gravity.” will stick with me though.</description>
+    </item>
+    <item>
+      <title>The Serviceberry: Abundance and Reciprocity in the Natural World Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-08-09-the-serviceberry-abundance-and-reciprocity-in-the-natural-world/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-08-09-the-serviceberry-abundance-and-reciprocity-in-the-natural-world/</guid>
+      <description>Her way of writing and speaking and teaching encourage me to listen and take to heart what is being spoken or taught. She encourages me that my small seemingly insignificant choices and decisions and…</description>
+    </item>
+    <item>
+      <title>The Favorites Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-08-08-the-favorites/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-08-08-the-favorites/</guid>
+      <description>Not my cup of tea, but the book was misrepresented to me when it was recommended. I was expecting more romance and less drama. It was fraught the whole way through and the ending was not at all…</description>
+    </item>
+    <item>
+      <title>Zomromcom Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-08-07-zomromcom/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-08-07-zomromcom/</guid>
+      <description>I’m giving this five stars because why wouldn’t I? It was exactly my cup of tea. Exactly what I needed.</description>
+    </item>
+    <item>
+      <title>A Witch&#39;s Guide to Magical Innkeeping Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-07-25-a-witchs-guide-to-magical-innkeeping/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-07-25-a-witchs-guide-to-magical-innkeeping/</guid>
+      <description>This book absolutely did not disappoint. I enjoyed The Very Secret Society of Irregular Witches but this was even better. I loved it and read/listened to most of it in one day as I was packing for a…</description>
+    </item>
+    <item>
+      <title>We Need Your Art: Stop F*cking Around and Make Something Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-07-24-we-need-your-art-stop-f-cking-around-and-make-something/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-07-24-we-need-your-art-stop-f-cking-around-and-make-something/</guid>
+      <description>I needed to hear so much of this book. As someone who has wanted to have a regular art practice this felt like a nudge/push/plea to head in the direction of making art. I think I will return to this…</description>
+    </item>
+    <item>
+      <title>The Life Impossible Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-07-11-the-life-impossible/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-07-11-the-life-impossible/</guid>
+      <description>This was an interesting read. I honestly wasn’t at all sure what to expect when I checked this book out. The narrator did an excellent job in their delivery of the story. Through out most of the book I…</description>
+    </item>
+    <item>
+      <title>Sounds Like Love Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-07-06-sounds-like-love/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-07-06-sounds-like-love/</guid>
+      <description>I really liked this one. I’m not sure it’s my favorite Ashley Poston, but it might be in the running for the top spot.</description>
+    </item>
+    <item>
+      <title>The Girl Who Stole an Elephant Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-07-05-the-girl-who-stole-an-elephant/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-07-05-the-girl-who-stole-an-elephant/</guid>
+      <description>This was a quite an adventure for a family read aloud. Everyone enjoyed it.</description>
+    </item>
+    <item>
+      <title>The Love Lyric Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-06-29-the-love-lyric-the-greene-sisters-3/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-06-29-the-love-lyric-the-greene-sisters-3/</guid>
+      <description>Probably my favorite of the three Greene Sister books.</description>
+    </item>
+    <item>
+      <title>The Vanderbeekers Ever After Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-06-25-the-vanderbeekers-ever-after-the-vanderbeekers-7/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-06-25-the-vanderbeekers-ever-after-the-vanderbeekers-7/</guid>
+      <description>This whole series was beautiful to listen to with my kids. Robin Miles does such a terrific job narrating the entire series.</description>
+    </item>
+    <item>
+      <title>The Teller of Small Fortunes Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-06-21-the-teller-of-small-fortunes/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-06-21-the-teller-of-small-fortunes/</guid>
+      <description>I really enjoyed listening to this one. I was curious about the characters and what was going on. I think in general I prefer a bit more adventure but this was a very cozy and enjoyable read. I wish the…</description>
+    </item>
+    <item>
+      <title>Misty the Abandoned Kitten Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-06-11-misty-the-abandoned-kitten/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-06-11-misty-the-abandoned-kitten/</guid>
+      <description>Holly Webb does a really great job of writing stories about animals. My 6 year old daughter loves them.</description>
+    </item>
+    <item>
+      <title>Manic Pixie Dream Earl Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-06-11-manic-pixie-dream-earl-earls-trip-2/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-06-11-manic-pixie-dream-earl-earls-trip-2/</guid>
+      <description>I really liked this one. I really like this series in general.</description>
+    </item>
+    <item>
+      <title>The Rainfall Market Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-06-06-the-rainfall-market/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-06-06-the-rainfall-market/</guid>
+      <description>This a really beautiful middle grade novel. I hope my son reads it one day.</description>
+    </item>
+    <item>
+      <title>The Princess Bride Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-05-27-the-princess-bride/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-05-27-the-princess-bride/</guid>
+      <description>This is fine. I’m only happy they made the movie and that I enjoy it so much more.</description>
+    </item>
+    <item>
+      <title>The Vanderbeekers Lost and Found Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-05-18-the-vanderbeekers-lost-and-found/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-05-18-the-vanderbeekers-lost-and-found/</guid>
+      <description>Might be my favorite Vanderbeeker book.</description>
+    </item>
+    <item>
+      <title>Oathbound Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-05-17-oathbound-the-legendborn-cycle-3/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-05-17-oathbound-the-legendborn-cycle-3/</guid>
+      <description>This was such a struggle for me. I did and didn’t want to keep reading and that ending. 😮‍💨 I will maybe write more later. I’m glad I finished it, but this is not at all what I wanted or hoped for.</description>
+    </item>
+    <item>
+      <title>Say You&#39;ll Remember Me Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-04-12-say-youll-remember-me-say-youll-remember-me-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-04-12-say-youll-remember-me-say-youll-remember-me-1/</guid>
+      <description>I am wrecked and I was so invested! I love Abby Jimenez! I related to Samantha. Caring for a loved one is hard no matter what the illness or how long it lasts. I’ve also done long distance and it is not…</description>
+    </item>
+    <item>
+      <title>The Ornithologist&#39;s Field Guide to Love Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-04-02-the-ornithologists-field-guide-to-love-loves-academic-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-04-02-the-ornithologists-field-guide-to-love-loves-academic-1/</guid>
+      <description>If you’re looking for love and adventure with some magic thrown in, this book is probably for you. This book felt slow for all the action that was going on especially compared to the author’s other…</description>
+    </item>
+    <item>
+      <title>The Lightning Thief Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-04-02-the-lightning-thief-percy-jackson-and-the-olympians-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-04-02-the-lightning-thief-percy-jackson-and-the-olympians-1/</guid>
+      <description>My son (10) and I (40) listened to this book together. He would probably have giving it 5 stars but it was 4 stars for me. I’m enjoying listening to this with my son but probably wouldn’t read it in my…</description>
+    </item>
+    <item>
+      <title>I&#39;m Sorry for My Loss: An Urgent Examination of Reproductive Care in America Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-03-27-im-sorry-for-my-loss-an-urgent-examination-of-reproductive-care-in-america/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-03-27-im-sorry-for-my-loss-an-urgent-examination-of-reproductive-care-in-america/</guid>
+      <description>This book is a wonderful resource. It is not without its sadness. Miscarriage, pregnancy loss, TFMR, and still birth are hard topics to talk about but they should be talked about. The fact that most…</description>
+    </item>
+    <item>
+      <title>The Spellshop Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-03-17-the-spellshop-spellshop-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-03-17-the-spellshop-spellshop-1/</guid>
+      <description>Could this be anymore low stakes and exactly what I needed? No, it could not.</description>
+    </item>
+    <item>
+      <title>The Penderwicks in Spring Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-03-13-the-penderwicks-in-spring-the-penderwicks-4/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-03-13-the-penderwicks-in-spring-the-penderwicks-4/</guid>
+      <description>The first three books in this series were wonderful and were an absolute delight to read with my kids this one however wrecked me in the best possible way. This book is a gentle love letter to all those…</description>
+    </item>
+    <item>
+      <title>The Marriage Portrait Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-02-23-the-marriage-portrait/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-02-23-the-marriage-portrait/</guid>
+      <description>This book made me feel grateful for living in modern times even as the world burns. I understand that this story is what one person, the author, crafted together as one possible story inspired by the…</description>
+    </item>
+    <item>
+      <title>The Wisteria Society of Lady Scoundrels Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-02-07-the-wisteria-society-of-lady-scoundrels-dangerous-damsels-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-02-07-the-wisteria-society-of-lady-scoundrels-dangerous-damsels-1/</guid>
+      <description>If you have to have it explained to you why there must be flying houses and lady pirates 🏴‍☠️ then this is not the book or series for you. If however that very idea delights your heart and soul please…</description>
+    </item>
+    <item>
+      <title>There&#39;s Always This Year: On Basketball and Ascension Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-01-31-theres-always-this-year-on-basketball-and-ascension/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-01-31-theres-always-this-year-on-basketball-and-ascension/</guid>
+      <description>I wasn’t sure this book was going to be for me but I ended up enjoying it. Listening to the author read his own words brought this book to life in way I can only fail to describe well enough. After…</description>
+    </item>
+    <item>
+      <title>Tranquility by Tuesday: 9 Ways to Calm the Chaos and Make Time for What Matters Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-01-23-tranquility-by-tuesday-9-ways-to-calm-the-chaos-and-make-time-for-what-matters/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-01-23-tranquility-by-tuesday-9-ways-to-calm-the-chaos-and-make-time-for-what-matters/</guid>
+      <description>I feel like this one and Four Thousand Weeks: Time Management for Mortals have been very good practical guides against some of the all or nothing mentalities we can grow up with and carry around without…</description>
+    </item>
+    <item>
+      <title>Beg, Borrow, or Steal Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-01-21-beg-borrow-or-steal-when-in-rome-3/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-01-21-beg-borrow-or-steal-when-in-rome-3/</guid>
+      <description>Might be my favorite out of the bunch so far, and I’m not usually one for enemies to lovers either.</description>
+    </item>
+    <item>
+      <title>The Most Fun We Ever Had Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-01-18-the-most-fun-we-ever-had/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-01-18-the-most-fun-we-ever-had/</guid>
+      <description>I almost DNFed this one, but by the time I got half way through I knew I would finish it.</description>
+    </item>
+    <item>
+      <title>Howl&#39;s Moving Castle Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-01-11-howls-moving-castle-howls-moving-castle-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-01-11-howls-moving-castle-howls-moving-castle-1/</guid>
+      <description>I can understand how this might not be everyone’s cup of tea, but my family throughly enjoyed this audiobook and are looking forward to the other two books.</description>
+    </item>
+    <item>
+      <title>Bookshops &amp; Bonedust Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-01-11-bookshops-and-bonedust-legends-and-lattes-0/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-01-11-bookshops-and-bonedust-legends-and-lattes-0/</guid>
+      <description>I feel like this is what I actually wanted from Legends and Lattes so I’m really pleased this one delivered on all fronts. I’m excited for more from this author and series so many, many lovable…</description>
+    </item>
+    <item>
+      <title>Hello Fake Boyfriend Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-01-05-hello-fake-boyfriend-hello-2/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-01-05-hello-fake-boyfriend-hello-2/</guid>
+      <description>I could not find any love in my heart for the FMC, Mara. I liked literally everybody else.</description>
+    </item>
+    <item>
+      <title>Nettle &amp; Bone Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-01-03-nettle-and-bone/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-01-03-nettle-and-bone/</guid>
+      <description>The first 25-30% of this book is very hard to read. Things are very grim and I almost stopped reading but I had been told enough by people I trust to keep reading and I am glad that I did. It was very…</description>
+    </item>
+    <item>
+      <title>Plain Jane and the Mermaid Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2025-01-01-plain-jane-and-the-mermaid/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2025-01-01-plain-jane-and-the-mermaid/</guid>
+      <description>Mermaids! Selkies! And a water demon! Oh my! Sign me up. From the moment I saw this book recommended I should have known it was going to be everything I wanted and nothing I didn’t. Loved it! Oh and old…</description>
+    </item>
+    <item>
+      <title>Christmas Eve Love Story Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-12-23-christmas-eve-love-story/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-12-23-christmas-eve-love-story/</guid>
+      <description>This was a cute little Christmas read. There was romance and a time loop and one kiss, if you are looking for something without spice this might be a good one for you.</description>
+    </item>
+    <item>
+      <title>A Winter in New York Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-12-19-a-winter-in-new-york/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-12-19-a-winter-in-new-york/</guid>
+      <description>Lots of New York Rom-Com vibes. Extra points for all the Moonstruck references, and what felt like While You Were Sleeping vibes. I loved this and hated it too. I’ve enjoyed all the other Josie Silver…</description>
+    </item>
+    <item>
+      <title>How to Tell When We Will Die: On Pain, Disability, and Doom Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-12-15-how-to-tell-when-we-will-die-on-pain-disability-and-doom/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-12-15-how-to-tell-when-we-will-die-on-pain-disability-and-doom/</guid>
+      <description>I am not sure what I was expecting, but this is a book I want to sit with and think about and think over. It took me over 10 years to come to grips with my own chronic illness/disability/autoimmune…</description>
+    </item>
+    <item>
+      <title>A Season for Second Chances Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-12-12-a-season-for-second-chances/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-12-12-a-season-for-second-chances/</guid>
+      <description>I’m usually not one for any cheating in a storyline, but I’ll give this one a pass. It gets a pass because it was the inciting incident that brought about the rest of the story and the rest of the story…</description>
+    </item>
+    <item>
+      <title>The Wedding Witch Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-12-07-the-wedding-witch-the-ex-hex-3/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-12-07-the-wedding-witch-the-ex-hex-3/</guid>
+      <description>I have loved this entire series. This whole series is like a pan of fresh chocolate chip cookies you’ll eat the first one and swear that was enough and then you end up finishing the series because the…</description>
+    </item>
+    <item>
+      <title>The Mistletoe Motive Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-12-05-the-mistletoe-motive/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-12-05-the-mistletoe-motive/</guid>
+      <description>The vibes are Shop Around the Corner/You’ve Got Mail but with spice at the end. As a fan of Chloe Liese, this was a quick fun read for this holiday season.</description>
+    </item>
+    <item>
+      <title>Always October Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-11-29-always-october/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-11-29-always-october/</guid>
+      <description>I would recommend this listen/read for anyone looking for a spooky season book to enjoy with kids between the age of 8-12.</description>
+    </item>
+    <item>
+      <title>Emmy and the Incredible Shrinking Rat Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-11-28-emmy-and-the-incredible-shrinking-rat/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-11-28-emmy-and-the-incredible-shrinking-rat/</guid>
+      <description>This has a slow start, but once we were finally into it the kids and the parents were excited to finish it. We stayed up a little late to listen to the last 50-ish minutes. The full cast reading also…</description>
+    </item>
+    <item>
+      <title>Spindle&#39;s End Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-11-26-spindles-end/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-11-26-spindles-end/</guid>
+      <description>As a lover of all fairytales and of Sleep Beauy in particular I couldn’t have love this retelling more, but I will say that I think the audiobook made this very narrative book all the more enjoyable.</description>
+    </item>
+    <item>
+      <title>Something in the Woods Loves You Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-11-16-something-in-the-woods-loves-you/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-11-16-something-in-the-woods-loves-you/</guid>
+      <description>This is such a beautiful and articulate book. I am already looking forward to rereading it. It was probably one of the best books I could have chosen to read after the U.S. presidential election of 2024.</description>
+    </item>
+    <item>
+      <title>My Body Is Not a Prayer Request: Disability Justice in the Church Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-11-08-my-body-is-not-a-prayer-request-disability-justice-in-the-church/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-11-08-my-body-is-not-a-prayer-request-disability-justice-in-the-church/</guid>
+      <description>It took me nearly 10 years to recognize that part of what led me to leave the church was ableism. I got tired of having to tell people about my celiac diagnosis and having to follow a medically…</description>
+    </item>
+    <item>
+      <title>Haunt Your Heart Out Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-11-05-haunt-your-heart-out/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-11-05-haunt-your-heart-out/</guid>
+      <description>DNF-ed at 26%. I don’t know what I was expecting but this didn’t land for me at all. I didn’t want to read more.</description>
+    </item>
+    <item>
+      <title>Saturdays at Sea Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-11-03-saturdays-at-sea-castle-glower-5/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-11-03-saturdays-at-sea-castle-glower-5/</guid>
+      <description>My family enjoyed this as a bedtime listen and we are sad to see the end of these adventures with Castle Glower and this family. I was happy that both my ten year old and my soon to be six year old…</description>
+    </item>
+    <item>
+      <title>Starling House Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-10-17-starling-house/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-10-17-starling-house/</guid>
+      <description>I left this one on my TBR for too long. I loved that I felt drawn in from the moment I started the audiobook. Perfection for an October read. Gothic and dreamy even if some of those dreams are…</description>
+    </item>
+    <item>
+      <title>What Doesn&#39;t Kill You: A Life with Chronic Illness - Lessons from a Body in Revolt Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-10-09-what-doesnt-kill-you-a-life-with-chronic-illness-lessons-from-a-body-in-revolt/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-10-09-what-doesnt-kill-you-a-life-with-chronic-illness-lessons-from-a-body-in-revolt/</guid>
+      <description>If you or someone you care about has been diagnosed with a chronic illness this book is for you.</description>
+    </item>
+    <item>
+      <title>You, with a View Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-09-29-you-with-a-view/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-09-29-you-with-a-view/</guid>
+      <description>Quick, fun, with a little spice, pretty much exactly what I was expecting. Not sure I found these high school rivals to lovers all that believable, but I’m also not a huge fan of the trope for that…</description>
+    </item>
+    <item>
+      <title>The Rise and Fall of Mount Majestic Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-09-20-the-rise-and-fall-of-mount-majestic/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-09-20-the-rise-and-fall-of-mount-majestic/</guid>
+      <description>This was a delightful read aloud for my family of four with a 5 year old and a 10 year old.</description>
+    </item>
+    <item>
+      <title>The Maid and the Crocodile Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-09-20-the-maid-and-the-crocodile/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-09-20-the-maid-and-the-crocodile/</guid>
+      <description>The world building, the prose, it is all so, so good. Don’t sleep on this read. Read the Raybearer and Redemptor and then read this one. I will read everything Jordan Ifueko writes forever.</description>
+    </item>
+    <item>
+      <title>Mother-Daughter Murder Night Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-09-07-mother-daughter-murder-night/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-09-07-mother-daughter-murder-night/</guid>
+      <description>That’s a pretty good summary. Those are definitely the vibes. Dysfunctional family dynamics and a want to figure out who committed the murder next door make for a pretty interesting read.</description>
+    </item>
+    <item>
+      <title>Tom Lake Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-09-04-tom-lake/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-09-04-tom-lake/</guid>
+      <description>A beautiful ode to the way parents and grandparents tell their stories to the children and grandchildren they love at the kitchen table and all the other places we gather.</description>
+    </item>
+    <item>
+      <title>Thursdays with the Crown Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-09-03-thursdays-with-the-crown-castle-glower-3/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-09-03-thursdays-with-the-crown-castle-glower-3/</guid>
+      <description>We are loving this series as a family bedtime read aloud more and more as we keep reading.</description>
+    </item>
+    <item>
+      <title>Cassandra in Reverse Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-08-26-cassandra-in-reverse/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-08-26-cassandra-in-reverse/</guid>
+      <description>I’m not sure I’ve read a more vivid or illuminating representation of a late diagnosed autistic woman in literature. While I wish there was a lot more representation, I don’t want to see it badly done.…</description>
+    </item>
+    <item>
+      <title>Maybe Next Time Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-08-25-maybe-next-time/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-08-25-maybe-next-time/</guid>
+      <description>This story had its crawls in me from page one.</description>
+    </item>
+    <item>
+      <title>Hera Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-08-23-hera/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-08-23-hera/</guid>
+      <description>😮‍💨 I wanted to like this a lot and had VERY HIGH hopes after how much I loved Atalanta. Alas it was not really my cup of tea.</description>
+    </item>
+    <item>
+      <title>Nine Rules to Break When Romancing a Rake Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-08-19-nine-rules-to-break-when-romancing-a-rake-love-by-numbers-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-08-19-nine-rules-to-break-when-romancing-a-rake-love-by-numbers-1/</guid>
+      <description>It’s no wonder this is considered a “classic” historical romance. I’m ready to read more if they are this good.</description>
+    </item>
+    <item>
+      <title>Not Another Love Song Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-08-15-not-another-love-song/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-08-15-not-another-love-song/</guid>
+      <description>I loved this one. I’m not gonna say that other reviewers don’t have their points but nothing they brought up spoiled the book for me. I loved the characters and all the love for music and making music.</description>
+    </item>
+    <item>
+      <title>Anita de Monte Laughs Last Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-08-13-anita-de-monte-laughs-last/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-08-13-anita-de-monte-laughs-last/</guid>
+      <description>This book left me feeling very meh. I didn’t love reading chapter after chapter of people being absolute crap to each other but the ending felt ever so slightly redemptive. Maybe that makes it worth…</description>
+    </item>
+    <item>
+      <title>When Breath Becomes Air Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-08-08-when-breath-becomes-air/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-08-08-when-breath-becomes-air/</guid>
+      <description>This book thoughtfully captures the precarious nature of living when you know you are dying. Having lost my mother to cancer in my 28th year of life I still struggle with how to talk about the last 7…</description>
+    </item>
+    <item>
+      <title>Not in Love Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-08-07-not-in-love/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-08-07-not-in-love/</guid>
+      <description>I was honestly not sure this one was for me for about the first 50-60% of the book, but Ali hasn’t let me down yet. In the very beginning of the book she warns her reader this one will be tonally…</description>
+    </item>
+    <item>
+      <title>The Paradise Problem Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-08-03-the-paradise-problem/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-08-03-the-paradise-problem/</guid>
+      <description>Might be my favorite Christina Lauren book I’ve read, but I haven’t read them all.</description>
+    </item>
+    <item>
+      <title>The Au Pair Affair Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-08-01-the-au-pair-affair-big-shots-2/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-08-01-the-au-pair-affair-big-shots-2/</guid>
+      <description>Tessa Bailey never lets a reader down when it comes to the dirty talk or what goes on int the spice department but I had a hard time relating to or rooting for this couple. I have liked other books by…</description>
+    </item>
+    <item>
+      <title>Where the Mountain Meets the Moon Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-07-26-where-the-mountain-meets-the-moon/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-07-26-where-the-mountain-meets-the-moon/</guid>
+      <description>A wonderful family read aloud/listen. Throughly enjoyed the audiobook. A beautiful story about patience and contentment, gratitude and what matters most. Would recommend. Would happily listen to it…</description>
+    </item>
+    <item>
+      <title>Bruja Born Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-07-24-bruja-born-brooklyn-brujas-2/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-07-24-bruja-born-brooklyn-brujas-2/</guid>
+      <description>As close as I will ever come to actually reading a zombie book.</description>
+    </item>
+    <item>
+      <title>The Game Changer Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-07-15-the-game-changer/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-07-15-the-game-changer/</guid>
+      <description>Might be my favorite book by Lana so far. I love and appreciate her for writing third act drama without a break up.</description>
+    </item>
+    <item>
+      <title>If Only You Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-06-19-if-only-you-bergman-brothers-6/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-06-19-if-only-you-bergman-brothers-6/</guid>
+      <description>As a someone with celiac disease, the celiac representation made me want to scream and cry and laugh out loud. I’m not 100% sure but this one might be my favorite.</description>
+    </item>
+    <item>
+      <title>Out On A Limb Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-06-17-out-on-a-limb/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-06-17-out-on-a-limb/</guid>
+      <description>I’m not usually one for an unplanned pregnancy in my romance but this one was so good and I picked it up not knowing that it would be part of the plot. This book was so, so good. If this is a spoiler,…</description>
+    </item>
+    <item>
+      <title>This Summer Will Be Different Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-06-14-this-summer-will-be-different/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-06-14-this-summer-will-be-different/</guid>
+      <description>This is a love letter to Princess Edward Island and L.M. Montgomery disguised as a modern romance. I am here for it.</description>
+    </item>
+    <item>
+      <title>Hedging Your Bets Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-06-05-hedging-your-bets/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-06-05-hedging-your-bets/</guid>
+      <description>A solid, not all that spicy, romance with a plus size FMC.</description>
+    </item>
+    <item>
+      <title>Eve: How the Female Body Drove 200 Million Years of Human Evolution Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-06-02-eve-how-the-female-body-drove-200-million-years-of-human-evolution/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-06-02-eve-how-the-female-body-drove-200-million-years-of-human-evolution/</guid>
+      <description>What do you say when a book causes you to actually think through how humans came to be as they are today especially when it comes to the female body because that is exactly what this book did. Having…</description>
+    </item>
+    <item>
+      <title>That Time I Got Drunk and Saved a Demon Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-05-31-that-time-i-got-drunk-and-saved-a-demon-mead-mishaps-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-05-31-that-time-i-got-drunk-and-saved-a-demon-mead-mishaps-1/</guid>
+      <description>I’m torn between 3 and 4 stars but rounded up because it want to see more books like this. I loved the adventure and the fantasy world but found the romance and smut underwhelming. 🤷🏻‍♀️ I was not…</description>
+    </item>
+    <item>
+      <title>This Spells Love Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-05-27-this-spells-love/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-05-27-this-spells-love/</guid>
+      <description>I was rooting for Gemma and Dax. I enjoyed the time line skipping. I thought this was a cute story.</description>
+    </item>
+    <item>
+      <title>How to End a Love Story Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-05-23-how-to-end-a-love-story/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-05-23-how-to-end-a-love-story/</guid>
+      <description>I was not expecting the heat but she definitely brought the heat. 😮‍💨😮‍💨😮‍💨 This also didn’t feel like a debut book it was well paced not filled with over the top grand gestures. I enjoyed this…</description>
+    </item>
+    <item>
+      <title>The Wager: A Tale of Shipwreck, Mutiny and Murder Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-05-21-the-wager-a-tale-of-shipwreck-mutiny-and-murder/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-05-21-the-wager-a-tale-of-shipwreck-mutiny-and-murder/</guid>
+      <description>Dion Graham’s performance of the audiobook is masterfully done! The book itself is incredibly interesting and thought provoking. If you are interested in contemplating what parts of history are told and…</description>
+    </item>
+    <item>
+      <title>The Wild Robot Protects Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-05-18-the-wild-robot-protects/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-05-18-the-wild-robot-protects/</guid>
+      <description>We are huge fans of Roz and were so excited for this third book especially after we loved the first two books SO much. We liked this book but I wouldn’t say we loved it. The story is compelling and we…</description>
+    </item>
+    <item>
+      <title>Earls Trip Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-05-17-earls-trip-earls-trip-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-05-17-earls-trip-earls-trip-1/</guid>
+      <description>I’ll admit that I’m a sucker for the friends to lovers trope. At first I was so unsure I would like let alone love this book but things got good fast. I hope we get sequels because I’ll be here for them.</description>
+    </item>
+    <item>
+      <title>The Remarkable Journey of Prince Jen Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-05-14-the-remarkable-journey-of-prince-jen/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-05-14-the-remarkable-journey-of-prince-jen/</guid>
+      <description>I think Lloyd Alexander’s writing is underrated. I will take this or any one of his Chronicles of Prydain before many other youth fantasy books.</description>
+    </item>
+    <item>
+      <title>Funny Story Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-05-12-funny-story/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-05-12-funny-story/</guid>
+      <description>I devoured this one and I have absolutely no regrets.</description>
+    </item>
+    <item>
+      <title>A True Home Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-05-10-a-true-home-heartwood-hotel-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-05-10-a-true-home-heartwood-hotel-1/</guid>
+      <description>Charming and cozy. A totally enjoyable family read aloud. Perfect bedtime reading. Although toward the end they will be begging to finish the book.</description>
+    </item>
+    <item>
+      <title>Everything for You Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-05-08-everything-for-you-bergman-brothers-5/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-05-08-everything-for-you-bergman-brothers-5/</guid>
+      <description>Even though I love Tim Paige. It was a missed opportunity to not have a second narrator. I love the Bergman crew and Chloe Liese. I’m here is stay. I love making the playlists and listening to the songs…</description>
+    </item>
+    <item>
+      <title>The Spanish Love Deception Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-05-06-the-spanish-love-deception-spanish-love-deception-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-05-06-the-spanish-love-deception-spanish-love-deception-1/</guid>
+      <description>I cannot with this book, and I’m not sure I’m a reader for Elena Armas. I thought The Long Game was okay, but this is not for me. Other people have said it better why this is not it. I kept thinking…</description>
+    </item>
+    <item>
+      <title>Atalanta Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-04-27-atalanta/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-04-27-atalanta/</guid>
+      <description>“The Oracle warned that I would lose myself, but the opposite is true. I am more myself than I have ever been. I am wild. I am free. I am Atlanta.”</description>
+    </item>
+    <item>
+      <title>Just for the Summer Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-04-26-just-for-the-summer-part-of-your-world-3/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-04-26-just-for-the-summer-part-of-your-world-3/</guid>
+      <description>I love the main characters and the way she writes to make place a part of the story. I kept wondering how this was the third book in the series and then I knew. Wowza that was a lot of drama before the…</description>
+    </item>
+    <item>
+      <title>The Catch Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-04-16-the-catch-the-influencer-3/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-04-16-the-catch-the-influencer-3/</guid>
+      <description>I liked Set On You and I loved Exes and O’s. This was my least favorite book of the series. I wasn’t rooting for the characters or their love story. I thought the characters and their development was…</description>
+    </item>
+    <item>
+      <title>Always Only You Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-04-09-always-only-you-bergman-brothers-2/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-04-09-always-only-you-bergman-brothers-2/</guid>
+      <description>I was really loving everything about this book until the end. I was really thinking this one might have skipped the third act break up but nope we had to have the third act break up. 😡 I was not at all…</description>
+    </item>
+    <item>
+      <title>Enchanted to Meet You: A Witches of West Harbor Novel Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-04-06-enchanted-to-meet-you-a-witches-of-west-harbor-novel/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-04-06-enchanted-to-meet-you-a-witches-of-west-harbor-novel/</guid>
+      <description>I didn’t find anything about this book particularly original or well done. I think my bar might be kind of high but this book was okay at best and disappointing throughout at worst.</description>
+    </item>
+    <item>
+      <title>The Love Remedy Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-04-04-the-love-remedy-the-damsels-of-discovery-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-04-04-the-love-remedy-the-damsels-of-discovery-1/</guid>
+      <description>I listened to the audiobook version and I really liked this book. I found the story compelling and the characters interesting. There is an element of mystery solving to this story as well.</description>
+    </item>
+    <item>
+      <title>Set on You Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-04-03-set-on-you-the-influencer-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-04-03-set-on-you-the-influencer-1/</guid>
+      <description>As someone in a fat body and someone with an autoimmune disease, I enjoyed Crystal’s journey into body acceptance and respecting her body. I am also so totally over third act breakups though. Like can…</description>
+    </item>
+    <item>
+      <title>Native: Identity, Belonging, and Rediscovering God Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-04-02-native-identity-belonging-and-rediscovering-god/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-04-02-native-identity-belonging-and-rediscovering-god/</guid>
+      <description>It is the work and writing of women like Kaitlin that has encouraged me to find a way forward in life and in faith even if it doesn’t look like something I grew up knowing or understanding. Reading her…</description>
+    </item>
+    <item>
+      <title>At First Spite Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-03-30-at-first-spite-harlots-bay-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-03-30-at-first-spite-harlots-bay-1/</guid>
+      <description>I loved this book so much I laughed out loud! However I also loved Athena. I related so much to her especially when it came to how depression looks and feels and the negative self talk. I wish gettting…</description>
+    </item>
+    <item>
+      <title>Hunt, Gather, Parent: What Ancient Cultures Can Teach Us About the Lost Art of Raising Happy, Helpful Little Humans Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-03-28-hunt-gather-parent-what-ancient-cultures-can-teach-us-about-the-lost-art-of-raising-happy-helpful-little-humans/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-03-28-hunt-gather-parent-what-ancient-cultures-can-teach-us-about-the-lost-art-of-raising-happy-helpful-little-humans/</guid>
+      <description>I enjoyed this book and have recommended it to others. I think most of the principles and practical examples are sound, but as a mom of two kids (10 year old boy and 5 year old girl at the time of…</description>
+    </item>
+    <item>
+      <title>Not Your Crush&#39;s Cauldron Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-03-27-not-your-crushs-cauldron-supernatural-singles-3/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-03-27-not-your-crushs-cauldron-supernatural-singles-3/</guid>
+      <description>I adore this series. The teenager in me who was obsessed with Buffy the Vampire Slayer throughly enjoys just about everything in this series. Even though all the Maxwell Sisters have found love I’m…</description>
+    </item>
+    <item>
+      <title>In Five Years Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-03-25-in-five-years/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-03-25-in-five-years/</guid>
+      <description>I nearly stopped reading this book but I HATE DNF-ing anything so here we are. This felt like emotional bait and switch and I’m mad about it and will stay mad about it. Also as someone who has lost a…</description>
+    </item>
+    <item>
+      <title>Two for Tea: Welcome to Azathé Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-03-24-two-for-tea-welcome-to-azath-cambric-creek-4/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-03-24-two-for-tea-welcome-to-azath-cambric-creek-4/</guid>
+      <description>I’ve throughly enjoyed C. M. Nascosta’s other books and I cannot wait for the Girls Weekend books coming later this year. That being said, this book had so much potential that I just don’t think was…</description>
+    </item>
+    <item>
+      <title>Witcha Gonna Do? Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-03-16-witcha-gonna-do-the-sherwood-witches-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-03-16-witcha-gonna-do-the-sherwood-witches-1/</guid>
+      <description>This was a fun little romp of a YA fantasy romance for me. Enjoying in the audiobook format seemed to work for this book. The writing style felt very intentionally young except the spice. I honestly…</description>
+    </item>
+    <item>
+      <title>The Power Broker: Robert Moses and the Fall of New York Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-03-10-the-power-broker-robert-moses-and-the-fall-of-new-york/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-03-10-the-power-broker-robert-moses-and-the-fall-of-new-york/</guid>
+      <description>Man, that was a long book, but I thoroughly interesting one. It makes me wonder what NYC would look like today if he had been for public transit instead of so against it.</description>
+    </item>
+    <item>
+      <title>Nickel and Dimed: On (Not) Getting By in America Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-02-29-nickel-and-dimed-on-not-getting-by-in-america/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-02-29-nickel-and-dimed-on-not-getting-by-in-america/</guid>
+      <description>I found this a quick and interesting read. It left me with much food for thought especially when considering the changes the economy has undergone since the COVID pandemic of 2020.</description>
+    </item>
+    <item>
+      <title>Legendborn Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-02-26-legendborn/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-02-26-legendborn/</guid>
+      <description>I never lost the plot, but at times the story felt a bit rushed. In the audiobook version I loved the voice of the narrator but felt like the story would have benefited from others characters being…</description>
+    </item>
+    <item>
+      <title>Kiss the Girl Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-02-22-kiss-the-girl-meant-to-be-3/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-02-22-kiss-the-girl-meant-to-be-3/</guid>
+      <description>This is my favorite of the Meant to Be Series that I’ve read so far and now I want to read more books by the author.</description>
+    </item>
+    <item>
+      <title>The Fun Habit: How the Pursuit of Joy and Wonder Can Change Your Life Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-02-13-the-fun-habit-how-the-pursuit-of-joy-and-wonder-can-change-your-life/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-02-13-the-fun-habit-how-the-pursuit-of-joy-and-wonder-can-change-your-life/</guid>
+      <description>He makes some good points and has some good stories and examples. I found listening to this book a slog but I did finish.</description>
+    </item>
+    <item>
+      <title>Wholehearted Faith Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-02-03-wholehearted-faith/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-02-03-wholehearted-faith/</guid>
+      <description>I just finished listening to the audio version and I wish I had listened sooner. What a beautiful way to remember and hear the words of a woman who sought to live and speak like Jesus.</description>
+    </item>
+    <item>
+      <title>Woven: Nurturing a Faith Your Kid Doesn’t Have to Heal From Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-02-01-woven-nurturing-a-faith-your-kid-doesn-t-have-to-heal-from/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-02-01-woven-nurturing-a-faith-your-kid-doesn-t-have-to-heal-from/</guid>
+      <description>This book is one I wish would have existed when I started my parenting journey. As I’ve continued listening to the audiobook, I have been consistently recommending it to quite a few friends who have…</description>
+    </item>
+    <item>
+      <title>Curves for Days Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-01-26-curves-for-days-big-love-from-galway-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-01-26-curves-for-days-big-love-from-galway-1/</guid>
+      <description>I love Rosie. I love Galway. I liked the slow burn and the pining. I wanted a happy ending, but something about this couple in this specific context and execution didn’t work for me. Everything felt…</description>
+    </item>
+    <item>
+      <title>Burnout: The Secret to Unlocking the Stress Cycle Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-01-21-burnout-the-secret-to-unlocking-the-stress-cycle/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-01-21-burnout-the-secret-to-unlocking-the-stress-cycle/</guid>
+      <description>I enjoy Emily’s writing style. It feels very relatable and usually resonates as true to my lived experience and she gives you good health ways to survive/cope with burnout which is a very real problem…</description>
+    </item>
+    <item>
+      <title>A People&#39;s History of the United States Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-01-18-a-peoples-history-of-the-united-states/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-01-18-a-peoples-history-of-the-united-states/</guid>
+      <description>This reading is not for the weary or faint of heart. As I read more and more of the book I also read some of the criticisms of Zinn’s approach and his handling of U.S. History in general. To those who…</description>
+    </item>
+    <item>
+      <title>Lost in the Snow Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-01-14-lost-in-the-snow/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-01-14-lost-in-the-snow/</guid>
+      <description>We listened to the audio version of this story as a family on a drive to and from a museum. It was pretty enjoyable for all of us.</description>
+    </item>
+    <item>
+      <title>Rein Me In Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2024-01-13-rein-me-in-cowboys-of-night-hawk-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2024-01-13-rein-me-in-cowboys-of-night-hawk-1/</guid>
+      <description>I didn’t care about the characters and I wasn’t invested, like at all, in their relationship. Everything felt like an excuse for the next sex scene and I just wasn’t vibing with it. I mean the epilogue…</description>
+    </item>
+    <item>
+      <title>A December to Remember Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2023-12-31-a-december-to-remember/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2023-12-31-a-december-to-remember/</guid>
+      <description>This was my favorite Christmas read this year! I love the way this author writes her characters and the witty banter gets an A+</description>
+    </item>
+    <item>
+      <title>Odd and the Frost Giants Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2023-12-13-odd-and-the-frost-giants/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2023-12-13-odd-and-the-frost-giants/</guid>
+      <description>I throughly enjoyed reading this aloud with 9 year old son.</description>
+    </item>
+    <item>
+      <title>The Collapsing Empire Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2023-10-09-the-collapsing-empire-the-interdependency-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2023-10-09-the-collapsing-empire-the-interdependency-1/</guid>
+      <description>What a great series! I finished all three books in about 5 days!</description>
+    </item>
+    <item>
+      <title>Alice&#39;s Adventures in Wonderland Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2023-09-24-alices-adventures-in-wonderland-alices-adventures-in-wonderland-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2023-09-24-alices-adventures-in-wonderland-alices-adventures-in-wonderland-1/</guid>
+      <description>I finished this book without my son because it was just that awful. Neither one of us enjoyed it or found anything redeemable in it. After doing some research online to see if I was missing something I…</description>
+    </item>
+    <item>
+      <title>The One and Only Bob Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2023-07-14-the-one-and-only-bob-the-one-and-only-2/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2023-07-14-the-one-and-only-bob-the-one-and-only-2/</guid>
+      <description>My kids hated the way this one ended, but otherwise enjoyed it. The audiobook version read by Danny DeVito is well done.</description>
+    </item>
+    <item>
+      <title>A Court of Wings and Ruin Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2023-06-22-a-court-of-wings-and-ruin-a-court-of-thorns-and-roses-3/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2023-06-22-a-court-of-wings-and-ruin-a-court-of-thorns-and-roses-3/</guid>
+      <description>I wish I had DNFed this one.</description>
+    </item>
+    <item>
+      <title>This Here Flesh: Spirituality, Liberation, and the Stories That Make Us Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2023-01-08-this-here-flesh-spirituality-liberation-and-the-stories-that-make-us/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2023-01-08-this-here-flesh-spirituality-liberation-and-the-stories-that-make-us/</guid>
+      <description>I will re-read. Words fail to review the contents of such an eloquent and stunning book.</description>
+    </item>
+    <item>
+      <title>Wrong Place Wrong Time Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2022-10-25-wrong-place-wrong-time/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2022-10-25-wrong-place-wrong-time/</guid>
+      <description>This book was so much better in every way than I ever expected. It was so good. An absolute treat.</description>
+    </item>
+    <item>
+      <title>The 101 Dalmatians Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2022-09-13-the-101-dalmatians/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2022-09-13-the-101-dalmatians/</guid>
+      <description>This is my second time through this one with my kids. I love the audiobook version and it is such a delight if you enjoy British humor.</description>
+    </item>
+    <item>
+      <title>Project Hail Mary Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2021-05-31-project-hail-mary/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2021-05-31-project-hail-mary/</guid>
+      <description>A thoroughly enjoyable story! I recommend the audiobook, because they do some interesting things with language. (I don&#39;t want to say much more, because it would kind of spoil it.)</description>
+    </item>
+    <item>
+      <title>The Wonderful Wizard of Oz Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2021-02-15-the-wonderful-wizard-of-oz-oz-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2021-02-15-the-wonderful-wizard-of-oz-oz-1/</guid>
+      <description>I like the movie, but I loved the book. I found all the the characters more endearing and the plot line easy and fast moving as a family read aloud with my 6 year old. I’m kind of sad I did not read it…</description>
+    </item>
+    <item>
+      <title>The Lion, the Witch and the Wardrobe Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2021-01-22-the-lion-the-witch-and-the-wardrobe-chronicles-of-narnia-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2021-01-22-the-lion-the-witch-and-the-wardrobe-chronicles-of-narnia-1/</guid>
+      <description>This a such a beautiful family read aloud. We listened to the audiobook during family dinners. It was enchanting as ever.</description>
+    </item>
+    <item>
+      <title>Robin of Sherwood Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2021-01-18-robin-of-sherwood/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2021-01-18-robin-of-sherwood/</guid>
+      <description>I read this aloud to my almost 7 year old son. Apart from Disney this is his first exposure to Robin Hood. We had some very interesting conversations about what people deserve and when and how and why…</description>
+    </item>
+    <item>
+      <title>Everything Happens for a Reason: And Other Lies I&#39;ve Loved Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2021-01-03-everything-happens-for-a-reason-and-other-lies-ive-loved/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2021-01-03-everything-happens-for-a-reason-and-other-lies-ive-loved/</guid>
+      <description>I adored listening to Kate tell me her story. As someone who lost her first pregnancy, then watched my own mother get sick with cancer and die while also being saddled with my own autoimmune diagnosis.…</description>
+    </item>
+    <item>
+      <title>A Redbird Christmas Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2020-12-28-a-redbird-christmas/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2020-12-28-a-redbird-christmas/</guid>
+      <description>This is the perfect feel good Christmas book.</description>
+    </item>
+    <item>
+      <title>The Light at Tern Rock Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2020-12-26-the-light-at-tern-rock/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2020-12-26-the-light-at-tern-rock/</guid>
+      <description>This is a sweet early reader chapter book or read aloud especially at Christmas time. With lessons about walking in someone else’s shoes, forgiving someone, or softening your heart/changing your point…</description>
+    </item>
+    <item>
+      <title>Nancy and Plum Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2020-12-16-nancy-and-plum/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2020-12-16-nancy-and-plum/</guid>
+      <description>This is a delightful read aloud for Christmas! My son kept asking for one more chapter.</description>
+    </item>
+    <item>
+      <title>The Princess and Curdie Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2020-11-24-the-princess-and-curdie-princess-irene-and-curdie-2/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2020-11-24-the-princess-and-curdie-princess-irene-and-curdie-2/</guid>
+      <description>I’ve read the two books in this series with both my children now and they still hold up.</description>
+    </item>
+    <item>
+      <title>Rebellion Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2020-10-31-rebellion-omega-force-11/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2020-10-31-rebellion-omega-force-11/</guid>
+      <description>Brute, macho, cheesy, over-the-top fun! I&#39;ve been enjoying the heck out of this series, literally laughing out loud. I think it even tops the Vorkosigan Saga. It reminds me a bit of the game…</description>
+    </item>
+    <item>
+      <title>The Book Woman of Troublesome Creek Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2020-10-21-the-book-woman-of-troublesome-creek-the-book-woman-of-troublesome-creek-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2020-10-21-the-book-woman-of-troublesome-creek-the-book-woman-of-troublesome-creek-1/</guid>
+      <description>This book is a beautifully told tale. Having read other books about the Packhorse Librarians I am eager to read more because I find the program fascinating. I will however say that I love everything…</description>
+    </item>
+    <item>
+      <title>Untamed Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2020-10-15-untamed/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2020-10-15-untamed/</guid>
+      <description>Loved this. Will reread.</description>
+    </item>
+    <item>
+      <title>The Blue Castle Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2020-10-07-the-blue-castle/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2020-10-07-the-blue-castle/</guid>
+      <description>I loved this book from beginning to end. I hope to read again. It made my heart happy.</description>
+    </item>
+    <item>
+      <title>The Bookish Life of Nina Hill Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2020-09-21-the-bookish-life-of-nina-hill/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2020-09-21-the-bookish-life-of-nina-hill/</guid>
+      <description>In the beginning of this book I was laughing out loud and intrigued by all the possibilities, but the book didn’t deliver the goods for me. I found the relationship between Nina and Tom to be lack…</description>
+    </item>
+    <item>
+      <title>The Sun Does Shine: How I Found Life and Freedom on Death Row Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2020-09-12-the-sun-does-shine-how-i-found-life-and-freedom-on-death-row/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2020-09-12-the-sun-does-shine-how-i-found-life-and-freedom-on-death-row/</guid>
+      <description>After reading The New Jim Crow and getting involved with EJI and the Innocent Project I am not ignorant of the current state of America’s criminal justice system. If I’m honest I had not yet truly…</description>
+    </item>
+    <item>
+      <title>Miracles and Other Reasonable Things: A Story of Unlearning and Relearning God Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2020-08-17-miracles-and-other-reasonable-things-a-story-of-unlearning-and-relearning-god/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2020-08-17-miracles-and-other-reasonable-things-a-story-of-unlearning-and-relearning-god/</guid>
+      <description>I’m not sure what I thought this book was going to be. After reading Jesus Feminist I was expecting something that didn’t read so much like a memoir.</description>
+    </item>
+    <item>
+      <title>The Magic of Reality: How We Know What&#39;s Really True Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2020-08-05-the-magic-of-reality-how-we-know-whats-really-true/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2020-08-05-the-magic-of-reality-how-we-know-whats-really-true/</guid>
+      <description>I enjoyed the science parts, but would have enjoyed it more without all the myths and digs on religion.</description>
+    </item>
+    <item>
+      <title>Such a Fun Age Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2020-07-05-such-a-fun-age/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2020-07-05-such-a-fun-age/</guid>
+      <description>I couldn’t see where this one would end up but was happily surprised with the way things went down. I respected the main character more because of the way things ended.</description>
+    </item>
+    <item>
+      <title>You Learn by Living: Eleven Keys for a More Fulfilling Life Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2020-06-21-you-learn-by-living-eleven-keys-for-a-more-fulfilling-life/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2020-06-21-you-learn-by-living-eleven-keys-for-a-more-fulfilling-life/</guid>
+      <description>Insightful, elegant, interesting, and concise.</description>
+    </item>
+    <item>
+      <title>You Learn by Living: Eleven Keys for a More Fulfilling Life Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2020-06-21-you-learn-by-living-eleven-keys-for-a-more-fulfilling-life-2/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2020-06-21-you-learn-by-living-eleven-keys-for-a-more-fulfilling-life-2/</guid>
+      <description>I was delightfully surprised by how much I enjoyed this book. I’m not sure what I was expecting, but it was much more than I had expected. The wisdom imparted in this books seem very applicable to our…</description>
+    </item>
+    <item>
+      <title>Ex Libris: Confessions of a Common Reader Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2020-05-22-ex-libris-confessions-of-a-common-reader/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2020-05-22-ex-libris-confessions-of-a-common-reader/</guid>
+      <description>This book made me laugh and love being a lover of books especially secondhand books.</description>
+    </item>
+    <item>
+      <title>Finn Family Moomintroll Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2020-05-01-finn-family-moomintroll-the-moomins-3/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2020-05-01-finn-family-moomintroll-the-moomins-3/</guid>
+      <description>Another charming read aloud. I found it took a minute to really get into the story, but thoroughly enjoyed it more and more as we continued to read it.</description>
+    </item>
+    <item>
+      <title>Waiting for Tom Hanks Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2020-03-17-waiting-for-tom-hanks-waiting-for-tom-hanks-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2020-03-17-waiting-for-tom-hanks-waiting-for-tom-hanks-1/</guid>
+      <description>This book is sweet and if rated like the movies would earn a PG-13. It’s mostly just a sweet speed read especially for someone like me who enjoyed all the rom-com references. Not a hot and heavy romance…</description>
+    </item>
+    <item>
+      <title>Ayesha at Last Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2020-03-05-ayesha-at-last/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2020-03-05-ayesha-at-last/</guid>
+      <description>To be honest I was disappointed with how things ended. The book held my attention until I was about 75% done. I could feel the attraction and disappointment through most of the book but by the end I…</description>
+    </item>
+    <item>
+      <title>Poppy&#39;s Return Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2020-03-04-poppys-return/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2020-03-04-poppys-return/</guid>
+      <description>We have been reading aloud the entire Dimwood Forrest series and we are almost finished. My son is 5 and we both adore these stories. However I will say that while we still enjoyed this story that…</description>
+    </item>
+    <item>
+      <title>A Wrinkle in Time Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2020-02-27-a-wrinkle-in-time/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2020-02-27-a-wrinkle-in-time/</guid>
+      <description>Three cheers for re-reading worthwhile books! This was an absolute delight my second time around with my son. Something truly remarkable comes through in the reading of this book. The knowledge of what…</description>
+    </item>
+    <item>
+      <title>A Rule Against Murder Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2020-02-27-a-rule-against-murder-chief-inspector-armand-gamache-4/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2020-02-27-a-rule-against-murder-chief-inspector-armand-gamache-4/</guid>
+      <description>I am simply devouring this series. I love the attention to detail. Each one makes me want to visit Quebec more than the last.</description>
+    </item>
+    <item>
+      <title>The Myth of the Garage: And Other Minor Surprises Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2018-08-10-the-myth-of-the-garage-and-other-minor-surprises/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2018-08-10-the-myth-of-the-garage-and-other-minor-surprises/</guid>
+      <description>A nice short read, with some useful and thought-provoking suggestions.</description>
+    </item>
+    <item>
+      <title>1493: Uncovering the New World Columbus Created Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2017-09-17-1493-uncovering-the-new-world-columbus-created/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2017-09-17-1493-uncovering-the-new-world-columbus-created/</guid>
+      <description>This book had an incredible amount of untold history about how people, plants, and things moved around the world. It took some effort to get through, but i really enjoyed reading it.</description>
+    </item>
+    <item>
+      <title>Three Tales of My Father&#39;s Dragon Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2017-09-13-three-tales-of-my-fathers-dragon-my-fathers-dragon-1-3/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2017-09-13-three-tales-of-my-fathers-dragon-my-fathers-dragon-1-3/</guid>
+      <description>Nathan LOVED this set of stories - we read a chapter or two before bed and then finished the last three chapters tonight after dinner.</description>
+    </item>
+    <item>
+      <title>1491: New Revelations of the Americas Before Columbus Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2017-07-23-1491-new-revelations-of-the-americas-before-columbus/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2017-07-23-1491-new-revelations-of-the-americas-before-columbus/</guid>
+      <description>A really interesting book! Basically a summary of what the current research says the Americas looked like before Europeans arrived. I learned quite a lot - like how the Native Americans had re-routed…</description>
+    </item>
+    <item>
+      <title>Singularity Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2017-07-13-singularity/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2017-07-13-singularity/</guid>
+      <description>I read this when I was a teenager and I remembered enjoying it, but I couldn&#39;t remember the name of the book! Fortunately, Mike Miller was able to help me out there.</description>
+    </item>
+    <item>
+      <title>Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2017-05-31-zen-and-the-art-of-motorcycle-maintenance-an-inquiry-into-values-phaedrus-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2017-05-31-zen-and-the-art-of-motorcycle-maintenance-an-inquiry-into-values-phaedrus-1/</guid>
+      <description>This was a sad story of a man who was searching for God, while at the same time refusing to acknowledge Him, and ultimately going crazy in the process.</description>
+    </item>
+    <item>
+      <title>Getting Real: The Smarter, Faster, Easier Way to Build a Web Application Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2017-05-06-getting-real-the-smarter-faster-easier-way-to-build-a-web-application/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2017-05-06-getting-real-the-smarter-faster-easier-way-to-build-a-web-application/</guid>
+      <description>A few years old now, but sill surprisingly relevant. I&#39;ve been trying to apply a lot of the advice there as I&#39;m working on the new version of user-agent.io and more generally in the work that I do both…</description>
+    </item>
+    <item>
+      <title>Sourcery Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2017-04-24-sourcery-discworld-5-rincewind-3/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2017-04-24-sourcery-discworld-5-rincewind-3/</guid>
+      <description>Not my favorite of the series, but not a bad read by any means.</description>
+    </item>
+    <item>
+      <title>Mort Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2017-04-05-mort-discworld-4-death-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2017-04-05-mort-discworld-4-death-1/</guid>
+      <description>I think this might be my favorite one so far!</description>
+    </item>
+    <item>
+      <title>Equal Rites Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2017-03-15-equal-rites-discworld-3-witches-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2017-03-15-equal-rites-discworld-3-witches-1/</guid>
+      <description>Probably not my favorite of the series, but still an enjoyable read.</description>
+    </item>
+    <item>
+      <title>The Light Fantastic Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2017-03-06-the-light-fantastic-discworld-2-rincewind-2/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2017-03-06-the-light-fantastic-discworld-2-rincewind-2/</guid>
+      <description>Quite a lot of fun, and this one I hadn&#39;t read before!</description>
+    </item>
+    <item>
+      <title>American Nations: A History of the Eleven Rival Regional Cultures of North America Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2017-02-24-american-nations-a-history-of-the-eleven-rival-regional-cultures-of-north-america/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2017-02-24-american-nations-a-history-of-the-eleven-rival-regional-cultures-of-north-america/</guid>
+      <description>A new perspective on the history of our country and why there really never has been a single unified America.</description>
+    </item>
+    <item>
+      <title>Sales &amp; Marketing Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2017-02-20-sales-and-marketing/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2017-02-20-sales-and-marketing/</guid>
+      <description>A nice overview of the field that is easily read in an afternoon. Covers a number of things I hadn&#39;t thought of but I&#39;m still not very fond of the field on the whole.</description>
+    </item>
+    <item>
+      <title>Business adventures Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2017-02-19-business-adventures/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2017-02-19-business-adventures/</guid>
+      <description>A interesting and enjoyable read that lived up to it&#39;s name more than I expected.</description>
+    </item>
+    <item>
+      <title>The Color of Magic Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2017-01-28-the-color-of-magic-discworld-1-rincewind-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2017-01-28-the-color-of-magic-discworld-1-rincewind-1/</guid>
+      <description>Just as much fun the second time through! And this time I got more of the jokes such as &quot;reflected sound of underground spirits&quot; = echo-gnomics = economics :-)</description>
+    </item>
+    <item>
+      <title>Surely You&#39;re Joking, Mr. Feynman!: Adventures of a Curious Character Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2017-01-20-surely-youre-joking-mr-feynman-adventures-of-a-curious-character/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2017-01-20-surely-youre-joking-mr-feynman-adventures-of-a-curious-character/</guid>
+      <description>A lot of fun stories from the life of a brilliant man.</description>
+    </item>
+    <item>
+      <title>Winnie-the-Pooh Book Review</title>
+      <link>https://www.nathananderin.com/book-reviews/2017-01-01-winnie-the-pooh-winnie-the-pooh-1/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2017-01-01-winnie-the-pooh-winnie-the-pooh-1/</guid>
+      <description>I&#39;ve read this one to little Nathan a couple of times already - we both love it!</description>
+    </item>
+    <item>
+      <title>Such a sweet book</title>
+      <link>https://www.nathananderin.com/book-reviews/2016-09-24-el-deafo-graphic-novel/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2016-09-24-el-deafo-graphic-novel/</guid>
+      <description>I read this because of an interview with the author on the podcast The Longest Shortest Time. This book is about growing up and being different and embracing what makes you different. I loved it!</description>
+    </item>
+    <item>
       <title>Ridiculously bad quality</title>
-      <link>https://www.nathananderin.com/reviews/2011-03-12-rise-and-fall-of-prohibition-book/</link>
-      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2011-03-12-rise-and-fall-of-prohibition-book/</guid>
+      <link>https://www.nathananderin.com/book-reviews/2011-03-12-rise-and-fall-of-prohibition-book/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2011-03-12-rise-and-fall-of-prohibition-book/</guid>
       <description>This book was clearly run through OCR software and not given even a cursory proofreading.</description>
     </item>
   </channel>

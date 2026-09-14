@@ -21,7 +21,7 @@
 <nav class="navbar navbar-default navbar-static-top">
     <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu" aria-expanded="false" aria-controls="navbar">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu" aria-expanded="false" aria-controls="nav-menu">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -33,6 +33,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
                 <li><a href="/reviews/"><i class="fa fa-star"></i> Reviews</a></li>
+                <li><a href="/book-reviews/"><i class="fa fa-book"></i> Books</a></li>
             </ul>
         </div>
     </div>
@@ -49,6 +50,8 @@
     <span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span>
     by Nathan Friedly
 </p>
+
+<main>
 
 
 <div class="review-box">
@@ -101,8 +104,13 @@
 <p class="review-origin">This review originally appeared on <a href="https://amazon.com/gp/customer-reviews/R2DTCIJYI8HCLG?tag=nathananderin-20" rel="alternate">Amazon</a>, however nathananderin.com should be considered the canonical source as I keep it up-to-date over time.</p>
 
 
-<p class="disclosure">
+</main>
 
+
+
+
+
+<p class="disclosure">
     Disclaimer:
     
         This product was purchased with my own money.
@@ -111,6 +119,7 @@
         Some links use affiliate codes - it earns me a small percentage and costs you nothing.
     
 </p>
+
 </div>
 
 <footer>
@@ -133,15 +142,15 @@
 <script>
     if (document.querySelectorAll) {
         var slice = Array.prototype.slice;
-        function $(selector) {
+        function getElements(selector) {
             return slice.call(document.querySelectorAll(selector));
         }
-        $('a[data-address]').forEach(function(a) {
+        getElements('a[data-address]').forEach(function(a) {
             var email = a.getAttribute('data-address') + '@nathananderin.com';
             a.href = 'mailto:' + email;
             a.innerHTML = '<i class="fa fa-envelope"></i> ' + email;
         });
-        $('ul[data-address]').forEach(function(ul) {
+        getElements('ul[data-address]').forEach(function(ul) {
             var email = ul.getAttribute('data-address') + '@nathananderin.com';
             var li = document.createElement('li');
             li.className = "text";
@@ -150,7 +159,8 @@
         });
     }
 </script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" defer></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 <script>
     var _gaq = _gaq || [];

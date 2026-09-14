@@ -21,7 +21,7 @@
 <nav class="navbar navbar-default navbar-static-top">
     <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu" aria-expanded="false" aria-controls="navbar">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu" aria-expanded="false" aria-controls="nav-menu">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -33,6 +33,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
                 <li class="active"><a href="/reviews/"><i class="fa fa-star"></i> Reviews</a></li>
+                <li><a href="/book-reviews/"><i class="fa fa-book"></i> Books</a></li>
             </ul>
         </div>
     </div>
@@ -48,7 +49,7 @@
 	<span class="review-filters-label">Filter by reviewer:</span>
 	<a class="review-filter btn btn-default btn-xs" data-author="" href="/reviews/">All</a>
 	<a class="review-filter btn btn-default btn-xs" data-author="nathan" href="/reviews/?author=nathan">Nathan <span class="badge">104</span></a>
-	<a class="review-filter btn btn-default btn-xs" data-author="erin" href="/reviews/?author=erin">Erin <span class="badge">13</span></a>
+	<a class="review-filter btn btn-default btn-xs" data-author="erin" href="/reviews/?author=erin">Erin <span class="badge">12</span></a>
 </div>
 
 
@@ -57,33 +58,29 @@
 	<span class="review-filters-label">Filter by tag:</span>
 	<a class="review-filter btn btn-default btn-xs" data-tag="" href="/reviews/">All</a>
 	
-	<a class="review-filter btn btn-default btn-xs" data-tag="tech" href="/reviews/?tag=tech">tech <span class="badge">91</span></a>
+	<a class="review-filter btn btn-default btn-xs" data-tag="tech" href="/reviews/?tag=tech">tech <span class="badge">94</span></a>
 	
 	<a class="review-filter btn btn-default btn-xs" data-tag="computer" href="/reviews/?tag=computer">computer <span class="badge">34</span></a>
 	
-	<a class="review-filter btn btn-default btn-xs" data-tag="cable" href="/reviews/?tag=cable">cable <span class="badge">20</span></a>
+	<a class="review-filter btn btn-default btn-xs" data-tag="cable" href="/reviews/?tag=cable">cable <span class="badge">21</span></a>
 	
 	<a class="review-filter btn btn-default btn-xs" data-tag="usb-c" href="/reviews/?tag=usb-c">usb-c <span class="badge">16</span></a>
 	
-	<a class="review-filter btn btn-default btn-xs" data-tag="adapter" href="/reviews/?tag=adapter">adapter <span class="badge">9</span></a>
+	<a class="review-filter btn btn-default btn-xs" data-tag="adapter" href="/reviews/?tag=adapter">adapter <span class="badge">10</span></a>
 	
-	<a class="review-filter btn btn-default btn-xs" data-tag="usb" href="/reviews/?tag=usb">usb <span class="badge">9</span></a>
+	<a class="review-filter btn btn-default btn-xs" data-tag="usb" href="/reviews/?tag=usb">usb <span class="badge">10</span></a>
 	
 	<a class="review-filter btn btn-default btn-xs" data-tag="audio" href="/reviews/?tag=audio">audio <span class="badge">8</span></a>
-	
-	<a class="review-filter btn btn-default btn-xs" data-tag="kids" href="/reviews/?tag=kids">kids <span class="badge">7</span></a>
 	
 	<a class="review-filter btn btn-default btn-xs" data-tag="wifi" href="/reviews/?tag=wifi">wifi <span class="badge">7</span></a>
 	
 	<a class="review-filter btn btn-default btn-xs" data-tag="case" href="/reviews/?tag=case">case <span class="badge">6</span></a>
 	
-	<a class="review-filter btn btn-default btn-xs" data-tag="cycling" href="/reviews/?tag=cycling">cycling <span class="badge">5</span></a>
+	<a class="review-filter btn btn-default btn-xs" data-tag="kids" href="/reviews/?tag=kids">kids <span class="badge">6</span></a>
+	
+	<a class="review-filter btn btn-default btn-xs" data-tag="display" href="/reviews/?tag=display">display <span class="badge">5</span></a>
 	
 	<a class="review-filter btn btn-default btn-xs" data-tag="food" href="/reviews/?tag=food">food <span class="badge">5</span></a>
-	
-	<a class="review-filter btn btn-default btn-xs" data-tag="book" href="/reviews/?tag=book">book <span class="badge">4</span></a>
-	
-	<a class="review-filter btn btn-default btn-xs" data-tag="display" href="/reviews/?tag=display">display <span class="badge">4</span></a>
 	
 	<a class="review-filter btn btn-default btn-xs" data-tag="hdmi" href="/reviews/?tag=hdmi">hdmi <span class="badge">4</span></a>
 	
@@ -98,6 +95,8 @@
 		<a class="review-filter btn btn-default btn-xs" data-tag="charger" href="/reviews/?tag=charger">charger <span class="badge">3</span></a>
 		
 		<a class="review-filter btn btn-default btn-xs" data-tag="cookbook" href="/reviews/?tag=cookbook">cookbook <span class="badge">3</span></a>
+		
+		<a class="review-filter btn btn-default btn-xs" data-tag="cycling" href="/reviews/?tag=cycling">cycling <span class="badge">3</span></a>
 		
 		<a class="review-filter btn btn-default btn-xs" data-tag="power-bank" href="/reviews/?tag=power-bank">power-bank <span class="badge">3</span></a>
 		
@@ -137,6 +136,8 @@
 		
 		<a class="review-filter btn btn-default btn-xs" data-tag="speaker" href="/reviews/?tag=speaker">speaker <span class="badge">2</span></a>
 		
+		<a class="review-filter btn btn-default btn-xs" data-tag="storage" href="/reviews/?tag=storage">storage <span class="badge">2</span></a>
+		
 		<a class="review-filter btn btn-default btn-xs" data-tag="video" href="/reviews/?tag=video">video <span class="badge">2</span></a>
 		
 		<a class="review-filter btn btn-default btn-xs" data-tag="wellness" href="/reviews/?tag=wellness">wellness <span class="badge">2</span></a>
@@ -169,13 +170,9 @@
 		
 		<a class="review-filter btn btn-default btn-xs" data-tag="gluten-free" href="/reviews/?tag=gluten-free">gluten-free <span class="badge">1</span></a>
 		
-		<a class="review-filter btn btn-default btn-xs" data-tag="graphic-novel" href="/reviews/?tag=graphic-novel">graphic-novel <span class="badge">1</span></a>
-		
 		<a class="review-filter btn btn-default btn-xs" data-tag="grooming" href="/reviews/?tag=grooming">grooming <span class="badge">1</span></a>
 		
 		<a class="review-filter btn btn-default btn-xs" data-tag="hair" href="/reviews/?tag=hair">hair <span class="badge">1</span></a>
-		
-		<a class="review-filter btn btn-default btn-xs" data-tag="history" href="/reviews/?tag=history">history <span class="badge">1</span></a>
 		
 		<a class="review-filter btn btn-default btn-xs" data-tag="kvm" href="/reviews/?tag=kvm">kvm <span class="badge">1</span></a>
 		
@@ -204,8 +201,6 @@
 		<a class="review-filter btn btn-default btn-xs" data-tag="screws" href="/reviews/?tag=screws">screws <span class="badge">1</span></a>
 		
 		<a class="review-filter btn btn-default btn-xs" data-tag="software" href="/reviews/?tag=software">software <span class="badge">1</span></a>
-		
-		<a class="review-filter btn btn-default btn-xs" data-tag="storage" href="/reviews/?tag=storage">storage <span class="badge">1</span></a>
 		
 		<a class="review-filter btn btn-default btn-xs" data-tag="switch" href="/reviews/?tag=switch">switch <span class="badge">1</span></a>
 		
@@ -236,7 +231,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-08-25-hopestar-a90-bluetooth-speaker/thumbs/1.-banana-for-scale.jpg" alt="">
 	<h2>Awesome sound, half-baked features</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; Hopestar A90 Bluetooth Speaker</p>
+	
 	<p class="excerpt">This speaker has awesome sound, impressive volume, and a ton of features.. but many of the features seem half-baked. Still, the core functionality is very solid.</p>
 </a>
 
@@ -251,7 +251,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-07-22-pixel-watch-4-charger/thumbs/photo-1.jpg" alt="">
 	<h2>A so-so copy of a poor design</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="3 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; Pixel Watch 4 Charger</p>
+	
 	<p class="excerpt">At first glance, this looks nearly identical to the official charger, and to be fair, it does charge the watch.</p>
 </a>
 
@@ -266,7 +271,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-07-07-young-electric-4-bike-rack/thumbs/photo-1.jpg" alt="">
 	<h2>Good design, but poor QA</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; Young Electric 4-Bike Hitch Rack</p>
+	
 	<p class="excerpt">Now that I&#39;ve got it working, I really like the bike rack, but out of the box it was completely unusable.</p>
 </a>
 
@@ -281,7 +291,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-07-04-collapsible-trunk-organizer/thumbs/1. The organizer with several potted plants.jpg" alt="">
 	<h2>Compact and convenient, might struggle with heavier loads</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; Collapsible Trunk Organizer</p>
+	
 	<p class="excerpt">I&#39;m pretty happy with this organizer overall. It&#39;s been fairly convenient on the occasions when I have needed it, and it&#39;s very easy to flatten down and move out of the way when not needed.</p>
 </a>
 
@@ -296,7 +311,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-06-30-ntaanoo-magsafe-battery-pack/thumbs/photo-1.jpg" alt="">
 	<h2>Convenient for a quick charge</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; Ntaanoo MagSafe Battery Pack</p>
+	
 	<p class="excerpt">I use this with my Pixel 9 Pro that I have in a case that adds magsafe-style magnets. I didn&#39;t think that it would actually make that much of a difference, just switching to magnetic charging instead of…</p>
 </a>
 
@@ -311,7 +331,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-05-06-lamicall-bike-frame-bag/thumbs/photo-1.jpg" alt="">
 	<h2>Great for music, maps, etc.</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; Lamicall Bike Frame Bag</p>
+	
 	<p class="excerpt">This was very easy to install and fits my bike great. I was a little concerned about the front strap going around a part of my bike that turns with the handlebars (the &quot;stem&quot;, I think), but it doesn&#39;t…</p>
 </a>
 
@@ -326,7 +351,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-04-22-hdmi-cable-2-pack/thumbs/photo-1.jpg" alt="">
 	<h2>Great 4k60 HDMI cable</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; HDMI 2.0 Cable (2-pack, 6ft)</p>
+	
 	<p class="excerpt">This cable is solid and reliable, and a great deal at 2 for $7.</p>
 </a>
 
@@ -341,7 +371,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-04-22-date-night-decision-dice/thumbs/photo-1.jpg" alt="">
 	<h2>Fun idea, but not for me</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; Date Night Food Decision Dice: 3 PCS Real Wood Dice Set</p>
+	
 	<p class="excerpt">This is a fun idea, and it feels pretty well made, but... my wife and I just aren&#39;t using them. They were good for a laugh and we&#39;ve found the dice that match what we did after the fact once, but we&#39;ve…</p>
 </a>
 
@@ -356,7 +391,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-04-22-butterfly-hair-clips/thumbs/photo-1.jpg" alt="">
 	<h2>My daughter loves these!</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Mini Butterfly Hair Clips (80-pack)</p>
+	
 	<p class="excerpt">These are super cute little butterfly hair clips!</p>
 </a>
 
@@ -371,7 +411,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-03-03-guiheng-crack-rainbow-keyboard/thumbs/photo-1.jpg" alt="">
 	<h2>Fixed backlight, tied to Scroll Lock</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; Guiheng Rainbow Backlit Keyboard (104-key)</p>
+	
 	<p class="excerpt">This keyboard seems relatively fine for $22, but it does leave a little bit to be desired.</p>
 </a>
 
@@ -386,7 +431,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-02-26-hdmi-dummy-plug/thumbs/photo-1.jpg" alt="">
 	<h2>Mostly works, up to 1080p120 or 4k60</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; HDMI Dummy Plug (2K)</p>
+	
 	<p class="excerpt">This mostly works, although I had a couple of hiccups, where it would stop working and the light would turn off when connecting or disconnecting a different (real) monitor to the same video card. Not…</p>
 </a>
 
@@ -399,7 +449,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-02-24-glutino-birthday-cake-pretzels/thumbs/product.jpg" alt="">
 	<h2>As expected, delicious</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Glutino Birthday Cake Pretzel Twists</p>
+	
 	<p class="excerpt">These tasted exactly as I expected. They were really delicious and a nice treat.</p>
 </a>
 
@@ -414,7 +469,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-02-24-facial-grooming-scissors/thumbs/photo-1.jpg" alt="">
 	<h2>The rounded ones protect your skin</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Facial Grooming Scissors</p>
+	
 	<p class="excerpt">These work great, they&#39;re sharp and cut cleanly. I don&#39;t think I&#39;d ever seen a pair with a bulbous/rounded end before, but I can definitely see the value having tried it now.</p>
 </a>
 
@@ -429,7 +489,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-02-18-240w-usb-c-cable-2-pack/thumbs/photo-1.jpg" alt="">
 	<h2>Mostly works, but missing pins and issues with my cable tester</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; 240W USB-C Cable (2-pack, 3.3ft)</p>
+	
 	<p class="excerpt">There&#39;s something about this cable that trips up my cable tester, making it think there&#39;s no cable connected when I try to read the e-marker. But when I use it with an actual computer, it seems to work…</p>
 </a>
 
@@ -444,7 +509,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-02-16-weact-beanie-hat/thumbs/photo-1.jpg" alt="">
 	<h2>Warm and cozy</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; WEACT Beanie Hat</p>
+	
 	<p class="excerpt">I wore this hat for a walk through our local nature preserve, and thoroughly enjoyed it. The hat is warm and cozy and comfortable, just the right amount of tightness so that it held on to my head but…</p>
 </a>
 
@@ -459,7 +529,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-02-13-hagibis-wedge-usb-c-cable/thumbs/photo-1.jpg" alt="">
 	<h2>Cheery little cable for fast charging and slow data</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Hagibis Wedge USB-C Cable</p>
+	
 	<p class="excerpt">Works great for charging and low-speed data (USB 2.0: 30-40MB/s real-world).</p>
 </a>
 
@@ -474,7 +549,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-02-13-displayport-to-usb-c-cable/thumbs/photo-1.jpg" alt="">
 	<h2>Works at 5K, but not quite 6 ft</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; DisplayPort to USB-C Cable</p>
+	
 	<p class="excerpt">Works great! I was even able to use it with a 5k2k (5120x2160) display at 60hz with a crisp and stable picture! (Using DP 1.4 &amp; DSC [Display Stream Compression] - I&#39;m not sure if that actually uses more…</p>
 </a>
 
@@ -489,7 +569,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-02-12-usb-c-to-vga-cable/thumbs/photo-1.jpg" alt="">
 	<h2>Great for connecting a modern device to an older monitor or projector</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; UVOOI USB-C to VGA Cable</p>
+	
 	<p class="excerpt">Works with my phone, my iPad mini, and my Macbook, and a Windows laptop! Defaulted to mirroring the display, although the laptops both supported extending and were able to read the correct resolution…</p>
 </a>
 
@@ -504,7 +589,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-02-12-pattern-prime-usb-c-to-usb-a-adapters/thumbs/photo-1.jpg" alt="">
 	<h2>10Gbps USB 3 speeds, annoying light, good value</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Pattern Prime USB-C to USB-A Adapters (3-pack)</p>
+	
 	<p class="excerpt">These are a must-have for a Macbook, and also convenient for phones and other USB-C only devices.</p>
 </a>
 
@@ -519,7 +609,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-02-11-kceve-usb-kvm-switch/thumbs/photo-1.jpg" alt="">
 	<h2>No video, 1 USB, lots of quirks</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="2 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; KCEVE USB KVM Switch (2 PCs)</p>
+	
 	<p class="excerpt">Quick summary: Works for switching one USB-A device between two computers Supports USB 3.0 5 Gbps speeds Having both a button on the main &quot;hub&quot; and an external button is nice They included a…</p>
 </a>
 
@@ -534,7 +629,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-02-11-aceyoon-keychain-usb4-cable/thumbs/photo-1.jpg" alt="">
 	<h2>Small, but does it all!</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; aceyoon Keychain USB-C Cable (240W)</p>
+	
 	<p class="excerpt">The best cable is the one you have with you, and this cable is incredibly capable and handy! I was able to use it for ~90w charging along with 40Gbps Thunderbolt 3 / USB4 data transfer, and it&#39;s…</p>
 </a>
 
@@ -549,7 +649,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-02-10-usb-card-reader/thumbs/photo-1.jpg" alt="">
 	<h2>Convenient but slow</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; USB card reader</p>
+	
 	<p class="excerpt">This card reader covers a range of different types of cards, and the option of USB-A or USB-C is convenient. However, it DOES NOT operate at a &quot;10 Gigabits Per Second&quot; Data Transfer Rate - that&#39;s just…</p>
 </a>
 
@@ -564,7 +669,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-02-10-samonpow-25w-dual-port-charger/thumbs/photo-1.jpg" alt="">
 	<h2>Only 17w (total) when two devices are connected</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; SAMONPOW 25W Dual-Port USB-C Charger</p>
+	
 	<p class="excerpt">This is a cute little charger that&#39;s great for low-powered devices like smartphones, tablets, earbuds, etc. It can even (slowly) charge my macbook at about 19w! (Although I also tried with a Windows…</p>
 </a>
 
@@ -579,7 +689,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-02-09-usb-9-pin-header-splitter/thumbs/photo-1.jpg" alt="">
 	<h2>Splits 1 port 4 ways, ignores the other port</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; USB 9-pin splitter</p>
+	
 	<p class="excerpt">Works, but the implementation is sub-par from a bandwidth perspective. Each 9-pin header on the motherboard is actually two USB ports, so this splitter, going from one 9-pin to two 9-pin headers is…</p>
 </a>
 
@@ -594,7 +709,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-02-08-usb-a-to-b-printer-cable/thumbs/photo-1.jpg" alt="">
 	<h2>Great USB 2.0 cable for printers and other devices</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; USB A to B printer cable</p>
+	
 	<p class="excerpt">Works great for connecting a computer with a standard USB-A port to a printer, scanner, multifunction center, USB hub (including one built into a monitor), 3d printer, older camera camera, Arduino, hard…</p>
 </a>
 
@@ -609,7 +729,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-02-07-wireless-waterproof-earbuds/thumbs/photo-1.jpg" alt="">
 	<h2>Minor flaws, but fantastic for the price - actually waterproof!</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; YD05 Waterproof Bluetooth Earbuds</p>
+	
 	<p class="excerpt">These are kind of amazing for $7, so while I have a few complaints, I really can&#39;t knock them very hard.</p>
 </a>
 
@@ -624,7 +749,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-02-06-displayport-to-hdmi-cable/thumbs/photo-1.jpg" alt="">
 	<h2>Works for 4k and 1080p, issues with other resolutions, DP-&gt;HDMI only</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="3 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; DisplayPort to HDMI Cable</p>
+	
 	<p class="excerpt">I tested this cable with 2 PCs (one with an AMD RX 6800, one with a Geforce GTX 1650) and 4 monitors. For DisplayPort output and 1080p or 4k, it just worked with no trouble. Crisp picture and correct…</p>
 </a>
 
@@ -639,7 +769,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-02-03-usb-c-100w-braided-cable/thumbs/photo-1.jpg" alt="">
 	<h2>Fast charge, slow data, nice feel</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; USB-C 100w braided cable</p>
+	
 	<p class="excerpt">This is a great for charging most laptops, and just about any other usb-c device: phones, tablets, earbuds, etc. - provided the device is within 3 ft of the charger!</p>
 </a>
 
@@ -654,7 +789,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-02-03-hdmi-to-vga-adapter/thumbs/photo-1.jpg" alt="">
 	<h2>Perfect for an old monitor or projector</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; HDMI-VGA adapter</p>
+	
 	<p class="excerpt">This is perfect for connecting an older monitor or projector to a newer computer with an HDMI output.</p>
 </a>
 
@@ -669,7 +809,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-01-30-usb-c-to-mini-b-cable/thumbs/photo-1.jpg" alt="">
 	<h2>Spares you from needing a dongle</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; USB-C to mini-B cable</p>
+	
 	<p class="excerpt">Works great! Provides power and a data connection to your calculator or any other mini-USB device you might have without needing a dongle!</p>
 </a>
 
@@ -682,7 +827,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-01-30-usb-c-cables-4-pack/thumbs/photo-1.jpg" alt="">
 	<h2>Good for up to 65W charging and USB 2.0 data</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; USB-C cables (4-pack)</p>
+	
 	<p class="excerpt">This is a great cable for charging most USB-C devices: any smartphone or tablet, camera, earbuds, even low-to-medium powered laptops at up to 65W (3.25A 20V).</p>
 </a>
 
@@ -697,7 +847,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-01-29-usb-c-to-displayport-cable/thumbs/photo-1.jpg" alt="">
 	<h2>Simple connection for 4k and beyond</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; USB-C to DisplayPort Cable</p>
+	
 	<p class="excerpt">Works great! It has both high-speed USB-C lanes dedicated to DisplayPort, meaning it can do 4k60 (3840 x 2560 resolution a.k.a &quot;4k&quot; at 60hz) even with devices that only support DisplayPort 1.2, which…</p>
 </a>
 
@@ -712,7 +867,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-01-27-usb-c-to-usb-b-printer-cable/thumbs/photo-1.jpg" alt="">
 	<h2>Good USB Type-B to Type-C cable</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; USB-C to USB-B printer cable</p>
+	
 	<p class="excerpt">Works perfect to let my MacBook print on my printer! It used to be able to print and scan wirelessly, but one MacOS update broke printing and another broke scanning. So then I was stuck using a cable +…</p>
 </a>
 
@@ -727,7 +887,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-01-24-100w-usb-c-charger/thumbs/photo-1.jpg" alt="">
 	<h2>Pretty good for the price</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; 100w USB-C charging brick</p>
+	
 	<p class="excerpt">Overall I&#39;m pretty happy with this charger. It&#39;s not the smallest 100W charger I own, but it&#39;s fairly compact and lightweight, and it does it&#39;s job well. It&#39;s suitable for leaving plugged in at your…</p>
 </a>
 
@@ -742,7 +907,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-01-21-usb-c-headphone-adapters/thumbs/photo-1.jpg" alt="">
 	<h2>Simple to use, great sound, low latency, supports microphones</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; USB-C headphone adapters (3-pack)</p>
+	
 	<p class="excerpt">I&#39;m a big fan of these - and wired headphones in general - there&#39;s no batteries to worry about and it&#39;s simple and straightforward to connect and disconnect.</p>
 </a>
 
@@ -757,7 +927,12 @@
 	
 	<img class="product-thumb" src="/reviews/2026-01-16-65w-usb-c-charger/thumbs/photo-1.jpg" alt="">
 	<h2>Good charger for most USB-C devices, not just laptops</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; 65w USB-C charging brick</p>
+	
 	<p class="excerpt">Overall I&#39;m really happy with this charger. It&#39;s not the smallest 65W charger I own, but it&#39;s fairly compact and lightweight, and it does it&#39;s job well. It&#39;s suitable for leaving plugged in at your…</p>
 </a>
 
@@ -770,7 +945,12 @@
 	
 	<img class="product-thumb" src="/reviews/2025-12-31-guiheng-compact-wired-keyboard/thumbs/product.jpg" alt="">
 	<h2>compact, pretty lights, bad USB-C port</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; Guiheng Compact Keyboard (68-key)</p>
+	
 	<p class="excerpt">Mostly happy with this keyboard, but I am a little annoyed that they screwed up the USB-C port, so you have to use a USB-A to USB-C cable. If you use a USB-C to USB-C cable, it doesn&#39;t work at all.</p>
 </a>
 
@@ -783,7 +963,12 @@
 	
 	<img class="product-thumb" src="/reviews/2025-12-31-guanting-12v-2a-power-supply/thumbs/product.jpg" alt="">
 	<h2>Works great</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; GuanTing 12V 2A Power Supply</p>
+	
 	<p class="excerpt">Works great, revived a monitor who&#39;s original power supply had gone missing.</p>
 </a>
 
@@ -796,34 +981,13 @@
 	
 	<img class="product-thumb" src="/reviews/2025-12-31-computer-screws-kit/thumbs/product.jpg" alt="">
 	<h2>Helped bring an old PC to life</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Computer Screws Kit</p>
+	
 	<p class="excerpt">Exactly what I needed, with plenty to spare.</p>
-</a>
-
-    
-
-
-
-
-<a class="review-card" href="/reviews/2025-11-08-effective-cycling-book/" data-author="nathan" data-tags="book cycling">
-	
-	<img class="product-thumb" src="/reviews/2025-11-08-effective-cycling-book/thumbs/product.jpg" alt="">
-	<h2>Not worth your time</h2>
-	<p class="review-meta"><span class="stars" aria-label="1 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; Effective Cycling, seventh edition</p>
-	<p class="excerpt">An absolutely terrible book that no one should ever read. The author, John Forrester, is single-handedly responsible for setting back cycling in the United States by at least 30 years.</p>
-</a>
-
-    
-
-
-
-
-<a class="review-card" href="/reviews/2025-11-08-bicycle-transportation-book/" data-author="nathan" data-tags="book cycling">
-	
-	<img class="product-thumb" src="/reviews/2025-11-08-bicycle-transportation-book/thumbs/product.jpg" alt="">
-	<h2>Cyclists would be better off if this book didn&#39;t exist</h2>
-	<p class="review-meta"><span class="stars" aria-label="1 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; Bicycle Transportation, Second Edition: A Handbook for Cycling Transportation Engineers</p>
-	<p class="excerpt">This book is full of pseudoscience and absolutely terrible, downright harmful advice. It is indirectly responsible for the deaths of countless cyclists by encouraging only infrastructure that treats…</p>
 </a>
 
     
@@ -834,8 +998,13 @@
 <a class="review-card" href="/reviews/2025-10-28-coolcirc-120mm-psu-fan/" data-author="nathan" data-tags="tech computer fan">
 	
 	<img class="product-thumb" src="/reviews/2025-10-28-coolcirc-120mm-psu-fan/thumbs/product.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; COOLCIRC 120mm PSU Fan</p>
+	<h2>COOLCIRC 120mm PSU Fan Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">Works great, brought new life to an old PSU.</p>
 </a>
 
@@ -847,8 +1016,13 @@
 <a class="review-card" href="/reviews/2025-10-25-600mbps-dual-band-usb-wifi-adapter/" data-author="nathan" data-tags="tech wifi usb">
 	
 	<img class="product-thumb" src="/reviews/2025-10-25-600mbps-dual-band-usb-wifi-adapter/thumbs/product.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Dual-Band USB WiFi Adapter (600Mbps)</p>
+	<h2>Dual-Band USB WiFi Adapter (600Mbps) Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">Windows 11 has a built-in driver so it just works, no need to run some sketch exe. Gets about 300mbps in real-world conditions.</p>
 </a>
 
@@ -862,8 +1036,13 @@
 		<img class="product-photo" src="/reviews/2025-10-23-usb-3-0-to-usb-c-otg-adapter/thumbs/product.jpg" alt="">
 	
 	<img class="product-thumb" src="/reviews/2025-10-23-usb-3-0-to-usb-c-otg-adapter/thumbs/photo-1.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="1 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; USB 3.0 to USB-C OTG Adapter</p>
+	<h2>USB 3.0 to USB-C OTG Adapter Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="1 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span></p>
+	
 	<p class="excerpt">They&#39;re only USB 2.0, not 3.0. They don&#39;t even have the extra pins for USB 3.0, and if you try to transfer files, the best you can get is about 40MB/s, even with an external SSD that can do 800-900MB/s…</p>
 </a>
 
@@ -875,8 +1054,13 @@
 <a class="review-card" href="/reviews/2025-10-23-sata-psu-cable-xpg-core-reactor/" data-author="nathan" data-tags="tech cable computer">
 	
 	<img class="product-thumb" src="/reviews/2025-10-23-sata-psu-cable-xpg-core-reactor/thumbs/product.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; XPG Core Reactor SATA Power cable</p>
+	<h2>XPG Core Reactor SATA Power cable Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">Works great.</p>
 </a>
 
@@ -890,8 +1074,13 @@
 		<img class="product-photo" src="/reviews/2025-10-23-raspberry-pi-zero-acrylic-case/thumbs/product.jpg" alt="">
 	
 	<img class="product-thumb" src="/reviews/2025-10-23-raspberry-pi-zero-acrylic-case/thumbs/photo-1.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="3 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; Raspberry Pi Zero Acrylic Case</p>
+	<h2>Raspberry Pi Zero Acrylic Case Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="3 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span></p>
+	
 	<p class="excerpt">Acrylic case works and looks nice, as long as you don&#39;t mind the &quot;feet&quot; being slightly different heights, causing it to sit at an angle. Assembly was a little bit confusing and I&#39;m not sure I got it…</p>
 </a>
 
@@ -903,8 +1092,13 @@
 <a class="review-card" href="/reviews/2025-10-23-raspberry-pi-zero-2w-acrylic-case/" data-author="nathan" data-tags="tech raspberry-pi case">
 	
 	<img class="product-thumb" src="/reviews/2025-10-23-raspberry-pi-zero-2w-acrylic-case/thumbs/product.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Raspberry Pi Zero 2W Acrylic Case</p>
+	<h2>Raspberry Pi Zero 2W Acrylic Case Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">Works great! My Pi zero 2w fits perfectly. I didn&#39;t realize that there&#39;s no way to remove the microSD card while it&#39;s in the case, but I guess that&#39;s a feature for some folks. I haven&#39;t tested the…</p>
 </a>
 
@@ -916,8 +1110,13 @@
 <a class="review-card" href="/reviews/2025-10-23-12v-rgb-pc-led-light-strip/" data-author="nathan" data-tags="tech lighting computer">
 	
 	<img class="product-thumb" src="/reviews/2025-10-23-12v-rgb-pc-led-light-strip/thumbs/product.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; 12V RGB PC LED Strip</p>
+	<h2>12V RGB PC LED Strip Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">Works great! Adds a little fun to my computer. Nice for slightly older systems that only support the 4-pin 12v option.</p>
 </a>
 
@@ -931,8 +1130,13 @@
 		<img class="product-photo" src="/reviews/2025-10-23-4-port-usb-3-0-hub/thumbs/product.jpg" alt="">
 	
 	<img class="product-thumb" src="/reviews/2025-10-23-4-port-usb-3-0-hub/thumbs/photo-1.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="2 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; 4-Port USB 3.0 Hub</p>
+	<h2>4-Port USB 3.0 Hub Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="2 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span></p>
+	
 	<p class="excerpt">Uses USB 3.0 connectors, but has a USB 2.0 chip inside, so it only operates at USB 2.0 speeds - about 40MB/s. Also, it back-feeds 5v into the USB-A male plug when powered via USB-C. I suppose some folks…</p>
 </a>
 
@@ -946,8 +1150,13 @@
 		<img class="product-photo" src="/reviews/2025-10-22-argb-controller/thumbs/product.jpg" alt="">
 	
 	<img class="product-thumb" src="/reviews/2025-10-22-argb-controller/thumbs/a PC with the controller installed.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; ARGB Light Controller</p>
+	<h2>ARGB Light Controller Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">Adds a fun little bit of pizazz to a computer when paired with an ARGB light strip/fan/etc. I really like the default rainbow effect, and there&#39;s lots of other effects to choose from. The connector was…</p>
 </a>
 
@@ -959,8 +1168,13 @@
 <a class="review-card" href="/reviews/2025-10-21-sata-to-pcie-power-cable/" data-author="nathan" data-tags="tech cable computer">
 	
 	<img class="product-thumb" src="/reviews/2025-10-21-sata-to-pcie-power-cable/thumbs/product.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; SATA to PCIe Power Cable</p>
+	<h2>SATA to PCIe Power Cable Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">Works great, an excellent way of adding a bit more performance to a basic office PC. Having two SATA connectors means it isn&#39;t exceeding the 54W (4.5A @ 12V) of the SATA specification if the GPU draws…</p>
 </a>
 
@@ -974,8 +1188,13 @@
 		<img class="product-photo" src="/reviews/2025-10-20-argb-led-strip-ws2812b/thumbs/product.jpg" alt="">
 	
 	<img class="product-thumb" src="/reviews/2025-10-20-argb-led-strip-ws2812b/thumbs/lights installed in a small PC.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; ARGB LED Strip (WS2812B)</p>
+	<h2>ARGB LED Strip (WS2812B) Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">Fun lights, pair it with an ARGB controller (or compatible motherboard) to add a bit of sparkle to a computer. There&#39;s adhesive on the back, which makes it fairly easy to stick to the inside of a…</p>
 </a>
 
@@ -987,8 +1206,13 @@
 <a class="review-card" href="/reviews/2025-10-06-thermalright-tl-s12-s-fans-3-pack/" data-author="nathan" data-tags="tech computer case-fan">
 	
 	<img class="product-thumb" src="/reviews/2025-10-06-thermalright-tl-s12-s-fans-3-pack/thumbs/product.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="3 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; Thermalright TL-S12-S X3 47.6 CFM 120 mm Fans 3-Pack</p>
+	<h2>Thermalright TL-S12-S X3 47.6 CFM 120 mm Fans 3-Pack Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="3 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span></p>
+	
 	<p class="excerpt">I bought a 3-pack, but only two of them worked. They gave me a 1/3 refund, so I guess it&#39;s fine. My motherboard doesn&#39;t have the right connections for the RGB, it only has the 12v 4-pin, whereas this…</p>
 </a>
 
@@ -1000,8 +1224,13 @@
 <a class="review-card" href="/reviews/2025-10-06-teamgroup-mp34-4tb-nvme-ssd/" data-author="nathan" data-tags="tech computer storage">
 	
 	<img class="product-thumb" src="/reviews/2025-10-06-teamgroup-mp34-4tb-nvme-ssd/thumbs/product.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; TEAMGROUP MP34 4 TB M.2-2280 PCIe 3.0 X4 NVME Solid State Drive</p>
+	<h2>TEAMGROUP MP34 4 TB M.2-2280 PCIe 3.0 X4 NVME Solid State Drive Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">This drive has been a great workhorse for a filesystem cache and running docker images from. I like that it has it&#39;s own DRAM, so it doesn&#39;t have to rely on the HMB. Also, somehow I managed to get it at…</p>
 </a>
 
@@ -1015,8 +1244,13 @@
 		<img class="product-photo" src="/reviews/2025-10-06-sapphire-radeon-vii-video-card/thumbs/product.jpg" alt="">
 	
 	<img class="product-thumb" src="/reviews/2025-10-06-sapphire-radeon-vii-video-card/thumbs/Radeon VII installed.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Sapphire Radeon VII 16GB Graphics Card</p>
+	<h2>Sapphire Radeon VII 16GB Graphics Card Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">Awesome GPU for AI nonsense. I haven&#39;t tried gaming on it yet, but might eventually.</p>
 </a>
 
@@ -1028,8 +1262,13 @@
 <a class="review-card" href="/reviews/2025-10-06-mushkin-essentials-64gb-ddr4-memory/" data-author="nathan" data-tags="tech computer memory">
 	
 	<img class="product-thumb" src="/reviews/2025-10-06-mushkin-essentials-64gb-ddr4-memory/thumbs/product.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Mushkin Essentials 64 GB (2 x 32 GB) DDR4-3200 CL22 Memory</p>
+	<h2>Mushkin Essentials 64 GB (2 x 32 GB) DDR4-3200 CL22 Memory Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">Works great. The 3200 speed is JDEC, so any system that supports it just gets it automatically, no need to turn on XMP.</p>
 </a>
 
@@ -1043,8 +1282,13 @@
 		<img class="product-photo" src="/reviews/2025-10-06-cougar-pioneer-x-case/thumbs/product.jpg" alt="">
 	
 	<img class="product-thumb" src="/reviews/2025-10-06-cougar-pioneer-x-case/thumbs/Cougar Pioneer-X case with modified front panel.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="2 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; Cougar Pioneer-X ATX Mid Tower Case</p>
+	<h2>Cougar Pioneer-X ATX Mid Tower Case Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="2 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span></p>
+	
 	<p class="excerpt">Fine for the price I paid, and it can handle a lot of hard drives. The hot-swap drive bay on the top is a nice touch.</p>
 </a>
 
@@ -1056,8 +1300,13 @@
 <a class="review-card" href="/reviews/2025-10-06-asus-strix-b350-f-motherboard/" data-author="nathan" data-tags="tech computer motherboard">
 	
 	<img class="product-thumb" src="/reviews/2025-10-06-asus-strix-b350-f-motherboard/thumbs/product.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Asus STRIX B350-F GAMING ATX AM4 Motherboard</p>
+	<h2>Asus STRIX B350-F GAMING ATX AM4 Motherboard Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">This MB has been great. First in my desktop, where it saw a Ryzen 1600, 2600, and 5700X3D, and now in my home file server where, combined with an LSI SAS card in IT mode, I can have 12 HDDs + an NVMe…</p>
 </a>
 
@@ -1069,8 +1318,13 @@
 <a class="review-card" href="/reviews/2025-10-06-amd-ryzen-5-2600/" data-author="nathan" data-tags="tech computer cpu">
 	
 	<img class="product-thumb" src="/reviews/2025-10-06-amd-ryzen-5-2600/thumbs/product.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; AMD Ryzen 5 2600 3.4 GHz 6-Core Processor</p>
+	<h2>AMD Ryzen 5 2600 3.4 GHz 6-Core Processor Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">Awesome CPU, and a great value these days. I think it&#39;s just below the cutoff for official Windows 11 support, but if you bypass the requirements check (e.g. via rufus), windows actually runs great on…</p>
 </a>
 
@@ -1082,8 +1336,13 @@
 <a class="review-card" href="/reviews/2025-10-06-adata-xpg-core-reactor-850-psu/" data-author="nathan" data-tags="tech computer power-supply">
 	
 	<img class="product-thumb" src="/reviews/2025-10-06-adata-xpg-core-reactor-850-psu/thumbs/product.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; ADATA XPG CORE Reactor 850 850 W 80+ Gold Certified Fully Modular ATX Power Supply</p>
+	<h2>ADATA XPG CORE Reactor 850 850 W 80+ Gold Certified Fully Modular ATX Power Supply Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">Works great, all the cables and connectors I need and then some.</p>
 </a>
 
@@ -1095,8 +1354,13 @@
 <a class="review-card" href="/reviews/2025-09-06-wifi-6-usb-adapter-1800mbps/" data-author="nathan" data-tags="tech wifi usb">
 	
 	<img class="product-thumb" src="/reviews/2025-09-06-wifi-6-usb-adapter-1800mbps/thumbs/product.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="3 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; WiFi 6 USB Adapter (1800Mbps)</p>
+	<h2>WiFi 6 USB Adapter (1800Mbps) Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="3 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span></p>
+	
 	<p class="excerpt">It initially shows up as a USB flash drive with an exe file to install the driver, which seems a little sketchy, although VirusTotal mostly passed it (71/72 scanners said it was safe, 1 said it was…</p>
 </a>
 
@@ -1110,8 +1374,13 @@
 		<img class="product-photo" src="/reviews/2025-09-06-wifi-6-mini-usb-dongle/thumbs/product.jpg" alt="">
 	
 	<img class="product-thumb" src="/reviews/2025-09-06-wifi-6-mini-usb-dongle/thumbs/photo-1.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; WiFi 6 Mini USB Dongle (AX900)</p>
+	<h2>WiFi 6 Mini USB Dongle (AX900) Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span></p>
+	
 	<p class="excerpt">Works fine, real-world wifi speeds are around 160-180Mbps (5Ghz, Wifi 6, 1 gigabit internet connection). Bluetooth appears to work, although I didn&#39;t connect it to anything, I just scanned for nearby…</p>
 </a>
 
@@ -1123,8 +1392,13 @@
 <a class="review-card" href="/reviews/2025-09-06-pc-speaker-motherboard-buzzer/" data-author="nathan" data-tags="tech computer audio">
 	
 	<img class="product-thumb" src="/reviews/2025-09-06-pc-speaker-motherboard-buzzer/thumbs/product.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; PC Motherboard Buzzer</p>
+	<h2>PC Motherboard Buzzer Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">Beep! Works great, helps with debugging when you don&#39;t have a video signal.</p>
 </a>
 
@@ -1138,8 +1412,13 @@
 		<img class="product-photo" src="/reviews/2025-09-06-fenvi-ac1200-wifi-pcie-adapter/thumbs/product.jpg" alt="">
 	
 	<img class="product-thumb" src="/reviews/2025-09-06-fenvi-ac1200-wifi-pcie-adapter/thumbs/photo-1.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; FENVI AC1200 WiFi PCIe Adapter</p>
+	<h2>FENVI AC1200 WiFi PCIe Adapter Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">Works good, real-world download speeds of ~725mbps! Windows 11 has a built-in driver. The way the antennas are connected to the bracket makes it a bit more work to swap between half-height and…</p>
 </a>
 
@@ -1153,8 +1432,13 @@
 		<img class="product-photo" src="/reviews/2025-09-06-ax210-wifi-6e-pci-e-adapter/thumbs/product.jpg" alt="">
 	
 	<img class="product-thumb" src="/reviews/2025-09-06-ax210-wifi-6e-pci-e-adapter/thumbs/photo-1.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; AX210 WiFi 6E PCIe Adapter</p>
+	<h2>AX210 WiFi 6E PCIe Adapter Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">Works great! Real-world download speeds of nearly 2Gbps on my LAN, and 565Mbps on the internet! I also, appreciate that it includes the low-profile adapter (which is fairly easy to install), the…</p>
 </a>
 
@@ -1166,8 +1450,13 @@
 <a class="review-card" href="/reviews/2025-09-03-wifi-antenna-rp-sma-5dbi/" data-author="nathan" data-tags="tech wifi antenna">
 	
 	<img class="product-thumb" src="/reviews/2025-09-03-wifi-antenna-rp-sma-5dbi/thumbs/product.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; WiFi RP-SMA Antenna (5dBi)</p>
+	<h2>WiFi RP-SMA Antenna (5dBi) Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">Works great; a little bit taller than the ones that came with my motherboard, which I assume gives it a better signal.</p>
 </a>
 
@@ -1179,8 +1468,13 @@
 <a class="review-card" href="/reviews/2025-09-03-wifi-6e-antenna-2t2r/" data-author="nathan" data-tags="tech wifi antenna">
 	
 	<img class="product-thumb" src="/reviews/2025-09-03-wifi-6e-antenna-2t2r/thumbs/product.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; WiFi 6E 2T2R Antenna</p>
+	<h2>WiFi 6E 2T2R Antenna Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">Works fine. The magnetic bottom is nice both for snapping it to things and for giving it a bit of weight to make it stay put on non-metal surfaces.</p>
 </a>
 
@@ -1192,8 +1486,13 @@
 <a class="review-card" href="/reviews/2025-08-27-usb-c-3-1-gen2-extension-cable/" data-author="nathan" data-tags="tech cable usb-c">
 	
 	<img class="product-thumb" src="/reviews/2025-08-27-usb-c-3-1-gen2-extension-cable/thumbs/product.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; USB-C 3.1 Gen2 Extension Cable</p>
+	<h2>USB-C 3.1 Gen2 Extension Cable Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">Works, and at the correct speed. I tested with a ESD310 USB SSD connected via this extension cable - about 950MB/s (7.6gbps) via the cable vs 980MB/s (7.84gbps) when connected directly to my laptop.</p>
 </a>
 
@@ -1205,8 +1504,13 @@
 <a class="review-card" href="/reviews/2025-08-27-rgeek-usb-c-front-panel-extension/" data-author="nathan" data-tags="tech computer usb-c">
 	
 	<img class="product-thumb" src="/reviews/2025-08-27-rgeek-usb-c-front-panel-extension/thumbs/product.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; RGEEK USB-C Front Panel Extension</p>
+	<h2>RGEEK USB-C Front Panel Extension Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">Works great! I couldn&#39;t test the full speed because my motherboard doesn&#39;t support it, but 5Gbps worked fine.</p>
 </a>
 
@@ -1218,8 +1522,13 @@
 <a class="review-card" href="/reviews/2025-08-27-fitbit-charge-5-6-magnetic-charger/" data-author="nathan" data-tags="tech smartwatch cable">
 	
 	<img class="product-thumb" src="/reviews/2025-08-27-fitbit-charge-5-6-magnetic-charger/thumbs/product.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Magnetic Charger for Fitbit Charge 5/6</p>
+	<h2>Magnetic Charger for Fitbit Charge 5/6 Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">It works!</p>
 </a>
 
@@ -1231,8 +1540,13 @@
 <a class="review-card" href="/reviews/2025-08-26-babq-usb-c-front-panel-3-5in/" data-author="nathan" data-tags="tech computer usb-c">
 	
 	<img class="product-thumb" src="/reviews/2025-08-26-babq-usb-c-front-panel-3-5in/thumbs/product.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; BABQ USB-C Front Panel (3.5&quot;)</p>
+	<h2>BABQ USB-C Front Panel (3.5&quot;) Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">Works great! I can only get 5gbps out of the USB-C port, but that&#39;s a limitation of my motherboard, I assume this would operate faster if my motherboard could. Shipped 2 days after placing the order,…</p>
 </a>
 
@@ -1246,8 +1560,13 @@
 		<img class="product-photo" src="/reviews/2025-08-18-id-cooling-se-214-xt-cpu-cooler/thumbs/product.jpg" alt="">
 	
 	<img class="product-thumb" src="/reviews/2025-08-18-id-cooling-se-214-xt-cpu-cooler/thumbs/SE-214-XT installed and lit up.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; ID-COOLING SE-214-XT ARGB 68.2 CFM CPU Cooler</p>
+	<h2>ID-COOLING SE-214-XT ARGB 68.2 CFM CPU Cooler Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">Great cooler for ~$16.</p>
 </a>
 
@@ -1261,8 +1580,13 @@
 		<img class="product-photo" src="/reviews/2025-08-18-evga-rtx-2070-video-card/thumbs/product.jpg" alt="">
 	
 	<img class="product-thumb" src="/reviews/2025-08-18-evga-rtx-2070-video-card/thumbs/EVGA RTX 2070 installed.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; EVGA Black GeForce RTX 2070 8 GB Video Card</p>
+	<h2>EVGA Black GeForce RTX 2070 8 GB Video Card Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span></p>
+	
 	<p class="excerpt">Great GPU, just wildly overpriced. I picked it up for just over $300 after the 20-super series launched and, honestly, that should have been the launch MSRP. It&#39;s literally the most I&#39;ve ever spent on a…</p>
 </a>
 
@@ -1274,8 +1598,13 @@
 <a class="review-card" href="/reviews/2025-08-18-dell-p2715q-monitor/" data-author="nathan" data-tags="tech computer monitor">
 	
 	<img class="product-thumb" src="/reviews/2025-08-18-dell-p2715q-monitor/thumbs/product.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="3 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; Dell P2715Q 27.0&quot; 3840 x 2160 60 Hz Monitor</p>
+	<h2>Dell P2715Q 27.0&quot; 3840 x 2160 60 Hz Monitor Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="3 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span></p>
+	
 	<p class="excerpt">Pros: beautiful, crisp picture, with excellent factory calibration. USB Hub. Two DP inputs (with a miniDP cable/adapter).</p>
 </a>
 
@@ -1287,8 +1616,13 @@
 <a class="review-card" href="/reviews/2025-08-18-crucial-ballistix-sport-lt-16gb-ddr4-memory/" data-author="nathan" data-tags="tech computer memory">
 	
 	<img class="product-thumb" src="/reviews/2025-08-18-crucial-ballistix-sport-lt-16gb-ddr4-memory/thumbs/product.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; Crucial Ballistix Sport LT 16 GB (2 x 8 GB) DDR4-3200 CL16 Memory</p>
+	<h2>Crucial Ballistix Sport LT 16 GB (2 x 8 GB) DDR4-3200 CL16 Memory Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span></p>
+	
 	<p class="excerpt">Good RAM, served me well for years. A single 2x8gb kit works great at the advertised XMP speeds, but 2 kits (4 sticks) had to drop down to slower JDEC speeds. Might have just been the motherboard,…</p>
 </a>
 
@@ -1300,8 +1634,13 @@
 <a class="review-card" href="/reviews/2025-08-18-amd-ryzen-5-3600/" data-author="nathan" data-tags="tech computer cpu">
 	
 	<img class="product-thumb" src="/reviews/2025-08-18-amd-ryzen-5-3600/thumbs/product.jpg" alt="">
-	<h2></h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; AMD Ryzen 5 3600 3.6 GHz 6-Core Processor</p>
+	<h2>AMD Ryzen 5 3600 3.6 GHz 6-Core Processor Review</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">Solid gaming and all-rounder CPU. Very happy with it in general, and especially at the garage-sale price I paid for it!</p>
 </a>
 
@@ -1314,7 +1653,12 @@
 	
 	<img class="product-thumb" src="/reviews/2025-05-30-screenmax-projector-screen/thumbs/product.jpg" alt="">
 	<h2>Looks good, but poor quality control makes for a bit harder assembly</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; SCREENMAX 120&quot; Foldable Projector Screen with Carry Bag</p>
+	
 	<p class="excerpt">I picked this up when it when it was on sale for $43, and for that price I&#39;m satisfied with it. However I&#39;m dinging it one star because some of the metal rods that make up the frame aren&#39;t threaded…</p>
 </a>
 
@@ -1327,7 +1671,12 @@
 	
 	<img class="product-thumb" src="/reviews/2025-05-30-kanto-ora4-computer-speakers/thumbs/product.jpg" alt="">
 	<h2>Great sound!</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Kanto ORA4 Desktop Speakers</p>
+	
 	<p class="excerpt">I love these speakers! They&#39;re a little pricey, but they sound great, especially when paired with a subwoofer.</p>
 </a>
 
@@ -1342,7 +1691,12 @@
 	
 	<img class="product-thumb" src="/reviews/2025-05-30-ecovessel-insulated-water-bottle/thumbs/photo-1.jpg" alt="">
 	<h2>Hit-and-miss quality, useless warranty</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="2 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; EcoVessel Insulated Water Bottle</p>
+	
 	<p class="excerpt">My wife and I bought two of these last year and hers is still in good shape, but mine started showing little &quot;blisters&quot; in the rubber around the opening after a few months. Also the ring between the lid…</p>
 </a>
 
@@ -1355,7 +1709,12 @@
 	
 	<img class="product-thumb" src="/reviews/2025-05-30-dangbei-n2-projector/thumbs/product.jpg" alt="">
 	<h2>Good picture and overall package, a few small annoyances</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; Dangbei N2 Projector</p>
+	
 	<p class="excerpt">This is my first projector, I bought it after watching The Hook Up&#39;s budget king 2025 roundup video on youtube. It was one of his top 3 for &quot;Best All-In-One&quot;, and the only of the three that had a stand…</p>
 </a>
 
@@ -1368,7 +1727,12 @@
 	
 	<img class="product-thumb" src="/reviews/2024-10-04-partyreal-ipad-9th-gen-case/thumbs/product.jpg" alt="">
 	<h2>Fits like a glove</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Partyreal iPad Case (9th Gen)</p>
+	
 	<p class="excerpt">Fits my 9th gen iPad well, provides a nice grippy texture, and I assume it will provide some protection if I ever drop it. $5 well spent.</p>
 </a>
 
@@ -1383,7 +1747,12 @@
 	
 	<img class="product-thumb" src="/reviews/2024-08-01-usb-to-optical-sound-card/thumbs/connected-to-raspberry-pi.jpg" alt="">
 	<h2>Works with Android and Raspberry Pi</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; USB to Optical Sound Card</p>
+	
 	<p class="excerpt">I bought this to connect a Raspberry Pi to my AI41 speakers via toslink and it works perfectly. I set it to be the default output for alsa, installed shareport-sync for AirPlay from my wife&#39;s iPhone,…</p>
 </a>
 
@@ -1396,7 +1765,12 @@
 	
 	<img class="product-thumb" src="/reviews/2024-01-12-jsaux-lightning-headphone-adapter/thumbs/product.jpg" alt="">
 	<h2>The least bad option out there</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; JSAUX Lightning to 3.5mm Adapter (2-pack)</p>
+	
 	<p class="excerpt">All the headphones adapters we use seem to wear out over time, but these jsaux ones seem to last longer than the official apple ones and be better quality than any other option we&#39;ve tried.</p>
 </a>
 
@@ -1409,7 +1783,12 @@
 	
 	<img class="product-thumb" src="/reviews/2024-01-12-borcall-lightning-headphone-adapter/thumbs/product.jpg" alt="">
 	<h2>Sends spurious play/pause commands at the slightest touch</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="3 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; bcall Lightning to 3.5mm Adapter (3-pack)</p>
+	
 	<p class="excerpt">These adapters sound and work fine, as long as your completely still. If you move at all, they send erroneous play/pause commands, especially when you meant to have your audio paused. Tried out two out…</p>
 </a>
 
@@ -1422,7 +1801,12 @@
 	
 	<img class="product-thumb" src="/reviews/2023-12-28-bezgar-rc-car-for-kids/thumbs/product.jpg" alt="">
 	<h2>Fun toy for kids, but doesn&#39;t last very long</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="3 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; BEZGAR RC Car (1:14 Truck)</p>
+	
 	<p class="excerpt">Update: after less than a week&#39;s worth of use, the steering stopped working on my son&#39;s car. It just twitches a little now instead of turning all the way over.</p>
 </a>
 
@@ -1437,7 +1821,12 @@
 	
 	<img class="product-thumb" src="/reviews/2023-12-04-orico-4-port-usb-3-0-hub/thumbs/crystal-disk-mark.jpg" alt="">
 	<h2>Goodenough</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; ORICO 4-Port USB 3.0 Hub</p>
+	
 	<p class="excerpt">Pros: - 2/3 of USB 3.0 speeds Light is soft and difused</p>
 </a>
 
@@ -1450,7 +1839,12 @@
 	
 	<img class="product-thumb" src="/reviews/2023-11-28-defendershield-kids-blue-light-glasses/thumbs/product.jpg" alt="">
 	<h2>Hugely helpful for my son</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; DefenderShield Blue Light Glasses (Kids)</p>
+	
 	<p class="excerpt">We bought these glasses when we noticed that almost anytime my son was looking at a screen for more than 15 minutes his eyes were watering. These have helped eliminate the tears.</p>
 </a>
 
@@ -1463,8 +1857,49 @@
 	
 	<img class="product-thumb" src="/reviews/2023-09-05-radwagon-4-aventon-aventure.2-ebikes/thumbs/Orange Radwagon 4 and blue Aventon Aventure.2 e-bikes.jpg" alt="">
 	<h2>The station wagon and the batmobile!</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+	
 	<p class="excerpt">We got my wife the orange RadWagon 4 a bit over a month ago, and we both liked it so much that we decided to get a second #ebike, the blue Aventon Aventure.2.</p>
+</a>
+
+    
+
+
+
+
+<a class="review-card" href="/reviews/2021-08-04-tp-link-ue300-usb-3-0-gigabit/" data-author="nathan" data-tags="tech usb adapter">
+	
+	<img class="product-thumb" src="/reviews/2021-08-04-tp-link-ue300-usb-3-0-gigabit/thumbs/product.jpg" alt="">
+	<h2>Great way to add Ethernet to a laptop or PC</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; TP-Link UE300 USB 3.0 to Gigabit Ethernet Network Adapter</p>
+	
+	<p class="excerpt">Works fine with Windows and Mac. This adapter can basically max out a gigabit Ethernet connection. I have it connected to a USB port on the back of my monitor so that a single cable gets me not only…</p>
+</a>
+
+    
+
+
+
+
+<a class="review-card" href="/reviews/2021-08-04-silicon-power-256gb-superior-v30-microsd/" data-author="nathan" data-tags="tech storage">
+	
+	<img class="product-thumb" src="/reviews/2021-08-04-silicon-power-256gb-superior-v30-microsd/thumbs/product.jpg" alt="">
+	<h2>Super-fast</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Silicon Power 256GB Superior V30 UHS-I microSD</p>
+	
+	<p class="excerpt">Probably the fastest microSD card I&#39;ve ever used. Makes writing a large image file to the card much more bearable.</p>
 </a>
 
     
@@ -1476,7 +1911,12 @@
 	
 	<img class="product-thumb" src="/reviews/2020-03-07-nutrient-dense-kitchen-aip-cookbook/thumbs/product.jpg" alt="">
 	<h2>Flavor without Fuss or Nightshades</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; The Nutrient-Dense Kitchen: 125 Autoimmune Paleo Recipes for Deep Healing and Vibrant Health</p>
+	
 	<p class="excerpt">I’ve had this book for a little over a year now, and I’ve cooked from it quite a lot. As a former fan of cream of chicken soup from the can the Cream of Chicken Soup with Broccoli and Root Vegetables is…</p>
 </a>
 
@@ -1489,7 +1929,12 @@
 	
 	<img class="product-thumb" src="/reviews/2020-02-26-blue-orange-gobblet-gobblers/thumbs/product.jpg" alt="">
 	<h2>Great Christmas Gift especially if on sale</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Blue Orange Gobblet Gobblers</p>
+	
 	<p class="excerpt">This is made entirely of plastic now which was a bit of a disappointment however the game is perfect. The game itself is a more complex version of tic tac toe but the more complex elements make the game…</p>
 </a>
 
@@ -1502,7 +1947,12 @@
 	
 	<img class="product-thumb" src="/reviews/2019-12-24-tibetan-singing-bowl/thumbs/product.jpg" alt="">
 	<h2>Just beautiful</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Tibetan Singing Bowl (3.5&quot;)</p>
+	
 	<p class="excerpt">I have been wanting something like this for my own meditation practice. It has a beautiful tone, and has become the way I wake up my son in the morning. We both enjoy it very much. Would buy again.…</p>
 </a>
 
@@ -1515,7 +1965,12 @@
 	
 	<img class="product-thumb" src="/reviews/2019-12-15-lg-43mu79-b-4k-monitor/thumbs/product.jpg" alt="">
 	<h2>Does NOT have 60W power delivery, otherwise it&#39;s fine</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="3 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; LG 43MU79-B 43&quot; 4K Monitor</p>
+	
 	<p class="excerpt">Pros: - Big, beautiful screen. Big enough that you don&#39;t have to scale things Identical to the LG 43UD79-B except with a better warranty (3-year vs 1-year). (Some of the specs are different, but the…</p>
 </a>
 
@@ -1528,7 +1983,12 @@
 	
 	<img class="product-thumb" src="/reviews/2019-12-01-amazon-basics-lightning-cable/thumbs/product.jpg" alt="">
 	<h2>&quot;blue&quot; is really purple</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; Amazon Basics USB-A Cable with Lightning Connector</p>
+	
 	<p class="excerpt">Works great, although the &quot;blue&quot; color is definitely purple.</p>
 </a>
 
@@ -1541,7 +2001,12 @@
 	
 	<img class="product-thumb" src="/reviews/2018-08-17-made-whole-aip-cookbook/thumbs/product.jpg" alt="">
 	<h2>The Perfect Cookbook</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Made Whole: More Than 145 Anti-Inflammatory Keto-Paleo Recipes to Nourish You from the Inside Out</p>
+	
 	<p class="excerpt">As someone who also went through the AIP and still can’t do dairy or nightshades this book feels like the cookbook I always wanted but never knew how much I needed. Wanting to maintain nutrient density…</p>
 </a>
 
@@ -1554,21 +2019,13 @@
 	
 	<img class="product-thumb" src="/reviews/2017-04-18-wild-zora-meat-veggie-bars/thumbs/product.jpg" alt="">
 	<h2>The most flavorful snack for the whole family!</h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Wild Zora Meat &amp; Veggie Bars (Lamb)</p>
-	<p class="excerpt">These bars are an excellent snack! We keep them on hand for both us (the parents) and our almost three year old and he loves them as do we. It&#39;s nice to have a snack that is AIP friendly and has a great…</p>
-</a>
-
-    
-
-
-
-
-<a class="review-card" href="/reviews/2016-09-24-el-deafo-graphic-novel/" data-author="erin" data-tags="book graphic-novel kids">
 	
-	<img class="product-thumb" src="/reviews/2016-09-24-el-deafo-graphic-novel/thumbs/product.jpg" alt="">
-	<h2>Such a sweet book</h2>
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; El Deafo: A Graphic Novel</p>
-	<p class="excerpt">I read this because of an interview with the author on the podcast The Longest Shortest Time. This book is about growing up and being different and embracing what makes you different. I loved it!</p>
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Wild Zora Meat &amp; Veggie Bars (Lamb)</p>
+	
+	<p class="excerpt">These bars are an excellent snack! We keep them on hand for both us (the parents) and our almost three year old and he loves them as do we. It&#39;s nice to have a snack that is AIP friendly and has a great…</p>
 </a>
 
     
@@ -1580,7 +2037,12 @@
 	
 	<img class="product-thumb" src="/reviews/2016-03-28-speck-macbook-pro-case/thumbs/product.jpg" alt="">
 	<h2>Bad design, breaks almost immediately</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="1 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; Speck SeeThru Case (MacBook Pro 15&quot;)</p>
+	
 	<p class="excerpt">I&#39;m on my second one; the first either arrived broken or else broke within the first few days. I figured it was a fluke and exchanged for another one it since Speck products have always been high…</p>
 </a>
 
@@ -1593,7 +2055,12 @@
 	
 	<img class="product-thumb" src="/reviews/2015-12-21-healing-kitchen-aip-cookbook/thumbs/product.jpg" alt="">
 	<h2>Exactly what this Momma of a little one needed to get back to the AIP Diet for Celiac Disease!</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Healing Kitchen: 175+ Quick &amp; Easy Paleo Recipes to Help You Thrive</p>
+	
 	<p class="excerpt">While I&#39;m a big fan of the blogs both of these ladies put together this book hits the ball out of the park. The recipes are simple and the basics of the Autoimmune Paleo Protocol are easy understood and…</p>
 </a>
 
@@ -1606,7 +2073,12 @@
 	
 	
 	<h2>Great product for a great price.</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Epsoak Epsom Salt 19 Lbs</p>
+	
 	<p class="excerpt">My mail lady hates it when this package arrives, but you can&#39;t beat the price especially since I take an Epsom salt bath 2-3 times a week.</p>
 </a>
 
@@ -1619,7 +2091,12 @@
 	
 	
 	<h2>The perfect counter top compost bin</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Chef&#39;n EcoCrock Counter Compost Bin</p>
+	
 	<p class="excerpt">We bought this compost bin after our first bin didn&#39;t work out, and we are so happy with this one we ended up getting another one for a family member this Christmas. Looks nice on the counter. Is easy…</p>
 </a>
 
@@ -1632,7 +2109,12 @@
 	
 	<img class="product-thumb" src="/reviews/2015-12-18-vtech-dm221-baby-monitor/thumbs/product.jpg" alt="">
 	<h2>Works great except for a couple of annoyances</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="3 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; VTech DM221 Baby Monitor</p>
+	
 	<p class="excerpt">Works pretty well, except two major annoyances:</p>
 </a>
 
@@ -1645,7 +2127,12 @@
 	
 	
 	<h2>Five Stars</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Anker PowerCore 15600</p>
+	
 	<p class="excerpt">Works great - fast charging and lots of power.</p>
 </a>
 
@@ -1658,7 +2145,12 @@
 	
 	<img class="product-thumb" src="/reviews/2015-09-27-weller-wesd51-soldering-station/thumbs/product.jpg" alt="">
 	<h2>Helps me do better work</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Weller WESD51 Digital Soldering Station</p>
+	
 	<p class="excerpt">Not to blame shoddy work on the tools, but I do find that I can do much better soldering work with this iron v.s. the cheap ones I&#39;ve always used in the past. Being able to precisely set the temperature…</p>
 </a>
 
@@ -1671,7 +2163,12 @@
 	
 	<img class="product-thumb" src="/reviews/2015-09-27-summer-3dlite-stroller/thumbs/product.jpg" alt="">
 	<h2>Nice, lightweight stroller.</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Summer 3Dlite Stroller</p>
+	
 	<p class="excerpt">Does the job very well - durable and easy to pack up when not in use.</p>
 </a>
 
@@ -1684,7 +2181,12 @@
 	
 	<img class="product-thumb" src="/reviews/2015-09-27-hubsan-x4-quadcopter/thumbs/product.jpg" alt="">
 	<h2>Cheap, fun, and durable/repairable</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Hubsan X4 Quadcopter (H107L)</p>
+	
 	<p class="excerpt">I love this thing. It&#39;s definitely a &quot;toy&quot; but it&#39;s a lot of fun, and while it does seem to break pretty easily, I&#39;ve been able to repair it every time, from wires getting ripped out to blades getting…</p>
 </a>
 
@@ -1697,7 +2199,12 @@
 	
 	<img class="product-thumb" src="/reviews/2015-09-27-coromose-htc-one-m8-dot-view-case/thumbs/product.jpg" alt="">
 	<h2>Nice accessory, great price</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Coromose Dot View Case (HTC One M8)</p>
+	
 	<p class="excerpt">Works perfectly, and a much better deal than the official one. I seem to drop my phone a lot, so I&#39;ve already cracked two of these cases (on my third one now), but so far my phone has escaped unscathed.</p>
 </a>
 
@@ -1710,7 +2217,12 @@
 	
 	<img class="product-thumb" src="/reviews/2015-09-27-anker-astro-e1-power-bank/thumbs/product.jpg" alt="">
 	<h2>Works perfectly.</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Anker Astro E1 5200mAh Power Bank</p>
+	
 	<p class="excerpt">I got one of these for my wife last Christmas, and although she doesn&#39;t use it all that often, it is incredibly handy when she does. It can recharge her iPhone 5s from dead to full - while she&#39;s using…</p>
 </a>
 
@@ -1723,7 +2235,12 @@
 	
 	<img class="product-thumb" src="/reviews/2015-09-11-7-inch-raspberry-pi-lcd-touchscreen/thumbs/product.jpg" alt="">
 	<h2>Not recommended for a Raspberry Pi.. or at all.</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="2 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; 7&quot; Raspberry Pi LCD Touchscreen</p>
+	
 	<p class="excerpt">Works, but not well. I think the main problem is that it draws too much power. If I have only a keyboard and this display connected, then I get a picture (usually). But if I try to also add a wi-fi…</p>
 </a>
 
@@ -1736,7 +2253,12 @@
 	
 	<img class="product-thumb" src="/reviews/2015-04-07-smart-sheep-wool-dryer-balls/thumbs/product.jpg" alt="">
 	<h2>Cuts down drying time and leaves everything super soft!</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Smart Sheep Wool Dryer Balls</p>
+	
 	<p class="excerpt">These dryer balls are exactly what I was expecting. The price can&#39;t be beat I&#39;ve seen them sell locally for 8 dollars a ball. I use these with a lot of our regular laundry but especially when drying our…</p>
 </a>
 
@@ -1749,7 +2271,12 @@
 	
 	
 	<h2>Inaccurate description: smaller battery and some parts missing</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="2 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; The Hubsan X4 H107L Quadcopter Crash Pack</p>
+	
 	<p class="excerpt">I ordered this crash pack the other day and while the description and picture already seem to disagree somewhat, the pack I received matched neither:</p>
 </a>
 
@@ -1762,7 +2289,12 @@
 	
 	
 	<h2>Good battery, great value</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; NOOT battery for Samsung Galaxy S3</p>
+	
 	<p class="excerpt">A couple of months after purchasing this battery, the manufacture emailed me asking for a review: &quot;How was the battery? Were there any problems or issues with using the battery? Also, when you were…</p>
 </a>
 
@@ -1775,7 +2307,12 @@
 	
 	
 	<h2>Works great at full brightness but flickers when dimmed</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="2 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; HitLights Dura GU10 LED Bulb (5W)</p>
+	
 	<p class="excerpt">I tried this out after having trouble with the LightingEVER 4W bulb and having to send it back because it flickered when dimmed. Reading some of the other reviews here, I was hopeful that this bulb…</p>
 </a>
 
@@ -1788,8 +2325,31 @@
 	
 	<img class="product-thumb" src="/reviews/2014-05-30-dimmable-led-bulb/thumbs/product.jpg" alt="">
 	<h2>Flickers slightly when dimmed</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="2 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; Lighting EVER GU10 LED Bulb (4W)</p>
+	
 	<p class="excerpt">This is the first dimmable LED I&#39;ve tried. It works great at full brightness, but the hood that I installed it in has a lower 2 levels of brightness, and at the lower level this bulb flickers just…</p>
+</a>
+
+    
+
+
+
+
+<a class="review-card" href="/reviews/2014-03-31-comprehensive-dp2hdmf-displayport-to-hdmi/" data-author="nathan" data-tags="tech cable display">
+	
+	<img class="product-thumb" src="/reviews/2014-03-31-comprehensive-dp2hdmf-displayport-to-hdmi/thumbs/product.jpg" alt="">
+	<h2>Does the job</h2>
+	
+	
+	
+	
+	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; Comprehensive DP2HDMF DisplayPort Male to HDMI Female 8&quot; Cable</p>
+	
+	<p class="excerpt">This came with a monitor I bought. It works great, although I mainly use the DVI cable.</p>
 </a>
 
     
@@ -1801,7 +2361,12 @@
 	
 	<img class="product-thumb" src="/reviews/2014-03-25-turbotax/thumbs/product.jpg" alt="">
 	<h2>Misleading description: requires an extra $25 payment for state efile</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="2 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; TurboTax Home and Business</p>
+	
 	<p class="excerpt">This was my first time trying out turbotax and it seemed like it was doing a good job, but at the end, it told me that I&#39;d have to pay an extra $25 to finish filing my taxes. I was under the impression…</p>
 </a>
 
@@ -1814,7 +2379,12 @@
 	
 	<img class="product-thumb" src="/reviews/2014-03-20-gigabyte-gb-bxa8-5545-mini-pc/thumbs/product.jpg" alt="">
 	<h2>Suprisingly small, perfect for light usage</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; GIGABYTE GB-BXA8-5545 Mini-PC</p>
+	
 	<p class="excerpt">Pros: - Surprisingly small - I was expecting something closer to the size of a mac mini, but this is significantly smaller. Extremely fast and easy to assemble, at least once you get the bottom…</p>
 </a>
 
@@ -1827,21 +2397,13 @@
 	
 	<img class="product-thumb" src="/reviews/2013-11-14-as-we-reach-album/thumbs/cover.jpg" alt="">
 	<h2>Favorite song on a great album</h2>
+	
+	
+	
+	
 	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> &middot; As We Reach by We Are Creation</p>
+	
 	<p class="excerpt">I first heard this song when my mom was in the middle of battling cancer. It meant a lot to me then and means a lot to me now. Great words. Truly inspired.</p>
-</a>
-
-    
-
-
-
-
-<a class="review-card" href="/reviews/2011-03-12-rise-and-fall-of-prohibition-book/" data-author="nathan" data-tags="book history">
-	
-	
-	<h2>Ridiculously bad quality</h2>
-	<p class="review-meta"><span class="stars" aria-label="1 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; The Rise and Fall of Prohibition</p>
-	<p class="excerpt">This book was clearly run through OCR software and not given even a cursory proofreading.</p>
 </a>
 
 </div>
@@ -1971,15 +2533,15 @@
 <script>
     if (document.querySelectorAll) {
         var slice = Array.prototype.slice;
-        function $(selector) {
+        function getElements(selector) {
             return slice.call(document.querySelectorAll(selector));
         }
-        $('a[data-address]').forEach(function(a) {
+        getElements('a[data-address]').forEach(function(a) {
             var email = a.getAttribute('data-address') + '@nathananderin.com';
             a.href = 'mailto:' + email;
             a.innerHTML = '<i class="fa fa-envelope"></i> ' + email;
         });
-        $('ul[data-address]').forEach(function(ul) {
+        getElements('ul[data-address]').forEach(function(ul) {
             var email = ul.getAttribute('data-address') + '@nathananderin.com';
             var li = document.createElement('li');
             li.className = "text";
@@ -1988,7 +2550,8 @@
         });
     }
 </script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" defer></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 <script>
     var _gaq = _gaq || [];
