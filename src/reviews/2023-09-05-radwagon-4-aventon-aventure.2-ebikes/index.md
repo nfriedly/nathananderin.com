@@ -13,7 +13,7 @@ tags:
   - cycling
 ---
 
-![Two e-bikes parked on concrete. On the left is an orange RadWagon 4 from Rad Power Bikes. On the right is a blue Aventure.2 from Aventon.](Orange Radwagon 4 and blue Aventon Aventure.2 e-bikes.jpg)
+![Two e-bikes parked on concrete. On the left is an orange RadWagon 4 from Rad Power Bikes. On the right is a blue Aventure.2 from Aventon.](<Orange Radwagon 4 and blue Aventon Aventure.2 e-bikes.jpg>)
 
 We got my wife the orange RadWagon 4 a bit over a month ago, and we both liked it so much that we decided to get a second #ebike, the blue Aventon Aventure.2.
 
@@ -23,7 +23,7 @@ The Aventure is more fun - it's faster, more aggressive, and handles bumps and o
 
 The RadWagon is far more practical, with more storage, less road noise, and seating for two kids on the back!
 
-### 2026 Update
+## 2026 Update
 
 Several years and thousands of miles in, I'm still very happy with both of these bikes! 
 

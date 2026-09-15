@@ -8,7 +8,7 @@ stars: 3
 reviewId: R3BAB2JHTAEMT3
 reviewUrl: "https://amazon.com/gp/customer-reviews/R3BAB2JHTAEMT3"
 product:
-  name: Pixel Watch 4 Charger
+  name: MVBOONE Pixel Watch 4 Charger
   price: 14.88
   url: "https://www.amazon.com/dp/B0GYXXZDGM"
   title: "MVBOONE Pixel Watch 4 Charger USB C Magnetic Fast Charging Dock Cable Only for Google Pixel Watch 4 (41mm & 45mm) - Portable Type C Smartwatch Charging Cable (White)"

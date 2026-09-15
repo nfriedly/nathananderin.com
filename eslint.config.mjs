@@ -4,7 +4,7 @@ import markdown from "@eslint/markdown";
 import { defineConfig, globalIgnores } from "eslint/config";
 
 export default defineConfig([
-  globalIgnores(["local-notes/"]),
+  globalIgnores(["local-notes/", "local/scripts/creatorsapi-nodejs-sdk/"]),
   {
     files: ["**/*.{js,mjs,cjs}"],
     plugins: { js },

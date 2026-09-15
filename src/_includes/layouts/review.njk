@@ -1,6 +1,7 @@
 ---
 layout: main
 cssClass: review single
+navInHeader: true
 ---
 
 {% set h1 = title or (product.name ~ (product.name | reviewSuffix(tags))) %}
@@ -14,6 +15,9 @@ cssClass: review single
 
 {% if images and images.hero %}
 <header class="hero review-hero" style="--bg-img: url('{{ images.hero }}');">
+    {% set navClass = 'navbar-transparent' %}
+    {% set navContainer = false %}
+    {% include "partials/navbar.njk" %}
     <h1><span>{{ h1 }}</span></h1>
     {% if h2 %}<h2><span>{{ h2 }}</span></h2>{% endif %}
     <p class="review-meta"><span>
@@ -22,12 +26,16 @@ cssClass: review single
     </span></p>
 </header>
 {% else %}
-<h1>{{ h1 }}</h1>
-{% if h2 %}<h2>{{ h2 }}</h2>{% endif %}
-<p class="review-meta">
-    {{ stars | starsHtml | safe }}
-    by {{ authorName(author) }} Friedly
-</p>
+<header class="review-header-no-hero">
+    {% set navContainer = false %}
+    {% include "partials/navbar.njk" %}
+    <h1>{{ h1 }}</h1>
+    {% if h2 %}<h2>{{ h2 }}</h2>{% endif %}
+    <p class="review-meta">
+        {{ stars | starsHtml | safe }}
+        by {{ authorName(author) }} Friedly
+    </p>
+</header>
 {% endif %}
 
 <main>

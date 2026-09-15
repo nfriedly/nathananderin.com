@@ -4,3 +4,4 @@ _site/
 .DS_Store
 *.log
 data/links-to-upload.csv
+.cache

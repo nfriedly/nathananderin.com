@@ -1,6 +1,6 @@
 const path = require("path");
 const fs = require("fs");
-const { default: eleventyImage, eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
+const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 const aliExpressLinks = require("./lib/ali-express-links");
 const favicons = require("./lib/favicons");
 
@@ -416,13 +416,6 @@ eleventyConfig.addCollection("allReviews", function (collectionApi) {
   eleventyConfig.on("eleventy.before", async () => {
     aliExpressLinks.updateUploadCsv();
     await favicons.ensureFavicons(reviewFaviconHosts());
-  });
-
-  eleventyConfig.on("eleventy.after", async () => {
-    const sections = [
-      [path.join(__dirname, "src", "reviews"), path.join(__dirname, "_site", "reviews"), "/reviews/"],
-      [path.join(__dirname, "src", "book-reviews"), path.join(__dirname, "_site", "book-reviews"), "/book-reviews/"],
-    ];
   });
 
   return settings;

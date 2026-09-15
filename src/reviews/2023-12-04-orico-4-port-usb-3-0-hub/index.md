@@ -17,12 +17,12 @@ tags:
   - hub
 ---
 
-**Pros: **- 2/3 of USB 3.0 speeds
+**Pros:** - 2/3 of USB 3.0 speeds
 - Light is soft and difused
 
-**Cons: **- Faster would be nice but, honestly, it's fine.
+**Cons:** - Faster would be nice but, honestly, it's fine.
 
-**Overall Review: **I tested a USB SSD attached via this hub in CrystalDiskMark and was able to get 405.8 MB/s. That's only about 2/3 of the theoretical maximum of 640 MB/s for a USB 3.0 5Gbps device (capital B for Bytes, lowercase for bits), but still significantly faster than USB 2.0.
+**Overall Review:** I tested a USB SSD attached via this hub in CrystalDiskMark and was able to get 405.8 MB/s. That's only about 2/3 of the theoretical maximum of 640 MB/s for a USB 3.0 5Gbps device (capital B for Bytes, lowercase for bits), but still significantly faster than USB 2.0.
 
 When directly attached to the same USB 3.0 10Gbps port that I connected the hub to, the same SSD can do over 960MB/s, so the slowdown comes entirely from the hub.
 

@@ -5,6 +5,7 @@ section: ''
 cssClass: ''
 metaTags: ''
 nav: true
+navInHeader: false
 ---
 
 <!DOCTYPE html>
@@ -27,27 +28,8 @@ nav: true
 </head>
 <body class="{{ cssClass }}">
 
-{% if nav != false %}
-<nav class="navbar navbar-default navbar-static-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu" aria-expanded="false" aria-controls="nav-menu">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">Nathan and Erin Friedly</a>
-        </div>
-        <div id="nav-menu" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li{% if section == 'home' %} class="active"{% endif %}><a href="/"><i class="fa fa-home"></i> Home</a></li>
-                <li{% if section == 'reviews' %} class="active"{% endif %}><a href="/reviews/"><i class="fa fa-star"></i> Reviews</a></li>
-                <li{% if section == 'books' %} class="active"{% endif %}><a href="/book-reviews/"><i class="fa fa-book"></i> Books</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
+{% if nav != false and not navInHeader %}
+{% include "partials/navbar.njk" %}
 {% endif %}
 
 <div class="container">
