@@ -3,8 +3,6 @@ layout: main
 cssClass: review single
 ---
 
-<p><a href="/reviews/"><i class="fa fa-arrow-left"></i> All reviews</a></p>
-
 {% set h1 = title or (product.name ~ (product.name | reviewSuffix(tags))) %}
 {% if subTitle %}
     {% set h2 = subTitle %}
@@ -34,8 +32,10 @@ cssClass: review single
 
 <main>
 
+<div class="review-main">
+
 {% if (product and (product.name or product.title)) or (images and images.product) or reviewUrl %}
-<div class="review-box">
+<div class="review-box{% if images and images.hero %} has-hero{% endif %}">
     <div class="row">
         {% if images and images.product %}
         <div class="col-sm-3">
@@ -70,6 +70,8 @@ cssClass: review single
 {{ content | safe }}
 </div>
 
+</div>
+
 {% if images and images.photos and images.photos.length %}
 {% for row in images.photos | batch(4) %}
 <div class="review-photos row">
@@ -100,5 +102,7 @@ cssClass: review single
 {% endif %}
 
 </main>
+
+<p><a href="/reviews/"><i class="fa fa-arrow-left"></i> All reviews</a></p>
 
 {% include "partials/disclosure.njk" %}

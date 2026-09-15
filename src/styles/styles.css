@@ -30,13 +30,18 @@ header.hero.review-hero {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
-    min-height: 45vh;
     padding: 40px 15px;
     box-sizing: border-box;
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    header.hero.review-hero { padding: 60px 15px; }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    header.hero.review-hero { padding: 80px 15px; }
 }
 header.hero.review-hero h1 > span,
 header.hero.review-hero h2 > span,
@@ -164,6 +169,30 @@ ul.links li.text {
 .review-box h2 { margin-top: 0; font-size: 115%; }
 .review .stars { color: #f0a51b; }
 .review-box p { margin-bottom: 5px; }
+@media ( min-width: 992px ) {
+    .review-main {
+        display: flex;
+        align-items: flex-start;
+    }
+    .review-box {
+        order: 2;
+        flex: 0 0 280px;
+        margin: 0 0 20px 20px;
+    }
+    .review-box.has-hero {
+        position: relative;
+        top: -95px;
+        z-index: 1;
+    }
+    .review-box .row > [class*="col-sm-"] {
+        width: 100%;
+    }
+    .review-body {
+        order: 1;
+        flex: 1 1 auto;
+        min-width: 0;
+    }
+}
 
 .disclosure {
     font-size: 85%;
