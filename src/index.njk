@@ -33,13 +33,15 @@ nav: false
         </div>
     </div>
 
-    <section class="affiliate">
+    <hr>
+
+    <section class="posts">
         <h2>Recent Reviews</h2>
-        {% for post in collections.reviews | featuredReviews(2) %}
+        {% for post in collections.bookReviews | recentReviews(2) %}
             {% set showBoth = false %}
             {% include "partials/review-card.njk" %}
         {% endfor %}
-        {% for post in collections.bookReviews | recentReviews(2) %}
+        {% for post in collections.reviews | featuredReviews(2) %}
             {% set showBoth = false %}
             {% include "partials/review-card.njk" %}
         {% endfor %}

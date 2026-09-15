@@ -45,7 +45,7 @@ navInHeader: true
     <div class="row">
         {% if images and images.product %}
         <div class="col-sm-3">
-            <img class="img-responsive" src="{{ page.url }}{{ images.product }}" alt="{{ product.title or product.name or '' }}">
+            <img class="img-responsive" width="476" src="{{ page.url }}{{ images.product }}" alt="{{ product.title or product.name or '' }}">
         </div>
         <div class="col-sm-9">
         {% else %}
@@ -93,7 +93,7 @@ navInHeader: true
           </video>
         {% else %}
           <a href="{{ src }}">
-            <img width="228" src="{{ src }}" alt="{{ alt }}">
+            <img width="456" src="{{ src }}" alt="{{ alt }}">
           </a>
         {% endif %}
         <figcaption class="caption">{{ alt }}</figcaption>
@@ -109,7 +109,5 @@ navInHeader: true
 {% endif %}
 
 </main>
-
-<p><a href="/reviews/"><i class="fa fa-arrow-left"></i> All reviews</a></p>
 
 {% include "partials/disclosure.njk" %}

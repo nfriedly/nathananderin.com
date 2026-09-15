@@ -24,3 +24,7 @@ The airflow also isn't great, even with a second fan. I ended up dremmeling away
 The top fan cover is very easy to pop off accidentally, basically any time you brush it.
 
 It only supports GPUs that are up to 280~290mm. I [tried to get this added to the PCPP specs](https://pcpartpicker.com/forums/topic/488523-correction-cougar-pioneer-x-case-maximum-gpu-length), but they wanted an official source, and as far as I can tell, Cougar never even listed this case on their website. I suppose they were too embarrassed by it.
+
+Video review from when I first got this case:
+
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/z3yCKknsZAI?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer *; clipboard-write *; encrypted-media *; gyroscope *; picture-in-picture *; web-share *;" referrerpolicy="strict-origin"></iframe></div>
