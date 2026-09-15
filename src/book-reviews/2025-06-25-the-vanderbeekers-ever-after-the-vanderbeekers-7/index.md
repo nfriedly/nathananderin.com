@@ -7,6 +7,7 @@ reviewId: erin-75302952-20250625
 product:
   name: The Vanderbeekers Ever After
   title: "The Vanderbeekers Ever After (The Vanderbeekers, #7)"
+  author: Karina Yan Glaser
   urls:
     - { url: "https://www.goodreads.com/book/show/75302952-the-vanderbeekers-ever-after", site: Goodreads }
   search:

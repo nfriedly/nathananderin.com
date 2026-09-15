@@ -7,6 +7,7 @@ reviewId: erin-249240884-20260427
 product:
   name: Happy Ending
   title: Happy Ending
+  author: Chloe Liese
   urls:
     - { url: "https://www.goodreads.com/book/show/249240884-happy-ending", site: Goodreads }
   search:

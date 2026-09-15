@@ -7,6 +7,7 @@ reviewId: erin-44032423-20251117
 product:
   name: "I'm Still Here: Black Dignity in a World Made for Whiteness"
   title: "I'm Still Here: Black Dignity in a World Made for Whiteness"
+  author: Austin Channing Brown
   urls:
     - { url: "https://www.goodreads.com/book/show/44032423-im-still-here-black-dignity-in-a-world-made-for-whiteness", site: Goodreads }
   search:

@@ -7,6 +7,7 @@ reviewId: erin-62974061-20250123
 product:
   name: "Tranquility by Tuesday: 9 Ways to Calm the Chaos and Make Time for What Matters"
   title: "Tranquility by Tuesday: 9 Ways to Calm the Chaos and Make Time for What Matters"
+  author: Laura Vanderkam
   urls:
     - { url: "https://www.goodreads.com/book/show/62974061-tranquility-by-tuesday-9-ways-to-calm-the-chaos-and-make-time-for-what-matters", site: Goodreads }
   search:

@@ -7,6 +7,7 @@ reviewId: erin-199648498-20250725
 product:
   name: "A Witch's Guide to Magical Innkeeping"
   title: "A Witch's Guide to Magical Innkeeping"
+  author: Sangu Mandanna
   urls:
     - { url: "https://www.goodreads.com/book/show/199648498-a-witchs-guide-to-magical-innkeeping", site: Goodreads }
   search:

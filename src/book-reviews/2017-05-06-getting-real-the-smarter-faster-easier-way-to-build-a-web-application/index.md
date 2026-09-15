@@ -7,6 +7,7 @@ reviewId: nathan-447648-20170506
 product:
   name: "Getting Real: The Smarter, Faster, Easier Way to Build a Web Application"
   title: "Getting Real: The Smarter, Faster, Easier Way to Build a Web Application"
+  author: Jason Fried
   urls:
     - { url: "https://www.goodreads.com/book/show/447648-getting-real-the-smarter-faster-easier-way-to-build-a-web-application", site: Goodreads }
   search:

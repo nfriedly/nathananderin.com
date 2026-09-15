@@ -7,6 +7,7 @@ reviewId: erin-62822709-20240222
 product:
   name: Kiss the Girl
   title: "Kiss the Girl (Meant to Be, #3)"
+  author: Zoraida Córdova
   urls:
     - { url: "https://www.goodreads.com/book/show/62822709-kiss-the-girl", site: Goodreads }
   search:

@@ -6,6 +6,7 @@ reviewId: erin-242510555-20260208
 product:
   name: And Then There Was You
   title: And Then There Was You
+  author: Sophie Cousens
   urls:
     - { url: "https://www.goodreads.com/book/show/242510555-and-then-there-was-you", site: Goodreads }
   search:

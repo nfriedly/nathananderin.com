@@ -7,6 +7,7 @@ reviewId: erin-211161936-20240801
 product:
   name: The Au Pair Affair
   title: "The Au Pair Affair (Big Shots, #2)"
+  author: Tessa Bailey
   urls:
     - { url: "https://www.goodreads.com/book/show/211161936-the-au-pair-affair", site: Goodreads }
   search:

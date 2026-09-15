@@ -7,6 +7,7 @@ reviewId: erin-219630574-20260323
 product:
   name: This Is a Love Story
   title: This Is a Love Story
+  author: Jessica Soffer
   urls:
     - { url: "https://www.goodreads.com/book/show/219630574-this-is-a-love-story", site: Goodreads }
   search:

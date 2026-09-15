@@ -6,6 +6,7 @@ reviewId: erin-205438870-20241105
 product:
   name: Haunt Your Heart Out
   title: Haunt Your Heart Out
+  author: Amber Roberts
   urls:
     - { url: "https://www.goodreads.com/book/show/205438870-haunt-your-heart-out", site: Goodreads }
   search:

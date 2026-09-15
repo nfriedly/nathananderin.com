@@ -7,6 +7,7 @@ reviewId: erin-220670484-20241215
 product:
   name: "How to Tell When We Will Die: On Pain, Disability, and Doom"
   title: "How to Tell When We Will Die: On Pain, Disability, and Doom"
+  author: Johanna Hedva
   urls:
     - { url: "https://www.goodreads.com/book/show/220670484-how-to-tell-when-we-will-die-on-pain-disability-and-doom", site: Goodreads }
   search:

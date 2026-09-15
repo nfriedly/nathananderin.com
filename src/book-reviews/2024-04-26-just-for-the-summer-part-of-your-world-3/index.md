@@ -7,6 +7,7 @@ reviewId: erin-203802230-20240426
 product:
   name: Just for the Summer
   title: "Just for the Summer (Part of Your World, #3)"
+  author: Abby Jimenez
   urls:
     - { url: "https://www.goodreads.com/book/show/203802230-just-for-the-summer", site: Goodreads }
   search:

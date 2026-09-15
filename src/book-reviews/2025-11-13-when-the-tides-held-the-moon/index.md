@@ -7,6 +7,7 @@ reviewId: erin-226196239-20251113
 product:
   name: When the Tides Held the Moon
   title: When the Tides Held the Moon
+  author: Venessa Vida Kelley
   urls:
     - { url: "https://www.goodreads.com/book/show/226196239-when-the-tides-held-the-moon", site: Goodreads }
   search:

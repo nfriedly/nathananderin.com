@@ -7,6 +7,7 @@ reviewId: nathan-50898549-20201031
 product:
   name: Rebellion
   title: "Rebellion (Omega Force, #11)"
+  author: Joshua Dalzelle
   urls:
     - { url: "https://www.goodreads.com/book/show/50898549-rebellion", site: Goodreads }
   search:

@@ -7,6 +7,7 @@ reviewId: erin-60902412-20240403
 product:
   name: Set on You
   title: "Set on You (The Influencer, #1)"
+  author: Amy  Lea
   urls:
     - { url: "https://www.goodreads.com/book/show/60902412-set-on-you", site: Goodreads }
   search:

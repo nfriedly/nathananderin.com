@@ -7,6 +7,7 @@ reviewId: erin-218155534-20250611
 product:
   name: Manic Pixie Dream Earl
   title: "Manic Pixie Dream Earl (Earls Trip, #2)"
+  author: Jenny  Holiday
   urls:
     - { url: "https://www.goodreads.com/book/show/218155534-manic-pixie-dream-earl", site: Goodreads }
   search:

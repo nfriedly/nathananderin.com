@@ -7,6 +7,7 @@ reviewId: erin-216409411-20251219
 product:
   name: First-Time Caller
   title: "First-Time Caller (Heartstrings, #1)"
+  author: B.K. Borison
   urls:
     - { url: "https://www.goodreads.com/book/show/216409411-first-time-caller", site: Goodreads }
   search:

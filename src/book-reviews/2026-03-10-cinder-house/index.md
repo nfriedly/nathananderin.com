@@ -7,6 +7,7 @@ reviewId: erin-244733295-20260310
 product:
   name: Cinder House
   title: Cinder House
+  author: Freya Marske
   urls:
     - { url: "https://www.goodreads.com/book/show/244733295-cinder-house", site: Goodreads }
   search:

@@ -7,6 +7,7 @@ reviewId: erin-231424309-20260215
 product:
   name: "No More Mediocre: A Call to Reimagine Our Relationships and Demand More"
   title: "No More Mediocre: A Call to Reimagine Our Relationships and Demand More"
+  author: Laura Danger
   urls:
     - { url: "https://www.goodreads.com/book/show/231424309-no-more-mediocre-a-call-to-reimagine-our-relationships-and-demand-more", site: Goodreads }
   search:

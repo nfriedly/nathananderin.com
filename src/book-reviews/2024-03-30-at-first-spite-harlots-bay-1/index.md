@@ -7,6 +7,7 @@ reviewId: erin-65962558-20240330
 product:
   name: At First Spite
   title: "At First Spite (Harlot's Bay, #1)"
+  author: Olivia Dade
   urls:
     - { url: "https://www.goodreads.com/book/show/65962558-at-first-spite", site: Goodreads }
   search:

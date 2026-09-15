@@ -7,6 +7,7 @@ reviewId: erin-233404383-20251006
 product:
   name: A Resistance of Witches
   title: A Resistance of Witches
+  author: Morgan   Ryan
   urls:
     - { url: "https://www.goodreads.com/book/show/233404383-a-resistance-of-witches", site: Goodreads }
   search:

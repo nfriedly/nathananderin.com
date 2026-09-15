@@ -7,6 +7,7 @@ reviewId: erin-229671045-20260601
 product:
   name: Immortal
   title: Immortal
+  author: Sue Lynn Tan
   urls:
     - { url: "https://www.goodreads.com/book/show/229671045-immortal", site: Goodreads }
   search:

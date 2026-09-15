@@ -7,6 +7,7 @@ reviewId: erin-48613333-20230714
 product:
   name: The One and Only Bob
   title: "The One and Only Bob (The One and Only, #2)"
+  author: Katherine Applegate
   urls:
     - { url: "https://www.goodreads.com/book/show/48613333-the-one-and-only-bob", site: Goodreads }
   search:

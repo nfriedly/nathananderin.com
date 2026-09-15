@@ -7,6 +7,7 @@ reviewId: erin-220380455-20250925
 product:
   name: "Vera Wong's Guide to Snooping (On a Dead Man)"
   title: "Vera Wong's Guide to Snooping (On a Dead Man) (Vera Wong, #2)"
+  author: Jesse Q. Sutanto
   urls:
     - { url: "https://www.goodreads.com/book/show/220380455-vera-wongs-guide-to-snooping-on-a-dead-man", site: Goodreads }
   search:

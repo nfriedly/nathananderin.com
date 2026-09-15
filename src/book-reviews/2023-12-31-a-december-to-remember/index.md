@@ -7,6 +7,7 @@ reviewId: erin-199341960-20231231
 product:
   name: A December to Remember
   title: A December to Remember
+  author: Jenny Bayliss
   urls:
     - { url: "https://www.goodreads.com/book/show/199341960-a-december-to-remember", site: Goodreads }
   search:

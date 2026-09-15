@@ -7,6 +7,7 @@ reviewId: erin-123610221-20240113
 product:
   name: Rein Me In
   title: "Rein Me In (Cowboys of Night Hawk, #1)"
+  author: Kayla Grosse
   urls:
     - { url: "https://www.goodreads.com/book/show/123610221-rein-me-in", site: Goodreads }
   search:

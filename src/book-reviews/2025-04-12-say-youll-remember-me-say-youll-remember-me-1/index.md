@@ -7,6 +7,7 @@ reviewId: erin-221060856-20250412
 product:
   name: "Say You'll Remember Me"
   title: "Say You'll Remember Me (Say You'll Remember Me, #1)"
+  author: Abby Jimenez
   urls:
     - { url: "https://www.goodreads.com/book/show/221060856-say-youll-remember-me", site: Goodreads }
   search:

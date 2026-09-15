@@ -7,6 +7,7 @@ reviewId: erin-237869433-20260418
 product:
   name: No Matter What
   title: No Matter What
+  author: Cara Bastone
   urls:
     - { url: "https://www.goodreads.com/book/show/237869433-no-matter-what", site: Goodreads }
   search:

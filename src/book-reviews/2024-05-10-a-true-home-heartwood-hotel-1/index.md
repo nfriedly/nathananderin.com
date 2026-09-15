@@ -7,6 +7,7 @@ reviewId: erin-32793043-20240510
 product:
   name: A True Home
   title: "A True Home (Heartwood Hotel, #1)"
+  author: Kallie George
   urls:
     - { url: "https://www.goodreads.com/book/show/32793043-a-true-home", site: Goodreads }
   search:

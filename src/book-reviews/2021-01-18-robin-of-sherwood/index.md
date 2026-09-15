@@ -7,6 +7,7 @@ reviewId: erin-1141088-20210118
 product:
   name: Robin of Sherwood
   title: Robin of Sherwood
+  author: Michael Morpurgo
   urls:
     - { url: "https://www.goodreads.com/book/show/1141088-robin-of-sherwood", site: Goodreads }
   search:

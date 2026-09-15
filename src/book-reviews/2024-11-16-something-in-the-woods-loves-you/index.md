@@ -7,6 +7,7 @@ reviewId: erin-204593663-20241116
 product:
   name: Something in the Woods Loves You
   title: Something in the Woods Loves You
+  author: Jarod K. Anderson
   urls:
     - { url: "https://www.goodreads.com/book/show/204593663-something-in-the-woods-loves-you", site: Goodreads }
   search:

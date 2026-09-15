@@ -7,6 +7,7 @@ reviewId: erin-211005059-20240807
 product:
   name: Not in Love
   title: Not in Love
+  author: Ali Hazelwood
   urls:
     - { url: "https://www.goodreads.com/book/show/211005059-not-in-love", site: Goodreads }
   search:

@@ -7,6 +7,7 @@ reviewId: erin-224643544-20250724
 product:
   name: "We Need Your Art: Stop F*cking Around and Make Something"
   title: "We Need Your Art: Stop F*cking Around and Make Something"
+  author: Amie McNee
   urls:
     - { url: "https://www.goodreads.com/book/show/224643544-we-need-your-art-stop-f-cking-around-and-make-something", site: Goodreads }
   search:

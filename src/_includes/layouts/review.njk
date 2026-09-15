@@ -26,16 +26,14 @@ navInHeader: true
     </span></p>
 </header>
 {% else %}
-<header class="review-header-no-hero">
-    {% set navContainer = false %}
-    {% include "partials/navbar.njk" %}
-    <h1>{{ h1 }}</h1>
-    {% if h2 %}<h2>{{ h2 }}</h2>{% endif %}
-    <p class="review-meta">
-        {{ stars | starsHtml | safe }}
-        by {{ authorName(author) }} Friedly
-    </p>
-</header>
+{% set navContainer = false %}
+{% include "partials/navbar.njk" %}
+<h1>{{ h1 }}</h1>
+{% if h2 %}<h2>{{ h2 }}</h2>{% endif %}
+<p class="review-meta">
+    {{ stars | starsHtml | safe }}
+    {% if product and product.author %}Reviewed {% endif %} by {{ authorName(author) }} Friedly
+</p>
 {% endif %}
 
 <main>
@@ -54,6 +52,7 @@ navInHeader: true
         <div class="col-sm-12">
         {% endif %}
             {% if product and (product.title or product.name) %}<h2>{{ product.title or product.name }}</h2>{% endif %}
+            {% if product and product.author %}<p class="product-author">by {{ product.author }}</p>{% endif %}
             {% if product and product.price %}<p class="product-price">Price: {% if product.price is number %}${{ product.price | money }}{% else %}{{ product.price }}{% endif %}</p>{% endif %}
             {% set buys = buyLinks(product) %}
             {% if buys.length %}

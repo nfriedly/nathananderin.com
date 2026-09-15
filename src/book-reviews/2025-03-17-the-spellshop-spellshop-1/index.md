@@ -7,6 +7,7 @@ reviewId: erin-203657010-20250317
 product:
   name: The Spellshop
   title: "The Spellshop (Spellshop, #1)"
+  author: Sarah Beth Durst
   urls:
     - { url: "https://www.goodreads.com/book/show/203657010-the-spellshop", site: Goodreads }
   search:

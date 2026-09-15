@@ -7,6 +7,7 @@ reviewId: erin-199685971-20240316
 product:
   name: Witcha Gonna Do?
   title: "Witcha Gonna Do? (The Sherwood Witches #1)"
+  author: Avery Flynn
   urls:
     - { url: "https://www.goodreads.com/book/show/199685971-witcha-gonna-do", site: Goodreads }
   search:

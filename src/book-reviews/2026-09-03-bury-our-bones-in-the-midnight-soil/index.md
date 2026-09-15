@@ -6,6 +6,7 @@ reviewId: erin-138390707-20260903
 product:
   name: Bury Our Bones in the Midnight Soil
   title: Bury Our Bones in the Midnight Soil
+  author: V.E. Schwab
   urls:
     - { url: "https://www.goodreads.com/book/show/138390707-bury-our-bones-in-the-midnight-soil", site: Goodreads }
   search:

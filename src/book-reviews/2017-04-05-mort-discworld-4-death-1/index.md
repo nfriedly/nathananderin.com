@@ -7,6 +7,7 @@ reviewId: nathan-386372-20170405
 product:
   name: Mort
   title: "Mort (Discworld, #4; Death, #1)"
+  author: Terry Pratchett
   urls:
     - { url: "https://www.goodreads.com/book/show/386372-mort", site: Goodreads }
   search:

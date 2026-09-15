@@ -7,6 +7,7 @@ reviewId: erin-217960349-20250711
 product:
   name: The Life Impossible
   title: The Life Impossible
+  author: Matt Haig
   urls:
     - { url: "https://www.goodreads.com/book/show/217960349-the-life-impossible", site: Goodreads }
   search:

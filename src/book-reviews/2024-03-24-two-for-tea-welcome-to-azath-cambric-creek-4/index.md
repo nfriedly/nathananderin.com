@@ -7,6 +7,7 @@ reviewId: erin-209265864-20240324
 product:
   name: "Two for Tea: Welcome to Azathé"
   title: "Two for Tea: Welcome to Azathé (Cambric Creek #4)"
+  author: C.M. Nascosta
   urls:
     - { url: "https://www.goodreads.com/book/show/209265864-two-for-tea-welcome-to-azath", site: Goodreads }
   search:

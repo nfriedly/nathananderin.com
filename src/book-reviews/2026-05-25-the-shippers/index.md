@@ -7,6 +7,7 @@ reviewId: erin-241794763-20260525
 product:
   name: The Shippers
   title: The Shippers
+  author: Katherine Center
   urls:
     - { url: "https://www.goodreads.com/book/show/241794763-the-shippers", site: Goodreads }
   search:

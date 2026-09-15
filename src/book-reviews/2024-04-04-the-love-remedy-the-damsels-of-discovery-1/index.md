@@ -7,6 +7,7 @@ reviewId: erin-179548384-20240404
 product:
   name: The Love Remedy
   title: "The Love Remedy (The Damsels of Discovery, #1)"
+  author: Elizabeth  Everett
   urls:
     - { url: "https://www.goodreads.com/book/show/179548384-the-love-remedy", site: Goodreads }
   search:

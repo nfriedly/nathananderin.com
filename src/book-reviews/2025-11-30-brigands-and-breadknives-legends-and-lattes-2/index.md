@@ -7,6 +7,7 @@ reviewId: erin-225668331-20251130
 product:
   name: Brigands & Breadknives
   title: "Brigands & Breadknives (Legends & Lattes, #2)"
+  author: Travis Baldree
   urls:
     - { url: "https://www.goodreads.com/book/show/225668331-brigands-and-breadknives", site: Goodreads }
   search:

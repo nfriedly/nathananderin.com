@@ -7,6 +7,7 @@ reviewId: erin-59988555-20250105
 product:
   name: Hello Fake Boyfriend
   title: "Hello Fake Boyfriend (Hello, #2)"
+  author: Kelsie Hoss
   urls:
     - { url: "https://www.goodreads.com/book/show/59988555-hello-fake-boyfriend", site: Goodreads }
   search:

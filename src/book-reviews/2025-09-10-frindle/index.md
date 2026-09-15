@@ -7,6 +7,7 @@ reviewId: erin-36160344-20250910
 product:
   name: Frindle
   title: Frindle
+  author: Andrew Clements
   urls:
     - { url: "https://www.goodreads.com/book/show/36160344-frindle", site: Goodreads }
   search:

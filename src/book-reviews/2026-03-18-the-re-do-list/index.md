@@ -7,6 +7,7 @@ reviewId: erin-247499812-20260318
 product:
   name: The Re-Do List
   title: The Re-Do List
+  author: Denise  Williams
   urls:
     - { url: "https://www.goodreads.com/book/show/247499812-the-re-do-list", site: Goodreads }
   search:

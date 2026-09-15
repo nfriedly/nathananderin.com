@@ -7,6 +7,7 @@ reviewId: erin-15769863-20260421
 product:
   name: Shadow of Night
   title: "Shadow of Night (All Souls Trilogy, #2)"
+  author: Deborah Harkness
   urls:
     - { url: "https://www.goodreads.com/book/show/15769863-shadow-of-night", site: Goodreads }
   search:

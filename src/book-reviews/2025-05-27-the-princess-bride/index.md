@@ -6,6 +6,7 @@ reviewId: erin-18104015-20250527
 product:
   name: The Princess Bride
   title: The Princess Bride
+  author: William Goldman
   urls:
     - { url: "https://www.goodreads.com/book/show/18104015-the-princess-bride", site: Goodreads }
   search:

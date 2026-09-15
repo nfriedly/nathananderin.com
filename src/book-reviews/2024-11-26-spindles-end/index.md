@@ -7,6 +7,7 @@ reviewId: erin-199402925-20241126
 product:
   name: "Spindle's End"
   title: "Spindle's End"
+  author: Robin McKinley
   urls:
     - { url: "https://www.goodreads.com/book/show/199402925-spindles-end", site: Goodreads }
   search:

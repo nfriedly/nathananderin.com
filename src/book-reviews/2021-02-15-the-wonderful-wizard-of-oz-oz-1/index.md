@@ -6,6 +6,7 @@ reviewId: erin-236093-20210215
 product:
   name: The Wonderful Wizard of Oz
   title: "The Wonderful Wizard of Oz (Oz, #1)"
+  author: L. Frank Baum
   urls:
     - { url: "https://www.goodreads.com/book/show/236093-the-wonderful-wizard-of-oz", site: Goodreads }
   search:

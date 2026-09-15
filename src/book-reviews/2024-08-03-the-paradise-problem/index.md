@@ -7,6 +7,7 @@ reviewId: erin-200263569-20240803
 product:
   name: The Paradise Problem
   title: The Paradise Problem
+  author: Christina Lauren
   urls:
     - { url: "https://www.goodreads.com/book/show/200263569-the-paradise-problem", site: Goodreads }
   search:

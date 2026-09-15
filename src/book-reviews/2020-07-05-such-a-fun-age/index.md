@@ -7,6 +7,7 @@ reviewId: erin-43923951-20200705
 product:
   name: Such a Fun Age
   title: Such a Fun Age
+  author: Kiley Reid
   urls:
     - { url: "https://www.goodreads.com/book/show/43923951-such-a-fun-age", site: Goodreads }
   search:

@@ -6,6 +6,7 @@ reviewId: erin-223164553-20250808
 product:
   name: The Favorites
   title: The Favorites
+  author: Layne Fargo
   urls:
     - { url: "https://www.goodreads.com/book/show/223164553-the-favorites", site: Goodreads }
   search:

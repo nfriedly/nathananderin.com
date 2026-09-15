@@ -7,6 +7,7 @@ reviewId: erin-34021200-20260108
 product:
   name: The Girl Who Drank the Moon
   title: The Girl Who Drank the Moon
+  author: Kelly Barnhill
   urls:
     - { url: "https://www.goodreads.com/book/show/34021200-the-girl-who-drank-the-moon", site: Goodreads }
   search:

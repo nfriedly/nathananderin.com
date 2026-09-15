@@ -7,6 +7,7 @@ reviewId: erin-166176898-20240907
 product:
   name: Mother-Daughter Murder Night
   title: Mother-Daughter Murder Night
+  author: Nina Simon
   urls:
     - { url: "https://www.goodreads.com/book/show/166176898-mother-daughter-murder-night", site: Goodreads }
   search:

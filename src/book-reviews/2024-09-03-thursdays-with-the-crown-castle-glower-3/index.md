@@ -7,6 +7,7 @@ reviewId: erin-25192442-20240903
 product:
   name: Thursdays with the Crown
   title: "Thursdays with the Crown (Castle Glower, #3)"
+  author: Jessica Day George
   urls:
     - { url: "https://www.goodreads.com/book/show/25192442-thursdays-with-the-crown", site: Goodreads }
   search:

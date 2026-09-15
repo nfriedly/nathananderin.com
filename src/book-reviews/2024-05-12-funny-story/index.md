@@ -7,6 +7,7 @@ reviewId: erin-196890737-20240512
 product:
   name: Funny Story
   title: Funny Story
+  author: Emily Henry
   urls:
     - { url: "https://www.goodreads.com/book/show/196890737-funny-story", site: Goodreads }
   search:

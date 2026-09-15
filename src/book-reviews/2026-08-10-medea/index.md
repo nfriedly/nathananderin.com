@@ -6,6 +6,7 @@ reviewId: erin-179109031-20260810
 product:
   name: Medea
   title: Medea
+  author: Eilish Quin
   urls:
     - { url: "https://www.goodreads.com/book/show/179109031-medea", site: Goodreads }
   search:

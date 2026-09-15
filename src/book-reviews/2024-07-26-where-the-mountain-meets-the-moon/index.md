@@ -7,6 +7,7 @@ reviewId: erin-13134770-20240726
 product:
   name: Where the Mountain Meets the Moon
   title: Where the Mountain Meets the Moon
+  author: Grace Lin
   urls:
     - { url: "https://www.goodreads.com/book/show/13134770-where-the-mountain-meets-the-moon", site: Goodreads }
   search:

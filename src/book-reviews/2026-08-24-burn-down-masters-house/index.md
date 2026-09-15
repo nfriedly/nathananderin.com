@@ -7,6 +7,7 @@ reviewId: erin-242751117-20260824
 product:
   name: "Burn Down Master's House"
   title: "Burn Down Master's House"
+  author: Clay Cane
   urls:
     - { url: "https://www.goodreads.com/book/show/242751117-burn-down-masters-house", site: Goodreads }
   search:

@@ -7,6 +7,7 @@ reviewId: nathan-54493401-20210531
 product:
   name: Project Hail Mary
   title: Project Hail Mary
+  author: Andy Weir
   urls:
     - { url: "https://www.goodreads.com/book/show/54493401-project-hail-mary", site: Goodreads }
   search:

@@ -7,6 +7,7 @@ reviewId: erin-211098735-20240523
 product:
   name: How to End a Love Story
   title: How to End a Love Story
+  author: Yulin Kuang
   urls:
     - { url: "https://www.goodreads.com/book/show/211098735-how-to-end-a-love-story", site: Goodreads }
   search:

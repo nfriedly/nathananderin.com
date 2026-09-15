@@ -7,6 +7,7 @@ reviewId: nathan-4191136-20170219
 product:
   name: Business adventures
   title: Business adventures
+  author: John Brooks
   urls:
     - { url: "https://www.goodreads.com/book/show/4191136-business-adventures", site: Goodreads }
   search:

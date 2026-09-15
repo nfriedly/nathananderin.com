@@ -7,6 +7,7 @@ reviewId: erin-35133923-20210103
 product:
   name: "Everything Happens for a Reason: And Other Lies I've Loved"
   title: "Everything Happens for a Reason: And Other Lies I've Loved"
+  author: Kate Bowler
   urls:
     - { url: "https://www.goodreads.com/book/show/35133923-everything-happens-for-a-reason-and-other-lies-ive-loved", site: Goodreads }
   search:

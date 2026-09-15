@@ -7,6 +7,7 @@ reviewId: nathan-2082798-20170220
 product:
   name: Sales & Marketing
   title: Sales & Marketing
+  author: Michael A. Kamins
   urls:
     - { url: "https://www.goodreads.com/book/show/2082798-sales-and-marketing", site: Goodreads }
   search:

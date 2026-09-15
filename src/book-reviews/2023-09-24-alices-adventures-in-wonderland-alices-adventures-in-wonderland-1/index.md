@@ -7,6 +7,7 @@ reviewId: erin-6324090-20230924
 product:
   name: "Alice's Adventures in Wonderland"
   title: "Alice's Adventures in Wonderland (Alice's Adventures in Wonderland, #1)"
+  author: Lewis Carroll
   urls:
     - { url: "https://www.goodreads.com/book/show/6324090-alices-adventures-in-wonderland", site: Goodreads }
   search:

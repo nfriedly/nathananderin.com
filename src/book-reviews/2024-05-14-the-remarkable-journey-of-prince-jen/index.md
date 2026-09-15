@@ -7,6 +7,7 @@ reviewId: erin-36492917-20240514
 product:
   name: The Remarkable Journey of Prince Jen
   title: The Remarkable Journey of Prince Jen
+  author: Lloyd Alexander
   urls:
     - { url: "https://www.goodreads.com/book/show/36492917-the-remarkable-journey-of-prince-jen", site: Goodreads }
   search:

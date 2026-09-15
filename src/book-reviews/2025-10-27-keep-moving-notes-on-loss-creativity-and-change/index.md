@@ -7,6 +7,7 @@ reviewId: erin-49517209-20251027
 product:
   name: "Keep Moving: Notes on Loss, Creativity, and Change"
   title: "Keep Moving: Notes on Loss, Creativity, and Change"
+  author: Maggie  Smith
   urls:
     - { url: "https://www.goodreads.com/book/show/49517209-keep-moving-notes-on-loss-creativity-and-change", site: Goodreads }
   search:

@@ -7,6 +7,7 @@ reviewId: erin-7598202-20241128
 product:
   name: Emmy and the Incredible Shrinking Rat
   title: Emmy and the Incredible Shrinking Rat
+  author: Lynne Jonell
   urls:
     - { url: "https://www.goodreads.com/book/show/7598202-emmy-and-the-incredible-shrinking-rat", site: Goodreads }
   search:

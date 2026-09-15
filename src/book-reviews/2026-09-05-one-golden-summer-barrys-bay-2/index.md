@@ -6,6 +6,7 @@ reviewId: erin-229240227-20260905
 product:
   name: One Golden Summer
   title: "One Golden Summer (Barry's Bay, #2)"
+  author: Carley Fortune
   urls:
     - { url: "https://www.goodreads.com/book/show/229240227-one-golden-summer", site: Goodreads }
   search:

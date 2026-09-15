@@ -7,6 +7,7 @@ reviewId: erin-49605868-20260309
 product:
   name: The Dutch House
   title: The Dutch House
+  author: Ann Patchett
   urls:
     - { url: "https://www.goodreads.com/book/show/49605868-the-dutch-house", site: Goodreads }
   search:

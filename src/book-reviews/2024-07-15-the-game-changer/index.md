@@ -7,6 +7,7 @@ reviewId: erin-210820667-20240715
 product:
   name: The Game Changer
   title: The Game Changer
+  author: Lana Ferguson
   urls:
     - { url: "https://www.goodreads.com/book/show/210820667-the-game-changer", site: Goodreads }
   search:

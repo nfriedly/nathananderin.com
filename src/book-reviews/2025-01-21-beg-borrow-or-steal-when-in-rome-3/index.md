@@ -7,6 +7,7 @@ reviewId: erin-211164792-20250121
 product:
   name: Beg, Borrow, or Steal
   title: "Beg, Borrow, or Steal (When in Rome, #3)"
+  author: Sarah       Adams
   urls:
     - { url: "https://www.goodreads.com/book/show/211164792-beg-borrow-or-steal", site: Goodreads }
   search:

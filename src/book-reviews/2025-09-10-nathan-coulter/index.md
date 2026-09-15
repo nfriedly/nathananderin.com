@@ -6,6 +6,7 @@ reviewId: erin-13571374-20250910
 product:
   name: Nathan Coulter
   title: Nathan Coulter
+  author: Wendell Berry
   urls:
     - { url: "https://www.goodreads.com/book/show/13571374-nathan-coulter", site: Goodreads }
   search:

@@ -7,6 +7,7 @@ reviewId: erin-60134380-20250103
 product:
   name: Nettle & Bone
   title: Nettle & Bone
+  author: T. Kingfisher
   urls:
     - { url: "https://www.goodreads.com/book/show/60134380-nettle-and-bone", site: Goodreads }
   search:

@@ -7,6 +7,7 @@ reviewId: nathan-34497-20170128
 product:
   name: The Color of Magic
   title: "The Color of Magic (Discworld, #1; Rincewind, #1)"
+  author: Terry Pratchett
   urls:
     - { url: "https://www.goodreads.com/book/show/34497-the-color-of-magic", site: Goodreads }
   search:

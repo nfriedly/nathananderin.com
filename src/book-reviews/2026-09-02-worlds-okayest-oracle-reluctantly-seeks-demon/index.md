@@ -6,6 +6,7 @@ reviewId: erin-257127479-20260902
 product:
   name: "World's Okayest Oracle (Reluctantly) Seeks Demon"
   title: "World's Okayest Oracle (Reluctantly) Seeks Demon"
+  author: Olivia Dade
   urls:
     - { url: "https://www.goodreads.com/book/show/257127479-worlds-okayest-oracle-reluctantly-seeks-demon", site: Goodreads }
   search:

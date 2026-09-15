@@ -7,6 +7,7 @@ reviewId: erin-229254021-20250904
 product:
   name: Slow Burn Summer
   title: Slow Burn Summer
+  author: Josie Silver
   urls:
     - { url: "https://www.goodreads.com/book/show/229254021-slow-burn-summer", site: Goodreads }
   search:

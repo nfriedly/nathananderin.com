@@ -7,6 +7,7 @@ reviewId: nathan-34506-20170306
 product:
   name: The Light Fantastic
   title: "The Light Fantastic (Discworld, #2; Rincewind, #2)"
+  author: Terry Pratchett
   urls:
     - { url: "https://www.goodreads.com/book/show/34506-the-light-fantastic", site: Goodreads }
   search:

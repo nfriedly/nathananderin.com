@@ -7,6 +7,7 @@ reviewId: nathan-24876-20170713
 product:
   name: Singularity
   title: Singularity
+  author: William Sleator
   urls:
     - { url: "https://www.goodreads.com/book/show/24876-singularity", site: Goodreads }
   search:

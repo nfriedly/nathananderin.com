@@ -7,6 +7,7 @@ reviewId: erin-199119213-20260820
 product:
   name: The Labors of Hercules Beal
   title: The Labors of Hercules Beal
+  author: Gary D. Schmidt
   urls:
     - { url: "https://www.goodreads.com/book/show/199119213-the-labors-of-hercules-beal", site: Goodreads }
   search:

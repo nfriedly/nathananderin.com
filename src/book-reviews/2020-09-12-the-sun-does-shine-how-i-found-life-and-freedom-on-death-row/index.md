@@ -7,6 +7,7 @@ reviewId: erin-34964905-20200912
 product:
   name: "The Sun Does Shine: How I Found Life and Freedom on Death Row"
   title: "The Sun Does Shine: How I Found Life and Freedom on Death Row"
+  author: Anthony Ray Hinton
   urls:
     - { url: "https://www.goodreads.com/book/show/34964905-the-sun-does-shine-how-i-found-life-and-freedom-on-death-row", site: Goodreads }
   search:

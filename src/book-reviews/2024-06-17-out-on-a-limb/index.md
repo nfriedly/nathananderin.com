@@ -7,6 +7,7 @@ reviewId: erin-203052524-20240617
 product:
   name: Out On A Limb
   title: Out On A Limb
+  author: Hannah Bonam-Young
   urls:
     - { url: "https://www.goodreads.com/book/show/203052524-out-on-a-limb", site: Goodreads }
   search:

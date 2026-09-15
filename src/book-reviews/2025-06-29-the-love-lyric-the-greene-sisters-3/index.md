@@ -7,6 +7,7 @@ reviewId: erin-223848645-20250629
 product:
   name: The Love Lyric
   title: "The Love Lyric (The Greene Sisters, #3)"
+  author: Kristina Forest
   urls:
     - { url: "https://www.goodreads.com/book/show/223848645-the-love-lyric", site: Goodreads }
   search:

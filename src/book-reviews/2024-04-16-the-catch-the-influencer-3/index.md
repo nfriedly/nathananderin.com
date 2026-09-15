@@ -7,6 +7,7 @@ reviewId: erin-188173526-20240416
 product:
   name: The Catch
   title: "The Catch (The Influencer, #3)"
+  author: Amy  Lea
   urls:
     - { url: "https://www.goodreads.com/book/show/188173526-the-catch", site: Goodreads }
   search:

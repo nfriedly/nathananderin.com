@@ -7,6 +7,7 @@ reviewId: erin-10481635-20250402
 product:
   name: The Lightning Thief
   title: "The Lightning Thief (Percy Jackson and the Olympians, #1)"
+  author: Rick Riordan
   urls:
     - { url: "https://www.goodreads.com/book/show/10481635-the-lightning-thief", site: Goodreads }
   search:

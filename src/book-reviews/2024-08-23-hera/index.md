@@ -6,6 +6,7 @@ reviewId: erin-216627927-20240823
 product:
   name: Hera
   title: Hera
+  author: Jennifer Saint
   urls:
     - { url: "https://www.goodreads.com/book/show/216627927-hera", site: Goodreads }
   search:

@@ -7,6 +7,7 @@ reviewId: erin-123192802-20250111
 product:
   name: Bookshops & Bonedust
   title: "Bookshops & Bonedust (Legends & Lattes, #0)"
+  author: Travis Baldree
   urls:
     - { url: "https://www.goodreads.com/book/show/123192802-bookshops-and-bonedust", site: Goodreads }
   search:

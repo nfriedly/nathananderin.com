@@ -7,6 +7,7 @@ reviewId: nathan-11140803-20170224
 product:
   name: "American Nations: A History of the Eleven Rival Regional Cultures of North America"
   title: "American Nations: A History of the Eleven Rival Regional Cultures of North America"
+  author: Colin Woodard
   urls:
     - { url: "https://www.goodreads.com/book/show/11140803-american-nations-a-history-of-the-eleven-rival-regional-cultures-of-north-america", site: Goodreads }
   search:

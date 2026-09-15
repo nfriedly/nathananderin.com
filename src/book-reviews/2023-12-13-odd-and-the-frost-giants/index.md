@@ -7,6 +7,7 @@ reviewId: erin-2819137-20231213
 product:
   name: Odd and the Frost Giants
   title: Odd and the Frost Giants
+  author: Neil Gaiman
   urls:
     - { url: "https://www.goodreads.com/book/show/2819137-odd-and-the-frost-giants", site: Goodreads }
   search:

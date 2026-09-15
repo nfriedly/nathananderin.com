@@ -7,6 +7,7 @@ reviewId: erin-75428822-20240904
 product:
   name: Tom Lake
   title: Tom Lake
+  author: Ann Patchett
   urls:
     - { url: "https://www.goodreads.com/book/show/75428822-tom-lake", site: Goodreads }
   search:

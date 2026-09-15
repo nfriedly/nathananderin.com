@@ -7,6 +7,7 @@ reviewId: erin-199549282-20240518
 product:
   name: The Wild Robot Protects
   title: The Wild Robot Protects
+  author: Peter  Brown
   urls:
     - { url: "https://www.goodreads.com/book/show/199549282-the-wild-robot-protects", site: Goodreads }
   search:

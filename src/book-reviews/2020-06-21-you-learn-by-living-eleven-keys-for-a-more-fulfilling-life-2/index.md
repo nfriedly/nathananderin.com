@@ -7,6 +7,7 @@ reviewId: erin-78509-20200621
 product:
   name: "You Learn by Living: Eleven Keys for a More Fulfilling Life"
   title: "You Learn by Living: Eleven Keys for a More Fulfilling Life"
+  author: Eleanor Roosevelt
   urls:
     - { url: "https://www.goodreads.com/book/show/78509-you-learn-by-living-eleven-keys-for-a-more-fulfilling-life", site: Goodreads }
   search:

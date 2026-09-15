@@ -7,6 +7,7 @@ reviewId: erin-226364844-20250823
 product:
   name: Red Clay
   title: Red Clay
+  author: Charles B. Fancher
   urls:
     - { url: "https://www.goodreads.com/book/show/226364844-red-clay", site: Goodreads }
   search:

@@ -7,6 +7,7 @@ reviewId: erin-228566501-20251209
 product:
   name: "Second Chance Romance: A Harlot's Bay Novel"
   title: "Second Chance Romance: A Harlot's Bay Novel"
+  author: Olivia Dade
   urls:
     - { url: "https://www.goodreads.com/book/show/228566501-second-chance-romance-a-harlots-bay-novel", site: Goodreads }
   search:

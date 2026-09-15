@@ -7,6 +7,7 @@ reviewId: erin-206789315-20240327
 product:
   name: "Not Your Crush's Cauldron"
   title: "Not Your Crush's Cauldron (Supernatural Singles #3)"
+  author: April Asher
   urls:
     - { url: "https://www.goodreads.com/book/show/206789315-not-your-crushs-cauldron", site: Goodreads }
   search:

@@ -7,6 +7,7 @@ reviewId: erin-72897986-20240409
 product:
   name: Always Only You
   title: "Always Only You (Bergman Brothers, #2)"
+  author: Chloe Liese
   urls:
     - { url: "https://www.goodreads.com/book/show/72897986-always-only-you", site: Goodreads }
   search:

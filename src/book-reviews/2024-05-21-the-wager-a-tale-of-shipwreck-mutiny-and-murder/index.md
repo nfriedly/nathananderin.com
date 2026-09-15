@@ -7,6 +7,7 @@ reviewId: erin-143975490-20240521
 product:
   name: "The Wager: A Tale of Shipwreck, Mutiny and Murder"
   title: "The Wager: A Tale of Shipwreck, Mutiny and Murder"
+  author: David Grann
   urls:
     - { url: "https://www.goodreads.com/book/show/143975490-the-wager-a-tale-of-shipwreck-mutiny-and-murder", site: Goodreads }
   search:

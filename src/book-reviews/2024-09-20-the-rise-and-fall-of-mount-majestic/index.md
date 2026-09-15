@@ -7,6 +7,7 @@ reviewId: erin-168455127-20240920
 product:
   name: The Rise and Fall of Mount Majestic
   title: The Rise and Fall of Mount Majestic
+  author: Jennifer Trafton
   urls:
     - { url: "https://www.goodreads.com/book/show/168455127-the-rise-and-fall-of-mount-majestic", site: Goodreads }
   search:

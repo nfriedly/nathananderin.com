@@ -7,6 +7,7 @@ reviewId: erin-242706166-20260728
 product:
   name: Vera Stein Is Fine
   title: Vera Stein Is Fine
+  author: Julie   Murphy
   urls:
     - { url: "https://www.goodreads.com/book/show/242706166-vera-stein-is-fine", site: Goodreads }
   search:

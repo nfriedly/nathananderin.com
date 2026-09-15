@@ -7,6 +7,7 @@ reviewId: nathan-28875-20170913
 product:
   name: "Three Tales of My Father's Dragon"
   title: "Three Tales of My Father's Dragon (My Father's Dragon, #1-3)"
+  author: Ruth Stiles Gannett
   urls:
     - { url: "https://www.goodreads.com/book/show/28875-three-tales-of-my-fathers-dragon", site: Goodreads }
   search:

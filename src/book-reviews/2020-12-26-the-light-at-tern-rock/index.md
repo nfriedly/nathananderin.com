@@ -7,6 +7,7 @@ reviewId: erin-298070-20201226
 product:
   name: The Light at Tern Rock
   title: The Light at Tern Rock
+  author: Julia L. Sauer
   urls:
     - { url: "https://www.goodreads.com/book/show/298070-the-light-at-tern-rock", site: Goodreads }
   search:

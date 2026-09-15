@@ -7,6 +7,7 @@ reviewId: erin-7882025-20250111
 product:
   name: "Howl's Moving Castle"
   title: "Howl's Moving Castle (Howl's Moving Castle, #1)"
+  author: Diana Wynne Jones
   urls:
     - { url: "https://www.goodreads.com/book/show/7882025-howls-moving-castle", site: Goodreads }
   search:

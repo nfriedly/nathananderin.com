@@ -7,6 +7,7 @@ reviewId: erin-53004274-20240325
 product:
   name: In Five Years
   title: In Five Years
+  author: Rebecca Serle
   urls:
     - { url: "https://www.goodreads.com/book/show/53004274-in-five-years", site: Goodreads }
   search:

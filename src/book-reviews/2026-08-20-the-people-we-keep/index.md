@@ -6,6 +6,7 @@ reviewId: erin-55358373-20260820
 product:
   name: The People We Keep
   title: The People We Keep
+  author: Allison Larkin
   urls:
     - { url: "https://www.goodreads.com/book/show/55358373-the-people-we-keep", site: Goodreads }
   search:

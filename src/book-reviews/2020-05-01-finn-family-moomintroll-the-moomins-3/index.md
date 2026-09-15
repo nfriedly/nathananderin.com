@@ -7,6 +7,7 @@ reviewId: erin-79549-20200501
 product:
   name: Finn Family Moomintroll
   title: "Finn Family Moomintroll (The Moomins, #3)"
+  author: Tove Jansson
   urls:
     - { url: "https://www.goodreads.com/book/show/79549-finn-family-moomintroll", site: Goodreads }
   search:

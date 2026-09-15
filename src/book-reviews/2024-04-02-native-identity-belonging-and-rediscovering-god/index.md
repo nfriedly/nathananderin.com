@@ -7,6 +7,7 @@ reviewId: erin-54134198-20240402
 product:
   name: "Native: Identity, Belonging, and Rediscovering God"
   title: "Native: Identity, Belonging, and Rediscovering God"
+  author: Kaitlin B. Curtice
   urls:
     - { url: "https://www.goodreads.com/book/show/54134198-native-identity-belonging-and-rediscovering-god", site: Goodreads }
   search:

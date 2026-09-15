@@ -7,6 +7,7 @@ reviewId: erin-216599032-20240815
 product:
   name: Not Another Love Song
   title: Not Another Love Song
+  author: Julie  Soto
   urls:
     - { url: "https://www.goodreads.com/book/show/216599032-not-another-love-song", site: Goodreads }
   search:

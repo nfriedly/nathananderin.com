@@ -7,6 +7,7 @@ reviewId: erin-199532-20201228
 product:
   name: A Redbird Christmas
   title: A Redbird Christmas
+  author: Fannie Flagg
   urls:
     - { url: "https://www.goodreads.com/book/show/199532-a-redbird-christmas", site: Goodreads }
   search:

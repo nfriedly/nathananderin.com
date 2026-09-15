@@ -6,6 +6,7 @@ reviewId: erin-228426989-20250517
 product:
   name: Oathbound
   title: "Oathbound (The Legendborn Cycle #3)"
+  author: Tracy Deonn
   urls:
     - { url: "https://www.goodreads.com/book/show/228426989-oathbound", site: Goodreads }
   search:

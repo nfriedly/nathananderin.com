@@ -6,6 +6,7 @@ reviewId: erin-25740548-20240808
 product:
   name: When Breath Becomes Air
   title: When Breath Becomes Air
+  author: Paul Kalanithi
   urls:
     - { url: "https://www.goodreads.com/book/show/25740548-when-breath-becomes-air", site: Goodreads }
   search:

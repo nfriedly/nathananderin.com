@@ -7,6 +7,7 @@ reviewId: erin-100915-20210122
 product:
   name: The Lion, the Witch and the Wardrobe
   title: "The Lion, the Witch and the Wardrobe (Chronicles of Narnia, #1)"
+  author: C.S. Lewis
   urls:
     - { url: "https://www.goodreads.com/book/show/100915-the-lion-the-witch-and-the-wardrobe", site: Goodreads }
   search:

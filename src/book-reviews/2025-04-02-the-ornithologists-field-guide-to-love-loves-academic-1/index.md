@@ -7,6 +7,7 @@ reviewId: erin-222796683-20250402
 product:
   name: "The Ornithologist's Field Guide to Love"
   title: "The Ornithologist's Field Guide to Love (Love's Academic, #1)"
+  author: India Holton
   urls:
     - { url: "https://www.goodreads.com/book/show/222796683-the-ornithologists-field-guide-to-love", site: Goodreads }
   search:

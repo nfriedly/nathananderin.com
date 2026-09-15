@@ -7,6 +7,7 @@ reviewId: erin-199595164-20240229
 product:
   name: "Nickel and Dimed: On (Not) Getting By in America"
   title: "Nickel and Dimed: On (Not) Getting By in America"
+  author: Barbara Ehrenreich
   urls:
     - { url: "https://www.goodreads.com/book/show/199595164-nickel-and-dimed-on-not-getting-by-in-america", site: Goodreads }
   search:

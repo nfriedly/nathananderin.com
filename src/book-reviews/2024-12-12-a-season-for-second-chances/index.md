@@ -7,6 +7,7 @@ reviewId: erin-59416510-20241212
 product:
   name: A Season for Second Chances
   title: A Season for Second Chances
+  author: Jenny Bayliss
   urls:
     - { url: "https://www.goodreads.com/book/show/59416510-a-season-for-second-chances", site: Goodreads }
   search:

@@ -6,6 +6,7 @@ reviewId: erin-243059366-20260217
 product:
   name: In Your Dreams
   title: "In Your Dreams (When in Rome, #4)"
+  author: Sarah       Adams
   urls:
     - { url: "https://www.goodreads.com/book/show/243059366-in-your-dreams", site: Goodreads }
   search:

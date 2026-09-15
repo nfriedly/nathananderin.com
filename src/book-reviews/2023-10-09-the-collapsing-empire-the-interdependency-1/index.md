@@ -7,6 +7,7 @@ reviewId: nathan-30078567-20231009
 product:
   name: The Collapsing Empire
   title: "The Collapsing Empire (The Interdependency, #1)"
+  author: John Scalzi
   urls:
     - { url: "https://www.goodreads.com/book/show/30078567-the-collapsing-empire", site: Goodreads }
   search:

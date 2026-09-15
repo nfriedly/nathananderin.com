@@ -7,6 +7,7 @@ reviewId: erin-196761175-20240126
 product:
   name: Curves for Days
   title: "Curves for Days (Big Love from Galway, #1)"
+  author: Laura Moher
   urls:
     - { url: "https://www.goodreads.com/book/show/196761175-curves-for-days", site: Goodreads }
   search:

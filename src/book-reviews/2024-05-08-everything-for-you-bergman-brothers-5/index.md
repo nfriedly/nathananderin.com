@@ -7,6 +7,7 @@ reviewId: erin-61221749-20240508
 product:
   name: Everything for You
   title: "Everything for You (Bergman Brothers, #5)"
+  author: Chloe Liese
   urls:
     - { url: "https://www.goodreads.com/book/show/61221749-everything-for-you", site: Goodreads }
   search:

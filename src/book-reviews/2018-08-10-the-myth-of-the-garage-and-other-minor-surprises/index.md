@@ -7,6 +7,7 @@ reviewId: nathan-12995781-20180810
 product:
   name: "The Myth of the Garage: And Other Minor Surprises"
   title: "The Myth of the Garage: And Other Minor Surprises"
+  author: Chip Heath
   urls:
     - { url: "https://www.goodreads.com/book/show/12995781-the-myth-of-the-garage-and-other-minor-surprises", site: Goodreads }
   search:

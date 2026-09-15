@@ -7,6 +7,7 @@ reviewId: erin-199525016-20240406
 product:
   name: "Enchanted to Meet You: A Witches of West Harbor Novel"
   title: "Enchanted to Meet You: A Witches of West Harbor Novel"
+  author: Meg Cabot
   urls:
     - { url: "https://www.goodreads.com/book/show/199525016-enchanted-to-meet-you-a-witches-of-west-harbor-novel", site: Goodreads }
   search:

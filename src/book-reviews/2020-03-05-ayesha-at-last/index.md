@@ -7,6 +7,7 @@ reviewId: erin-50206920-20200305
 product:
   name: Ayesha at Last
   title: Ayesha at Last
+  author: Uzma Jalaluddin
   urls:
     - { url: "https://www.goodreads.com/book/show/50206920-ayesha-at-last", site: Goodreads }
   search:

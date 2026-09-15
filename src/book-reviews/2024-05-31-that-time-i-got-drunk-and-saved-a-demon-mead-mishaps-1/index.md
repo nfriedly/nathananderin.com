@@ -7,6 +7,7 @@ reviewId: erin-199245780-20240531
 product:
   name: That Time I Got Drunk and Saved a Demon
   title: "That Time I Got Drunk and Saved a Demon (Mead Mishaps, #1)"
+  author: Kimberly Lemming
   urls:
     - { url: "https://www.goodreads.com/book/show/199245780-that-time-i-got-drunk-and-saved-a-demon", site: Goodreads }
   search:

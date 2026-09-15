@@ -7,6 +7,7 @@ reviewId: erin-26822959-20251015
 product:
   name: Crenshaw
   title: Crenshaw
+  author: Katherine Applegate
   urls:
     - { url: "https://www.goodreads.com/book/show/26822959-crenshaw", site: Goodreads }
   search:

@@ -7,6 +7,7 @@ reviewId: erin-23705037-20260205
 product:
   name: The Enchantress Returns
   title: "The Enchantress Returns (The Land of Stories, #2)"
+  author: Chris Colfer
   urls:
     - { url: "https://www.goodreads.com/book/show/23705037-the-enchantress-returns", site: Goodreads }
   search:

@@ -7,6 +7,7 @@ reviewId: erin-226381572-20250831
 product:
   name: The Enchanted Greenhouse
   title: "The Enchanted Greenhouse (The Spellshop #2)"
+  author: Sarah Beth Durst
   urls:
     - { url: "https://www.goodreads.com/book/show/226381572-the-enchanted-greenhouse", site: Goodreads }
   search:

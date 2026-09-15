@@ -7,6 +7,7 @@ reviewId: erin-57354976-20241009
 product:
   name: "What Doesn't Kill You: A Life with Chronic Illness - Lessons from a Body in Revolt"
   title: "What Doesn't Kill You: A Life with Chronic Illness - Lessons from a Body in Revolt"
+  author: Tessa  Miller
   urls:
     - { url: "https://www.goodreads.com/book/show/57354976-what-doesnt-kill-you-a-life-with-chronic-illness-lessons-from-a-body-in-revolt", site: Goodreads }
   search:

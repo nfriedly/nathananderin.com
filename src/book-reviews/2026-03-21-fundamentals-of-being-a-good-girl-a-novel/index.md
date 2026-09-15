@@ -7,6 +7,7 @@ reviewId: erin-231519748-20260321
 product:
   name: "Fundamentals of Being a Good Girl: A Novel"
   title: "Fundamentals of Being a Good Girl: A Novel"
+  author: Julie   Murphy
   urls:
     - { url: "https://www.goodreads.com/book/show/231519748-fundamentals-of-being-a-good-girl-a-novel", site: Goodreads }
   search:

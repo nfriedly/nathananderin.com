@@ -7,6 +7,7 @@ reviewId: erin-218401863-20240920
 product:
   name: The Maid and the Crocodile
   title: The Maid and the Crocodile
+  author: Jordan Ifueko
   urls:
     - { url: "https://www.goodreads.com/book/show/218401863-the-maid-and-the-crocodile", site: Goodreads }
   search:

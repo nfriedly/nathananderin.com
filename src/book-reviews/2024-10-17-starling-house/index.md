@@ -7,6 +7,7 @@ reviewId: erin-141324812-20241017
 product:
   name: Starling House
   title: Starling House
+  author: Alix E. Harrow
   urls:
     - { url: "https://www.goodreads.com/book/show/141324812-starling-house", site: Goodreads }
   search:

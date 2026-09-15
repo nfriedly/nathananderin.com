@@ -7,6 +7,7 @@ reviewId: erin-210135159-20260314
 product:
   name: The Wedding People
   title: The Wedding People
+  author: Alison Espach
   urls:
     - { url: "https://www.goodreads.com/book/show/210135159-the-wedding-people", site: Goodreads }
   search:

@@ -7,6 +7,7 @@ reviewId: erin-222117974-20250706
 product:
   name: Sounds Like Love
   title: Sounds Like Love
+  author: Ashley Poston
   urls:
     - { url: "https://www.goodreads.com/book/show/222117974-sounds-like-love", site: Goodreads }
   search:

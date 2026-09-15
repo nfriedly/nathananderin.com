@@ -7,6 +7,7 @@ reviewId: erin-24304-20200304
 product:
   name: "Poppy's Return"
   title: "Poppy's Return"
+  author: Avi
   urls:
     - { url: "https://www.goodreads.com/book/show/24304-poppys-return", site: Goodreads }
   search:

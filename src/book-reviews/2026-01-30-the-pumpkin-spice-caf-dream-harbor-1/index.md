@@ -7,6 +7,7 @@ reviewId: erin-199418295-20260130
 product:
   name: The Pumpkin Spice Café
   title: "The Pumpkin Spice Café (Dream Harbor, #1)"
+  author: Laurie Gilmore
   urls:
     - { url: "https://www.goodreads.com/book/show/199418295-the-pumpkin-spice-caf", site: Goodreads }
   search:

@@ -6,6 +6,7 @@ reviewId: erin-219819192-20241223
 product:
   name: Christmas Eve Love Story
   title: Christmas Eve Love Story
+  author: Ginny Baird
   urls:
     - { url: "https://www.goodreads.com/book/show/219819192-christmas-eve-love-story", site: Goodreads }
   search:

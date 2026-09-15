@@ -7,6 +7,7 @@ reviewId: nathan-1111-20240310
 product:
   name: "The Power Broker: Robert Moses and the Fall of New York"
   title: "The Power Broker: Robert Moses and the Fall of New York"
+  author: Robert A. Caro
   urls:
     - { url: "https://www.goodreads.com/book/show/1111-the-power-broker-robert-moses-and-the-fall-of-new-york", site: Goodreads }
   search:

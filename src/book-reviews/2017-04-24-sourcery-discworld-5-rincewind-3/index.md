@@ -7,6 +7,7 @@ reviewId: nathan-34499-20170424
 product:
   name: Sourcery
   title: "Sourcery (Discworld, #5; Rincewind, #3)"
+  author: Terry Pratchett
   urls:
     - { url: "https://www.goodreads.com/book/show/34499-sourcery", site: Goodreads }
   search:

@@ -7,6 +7,7 @@ reviewId: erin-240058493-20260815
 product:
   name: Sea of Charms
   title: "Sea of Charms (Spellshop #3)"
+  author: Sarah Beth Durst
   urls:
     - { url: "https://www.goodreads.com/book/show/240058493-sea-of-charms", site: Goodreads }
   search:

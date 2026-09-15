@@ -6,6 +6,7 @@ reviewId: erin-34851050-20260803
 product:
   name: Killers of the Flower Moon
   title: Killers of the Flower Moon
+  author: David Grann
   urls:
     - { url: "https://www.goodreads.com/book/show/34851050-killers-of-the-flower-moon", site: Goodreads }
   search:

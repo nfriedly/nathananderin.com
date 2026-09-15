@@ -6,6 +6,7 @@ reviewId: erin-201384660-20260126
 product:
   name: "Deja Dead: A Novel"
   title: "Deja Dead: A Novel"
+  author: Kathy Reichs
   urls:
     - { url: "https://www.goodreads.com/book/show/201384660-deja-dead-a-novel", site: Goodreads }
   search:

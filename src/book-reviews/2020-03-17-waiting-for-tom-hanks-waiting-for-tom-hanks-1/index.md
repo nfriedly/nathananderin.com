@@ -7,6 +7,7 @@ reviewId: erin-40969415-20200317
 product:
   name: Waiting for Tom Hanks
   title: "Waiting for Tom Hanks (Waiting for Tom Hanks, #1)"
+  author: Kerry Winfrey
   urls:
     - { url: "https://www.goodreads.com/book/show/40969415-waiting-for-tom-hanks", site: Goodreads }
   search:

@@ -6,6 +6,7 @@ reviewId: erin-12793708-20260824
 product:
   name: Little Dog, Lost
   title: Little Dog, Lost
+  author: Marion Dane Bauer
   urls:
     - { url: "https://www.goodreads.com/book/show/12793708-little-dog-lost", site: Goodreads }
   search:

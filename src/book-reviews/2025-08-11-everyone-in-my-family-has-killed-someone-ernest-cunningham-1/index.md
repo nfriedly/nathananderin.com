@@ -7,6 +7,7 @@ reviewId: erin-210357444-20250811
 product:
   name: Everyone in My Family Has Killed Someone
   title: "Everyone in My Family Has Killed Someone (Ernest Cunningham, #1)"
+  author: Benjamin   Stevenson
   urls:
     - { url: "https://www.goodreads.com/book/show/210357444-everyone-in-my-family-has-killed-someone", site: Goodreads }
   search:

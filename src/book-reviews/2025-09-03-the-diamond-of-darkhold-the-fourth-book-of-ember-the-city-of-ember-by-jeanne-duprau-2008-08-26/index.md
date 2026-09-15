@@ -6,6 +6,7 @@ reviewId: erin-161552205-20250903
 product:
   name: "The Diamond of Darkhold: The Fourth Book of Ember (The City of Ember) by Jeanne DuPrau (2008-08-26)"
   title: "The Diamond of Darkhold: The Fourth Book of Ember (The City of Ember) by Jeanne DuPrau (2008-08-26)"
+  author: Jeanne DuPrau
   urls:
     - { url: "https://www.goodreads.com/book/show/161552205-the-diamond-of-darkhold-the-fourth-book-of-ember-the-city-of-ember-by-jeanne-duprau-2008-08-26", site: Goodreads }
   search:

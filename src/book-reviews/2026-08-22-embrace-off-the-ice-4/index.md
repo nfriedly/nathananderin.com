@@ -6,6 +6,7 @@ reviewId: erin-245422719-20260822
 product:
   name: Embrace
   title: "Embrace (Off the Ice #4)"
+  author: Bal Khabra
   urls:
     - { url: "https://www.goodreads.com/book/show/245422719-embrace", site: Goodreads }
   search:

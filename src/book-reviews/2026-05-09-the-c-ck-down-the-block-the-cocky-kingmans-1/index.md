@@ -7,6 +7,7 @@ reviewId: erin-210366410-20260509
 product:
   name: The C*ck Down the Block
   title: "The C*ck Down the Block (The Cocky Kingmans, #1)"
+  author: Amy Award
   urls:
     - { url: "https://www.goodreads.com/book/show/210366410-the-c-ck-down-the-block", site: Goodreads }
   search:

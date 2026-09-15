@@ -6,6 +6,7 @@ reviewId: erin-11090085-20250611
 product:
   name: Misty the Abandoned Kitten
   title: Misty the Abandoned Kitten
+  author: Holly Webb
   urls:
     - { url: "https://www.goodreads.com/book/show/11090085-misty-the-abandoned-kitten", site: Goodreads }
   search:

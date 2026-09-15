@@ -7,6 +7,7 @@ reviewId: erin-22694500-20250313
 product:
   name: The Penderwicks in Spring
   title: "The Penderwicks in Spring (The Penderwicks, #4)"
+  author: Jeanne Birdsall
   urls:
     - { url: "https://www.goodreads.com/book/show/22694500-the-penderwicks-in-spring", site: Goodreads }
   search:

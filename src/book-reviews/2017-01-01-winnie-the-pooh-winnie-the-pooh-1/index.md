@@ -7,6 +7,7 @@ reviewId: nathan-99107-20170101
 product:
   name: Winnie-the-Pooh
   title: "Winnie-the-Pooh (Winnie-the-Pooh, #1)"
+  author: A.A. Milne
   urls:
     - { url: "https://www.goodreads.com/book/show/99107-winnie-the-pooh", site: Goodreads }
   search:

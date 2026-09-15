@@ -7,6 +7,7 @@ reviewId: erin-240408250-20260408
 product:
   name: The Night We Met
   title: "The Night We Met (Say You'll Remember Me #2)"
+  author: Abby Jimenez
   urls:
     - { url: "https://www.goodreads.com/book/show/240408250-the-night-we-met", site: Goodreads }
   search:

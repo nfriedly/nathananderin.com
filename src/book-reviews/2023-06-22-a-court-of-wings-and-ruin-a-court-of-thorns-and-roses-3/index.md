@@ -7,6 +7,7 @@ reviewId: erin-58763072-20230622
 product:
   name: A Court of Wings and Ruin
   title: "A Court of Wings and Ruin (A Court of Thorns and Roses, #3)"
+  author: Sarah J. Maas
   urls:
     - { url: "https://www.goodreads.com/book/show/58763072-a-court-of-wings-and-ruin", site: Goodreads }
   search:

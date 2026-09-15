@@ -7,6 +7,7 @@ reviewId: erin-95693-20201007
 product:
   name: The Blue Castle
   title: The Blue Castle
+  author: L.M. Montgomery
   urls:
     - { url: "https://www.goodreads.com/book/show/95693-the-blue-castle", site: Goodreads }
   search:

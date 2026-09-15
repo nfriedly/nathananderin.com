@@ -7,6 +7,7 @@ reviewId: erin-52129515-20201015
 product:
   name: Untamed
   title: Untamed
+  author: Glennon Doyle
   urls:
     - { url: "https://www.goodreads.com/book/show/52129515-untamed", site: Goodreads }
   search:

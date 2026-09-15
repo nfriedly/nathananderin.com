@@ -7,6 +7,7 @@ reviewId: erin-235775794-20250930
 product:
   name: Roll for Romance
   title: Roll for Romance
+  author: Lenora Woods
   urls:
     - { url: "https://www.goodreads.com/book/show/235775794-roll-for-romance", site: Goodreads }
   search:

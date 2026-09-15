@@ -7,6 +7,7 @@ reviewId: erin-42076181-20251117
 product:
   name: "Sweep: The Story of a Girl and Her Monster"
   title: "Sweep: The Story of a Girl and Her Monster"
+  author: Jonathan Auxier
   urls:
     - { url: "https://www.goodreads.com/book/show/42076181-sweep-the-story-of-a-girl-and-her-monster", site: Goodreads }
   search:

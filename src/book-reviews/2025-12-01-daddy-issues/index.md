@@ -7,6 +7,7 @@ reviewId: erin-228885791-20251201
 product:
   name: Daddy Issues
   title: Daddy Issues
+  author: Kate Goldbeck
   urls:
     - { url: "https://www.goodreads.com/book/show/228885791-daddy-issues", site: Goodreads }
   search:

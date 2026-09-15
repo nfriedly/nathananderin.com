@@ -7,6 +7,7 @@ reviewId: erin-220452419-20250621
 product:
   name: The Teller of Small Fortunes
   title: The Teller of Small Fortunes
+  author: Julie Leong
   urls:
     - { url: "https://www.goodreads.com/book/show/220452419-the-teller-of-small-fortunes", site: Goodreads }
   search:

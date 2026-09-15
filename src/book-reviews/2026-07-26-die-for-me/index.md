@@ -7,6 +7,7 @@ reviewId: erin-249847790-20260726
 product:
   name: Die for Me
   title: Die for Me
+  author: Shirlene Obuobi
   urls:
     - { url: "https://www.goodreads.com/book/show/249847790-die-for-me", site: Goodreads }
   search:

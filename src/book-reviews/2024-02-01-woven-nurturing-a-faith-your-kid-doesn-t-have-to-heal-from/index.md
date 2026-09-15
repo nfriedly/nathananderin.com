@@ -7,6 +7,7 @@ reviewId: erin-64005330-20240201
 product:
   name: "Woven: Nurturing a Faith Your Kid Doesn’t Have to Heal From"
   title: "Woven: Nurturing a Faith Your Kid Doesn’t Have to Heal From"
+  author: Meredith    Miller
   urls:
     - { url: "https://www.goodreads.com/book/show/64005330-woven-nurturing-a-faith-your-kid-doesn-t-have-to-heal-from", site: Goodreads }
   search:

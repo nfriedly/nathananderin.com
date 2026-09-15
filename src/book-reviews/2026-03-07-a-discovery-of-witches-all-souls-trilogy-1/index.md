@@ -6,6 +6,7 @@ reviewId: erin-8890729-20260307
 product:
   name: A Discovery of Witches
   title: "A Discovery of Witches (All Souls Trilogy, #1)"
+  author: Deborah Harkness
   urls:
     - { url: "https://www.goodreads.com/book/show/8890729-a-discovery-of-witches", site: Goodreads }
   search:

@@ -7,6 +7,7 @@ reviewId: erin-59765864-20240203
 product:
   name: Wholehearted Faith
   title: Wholehearted Faith
+  author: Rachel Held Evans
   urls:
     - { url: "https://www.goodreads.com/book/show/59765864-wholehearted-faith", site: Goodreads }
   search:

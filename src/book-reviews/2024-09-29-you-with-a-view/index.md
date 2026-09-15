@@ -7,6 +7,7 @@ reviewId: erin-187956674-20240929
 product:
   name: You, with a View
   title: You, with a View
+  author: Jessica  Joyce
   urls:
     - { url: "https://www.goodreads.com/book/show/187956674-you-with-a-view", site: Goodreads }
   search:

@@ -7,6 +7,7 @@ reviewId: erin-212336777-20240517
 product:
   name: Earls Trip
   title: "Earls Trip (Earls Trip #1)"
+  author: Jenny  Holiday
   urls:
     - { url: "https://www.goodreads.com/book/show/212336777-earls-trip", site: Goodreads }
   search:

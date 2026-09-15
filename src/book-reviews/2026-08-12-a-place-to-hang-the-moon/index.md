@@ -7,6 +7,7 @@ reviewId: erin-58957432-20260812
 product:
   name: A Place to Hang the Moon
   title: A Place to Hang the Moon
+  author: Kate Albus
   urls:
     - { url: "https://www.goodreads.com/book/show/58957432-a-place-to-hang-the-moon", site: Goodreads }
   search:

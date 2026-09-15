@@ -7,6 +7,7 @@ reviewId: erin-48847746-20240121
 product:
   name: "Burnout: The Secret to Unlocking the Stress Cycle"
   title: "Burnout: The Secret to Unlocking the Stress Cycle"
+  author: Emily Nagoski
   urls:
     - { url: "https://www.goodreads.com/book/show/48847746-burnout-the-secret-to-unlocking-the-stress-cycle", site: Goodreads }
   search:

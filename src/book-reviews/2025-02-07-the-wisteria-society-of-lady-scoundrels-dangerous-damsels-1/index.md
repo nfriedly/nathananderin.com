@@ -7,6 +7,7 @@ reviewId: erin-55655346-20250207
 product:
   name: The Wisteria Society of Lady Scoundrels
   title: "The Wisteria Society of Lady Scoundrels (Dangerous Damsels, #1)"
+  author: India Holton
   urls:
     - { url: "https://www.goodreads.com/book/show/55655346-the-wisteria-society-of-lady-scoundrels", site: Goodreads }
   search:

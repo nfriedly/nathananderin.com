@@ -7,6 +7,7 @@ reviewId: erin-205364466-20240605
 product:
   name: Hedging Your Bets
   title: Hedging Your Bets
+  author: Jayne Denker
   urls:
     - { url: "https://www.goodreads.com/book/show/205364466-hedging-your-bets", site: Goodreads }
   search:

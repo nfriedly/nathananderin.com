@@ -7,6 +7,7 @@ reviewId: erin-58541427-20240819
 product:
   name: Nine Rules to Break When Romancing a Rake
   title: "Nine Rules to Break When Romancing a Rake (Love by Numbers, #1)"
+  author: Sarah MacLean
   urls:
     - { url: "https://www.goodreads.com/book/show/58541427-nine-rules-to-break-when-romancing-a-rake", site: Goodreads }
   search:

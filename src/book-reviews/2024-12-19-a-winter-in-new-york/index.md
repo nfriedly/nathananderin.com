@@ -7,6 +7,7 @@ reviewId: erin-197576368-20241219
 product:
   name: A Winter in New York
   title: A Winter in New York
+  author: Josie Silver
   urls:
     - { url: "https://www.goodreads.com/book/show/197576368-a-winter-in-new-york", site: Goodreads }
   search:

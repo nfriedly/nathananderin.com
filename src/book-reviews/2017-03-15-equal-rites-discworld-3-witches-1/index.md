@@ -7,6 +7,7 @@ reviewId: nathan-34507-20170315
 product:
   name: Equal Rites
   title: "Equal Rites (Discworld, #3; Witches, #1)"
+  author: Terry Pratchett
   urls:
     - { url: "https://www.goodreads.com/book/show/34507-equal-rites", site: Goodreads }
   search:

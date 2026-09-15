@@ -7,6 +7,7 @@ reviewId: erin-124941937-20250922
 product:
   name: "Vera Wong's Unsolicited Advice for Murderers"
   title: "Vera Wong's Unsolicited Advice for Murderers (Vera Wong, #1)"
+  author: Jesse Q. Sutanto
   urls:
     - { url: "https://www.goodreads.com/book/show/124941937-vera-wongs-unsolicited-advice-for-murderers", site: Goodreads }
   search:

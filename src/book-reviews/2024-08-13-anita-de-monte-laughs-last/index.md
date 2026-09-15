@@ -6,6 +6,7 @@ reviewId: erin-209524568-20240813
 product:
   name: Anita de Monte Laughs Last
   title: Anita de Monte Laughs Last
+  author: Xóchitl González
   urls:
     - { url: "https://www.goodreads.com/book/show/209524568-anita-de-monte-laughs-last", site: Goodreads }
   search:

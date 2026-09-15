@@ -7,6 +7,7 @@ reviewId: erin-97153-20201216
 product:
   name: Nancy and Plum
   title: Nancy and Plum
+  author: Betty MacDonald
   urls:
     - { url: "https://www.goodreads.com/book/show/97153-nancy-and-plum", site: Goodreads }
   search:

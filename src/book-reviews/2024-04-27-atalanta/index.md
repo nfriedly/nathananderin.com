@@ -7,6 +7,7 @@ reviewId: erin-124935802-20240427
 product:
   name: Atalanta
   title: Atalanta
+  author: Jennifer Saint
   urls:
     - { url: "https://www.goodreads.com/book/show/124935802-atalanta", site: Goodreads }
   search:

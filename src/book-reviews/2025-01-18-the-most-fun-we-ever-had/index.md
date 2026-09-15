@@ -6,6 +6,7 @@ reviewId: erin-46263197-20250118
 product:
   name: The Most Fun We Ever Had
   title: The Most Fun We Ever Had
+  author: Claire Lombardo
   urls:
     - { url: "https://www.goodreads.com/book/show/46263197-the-most-fun-we-ever-had", site: Goodreads }
   search:

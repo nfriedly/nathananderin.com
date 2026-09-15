@@ -7,6 +7,7 @@ reviewId: erin-123166278-20240619
 product:
   name: If Only You
   title: "If Only You (Bergman Brothers, #6)"
+  author: Chloe Liese
   urls:
     - { url: "https://www.goodreads.com/book/show/123166278-if-only-you", site: Goodreads }
   search:

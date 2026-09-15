@@ -7,6 +7,7 @@ reviewId: erin-123377663-20240825
 product:
   name: Maybe Next Time
   title: Maybe Next Time
+  author: Cesca Major
   urls:
     - { url: "https://www.goodreads.com/book/show/123377663-maybe-next-time", site: Goodreads }
   search:

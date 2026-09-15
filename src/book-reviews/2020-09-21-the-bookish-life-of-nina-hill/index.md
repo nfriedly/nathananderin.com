@@ -7,6 +7,7 @@ reviewId: erin-42431386-20200921
 product:
   name: The Bookish Life of Nina Hill
   title: The Bookish Life of Nina Hill
+  author: Abbi Waxman
   urls:
     - { url: "https://www.goodreads.com/book/show/42431386-the-bookish-life-of-nina-hill", site: Goodreads }
   search:

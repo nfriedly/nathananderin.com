@@ -7,6 +7,7 @@ reviewId: erin-180729678-20250101
 product:
   name: Plain Jane and the Mermaid
   title: Plain Jane and the Mermaid
+  author: Vera Brosgol
   urls:
     - { url: "https://www.goodreads.com/book/show/180729678-plain-jane-and-the-mermaid", site: Goodreads }
   search:

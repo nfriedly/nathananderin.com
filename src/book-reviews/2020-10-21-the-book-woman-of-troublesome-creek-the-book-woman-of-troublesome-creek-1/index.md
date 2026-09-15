@@ -7,6 +7,7 @@ reviewId: erin-40914165-20201021
 product:
   name: The Book Woman of Troublesome Creek
   title: "The Book Woman of Troublesome Creek (The Book Woman of Troublesome Creek, #1)"
+  author: Kim Michele Richardson
   urls:
     - { url: "https://www.goodreads.com/book/show/40914165-the-book-woman-of-troublesome-creek", site: Goodreads }
   search:

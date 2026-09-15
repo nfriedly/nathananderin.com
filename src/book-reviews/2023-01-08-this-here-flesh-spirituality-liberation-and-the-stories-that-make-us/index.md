@@ -7,6 +7,7 @@ reviewId: erin-58214330-20230108
 product:
   name: "This Here Flesh: Spirituality, Liberation, and the Stories That Make Us"
   title: "This Here Flesh: Spirituality, Liberation, and the Stories That Make Us"
+  author: Cole Arthur Riley
   urls:
     - { url: "https://www.goodreads.com/book/show/58214330-this-here-flesh-spirituality-liberation-and-the-stories-that-make-us", site: Goodreads }
   search:

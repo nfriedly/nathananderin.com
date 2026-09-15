@@ -7,6 +7,7 @@ reviewId: erin-203751764-20250327
 product:
   name: "I'm Sorry for My Loss: An Urgent Examination of Reproductive Care in America"
   title: "I'm Sorry for My Loss: An Urgent Examination of Reproductive Care in America"
+  author: Rebecca Little and Colleen Long
   urls:
     - { url: "https://www.goodreads.com/book/show/203751764-im-sorry-for-my-loss-an-urgent-examination-of-reproductive-care-in-america", site: Goodreads }
   search:

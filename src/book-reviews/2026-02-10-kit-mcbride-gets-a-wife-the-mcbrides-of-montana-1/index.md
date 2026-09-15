@@ -7,6 +7,7 @@ reviewId: erin-175313958-20260210
 product:
   name: Kit McBride Gets a Wife
   title: "Kit McBride Gets a Wife (The McBrides of Montana, #1)"
+  author: Amy Barry
   urls:
     - { url: "https://www.goodreads.com/book/show/175313958-kit-mcbride-gets-a-wife", site: Goodreads }
   search:

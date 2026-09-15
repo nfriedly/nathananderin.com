@@ -7,6 +7,7 @@ reviewId: erin-9811697-20260612
 product:
   name: The Trumpet of the Swan
   title: The Trumpet of the Swan
+  author: E.B. White
   urls:
     - { url: "https://www.goodreads.com/book/show/9811697-the-trumpet-of-the-swan", site: Goodreads }
   search:

@@ -7,6 +7,7 @@ reviewId: nathan-629-20170531
 product:
   name: "Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values"
   title: "Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values (Phaedrus, #1)"
+  author: Robert M. Pirsig
   urls:
     - { url: "https://www.goodreads.com/book/show/629-zen-and-the-art-of-motorcycle-maintenance-an-inquiry-into-values", site: Goodreads }
   search:

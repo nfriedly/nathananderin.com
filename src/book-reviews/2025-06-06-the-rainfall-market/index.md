@@ -7,6 +7,7 @@ reviewId: erin-223288223-20250606
 product:
   name: The Rainfall Market
   title: The Rainfall Market
+  author: You Yeong-Gwang
   urls:
     - { url: "https://www.goodreads.com/book/show/223288223-the-rainfall-market", site: Goodreads }
   search:

@@ -7,6 +7,7 @@ reviewId: erin-229773459-20250518
 product:
   name: The Vanderbeekers Lost and Found
   title: The Vanderbeekers Lost and Found
+  author: Karina Yan Glaser
   urls:
     - { url: "https://www.goodreads.com/book/show/229773459-the-vanderbeekers-lost-and-found", site: Goodreads }
   search:

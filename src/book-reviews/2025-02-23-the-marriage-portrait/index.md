@@ -6,6 +6,7 @@ reviewId: erin-62106901-20250223
 product:
   name: The Marriage Portrait
   title: The Marriage Portrait
+  author: "Maggie O'Farrell"
   urls:
     - { url: "https://www.goodreads.com/book/show/62106901-the-marriage-portrait", site: Goodreads }
   search:

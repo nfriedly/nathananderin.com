@@ -7,6 +7,7 @@ reviewId: erin-4201106-20200227
 product:
   name: A Rule Against Murder
   title: "A Rule Against Murder (Chief Inspector Armand Gamache, #4)"
+  author: Louise Penny
   urls:
     - { url: "https://www.goodreads.com/book/show/4201106-a-rule-against-murder", site: Goodreads }
   search:

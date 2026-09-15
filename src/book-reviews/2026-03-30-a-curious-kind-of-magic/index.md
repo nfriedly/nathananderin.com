@@ -7,6 +7,7 @@ reviewId: erin-228437853-20260330
 product:
   name: A Curious Kind of Magic
   title: A Curious Kind of Magic
+  author: Mara Rutherford
   urls:
     - { url: "https://www.goodreads.com/book/show/228437853-a-curious-kind-of-magic", site: Goodreads }
   search:

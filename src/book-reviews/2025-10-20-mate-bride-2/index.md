@@ -7,6 +7,7 @@ reviewId: erin-228531253-20251020
 product:
   name: Mate
   title: "Mate (Bride #2)"
+  author: Ali Hazelwood
   urls:
     - { url: "https://www.goodreads.com/book/show/228531253-mate", site: Goodreads }
   search:

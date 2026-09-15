@@ -7,6 +7,7 @@ reviewId: erin-36621452-20241103
 product:
   name: Saturdays at Sea
   title: "Saturdays at Sea (Castle Glower, #5)"
+  author: Jessica Day George
   urls:
     - { url: "https://www.goodreads.com/book/show/36621452-saturdays-at-sea", site: Goodreads }
   search:

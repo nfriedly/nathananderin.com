@@ -7,6 +7,7 @@ reviewId: erin-4054026-20240114
 product:
   name: Lost in the Snow
   title: Lost in the Snow
+  author: Holly Webb
   urls:
     - { url: "https://www.goodreads.com/book/show/4054026-lost-in-the-snow", site: Goodreads }
   search:

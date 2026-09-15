@@ -7,6 +7,7 @@ reviewId: erin-18702605-20241129
 product:
   name: Always October
   title: Always October
+  author: Bruce Coville
   urls:
     - { url: "https://www.goodreads.com/book/show/18702605-always-october", site: Goodreads }
   search:

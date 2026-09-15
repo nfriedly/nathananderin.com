@@ -7,6 +7,7 @@ reviewId: erin-50898167-20240226
 product:
   name: Legendborn
   title: Legendborn
+  author: Tracy Deonn
   urls:
     - { url: "https://www.goodreads.com/book/show/50898167-legendborn", site: Goodreads }
   search:

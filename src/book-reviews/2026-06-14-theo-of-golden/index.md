@@ -7,6 +7,7 @@ reviewId: erin-242508065-20260614
 product:
   name: Theo of Golden
   title: Theo of Golden
+  author: Allen  Levi
   urls:
     - { url: "https://www.goodreads.com/book/show/242508065-theo-of-golden", site: Goodreads }
   search:

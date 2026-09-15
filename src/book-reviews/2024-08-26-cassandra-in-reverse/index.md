@@ -7,6 +7,7 @@ reviewId: erin-162728951-20240826
 product:
   name: Cassandra in Reverse
   title: Cassandra in Reverse
+  author: Holly Smale
   urls:
     - { url: "https://www.goodreads.com/book/show/162728951-cassandra-in-reverse", site: Goodreads }
   search:

@@ -7,6 +7,7 @@ reviewId: erin-242942148-20251101
 product:
   name: The Keeper of Magical Things
   title: The Keeper of Magical Things
+  author: Julie Leong
   urls:
     - { url: "https://www.goodreads.com/book/show/242942148-the-keeper-of-magical-things", site: Goodreads }
   search:

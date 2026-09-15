@@ -6,6 +6,7 @@ reviewId: erin-244435312-20260817
 product:
   name: The Someday Garden
   title: The Someday Garden
+  author: Ashley Poston
   urls:
     - { url: "https://www.goodreads.com/book/show/244435312-the-someday-garden", site: Goodreads }
   search:

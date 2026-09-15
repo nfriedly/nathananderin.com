@@ -7,6 +7,7 @@ reviewId: erin-22812505-20260123
 product:
   name: The Wishing Spell
   title: "The Wishing Spell (The Land of Stories, #1)"
+  author: Chris Colfer
   urls:
     - { url: "https://www.goodreads.com/book/show/22812505-the-wishing-spell", site: Goodreads }
   search:

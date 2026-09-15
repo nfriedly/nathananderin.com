@@ -7,6 +7,7 @@ reviewId: erin-223062687-20250809
 product:
   name: "The Serviceberry: Abundance and Reciprocity in the Natural World"
   title: "The Serviceberry: Abundance and Reciprocity in the Natural World"
+  author: Robin Wall Kimmerer
   urls:
     - { url: "https://www.goodreads.com/book/show/223062687-the-serviceberry-abundance-and-reciprocity-in-the-natural-world", site: Goodreads }
   search:

@@ -7,6 +7,7 @@ reviewId: erin-242719332-20251116
 product:
   name: This Princess Kills Monsters
   title: This Princess Kills Monsters
+  author: Ry Herman
   urls:
     - { url: "https://www.goodreads.com/book/show/242719332-this-princess-kills-monsters", site: Goodreads }
   search:

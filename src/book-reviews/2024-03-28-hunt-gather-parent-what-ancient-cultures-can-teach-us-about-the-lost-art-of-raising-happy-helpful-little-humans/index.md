@@ -7,6 +7,7 @@ reviewId: erin-54335138-20240328
 product:
   name: "Hunt, Gather, Parent: What Ancient Cultures Can Teach Us About the Lost Art of Raising Happy, Helpful Little Humans"
   title: "Hunt, Gather, Parent: What Ancient Cultures Can Teach Us About the Lost Art of Raising Happy, Helpful Little Humans"
+  author: Michaeleen Doucleff
   urls:
     - { url: "https://www.goodreads.com/book/show/54335138-hunt-gather-parent-what-ancient-cultures-can-teach-us-about-the-lost-art-of-raising-happy-helpful-little-humans", site: Goodreads }
   search:

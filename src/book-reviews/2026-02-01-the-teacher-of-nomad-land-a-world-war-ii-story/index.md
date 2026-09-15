@@ -7,6 +7,7 @@ reviewId: erin-222139368-20260201
 product:
   name: "The Teacher of Nomad Land: A World War II Story"
   title: "The Teacher of Nomad Land: A World War II Story"
+  author: Daniel Nayeri
   urls:
     - { url: "https://www.goodreads.com/book/show/222139368-the-teacher-of-nomad-land-a-world-war-ii-story", site: Goodreads }
   search:

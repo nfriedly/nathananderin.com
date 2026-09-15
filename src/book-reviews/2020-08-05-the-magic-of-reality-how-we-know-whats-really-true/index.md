@@ -7,6 +7,7 @@ reviewId: nathan-11256979-20200805
 product:
   name: "The Magic of Reality: How We Know What's Really True"
   title: "The Magic of Reality: How We Know What's Really True"
+  author: Richard Dawkins
   urls:
     - { url: "https://www.goodreads.com/book/show/11256979-the-magic-of-reality-how-we-know-whats-really-true", site: Goodreads }
   search:

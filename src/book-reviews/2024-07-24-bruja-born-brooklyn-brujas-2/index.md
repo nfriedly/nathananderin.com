@@ -7,6 +7,7 @@ reviewId: erin-40674017-20240724
 product:
   name: Bruja Born
   title: "Bruja Born (Brooklyn Brujas, #2)"
+  author: Zoraida Córdova
   urls:
     - { url: "https://www.goodreads.com/book/show/40674017-bruja-born", site: Goodreads }
   search:

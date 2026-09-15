@@ -7,6 +7,7 @@ reviewId: erin-199874115-20250914
 product:
   name: The Unmaking of June Farrow
   title: The Unmaking of June Farrow
+  author: Adrienne Young
   urls:
     - { url: "https://www.goodreads.com/book/show/199874115-the-unmaking-of-june-farrow", site: Goodreads }
   search:

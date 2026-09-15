@@ -7,6 +7,7 @@ reviewId: erin-212265716-20250131
 product:
   name: "There's Always This Year: On Basketball and Ascension"
   title: "There's Always This Year: On Basketball and Ascension"
+  author: Hanif Abdurraqib
   urls:
     - { url: "https://www.goodreads.com/book/show/212265716-theres-always-this-year-on-basketball-and-ascension", site: Goodreads }
   search:

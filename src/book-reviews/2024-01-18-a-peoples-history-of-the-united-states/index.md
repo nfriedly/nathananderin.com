@@ -7,6 +7,7 @@ reviewId: erin-7742182-20240118
 product:
   name: "A People's History of the United States"
   title: "A People's History of the United States"
+  author: Howard Zinn
   urls:
     - { url: "https://www.goodreads.com/book/show/7742182-a-peoples-history-of-the-united-states", site: Goodreads }
   search:

@@ -7,6 +7,7 @@ reviewId: erin-16636950-20200227
 product:
   name: A Wrinkle in Time
   title: A Wrinkle in Time
+  author: "Madeleine L'Engle"
   urls:
     - { url: "https://www.goodreads.com/book/show/16636950-a-wrinkle-in-time", site: Goodreads }
   search:

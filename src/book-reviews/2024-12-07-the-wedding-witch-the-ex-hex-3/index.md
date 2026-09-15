@@ -7,6 +7,7 @@ reviewId: erin-218648134-20241207
 product:
   name: The Wedding Witch
   title: "The Wedding Witch (The Ex Hex, #3)"
+  author: Erin Sterling
   urls:
     - { url: "https://www.goodreads.com/book/show/218648134-the-wedding-witch", site: Goodreads }
   search:

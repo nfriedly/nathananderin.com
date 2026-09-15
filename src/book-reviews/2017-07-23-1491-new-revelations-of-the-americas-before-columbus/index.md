@@ -7,6 +7,7 @@ reviewId: nathan-39020-20170723
 product:
   name: "1491: New Revelations of the Americas Before Columbus"
   title: "1491: New Revelations of the Americas Before Columbus"
+  author: Charles C. Mann
   urls:
     - { url: "https://www.goodreads.com/book/show/39020-1491-new-revelations-of-the-americas-before-columbus", site: Goodreads }
   search:

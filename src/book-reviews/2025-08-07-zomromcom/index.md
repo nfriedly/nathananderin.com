@@ -7,6 +7,7 @@ reviewId: erin-228415225-20250807
 product:
   name: Zomromcom
   title: Zomromcom
+  author: Olivia Dade
   urls:
     - { url: "https://www.goodreads.com/book/show/228415225-zomromcom", site: Goodreads }
   search:

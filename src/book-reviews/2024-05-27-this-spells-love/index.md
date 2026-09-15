@@ -7,6 +7,7 @@ reviewId: erin-202969203-20240527
 product:
   name: This Spells Love
   title: This Spells Love
+  author: Kate Robb
   urls:
     - { url: "https://www.goodreads.com/book/show/202969203-this-spells-love", site: Goodreads }
   search:

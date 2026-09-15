@@ -7,6 +7,7 @@ reviewId: erin-59690151-20240506
 product:
   name: The Spanish Love Deception
   title: "The Spanish Love Deception (Spanish Love Deception, #1)"
+  author: Elena  Armas
   urls:
     - { url: "https://www.goodreads.com/book/show/59690151-the-spanish-love-deception", site: Goodreads }
   search:

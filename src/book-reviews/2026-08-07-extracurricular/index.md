@@ -7,6 +7,7 @@ reviewId: erin-254464302-20260807
 product:
   name: Extracurricular
   title: Extracurricular
+  author: Rachel Lynn Solomon
   urls:
     - { url: "https://www.goodreads.com/book/show/254464302-extracurricular", site: Goodreads }
   search:

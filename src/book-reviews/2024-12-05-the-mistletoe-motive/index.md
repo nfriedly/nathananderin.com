@@ -6,6 +6,7 @@ reviewId: erin-59735411-20241205
 product:
   name: The Mistletoe Motive
   title: The Mistletoe Motive
+  author: Chloe Liese
   urls:
     - { url: "https://www.goodreads.com/book/show/59735411-the-mistletoe-motive", site: Goodreads }
   search:

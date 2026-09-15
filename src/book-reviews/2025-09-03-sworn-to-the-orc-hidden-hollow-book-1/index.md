@@ -6,6 +6,7 @@ reviewId: erin-229530217-20250903
 product:
   name: "Sworn to the Orc: Hidden Hollow, Book 1"
   title: "Sworn to the Orc: Hidden Hollow, Book 1"
+  author: Evangeline Anderson
   urls:
     - { url: "https://www.goodreads.com/book/show/229530217-sworn-to-the-orc-hidden-hollow-book-1", site: Goodreads }
   search:

@@ -7,6 +7,7 @@ reviewId: erin-199708696-20240602
 product:
   name: "Eve: How the Female Body Drove 200 Million Years of Human Evolution"
   title: "Eve: How the Female Body Drove 200 Million Years of Human Evolution"
+  author: Cat Bohannon
   urls:
     - { url: "https://www.goodreads.com/book/show/199708696-eve-how-the-female-body-drove-200-million-years-of-human-evolution", site: Goodreads }
   search:

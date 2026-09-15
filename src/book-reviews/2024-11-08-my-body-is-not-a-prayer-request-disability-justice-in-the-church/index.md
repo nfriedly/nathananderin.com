@@ -7,6 +7,7 @@ reviewId: erin-200056044-20241108
 product:
   name: "My Body Is Not a Prayer Request: Disability Justice in the Church"
   title: "My Body Is Not a Prayer Request: Disability Justice in the Church"
+  author: Amy Kenny
   urls:
     - { url: "https://www.goodreads.com/book/show/200056044-my-body-is-not-a-prayer-request-disability-justice-in-the-church", site: Goodreads }
   search:

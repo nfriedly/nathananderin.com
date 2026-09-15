@@ -7,6 +7,7 @@ reviewId: erin-213804619-20240614
 product:
   name: This Summer Will Be Different
   title: This Summer Will Be Different
+  author: Carley Fortune
   urls:
     - { url: "https://www.goodreads.com/book/show/213804619-this-summer-will-be-different", site: Goodreads }
   search:

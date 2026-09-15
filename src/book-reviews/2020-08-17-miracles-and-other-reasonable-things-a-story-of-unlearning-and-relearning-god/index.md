@@ -7,6 +7,7 @@ reviewId: erin-35297423-20200817
 product:
   name: "Miracles and Other Reasonable Things: A Story of Unlearning and Relearning God"
   title: "Miracles and Other Reasonable Things: A Story of Unlearning and Relearning God"
+  author: Sarah Bessey
   urls:
     - { url: "https://www.goodreads.com/book/show/35297423-miracles-and-other-reasonable-things-a-story-of-unlearning-and-relearning-god", site: Goodreads }
   search:

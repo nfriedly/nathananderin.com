@@ -7,6 +7,7 @@ reviewId: erin-228426976-20251009
 product:
   name: Tusk Love
   title: Tusk Love
+  author: Thea Guanzon
   urls:
     - { url: "https://www.goodreads.com/book/show/228426976-tusk-love", site: Goodreads }
   search:
