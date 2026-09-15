@@ -1,19 +1,25 @@
-{% set productImage = false %}
-{% set photo = false %}
-{% if post.data.images and post.data.images.product %}{% set productImage = post.url ~ post.data.images.product %}{% endif %}
-{% if post.data.images and post.data.images.photos and post.data.images.photos.length %}{% set photo = post.url ~ post.data.images.photos[0] %}{% endif %}
-{% set primaryImg = photo or productImage %}
-<a class="review-card" href="{{ post.url }}" data-author="{{ post.data.author }}" data-tags="{{ post.data.tags | dataTags }}">
-	{% if showBoth and productImage and primaryImg and productImage != primaryImg %}
-		<img class="product-photo" width="88" src="{{ productImage }}" alt="">
-	{% endif %}
-	{% if primaryImg %}<img class="product-thumb" width="88" src="{{ primaryImg }}" alt="">{% endif %}
-	<h2>{{ post.data | reviewH1Title }}</h2>
-	{% set nameOnFirst = not post.data.title %}
-	{% set showName = not nameOnFirst and post.data.product and post.data.product.name %}
-	{% set showStars = post.data.stars %}
-	{% if showStars or showName %}
-	<p class="review-meta">{{ post.data.stars | starsHtml | safe }}{% if showStars and showName %} &middot; {{ post.data.product.name }}{% endif %}</p>
-	{% endif %}
-	<p class="excerpt">{{ post.data.excerpt }}</p>
+{%- set productImage = false %}
+{%- set photo = false %}
+{%- if post.data.images and post.data.images.product %}{% set productImage = post.url ~ post.data.images.product %}{% endif %}
+{%- if post.data.images and post.data.images.photos and post.data.images.photos.length %}{% set photo = post.url ~ post.data.images.photos[0] %}{% endif %}
+{%- set primaryImg = photo or productImage %}
+{%- set midColWidth = 12 %}
+{%- if primaryImg %}{% set midColWidth = 10 %}{% endif %}
+{%- set showSecond = showBoth and productImage and primaryImg and productImage != primaryImg %}
+{%- if showSecond %}{% set midColWidth = 9 %}{% endif %}
+<a class="card review-card text-body text-decoration-none" href="{{ post.url }}" data-author="{{ post.data.author }}" data-tags="{{ post.data.tags | dataTags }}">
+  <div class="row g-0">
+	{% if primaryImg %}<div class="col-md-2 col-sm-1"><img class="img-fluid" width="400" src="{{ primaryImg }}" alt=""></div>{% endif %}
+	<div class="card-body col-md-{{ midColWidth }}">
+		<h2 class="card-title">{{ post.data | reviewH1Title }}</h2>
+		{% set nameOnFirst = not post.data.title %}
+		{% set showName = not nameOnFirst and post.data.product and post.data.product.name %}
+		{% set showStars = post.data.stars %}
+		{% if showStars or showName %}
+		<p class="review-meta card-text">{{ post.data.stars | starsHtml | safe }}{% if showStars and showName %} &middot; {{ post.data.product.name }}{% endif %}</p>
+		{% endif %}
+		<p class="excerpt card-text">{{ post.data.excerpt }}</p>
+	</div>
+	{% if showSecond %}<div class="col-md-1 col-sm-1"><img class="img-fluid" width="200" src="{{ productImage }}" alt=""></div>{% endif %}
+  </div>
 </a>

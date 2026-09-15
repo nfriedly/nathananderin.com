@@ -1,3 +1,13 @@
+/* Letterbox background behind object-fit:contain photos. Stays white for
+   e-commerce-looking photos in light mode; goes near-black in dark mode so
+   oversized product shots don't glare. */
+:root {
+    --ne-media-bg: #fff;
+}
+[data-bs-theme="dark"] {
+    --ne-media-bg: #14161a;
+}
+
 body { background: #F1F1F1; font-size: 16px; }
 
 main { background: white; margin: 0 0 50px 0; padding: 20px; }
@@ -149,35 +159,33 @@ ul.links li.text {
 .reviews .review-meta { color: #888; font-size: 90%; margin-bottom: 10px; }
 
 .review-card {
-    display: block;
     margin-bottom: 35px;
     overflow: hidden;
     color: inherit;
     text-decoration: none;
+    --bs-card-border-width: 0;
+    --bs-card-border-radius: 0;
 }
 .review-card:hover h2 {
     color: #286090;
     text-decoration: underline;
 }
-.review-card .product-thumb {
-    float: left;
-    width: 90px;
-    object-fit: contain;
-    margin: 0 15px 10px 0;
-    border: 1px solid #eee;
-    background: #fff;
+/* The Eleventy webp transform wraps every <img> in a <picture>, so the flex
+   sizing lives on the wrapper and the thumbnail image fills it. */
+.review-card > picture {
+    flex: 0 0 auto;
+    width: 120px;
+    height: 120px;
+    align-self: flex-start;
 }
-.review-card .product-photo {
+.review-card .card-body > picture {
     float: right;
     width: 90px;
-    object-fit: contain;
     margin: 0 0 10px 15px;
-    border: 1px solid #eee;
-    background: #fff;
 }
 .review-card h2 { clear: none; font-size: 130%; margin-top: 0; margin-bottom: 4px; }
 .review-card .stars { color: #f0a51b; margin-right: 6px; font-size: 90%; }
-.review-card .excerpt { color: #444; }
+.review-card .excerpt { color: var(--bs-body-color); }
 
 .review-filters { margin-bottom: 25px; }
 .review-filters .review-filters-label { font-weight: bold; margin-right: 10px; }
@@ -198,27 +206,22 @@ ul.links li.text {
 .review-body img.left { float: left; margin: 5px 15px 10px 0; max-width: 45%; }
 .review-body img.right { float: right; margin: 5px 0 10px 15px; max-width: 45%; }
 
-.review-photos img, .review-photos video { max-width:100%; height:auto; }
-.review-photos .thumbnail {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 4px;
-    background: #fff;
-    margin-bottom: 20px;
-}
-.review-photos .thumbnail > a,
-.review-photos .thumbnail > video { display: block; }
-.review-photos .caption {
-    padding: 9px;
-    color: #333;
+.review-photos .review-photo-link { display: block; }
+.review-photos .review-photo-card > picture { display: block; width: 100%; }
+.review-photos .review-photo-media {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: var(--ne-media-bg);
+    border-top-left-radius: var(--bs-card-inner-border-radius);
+    border-top-right-radius: var(--bs-card-inner-border-radius);
 }
 
 .review-box {
-    background: #f8f8f8;
-    border: 1px solid #eee;
-    border-radius: 4px;
-    padding: 15px 20px;
     margin: 25px 0;
+}
+.review-box .card-body {
+    padding: 15px 20px;
 }
 .review-box h2 { margin-top: 0; font-size: 115%; }
 .review .stars { color: #f0a51b; }
@@ -278,22 +281,26 @@ ul.links li.text {
     margin-bottom: 20px;
 }
 .related-review-card {
-    display: block;
+    display: flex;
+    flex-direction: column;
     color: inherit;
     text-decoration: none;
-    margin-bottom: 25px;
 }
 .related-review-card:hover h3 {
     color: #286090;
     text-decoration: underline;
 }
-.related-review-card img {
+.related-review-card > picture {
+    display: block;
     width: 100%;
-    max-height: 200px;
+    height: 180px;
+}
+.related-review-card .related-card-img {
+    display: block;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
-    border: 1px solid #eee;
-    background: #fff;
-    margin-bottom: 8px;
+    background: var(--ne-media-bg);
 }
 .related-review-card h3 {
     font-size: 105%;
@@ -319,3 +326,73 @@ ul.links li.text {
 }
 
 .posts { margin-top: 30px; }
+
+/* ---- Theme toggle button (floating, every page) ---- */
+
+.theme-toggle {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 1050;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 1.05rem;
+    background-color: #f8f9fa;
+    border-color: #ced4da;
+    color: #212529;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+[data-bs-theme="dark"] .theme-toggle {
+    background-color: #343a40;
+    border-color: #495057;
+    color: #e9ecef;
+}
+.theme-toggle .fa-sun { display: none; }
+[data-bs-theme="dark"] .theme-toggle .fa-moon { display: none; }
+[data-bs-theme="dark"] .theme-toggle .fa-sun { display: inline-block; }
+
+/* ---- Dark mode ----
+   data-bs-theme="dark" is set on <html> by the theme script in main.njk.
+   Bootstrap flips its own variables (body color, cards, borders, buttons),
+   so most components adapt automatically; these rules cover the colors the
+   site still hardcodes. */
+
+[data-bs-theme="dark"] body { background: #181a1d; }
+[data-bs-theme="dark"] main { background: #212529; }
+
+/* Navbar is transparent, so recolor the links/toggler for the dark page. */
+[data-bs-theme="dark"] .navbar .navbar-nav .nav-link,
+[data-bs-theme="dark"] .navbar .navbar-nav .nav-link:hover,
+[data-bs-theme="dark"] .navbar .navbar-nav .nav-link:focus {
+    color: rgba(255, 255, 255, 0.85);
+}
+[data-bs-theme="dark"] .navbar .navbar-nav .nav-link:hover,
+[data-bs-theme="dark"] .navbar .navbar-nav .nav-link:focus {
+    color: #fff;
+}
+[data-bs-theme="dark"] .navbar:not(.navbar-transparent) .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.6);
+}
+[data-bs-theme="dark"] .navbar .navbar-toggler-icon {
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.9%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+[data-bs-theme="dark"] .navbar:not(.navbar-transparent) .nav-item.active > .nav-link {
+    color: #111;
+    background-color: #e9ecef;
+}
+
+[data-bs-theme="dark"] .reviews .review-heading a { color: #dee2e6; }
+[data-bs-theme="dark"] .reviews .review-meta { color: #adb5bd; }
+[data-bs-theme="dark"] .related-reviews { background: #212529; }
+[data-bs-theme="dark"] .related-review-card .related-subtitle { color: #adb5bd; }
+[data-bs-theme="dark"] .review-filters .review-filter { color: #e9ecef; }
+[data-bs-theme="dark"] .review-filters .review-tags-toggle { color: #e9ecef; }
+[data-bs-theme="dark"] .review-filters .review-filter-clear { color: #adb5bd; }
+[data-bs-theme="dark"] .disclosure { color: #adb5bd; }
+[data-bs-theme="dark"] .review-origin { color: #adb5bd; }
+[data-bs-theme="dark"] .review-body img { border-color: #495057; }
