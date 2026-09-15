@@ -177,6 +177,65 @@ function tagGroups(posts) {
   };
 }
 
+// Find related reviews to show on a review page. Manually-specified URLs
+// (frontmatter `relatedReviews:`) come first, in order; any remaining slots
+// are auto-filled by weighted tag overlap — rarer tags score higher than
+// common ones (e.g. "tech") using an IDF-style log weight. Returns at most
+// `count` items; empty slots on the page are left empty if there aren't
+// enough matches.
+function relatedReviews(allReviews, pageTags, currentUrl, specifiedUrls, count) {
+  const norm = (u) => {
+    if (!u) return "";
+    const s = String(u).trim().replace(/^https?:\/\/[^/]+/i, "");
+    return s.replace(/\/+$/, "") + "/";
+  };
+  const isContentTag = (t) => t !== "review" && t !== "book-review";
+  const currentTagList = (pageTags || []).filter(isContentTag);
+
+  const related = [];
+  const seen = new Set([norm(currentUrl)]);
+
+  const specs = typeof specifiedUrls === "string" ? [specifiedUrls] : specifiedUrls;
+  for (const u of specs || []) {
+    const key = norm(u);
+    const found = allReviews.find((p) => norm(p.url) === key);
+    if (found && !seen.has(key)) {
+      related.push(found);
+      seen.add(key);
+    }
+  }
+
+  const limit = count || 3;
+  if (related.length < limit && currentTagList.length) {
+    const totalDocs = allReviews.length;
+    const tagCounts = {};
+    for (const p of allReviews) {
+      for (const t of p.data.tags || []) {
+        if (isContentTag(t)) tagCounts[t] = (tagCounts[t] || 0) + 1;
+      }
+    }
+    const weight = (t) => Math.log(1 + totalDocs / (1 + (tagCounts[t] || 0)));
+
+    const scored = [];
+    for (const p of allReviews) {
+      if (seen.has(norm(p.url))) continue;
+      let score = 0;
+      for (const t of p.data.tags || []) {
+        if (isContentTag(t) && currentTagList.includes(t)) score += weight(t);
+      }
+      if (score > 0) scored.push({ item: p, score });
+    }
+    scored.sort(
+      (a, b) =>
+        b.score - a.score ||
+        String(b.item.inputPath).localeCompare(String(a.item.inputPath), undefined, { numeric: true })
+    );
+    for (const s of scored.slice(0, limit - related.length)) related.push(s.item);
+  }
+
+  return related;
+}
+
 function amazonSearchUrl(query) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=nathananderin-20`;
 }
@@ -329,6 +388,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("recentReviews", recentReviews);
   eleventyConfig.addFilter("countByAuthor", countByAuthor);
   eleventyConfig.addFilter("tagGroups", tagGroups);
+  eleventyConfig.addFilter("relatedReviews", relatedReviews);
 
   eleventyConfig.addGlobalData("authorName", () => authorName);
   eleventyConfig.addGlobalData("isAmazonUrl", () => isAmazonUrl);

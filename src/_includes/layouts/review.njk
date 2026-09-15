@@ -110,4 +110,31 @@ navInHeader: true
 
 </main>
 
+{% set specifiedUrls = relatedReviews | default([]) %}
+{% set relatedItems = collections.allReviews | relatedReviews(tags, page.url, specifiedUrls) %}
+{% if relatedItems.length %}
+<div class="related-reviews">
+    <h2>You might also like</h2>
+    <div class="row">
+    {% for item in relatedItems %}
+        {% set img = false %}
+        {% if item.data.images and item.data.images.photos and item.data.images.photos.length and not item.data.images.photos[0].endsWith('.mp4') %}
+            {% set img = item.url ~ item.data.images.photos[0] %}
+        {% endif %}
+        {% if not img and item.data.images and item.data.images.product %}
+            {% set img = item.url ~ item.data.images.product %}
+        {% endif %}
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <a class="related-review-card" href="{{ item.url }}">
+                {% if img %}<img width="390" src="{{ img }}" alt="{{ item.data | reviewH1Title }}" loading="lazy">{% endif %}
+                <h3>{{ item.data | reviewH1Title }}</h3>
+                {% set subtitle = item.data | reviewH2Title %}
+                {% if subtitle %}<p class="related-subtitle">{{ subtitle }}</p>{% endif %}
+            </a>
+        </div>
+    {% endfor %}
+    </div>
+</div>
+{% endif %}
+
 {% include "partials/disclosure.njk" %}
