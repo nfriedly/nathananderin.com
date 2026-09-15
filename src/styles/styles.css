@@ -8,8 +8,8 @@ main h1 { margin-bottom: 20px; margin-top: 0; }
 main h2 { font-size: 120%; clear: both; margin-bottom: 15px; }
 
 .navbar {
-    background: white;
-    border-bottom: 1px solid #ddd;
+    background: transparent;
+    border-bottom: none;
     margin-bottom: 25px;
 }
 @media ( min-width: 1024px ) {
@@ -212,8 +212,8 @@ ul.links li.text {
         order: 2;
         flex: 0 0 280px;
         margin: 0 0 20px 20px;
-    }
-    .review-box.has-hero {
+    /*}
+    .review-box.has-hero {*/
         position: relative;
         top: -95px;
         z-index: 1;
