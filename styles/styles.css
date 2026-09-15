@@ -8,14 +8,45 @@ main h1 { margin-bottom: 20px; margin-top: 0; }
 main h2 { font-size: 120%; clear: both; margin-bottom: 15px; }
 
 .navbar {
-    background: white;
-    border-bottom: 1px solid #ddd;
+    background: transparent;
+    border-bottom: none;
     margin-bottom: 25px;
 }
 @media ( min-width: 1024px ) {
     .navbar { margin-top: 0; }
 }
-.navbar-default .navbar-brand { color: #555; }
+
+/* Transparent navbar: used inside the review hero header where the page
+   background image should reach the very top of the viewport. */
+.navbar-transparent {
+    background: transparent;
+    border: none;
+    margin-bottom: 25px;
+    min-height: 50px;
+}
+.navbar-transparent .navbar-nav > li > a,
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:focus {
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+.navbar-transparent .navbar-nav > .active > a,
+.navbar-transparent .navbar-nav > .active > a:hover,
+.navbar-transparent .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: transparent;
+}
+
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .active > a:hover,
+.navbar-transparent .navbar-nav > .active > a:focus {
+    text-shadow: 1px 1px 2px black, 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.navbar-transparent.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
 
 header.hero {
     margin: 0 -15px 0 -15px;
@@ -24,19 +55,27 @@ header.hero img { width: 100%; display: block; }
 
 /* Review hero: full-width cover photo with title/subtitle/rating overlaid in
    per-line white highlight boxes (background lives on an inner <span>) so the
-   text stays legible over any part of the photo and each line keeps its own row. */
+   text stays legible over any part of the photo and each line keeps its own row.
+   The transparent navbar (~50px tall) sits inside this header at the top. */
 header.hero.review-hero {
     background-image: linear-gradient(rgba(255, 255, 255, 0.2) 60%, rgba(0, 0, 0, 0.6)), var(--bg-img);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
-    min-height: 45vh;
-    padding: 40px 15px;
+    padding: 0px 15px 40px;
     box-sizing: border-box;
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    header.hero.review-hero { padding: 0px 15px 60px; }
+    .navbar-transparent { margin-bottom: 35px; }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    header.hero.review-hero { padding: 0px 15px 80px; }
+    .navbar-transparent { margin-bottom: 45px; }
 }
 header.hero.review-hero h1 > span,
 header.hero.review-hero h2 > span,
@@ -164,6 +203,30 @@ ul.links li.text {
 .review-box h2 { margin-top: 0; font-size: 115%; }
 .review .stars { color: #f0a51b; }
 .review-box p { margin-bottom: 5px; }
+@media ( min-width: 992px ) {
+    .review-main {
+        display: flex;
+        align-items: flex-start;
+    }
+    .review-box {
+        order: 2;
+        flex: 0 0 280px;
+        margin: 0 0 20px 20px;
+    /*}
+    .review-box.has-hero {*/
+        position: relative;
+        top: -95px;
+        z-index: 1;
+    }
+    .review-box .row > [class*="col-sm-"] {
+        width: 100%;
+    }
+    .review-body {
+        order: 1;
+        flex: 1 1 auto;
+        min-width: 0;
+    }
+}
 
 .disclosure {
     font-size: 85%;
