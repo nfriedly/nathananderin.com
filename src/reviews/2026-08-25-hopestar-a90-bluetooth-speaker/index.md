@@ -23,7 +23,7 @@ This speaker has awesome sound, impressive volume, and a ton of features.. but m
 
 ## Sound
 
-Over bluetooth or playing from microSD, audio sounds amazing. The default mode feels well balanced, with plenty of bass, and the base-boosted "Outdoor Mode" takes it up a notch.
+Over bluetooth or playing from microSD, audio sounds amazing. The default mode feels well balanced, with plenty of bass, and the bass-boosted "Outdoor Mode" takes it up a notch.
 
 And the volume - it gets **SO LOUD!** I still haven't turned mine up to the max volume yet, but it it can reportedly output over 100 DB. There's a rumor that someone cracked their drywall by playing this thing at max volume with the bass boosted for a party - maybe that's why they call the bass boost "outdoor mode"!
 
