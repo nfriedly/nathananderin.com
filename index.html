@@ -2,6 +2,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script>
+        // Theme (Bootstrap 5.3 color modes): default to the OS preference,
+        // persist an explicit light/dark choice in localStorage, and follow
+        // OS changes until the visitor picks a theme themselves.
+        (function () {
+            'use strict';
+            var media = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
+            function storedTheme() {
+                try { return localStorage.getItem('theme'); } catch (e) { return null; }
+            }
+            function preferredTheme() {
+                return media && media.matches ? 'dark' : 'light';
+            }
+            function apply(theme) {
+                document.documentElement.setAttribute('data-bs-theme', theme);
+            }
+            apply(storedTheme() || preferredTheme());
+            window.siteThemeAPI = {
+                set: function (theme) {
+                    try { localStorage.setItem('theme', theme); } catch (e) {}
+                    apply(theme);
+                }
+            };
+            if (media && typeof media.addEventListener === 'function') {
+                media.addEventListener('change', function () {
+                    if (!storedTheme()) { apply(preferredTheme()); }
+                });
+            }
+        })();
+    </script>
     <meta charset="utf-8">
     <title>N &amp; E</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +40,7 @@
     
     <meta name="description" content="Nathan and Erin Friedly: reviews of the things we buy.">
     <meta name="generator" content="Eleventy">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.min.css" integrity="sha512-L+sMmtHht2t5phORf0xXFdTC0rSlML1XcraLTrABli/0MMMylsJi3XA23ReVQkZ7jLkOEIMicWGItyK4CAt2Xw==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="/styles/styles.css">
@@ -31,14 +61,14 @@
     <p>Hi, and God bless! You can email both of us at <a class="oneline" data-address="both">["both" at this website]</a> or reach us individually at the options below.</p>
 
     <div class="row">
-        <div class="col-sm-6">
+        <div class="col-md-6">
             <h2>Erin:</h2>
             <ul class="links" data-address="erin">
                 <li><a href="http://instagram.com/lollibows"><i class="fa-brands fa-instagram"></i></a></li>
                 <li><a href="https://www.facebook.com/BrillyantColors"><i class="fa-brands fa-facebook-square"></i></a></li>
             </ul>
         </div>
-        <div class="col-sm-6">
+        <div class="col-md-6">
             <h2>Nathan:</h2>
             <ul class="links" data-address="nathan">
                 <li class="text"><a href="http://nfriedly.com"><i class="fa fa-home"></i>nfriedly.com</a></li>
@@ -50,82 +80,84 @@
         </div>
     </div>
 
-    <section class="affiliate">
+    <hr>
+
+    <section class="posts">
         <h2>Recent Reviews</h2>
         
             
             
-
-
-
-
-<a class="review-card" href="/reviews/2026-08-25-hopestar-a90-bluetooth-speaker/" data-author="nathan" data-tags="tech speaker bluetooth audio">
+<a class="card review-card text-body text-decoration-none" href="/book-reviews/2026-09-13-pax-journey-home-pax-2/" data-author="erin" data-tags="">
+  <div class="row g-0">
+	<div class="col-md-2 col-sm-1"><picture><source type="image/webp" srcset="/img/De9_Uqq3p_-400.webp"><img class="img-fluid" width="400" src="/img/De9_Uqq3p_-400.jpeg" alt="" height="400"></picture></div>
+	<div class="card-body col-md-10">
+		<h2 class="card-title">Pax, Journey Home Book Review</h2>
+		
+		
+		
+		
+		<p class="review-meta card-text"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
+		
+		<p class="excerpt card-text">My daughter gave this 5 stars and my son gave it 4. I liked this sequel better than book one. In many ways the first book is fine but in the second book Peter and Pax come full circle with sacrifice and…</p>
+	</div>
 	
-	<picture><source type="image/webp" srcset="/img/PWrle2TIft-88.webp"><img class="product-thumb" width="88" src="/img/PWrle2TIft-88.jpeg" alt="" height="66"></picture>
-	<h2>Awesome sound, half-baked features</h2>
-	
-	
-	
-	
-	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; Hopestar A90 Bluetooth Speaker</p>
-	
-	<p class="excerpt">This speaker has awesome sound, impressive volume, and a ton of features.. but many of the features seem half-baked. Still, the core functionality is very solid.</p>
+  </div>
 </a>
         
             
             
-
-
-
-
-<a class="review-card" href="/reviews/2026-07-07-young-electric-4-bike-rack/" data-author="nathan" data-tags="car cycling">
+<a class="card review-card text-body text-decoration-none" href="/book-reviews/2026-09-11-atmosphere/" data-author="erin" data-tags="">
+  <div class="row g-0">
+	<div class="col-md-2 col-sm-1"><picture><source type="image/webp" srcset="/img/K33NoobRgI-320.webp"><img class="img-fluid" width="320" src="/img/K33NoobRgI-320.jpeg" alt="" height="320"></picture></div>
+	<div class="card-body col-md-10">
+		<h2 class="card-title">Atmosphere Book Review</h2>
+		
+		
+		
+		
+		<p class="excerpt card-text">I really loved this story. I’m 100% here for the sapphic romance and the women in the 1980s NASA space exploration.</p>
+	</div>
 	
-	<picture><source type="image/webp" srcset="/img/nhFGpPlPqM-88.webp"><img class="product-thumb" width="88" src="/img/nhFGpPlPqM-88.jpeg" alt="" height="66"></picture>
-	<h2>Good design, but poor QA</h2>
-	
-	
-	
-	
-	<p class="review-meta"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; Young Electric 4-Bike Hitch Rack</p>
-	
-	<p class="excerpt">Now that I&#39;ve got it working, I really like the bike rack, but out of the box it was completely unusable.</p>
+  </div>
 </a>
         
         
             
             
-
-
-
-
-<a class="review-card" href="/book-reviews/2026-09-13-pax-journey-home-pax-2/" data-author="erin" data-tags="">
+<a class="card review-card text-body text-decoration-none" href="/reviews/2026-08-25-hopestar-a90-bluetooth-speaker/" data-author="nathan" data-tags="tech speaker bluetooth audio">
+  <div class="row g-0">
+	<div class="col-md-2 col-sm-1"><picture><source type="image/webp" srcset="/img/PWrle2TIft-400.webp"><img class="img-fluid" width="400" src="/img/PWrle2TIft-400.jpeg" alt="" height="301"></picture></div>
+	<div class="card-body col-md-10">
+		<h2 class="card-title">Awesome sound, half-baked features</h2>
+		
+		
+		
+		
+		<p class="review-meta card-text"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; Hopestar A90 Bluetooth Speaker</p>
+		
+		<p class="excerpt card-text">This speaker has awesome sound, impressive volume, and a ton of features.. but many of the features seem half-baked. Still, the core functionality is very solid.</p>
+	</div>
 	
-	<picture><source type="image/webp" srcset="/img/De9_Uqq3p_-88.webp"><img class="product-thumb" width="88" src="/img/De9_Uqq3p_-88.jpeg" alt="" height="88"></picture>
-	<h2>Pax, Journey Home Book Review</h2>
-	
-	
-	
-	
-	<p class="review-meta"><span class="stars" aria-label="5 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></p>
-	
-	<p class="excerpt">My daughter gave this 5 stars and my son gave it 4. I liked this sequel better than book one. In many ways the first book is fine but in the second book Peter and Pax come full circle with sacrifice and…</p>
+  </div>
 </a>
         
             
             
-
-
-
-
-<a class="review-card" href="/book-reviews/2026-09-11-atmosphere/" data-author="erin" data-tags="">
+<a class="card review-card text-body text-decoration-none" href="/reviews/2026-07-07-young-electric-4-bike-rack/" data-author="nathan" data-tags="car cycling">
+  <div class="row g-0">
+	<div class="col-md-2 col-sm-1"><picture><source type="image/webp" srcset="/img/nhFGpPlPqM-400.webp"><img class="img-fluid" width="400" src="/img/nhFGpPlPqM-400.jpeg" alt="" height="301"></picture></div>
+	<div class="card-body col-md-10">
+		<h2 class="card-title">Good design, but poor QA</h2>
+		
+		
+		
+		
+		<p class="review-meta card-text"><span class="stars" aria-label="4 out of 5 stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span> &middot; Young Electric 4-Bike Hitch Rack</p>
+		
+		<p class="excerpt card-text">Now that I&#39;ve got it working, I really like the bike rack, but out of the box it was completely unusable.</p>
+	</div>
 	
-	<picture><source type="image/webp" srcset="/img/K33NoobRgI-88.webp"><img class="product-thumb" width="88" src="/img/K33NoobRgI-88.jpeg" alt="" height="88"></picture>
-	<h2>Atmosphere Book Review</h2>
-	
-	
-	
-	
-	<p class="excerpt">I really loved this story. I’m 100% here for the sapphic romance and the women in the 1980s NASA space exploration.</p>
+  </div>
 </a>
         
         <p><a href="/reviews/">Browse product reviews &raquo;</a> <a href="/book-reviews/">Browse book reviews &raquo;</a></p>
@@ -150,6 +182,22 @@
     </div>
 </footer>
 
+<button type="button" id="theme-toggle" class="btn btn-light theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+    <i class="fa-solid fa-moon"></i>
+    <i class="fa-solid fa-sun"></i>
+</button>
+
+<script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) { return; }
+        btn.addEventListener('click', function () {
+            var dark = document.documentElement.getAttribute('data-bs-theme') === 'dark';
+            window.siteThemeAPI.set(dark ? 'light' : 'dark');
+        });
+    })();
+</script>
+
 <script>
     if (document.querySelectorAll) {
         var slice = Array.prototype.slice;
@@ -170,8 +218,7 @@
         });
     }
 </script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
 <script>
     var _gaq = _gaq || [];
@@ -195,7 +242,7 @@
     g.async=true; g.src=u+'js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<picture><source type="image/webp" srcset="/xnthZ1Rrpm-1.webp"><img referrerpolicy="no-referrer-when-downgrade" src="/xnthZ1Rrpm-1.jpeg" style="border:0" alt="" width="1" height="1"></picture>
+<img referrerpolicy="no-referrer-when-downgrade" src="https://stats.home.nfriedly.com/php?idsite=6&amp;rec=1" style="border:0" alt="">
 
 </body>
 </html>

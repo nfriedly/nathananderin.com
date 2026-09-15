@@ -2,6 +2,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script>
+        // Theme (Bootstrap 5.3 color modes): default to the OS preference,
+        // persist an explicit light/dark choice in localStorage, and follow
+        // OS changes until the visitor picks a theme themselves.
+        (function () {
+            'use strict';
+            var media = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
+            function storedTheme() {
+                try { return localStorage.getItem('theme'); } catch (e) { return null; }
+            }
+            function preferredTheme() {
+                return media && media.matches ? 'dark' : 'light';
+            }
+            function apply(theme) {
+                document.documentElement.setAttribute('data-bs-theme', theme);
+            }
+            apply(storedTheme() || preferredTheme());
+            window.siteThemeAPI = {
+                set: function (theme) {
+                    try { localStorage.setItem('theme', theme); } catch (e) {}
+                    apply(theme);
+                }
+            };
+            if (media && typeof media.addEventListener === 'function') {
+                media.addEventListener('change', function () {
+                    if (!storedTheme()) { apply(preferredTheme()); }
+                });
+            }
+        })();
+    </script>
     <meta charset="utf-8">
     <title>Mostly works, but missing pins and issues with my cable tester - 240W USB-C Cable (2-pack, 3.3ft) Review</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +40,7 @@
     
     <meta name="description" content="Nathan and Erin Friedly: reviews of the things we buy.">
     <meta name="generator" content="Eleventy">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.min.css" integrity="sha512-L+sMmtHht2t5phORf0xXFdTC0rSlML1XcraLTrABli/0MMMylsJi3XA23ReVQkZ7jLkOEIMicWGItyK4CAt2Xw==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="/styles/styles.css">
@@ -34,21 +64,16 @@
     
     
 
-<nav class="navbar navbar-default navbar-static-top navbar-transparent">
+<nav class="navbar navbar-expand-md navbar-light navbar-transparent">
     
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu" aria-expanded="false" aria-controls="nav-menu">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div id="nav-menu" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
-                <li><a href="/reviews/"><i class="fa fa-star"></i> Reviews</a></li>
-                <li><a href="/book-reviews/"><i class="fa fa-book"></i> Books</a></li>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="/"><i class="fa fa-home"></i> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/reviews/"><i class="fa fa-star"></i> Reviews</a></li>
+                <li class="nav-item"><a class="nav-link" href="/book-reviews/"><i class="fa fa-book"></i> Books</a></li>
             </ul>
         </div>
     
@@ -68,13 +93,14 @@
 <div class="review-main">
 
 
-<div class="review-box has-hero">
+<div class="review-box card has-hero">
+    <div class="card-body">
     <div class="row">
         
-        <div class="col-sm-3">
-            <picture><source type="image/webp" srcset="/img/9Vg9nXlyG2-1500.webp"><img class="img-responsive" src="/img/9Vg9nXlyG2-1500.jpeg" alt="FJHEPERPOO 240W USB C to USB C Cable, 2-Pack 3.3ft, Nylon | Fast Charging, iPhone 17 16 15 Pro Max Compatible, MacBook Pro/Air Compatible, iPad Pro Compatible, Galaxy S25 S24 Compatible" width="1500" height="1500"></picture>
+        <div class="col-md-3">
+            <picture><source type="image/webp" srcset="/img/9Vg9nXlyG2-476.webp"><img class="img-fluid" width="476" src="/img/9Vg9nXlyG2-476.jpeg" alt="FJHEPERPOO 240W USB C to USB C Cable, 2-Pack 3.3ft, Nylon | Fast Charging, iPhone 17 16 15 Pro Max Compatible, MacBook Pro/Air Compatible, iPad Pro Compatible, Galaxy S25 S24 Compatible" height="476"></picture>
         </div>
-        <div class="col-sm-9">
+        <div class="col-md-9">
         
             <h2>FJHEPERPOO 240W USB C to USB C Cable, 2-Pack 3.3ft, Nylon | Fast Charging, iPhone 17 16 15 Pro Max Compatible, MacBook Pro/Air Compatible, iPad Pro Compatible, Galaxy S25 S24 Compatible</h2>
             
@@ -94,6 +120,7 @@
             <p>Ordered on: 2026-01-21</p>
             <p>Reviewed on: 2026-02-18</p>
         </div>
+    </div>
     </div>
 </div>
 
@@ -118,53 +145,53 @@
   
     
     
-    <div class="col-xs-12 col-sm-6 col-md-3">
-      <figure class="thumbnail">
+    <div class="col-12 col-md-6 col-lg-3">
+      <figure class="card review-photo-card">
         
-          <a href="/reviews/2026-02-18-240w-usb-c-cable-2-pack/Cable end close-up.jpg">
-            <picture><source type="image/webp" srcset="/img/REzWUBX73g-228.webp"><img width="228" src="/img/REzWUBX73g-228.jpeg" alt="Cable end close-up" height="195"></picture>
+          <a href="/reviews/2026-02-18-240w-usb-c-cable-2-pack/Cable end close-up.jpg" class="review-photo-link">
+            <picture><source type="image/webp" srcset="/img/REzWUBX73g-558.webp"><img class="card-img-top review-photo-media" width="558" src="/img/REzWUBX73g-558.jpeg" alt="Cable end close-up" height="477"></picture>
           </a>
         
-        <figcaption class="caption">Cable end close-up</figcaption>
+        <figcaption class="card-body caption py-2 px-2">Cable end close-up</figcaption>
       </figure>
     </div>
   
     
     
-    <div class="col-xs-12 col-sm-6 col-md-3">
-      <figure class="thumbnail">
+    <div class="col-12 col-md-6 col-lg-3">
+      <figure class="card review-photo-card">
         
-          <a href="/reviews/2026-02-18-240w-usb-c-cable-2-pack/Tester reading cable data.jpg">
-            <picture><source type="image/webp" srcset="/img/gg3Ap-Autd-228.webp"><img width="228" src="/img/gg3Ap-Autd-228.jpeg" alt="Tester reading cable data" height="302"></picture>
+          <a href="/reviews/2026-02-18-240w-usb-c-cable-2-pack/Tester reading cable data.jpg" class="review-photo-link">
+            <picture><source type="image/webp" srcset="/img/gg3Ap-Autd-558.webp"><img class="card-img-top review-photo-media" width="558" src="/img/gg3Ap-Autd-558.jpeg" alt="Tester reading cable data" height="740"></picture>
           </a>
         
-        <figcaption class="caption">Tester reading cable data</figcaption>
+        <figcaption class="card-body caption py-2 px-2">Tester reading cable data</figcaption>
       </figure>
     </div>
   
     
     
-    <div class="col-xs-12 col-sm-6 col-md-3">
-      <figure class="thumbnail">
+    <div class="col-12 col-md-6 col-lg-3">
+      <figure class="card review-photo-card">
         
-          <a href="/reviews/2026-02-18-240w-usb-c-cable-2-pack/Tester reading cable power.jpg">
-            <picture><source type="image/webp" srcset="/img/gQgMEhvZfG-228.webp"><img width="228" src="/img/gQgMEhvZfG-228.jpeg" alt="Tester reading cable power" height="171"></picture>
+          <a href="/reviews/2026-02-18-240w-usb-c-cable-2-pack/Tester reading cable power.jpg" class="review-photo-link">
+            <picture><source type="image/webp" srcset="/img/gQgMEhvZfG-558.webp"><img class="card-img-top review-photo-media" width="558" src="/img/gQgMEhvZfG-558.jpeg" alt="Tester reading cable power" height="420"></picture>
           </a>
         
-        <figcaption class="caption">Tester reading cable power</figcaption>
+        <figcaption class="card-body caption py-2 px-2">Tester reading cable power</figcaption>
       </figure>
     </div>
   
     
     
-    <div class="col-xs-12 col-sm-6 col-md-3">
-      <figure class="thumbnail">
+    <div class="col-12 col-md-6 col-lg-3">
+      <figure class="card review-photo-card">
         
-          <a href="/reviews/2026-02-18-240w-usb-c-cable-2-pack/eMarker display close-up.jpg">
-            <picture><source type="image/webp" srcset="/img/jduKmERoos-228.webp"><img width="228" src="/img/jduKmERoos-228.jpeg" alt="eMarker display close-up" height="171"></picture>
+          <a href="/reviews/2026-02-18-240w-usb-c-cable-2-pack/eMarker display close-up.jpg" class="review-photo-link">
+            <picture><source type="image/webp" srcset="/img/jduKmERoos-558.webp"><img class="card-img-top review-photo-media" width="558" src="/img/jduKmERoos-558.jpeg" alt="eMarker display close-up" height="420"></picture>
           </a>
         
-        <figcaption class="caption">eMarker display close-up</figcaption>
+        <figcaption class="card-body caption py-2 px-2">eMarker display close-up</figcaption>
       </figure>
     </div>
   
@@ -174,14 +201,14 @@
   
     
     
-    <div class="col-xs-12 col-sm-6 col-md-3">
-      <figure class="thumbnail">
+    <div class="col-12 col-md-6 col-lg-3">
+      <figure class="card review-photo-card">
         
-          <a href="/reviews/2026-02-18-240w-usb-c-cable-2-pack/eMarker display.jpg">
-            <picture><source type="image/webp" srcset="/img/Fi-qERLXUf-228.webp"><img width="228" src="/img/Fi-qERLXUf-228.jpeg" alt="eMarker display" height="302"></picture>
+          <a href="/reviews/2026-02-18-240w-usb-c-cable-2-pack/eMarker display.jpg" class="review-photo-link">
+            <picture><source type="image/webp" srcset="/img/Fi-qERLXUf-558.webp"><img class="card-img-top review-photo-media" width="558" src="/img/Fi-qERLXUf-558.jpeg" alt="eMarker display" height="740"></picture>
           </a>
         
-        <figcaption class="caption">eMarker display</figcaption>
+        <figcaption class="card-body caption py-2 px-2">eMarker display</figcaption>
       </figure>
     </div>
   
@@ -195,7 +222,64 @@
 
 </main>
 
-<p><a href="/reviews/"><i class="fa fa-arrow-left"></i> All reviews</a></p>
+
+
+
+<div class="related-reviews">
+    <h2>You might also like</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    
+        
+        
+            
+        
+        
+        <div class="col">
+            <a class="card h-100 related-review-card text-body text-decoration-none" href="/reviews/2026-02-13-hagibis-wedge-usb-c-cable/">
+                <picture><source type="image/webp" srcset="/img/tudvbOxMdP-390.webp"><img class="card-img-top related-card-img" width="390" src="/img/tudvbOxMdP-390.jpeg" alt="Cheery little cable for fast charging and slow data" loading="lazy" height="293"></picture>
+                <div class="card-body">
+                    <h3>Cheery little cable for fast charging and slow data</h3>
+                    
+                    <p class="related-subtitle card-text">Hagibis Wedge USB-C Cable Review</p>
+                </div>
+            </a>
+        </div>
+    
+        
+        
+            
+        
+        
+        <div class="col">
+            <a class="card h-100 related-review-card text-body text-decoration-none" href="/reviews/2026-02-11-aceyoon-keychain-usb4-cable/">
+                <picture><source type="image/webp" srcset="/img/5jMzdWlUcv-390.webp"><img class="card-img-top related-card-img" width="390" src="/img/5jMzdWlUcv-390.jpeg" alt="Small, but does it all!" loading="lazy" height="293"></picture>
+                <div class="card-body">
+                    <h3>Small, but does it all!</h3>
+                    
+                    <p class="related-subtitle card-text">aceyoon Keychain USB-C Cable (240W) Review</p>
+                </div>
+            </a>
+        </div>
+    
+        
+        
+        
+            
+        
+        <div class="col">
+            <a class="card h-100 related-review-card text-body text-decoration-none" href="/reviews/2026-02-03-usb-c-100w-braided-cable/">
+                <picture><source type="image/webp" srcset="/img/jKiXulu4ZE-390.webp"><img class="card-img-top related-card-img" width="390" src="/img/jKiXulu4ZE-390.jpeg" alt="Fast charge, slow data, nice feel" loading="lazy" height="390"></picture>
+                <div class="card-body">
+                    <h3>Fast charge, slow data, nice feel</h3>
+                    
+                    <p class="related-subtitle card-text">USB-C 100w braided cable Review</p>
+                </div>
+            </a>
+        </div>
+    
+    </div>
+</div>
+
 
 
 
@@ -230,6 +314,22 @@
     </div>
 </footer>
 
+<button type="button" id="theme-toggle" class="btn btn-light theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+    <i class="fa-solid fa-moon"></i>
+    <i class="fa-solid fa-sun"></i>
+</button>
+
+<script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) { return; }
+        btn.addEventListener('click', function () {
+            var dark = document.documentElement.getAttribute('data-bs-theme') === 'dark';
+            window.siteThemeAPI.set(dark ? 'light' : 'dark');
+        });
+    })();
+</script>
+
 <script>
     if (document.querySelectorAll) {
         var slice = Array.prototype.slice;
@@ -250,8 +350,7 @@
         });
     }
 </script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
 <script>
     var _gaq = _gaq || [];
@@ -275,7 +374,7 @@
     g.async=true; g.src=u+'js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<picture><source type="image/webp" srcset="/reviews/2026-02-18-240w-usb-c-cable-2-pack/xnthZ1Rrpm-1.webp"><img referrerpolicy="no-referrer-when-downgrade" src="/reviews/2026-02-18-240w-usb-c-cable-2-pack/xnthZ1Rrpm-1.jpeg" style="border:0" alt="" width="1" height="1"></picture>
+<img referrerpolicy="no-referrer-when-downgrade" src="https://stats.home.nfriedly.com/php?idsite=6&amp;rec=1" style="border:0" alt="">
 
 </body>
 </html>

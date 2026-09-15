@@ -2,6 +2,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script>
+        // Theme (Bootstrap 5.3 color modes): default to the OS preference,
+        // persist an explicit light/dark choice in localStorage, and follow
+        // OS changes until the visitor picks a theme themselves.
+        (function () {
+            'use strict';
+            var media = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
+            function storedTheme() {
+                try { return localStorage.getItem('theme'); } catch (e) { return null; }
+            }
+            function preferredTheme() {
+                return media && media.matches ? 'dark' : 'light';
+            }
+            function apply(theme) {
+                document.documentElement.setAttribute('data-bs-theme', theme);
+            }
+            apply(storedTheme() || preferredTheme());
+            window.siteThemeAPI = {
+                set: function (theme) {
+                    try { localStorage.setItem('theme', theme); } catch (e) {}
+                    apply(theme);
+                }
+            };
+            if (media && typeof media.addEventListener === 'function') {
+                media.addEventListener('change', function () {
+                    if (!storedTheme()) { apply(preferredTheme()); }
+                });
+            }
+        })();
+    </script>
     <meta charset="utf-8">
     <title>Cuts down drying time and leaves everything super soft! - Smart Sheep Wool Dryer Balls Review</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +40,7 @@
     
     <meta name="description" content="Nathan and Erin Friedly: reviews of the things we buy.">
     <meta name="generator" content="Eleventy">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.min.css" integrity="sha512-L+sMmtHht2t5phORf0xXFdTC0rSlML1XcraLTrABli/0MMMylsJi3XA23ReVQkZ7jLkOEIMicWGItyK4CAt2Xw==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="/styles/styles.css">
@@ -32,21 +62,16 @@
 
 
 
-<nav class="navbar navbar-default navbar-static-top ">
+<nav class="navbar navbar-expand-md navbar-light ">
     
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu" aria-expanded="false" aria-controls="nav-menu">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div id="nav-menu" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
-                <li><a href="/reviews/"><i class="fa fa-star"></i> Reviews</a></li>
-                <li><a href="/book-reviews/"><i class="fa fa-book"></i> Books</a></li>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="/"><i class="fa fa-home"></i> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/reviews/"><i class="fa fa-star"></i> Reviews</a></li>
+                <li class="nav-item"><a class="nav-link" href="/book-reviews/"><i class="fa fa-book"></i> Books</a></li>
             </ul>
         </div>
     
@@ -65,13 +90,14 @@
 <div class="review-main">
 
 
-<div class="review-box">
+<div class="review-box card">
+    <div class="card-body">
     <div class="row">
         
-        <div class="col-sm-3">
-            <picture><source type="image/webp" srcset="/img/8zE2Ixo6ey-2000.webp"><img class="img-responsive" src="/img/8zE2Ixo6ey-2000.jpeg" alt="Wool Dryer Balls - Smart Sheep 6-Pack - XL Premium Natural Fabric Softener Award-Winning - Wool Balls Replaces Dryer Sheets - Wool Balls for Dryer - Laundry Balls for Dryer, 6 Count (Pack of 1)" width="2000" height="2001"></picture>
+        <div class="col-md-3">
+            <picture><source type="image/webp" srcset="/img/8zE2Ixo6ey-476.webp"><img class="img-fluid" width="476" src="/img/8zE2Ixo6ey-476.jpeg" alt="Wool Dryer Balls - Smart Sheep 6-Pack - XL Premium Natural Fabric Softener Award-Winning - Wool Balls Replaces Dryer Sheets - Wool Balls for Dryer - Laundry Balls for Dryer, 6 Count (Pack of 1)" height="476"></picture>
         </div>
-        <div class="col-sm-9">
+        <div class="col-md-9">
         
             <h2>Wool Dryer Balls - Smart Sheep 6-Pack - XL Premium Natural Fabric Softener Award-Winning - Wool Balls Replaces Dryer Sheets - Wool Balls for Dryer - Laundry Balls for Dryer, 6 Count (Pack of 1)</h2>
             
@@ -92,6 +118,7 @@
             <p>Reviewed on: 2015-04-07</p>
         </div>
     </div>
+    </div>
 </div>
 
 
@@ -110,7 +137,64 @@
 
 </main>
 
-<p><a href="/reviews/"><i class="fa fa-arrow-left"></i> All reviews</a></p>
+
+
+
+<div class="related-reviews">
+    <h2>You might also like</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    
+        
+        
+            
+        
+        
+        <div class="col">
+            <a class="card h-100 related-review-card text-body text-decoration-none" href="/reviews/2026-04-22-butterfly-hair-clips/">
+                <picture><source type="image/webp" srcset="/img/Oun86FwPL3-390.webp"><img class="card-img-top related-card-img" width="390" src="/img/Oun86FwPL3-390.jpeg" alt="My daughter loves these!" loading="lazy" height="293"></picture>
+                <div class="card-body">
+                    <h3>My daughter loves these!</h3>
+                    
+                    <p class="related-subtitle card-text">Mini Butterfly Hair Clips (80-pack) Review</p>
+                </div>
+            </a>
+        </div>
+    
+        
+        
+        
+            
+        
+        <div class="col">
+            <a class="card h-100 related-review-card text-body text-decoration-none" href="/reviews/2023-12-28-bezgar-rc-car-for-kids/">
+                <picture><source type="image/webp" srcset="/img/eenE3tQOf2-390.webp"><img class="card-img-top related-card-img" width="390" src="/img/eenE3tQOf2-390.jpeg" alt="Fun toy for kids, but doesn&#39;t last very long" loading="lazy" height="390"></picture>
+                <div class="card-body">
+                    <h3>Fun toy for kids, but doesn&#39;t last very long</h3>
+                    
+                    <p class="related-subtitle card-text">BEZGAR RC Car (1:14 Truck) Review</p>
+                </div>
+            </a>
+        </div>
+    
+        
+        
+        
+            
+        
+        <div class="col">
+            <a class="card h-100 related-review-card text-body text-decoration-none" href="/reviews/2023-11-28-defendershield-kids-blue-light-glasses/">
+                <picture><source type="image/webp" srcset="/img/vBwiPWEb1E-390.webp"><img class="card-img-top related-card-img" width="390" src="/img/vBwiPWEb1E-390.jpeg" alt="Hugely helpful for my son" loading="lazy" height="390"></picture>
+                <div class="card-body">
+                    <h3>Hugely helpful for my son</h3>
+                    
+                    <p class="related-subtitle card-text">DefenderShield Blue Light Glasses (Kids) Review</p>
+                </div>
+            </a>
+        </div>
+    
+    </div>
+</div>
+
 
 
 
@@ -145,6 +229,22 @@
     </div>
 </footer>
 
+<button type="button" id="theme-toggle" class="btn btn-light theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+    <i class="fa-solid fa-moon"></i>
+    <i class="fa-solid fa-sun"></i>
+</button>
+
+<script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) { return; }
+        btn.addEventListener('click', function () {
+            var dark = document.documentElement.getAttribute('data-bs-theme') === 'dark';
+            window.siteThemeAPI.set(dark ? 'light' : 'dark');
+        });
+    })();
+</script>
+
 <script>
     if (document.querySelectorAll) {
         var slice = Array.prototype.slice;
@@ -165,8 +265,7 @@
         });
     }
 </script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
 <script>
     var _gaq = _gaq || [];
@@ -190,7 +289,7 @@
     g.async=true; g.src=u+'js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<picture><source type="image/webp" srcset="/reviews/2015-04-07-smart-sheep-wool-dryer-balls/xnthZ1Rrpm-1.webp"><img referrerpolicy="no-referrer-when-downgrade" src="/reviews/2015-04-07-smart-sheep-wool-dryer-balls/xnthZ1Rrpm-1.jpeg" style="border:0" alt="" width="1" height="1"></picture>
+<img referrerpolicy="no-referrer-when-downgrade" src="https://stats.home.nfriedly.com/php?idsite=6&amp;rec=1" style="border:0" alt="">
 
 </body>
 </html>

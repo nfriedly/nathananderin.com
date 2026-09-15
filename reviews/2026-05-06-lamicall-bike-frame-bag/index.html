@@ -2,6 +2,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script>
+        // Theme (Bootstrap 5.3 color modes): default to the OS preference,
+        // persist an explicit light/dark choice in localStorage, and follow
+        // OS changes until the visitor picks a theme themselves.
+        (function () {
+            'use strict';
+            var media = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
+            function storedTheme() {
+                try { return localStorage.getItem('theme'); } catch (e) { return null; }
+            }
+            function preferredTheme() {
+                return media && media.matches ? 'dark' : 'light';
+            }
+            function apply(theme) {
+                document.documentElement.setAttribute('data-bs-theme', theme);
+            }
+            apply(storedTheme() || preferredTheme());
+            window.siteThemeAPI = {
+                set: function (theme) {
+                    try { localStorage.setItem('theme', theme); } catch (e) {}
+                    apply(theme);
+                }
+            };
+            if (media && typeof media.addEventListener === 'function') {
+                media.addEventListener('change', function () {
+                    if (!storedTheme()) { apply(preferredTheme()); }
+                });
+            }
+        })();
+    </script>
     <meta charset="utf-8">
     <title>Great for music, maps, etc. - Lamicall Bike Frame Bag Review</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +40,7 @@
     
     <meta name="description" content="Nathan and Erin Friedly: reviews of the things we buy.">
     <meta name="generator" content="Eleventy">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.min.css" integrity="sha512-L+sMmtHht2t5phORf0xXFdTC0rSlML1XcraLTrABli/0MMMylsJi3XA23ReVQkZ7jLkOEIMicWGItyK4CAt2Xw==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="/styles/styles.css">
@@ -34,21 +64,16 @@
     
     
 
-<nav class="navbar navbar-default navbar-static-top navbar-transparent">
+<nav class="navbar navbar-expand-md navbar-light navbar-transparent">
     
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu" aria-expanded="false" aria-controls="nav-menu">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div id="nav-menu" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
-                <li><a href="/reviews/"><i class="fa fa-star"></i> Reviews</a></li>
-                <li><a href="/book-reviews/"><i class="fa fa-book"></i> Books</a></li>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="/"><i class="fa fa-home"></i> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/reviews/"><i class="fa fa-star"></i> Reviews</a></li>
+                <li class="nav-item"><a class="nav-link" href="/book-reviews/"><i class="fa fa-book"></i> Books</a></li>
             </ul>
         </div>
     
@@ -68,13 +93,14 @@
 <div class="review-main">
 
 
-<div class="review-box has-hero">
+<div class="review-box card has-hero">
+    <div class="card-body">
     <div class="row">
         
-        <div class="col-sm-3">
-            <picture><source type="image/webp" srcset="/img/uKxsbyfOgz-1300.webp"><img class="img-responsive" src="/img/uKxsbyfOgz-1300.jpeg" alt="Lamicall Bike Frame Bag Waterproof - [1.6L Large Capacity] Bike Phone Bag | Bike Phone Holder Mount, Bicycle Front Bag, Cycling Pouch with Rain Cover, Bike Accessories for Phones Under 7&quot;" width="1300" height="1300"></picture>
+        <div class="col-md-3">
+            <picture><source type="image/webp" srcset="/img/uKxsbyfOgz-476.webp"><img class="img-fluid" width="476" src="/img/uKxsbyfOgz-476.jpeg" alt="Lamicall Bike Frame Bag Waterproof - [1.6L Large Capacity] Bike Phone Bag | Bike Phone Holder Mount, Bicycle Front Bag, Cycling Pouch with Rain Cover, Bike Accessories for Phones Under 7&quot;" height="476"></picture>
         </div>
-        <div class="col-sm-9">
+        <div class="col-md-9">
         
             <h2>Lamicall Bike Frame Bag Waterproof - [1.6L Large Capacity] Bike Phone Bag | Bike Phone Holder Mount, Bicycle Front Bag, Cycling Pouch with Rain Cover, Bike Accessories for Phones Under 7&quot;</h2>
             
@@ -94,6 +120,7 @@
             <p>Ordered on: 2026-05-01</p>
             <p>Reviewed on: 2026-05-06</p>
         </div>
+    </div>
     </div>
 </div>
 
@@ -121,53 +148,53 @@
   
     
     
-    <div class="col-xs-12 col-sm-6 col-md-3">
-      <figure class="thumbnail">
+    <div class="col-12 col-md-6 col-lg-3">
+      <figure class="card review-photo-card">
         
-          <a href="/reviews/2026-05-06-lamicall-bike-frame-bag/Mounted on bike.jpg">
-            <picture><source type="image/webp" srcset="/img/89ZL4XL03U-228.webp"><img width="228" src="/img/89ZL4XL03U-228.jpeg" alt="Mounted on bike" height="171"></picture>
+          <a href="/reviews/2026-05-06-lamicall-bike-frame-bag/Mounted on bike.jpg" class="review-photo-link">
+            <picture><source type="image/webp" srcset="/img/89ZL4XL03U-558.webp"><img class="card-img-top review-photo-media" width="558" src="/img/89ZL4XL03U-558.jpeg" alt="Mounted on bike" height="420"></picture>
           </a>
         
-        <figcaption class="caption">Mounted on bike</figcaption>
+        <figcaption class="card-body caption py-2 px-2">Mounted on bike</figcaption>
       </figure>
     </div>
   
     
     
-    <div class="col-xs-12 col-sm-6 col-md-3">
-      <figure class="thumbnail">
+    <div class="col-12 col-md-6 col-lg-3">
+      <figure class="card review-photo-card">
         
-          <a href="/reviews/2026-05-06-lamicall-bike-frame-bag/Open view.jpg">
-            <picture><source type="image/webp" srcset="/img/lDAQOcUnE9-228.webp"><img width="228" src="/img/lDAQOcUnE9-228.jpeg" alt="Open view" height="302"></picture>
+          <a href="/reviews/2026-05-06-lamicall-bike-frame-bag/Open view.jpg" class="review-photo-link">
+            <picture><source type="image/webp" srcset="/img/lDAQOcUnE9-558.webp"><img class="card-img-top review-photo-media" width="558" src="/img/lDAQOcUnE9-558.jpeg" alt="Open view" height="740"></picture>
           </a>
         
-        <figcaption class="caption">Open view</figcaption>
+        <figcaption class="card-body caption py-2 px-2">Open view</figcaption>
       </figure>
     </div>
   
     
     
-    <div class="col-xs-12 col-sm-6 col-md-3">
-      <figure class="thumbnail">
+    <div class="col-12 col-md-6 col-lg-3">
+      <figure class="card review-photo-card">
         
-          <a href="/reviews/2026-05-06-lamicall-bike-frame-bag/Strap detail.jpg">
-            <picture><source type="image/webp" srcset="/img/SDpRLCSCAu-228.webp"><img width="228" src="/img/SDpRLCSCAu-228.jpeg" alt="Strap detail" height="171"></picture>
+          <a href="/reviews/2026-05-06-lamicall-bike-frame-bag/Strap detail.jpg" class="review-photo-link">
+            <picture><source type="image/webp" srcset="/img/SDpRLCSCAu-558.webp"><img class="card-img-top review-photo-media" width="558" src="/img/SDpRLCSCAu-558.jpeg" alt="Strap detail" height="420"></picture>
           </a>
         
-        <figcaption class="caption">Strap detail</figcaption>
+        <figcaption class="card-body caption py-2 px-2">Strap detail</figcaption>
       </figure>
     </div>
   
     
     
-    <div class="col-xs-12 col-sm-6 col-md-3">
-      <figure class="thumbnail">
+    <div class="col-12 col-md-6 col-lg-3">
+      <figure class="card review-photo-card">
         
-          <a href="/reviews/2026-05-06-lamicall-bike-frame-bag/With phone display.jpg">
-            <picture><source type="image/webp" srcset="/img/o7b9dj4QPR-228.webp"><img width="228" src="/img/o7b9dj4QPR-228.jpeg" alt="With phone display" height="302"></picture>
+          <a href="/reviews/2026-05-06-lamicall-bike-frame-bag/With phone display.jpg" class="review-photo-link">
+            <picture><source type="image/webp" srcset="/img/o7b9dj4QPR-558.webp"><img class="card-img-top review-photo-media" width="558" src="/img/o7b9dj4QPR-558.jpeg" alt="With phone display" height="740"></picture>
           </a>
         
-        <figcaption class="caption">With phone display</figcaption>
+        <figcaption class="card-body caption py-2 px-2">With phone display</figcaption>
       </figure>
     </div>
   
@@ -177,14 +204,14 @@
   
     
     
-    <div class="col-xs-12 col-sm-6 col-md-3">
-      <figure class="thumbnail">
+    <div class="col-12 col-md-6 col-lg-3">
+      <figure class="card review-photo-card">
         
-          <a href="/reviews/2026-05-06-lamicall-bike-frame-bag/With phone inside.jpg">
-            <picture><source type="image/webp" srcset="/img/wLeqlT5uY_-228.webp"><img width="228" src="/img/wLeqlT5uY_-228.jpeg" alt="With phone inside" height="302"></picture>
+          <a href="/reviews/2026-05-06-lamicall-bike-frame-bag/With phone inside.jpg" class="review-photo-link">
+            <picture><source type="image/webp" srcset="/img/wLeqlT5uY_-558.webp"><img class="card-img-top review-photo-media" width="558" src="/img/wLeqlT5uY_-558.jpeg" alt="With phone inside" height="740"></picture>
           </a>
         
-        <figcaption class="caption">With phone inside</figcaption>
+        <figcaption class="card-body caption py-2 px-2">With phone inside</figcaption>
       </figure>
     </div>
   
@@ -198,7 +225,64 @@
 
 </main>
 
-<p><a href="/reviews/"><i class="fa fa-arrow-left"></i> All reviews</a></p>
+
+
+
+<div class="related-reviews">
+    <h2>You might also like</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    
+        
+        
+            
+        
+        
+        <div class="col">
+            <a class="card h-100 related-review-card text-body text-decoration-none" href="/reviews/2023-09-05-radwagon-4-aventon-aventure.2-ebikes/">
+                <picture><source type="image/webp" srcset="/img/DC1Pd3k43z-390.webp"><img class="card-img-top related-card-img" width="390" src="/img/DC1Pd3k43z-390.jpeg" alt="The station wagon and the batmobile!" loading="lazy" height="293"></picture>
+                <div class="card-body">
+                    <h3>The station wagon and the batmobile!</h3>
+                    
+                    <p class="related-subtitle card-text">Rad Powered Bikes Radwagon 4 and Aventon Aventure.2 ebike Review</p>
+                </div>
+            </a>
+        </div>
+    
+        
+        
+            
+        
+        
+        <div class="col">
+            <a class="card h-100 related-review-card text-body text-decoration-none" href="/reviews/2026-07-07-young-electric-4-bike-rack/">
+                <picture><source type="image/webp" srcset="/img/nhFGpPlPqM-390.webp"><img class="card-img-top related-card-img" width="390" src="/img/nhFGpPlPqM-390.jpeg" alt="Good design, but poor QA" loading="lazy" height="293"></picture>
+                <div class="card-body">
+                    <h3>Good design, but poor QA</h3>
+                    
+                    <p class="related-subtitle card-text">Young Electric 4-Bike Hitch Rack Review</p>
+                </div>
+            </a>
+        </div>
+    
+        
+        
+        
+            
+        
+        <div class="col">
+            <a class="card h-100 related-review-card text-body text-decoration-none" href="/book-reviews/2025-11-08-effective-cycling-book/">
+                <picture><source type="image/webp" srcset="/img/ZTZDzAYdfg-390.webp"><img class="card-img-top related-card-img" width="390" src="/img/ZTZDzAYdfg-390.jpeg" alt="Not worth your time" loading="lazy" height="501"></picture>
+                <div class="card-body">
+                    <h3>Not worth your time</h3>
+                    
+                    <p class="related-subtitle card-text">Effective Cycling, seventh edition Book Review</p>
+                </div>
+            </a>
+        </div>
+    
+    </div>
+</div>
+
 
 
 
@@ -233,6 +317,22 @@
     </div>
 </footer>
 
+<button type="button" id="theme-toggle" class="btn btn-light theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+    <i class="fa-solid fa-moon"></i>
+    <i class="fa-solid fa-sun"></i>
+</button>
+
+<script>
+    (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) { return; }
+        btn.addEventListener('click', function () {
+            var dark = document.documentElement.getAttribute('data-bs-theme') === 'dark';
+            window.siteThemeAPI.set(dark ? 'light' : 'dark');
+        });
+    })();
+</script>
+
 <script>
     if (document.querySelectorAll) {
         var slice = Array.prototype.slice;
@@ -253,8 +353,7 @@
         });
     }
 </script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
 <script>
     var _gaq = _gaq || [];
@@ -278,7 +377,7 @@
     g.async=true; g.src=u+'js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<picture><source type="image/webp" srcset="/reviews/2026-05-06-lamicall-bike-frame-bag/xnthZ1Rrpm-1.webp"><img referrerpolicy="no-referrer-when-downgrade" src="/reviews/2026-05-06-lamicall-bike-frame-bag/xnthZ1Rrpm-1.jpeg" style="border:0" alt="" width="1" height="1"></picture>
+<img referrerpolicy="no-referrer-when-downgrade" src="https://stats.home.nfriedly.com/php?idsite=6&amp;rec=1" style="border:0" alt="">
 
 </body>
 </html>
