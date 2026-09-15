@@ -9,24 +9,24 @@ section: reviews
 
 <div class="review-filters">
 	<span class="review-filters-label">Filter by reviewer:</span>
-	<a class="review-filter btn btn-default btn-xs" data-author="" href="/reviews/">All</a>
-	<a class="review-filter btn btn-default btn-xs" data-author="nathan" href="/reviews/?author=nathan">Nathan <span class="badge">{{ collections.reviews | countByAuthor('nathan') }}</span></a>
-	<a class="review-filter btn btn-default btn-xs" data-author="erin" href="/reviews/?author=erin">Erin <span class="badge">{{ collections.reviews | countByAuthor('erin') }}</span></a>
+	<a class="review-filter btn btn-outline-info btn-sm" data-author="" href="/reviews/">All</a>
+	<a class="review-filter btn btn-outline-info btn-sm" data-author="nathan" href="/reviews/?author=nathan">Nathan <span class="badge">{{ collections.reviews | countByAuthor('nathan') }}</span></a>
+	<a class="review-filter btn btn-outline-info btn-sm" data-author="erin" href="/reviews/?author=erin">Erin <span class="badge">{{ collections.reviews | countByAuthor('erin') }}</span></a>
 </div>
 
 {% set tagFilters = collections.reviews | tagGroups %}
 
 <div class="review-filters">
 	<span class="review-filters-label">Filter by tag:</span>
-	<a class="review-filter btn btn-default btn-xs" data-tag="" href="/reviews/">All</a>
+	<a class="review-filter btn btn-outline-info btn-sm" data-tag="" href="/reviews/">All</a>
 	{% for t in tagFilters.topTags %}
-	<a class="review-filter btn btn-default btn-xs" data-tag="{{ t.name }}" href="/reviews/?tag={{ t.name }}">{{ t.name }} <span class="badge">{{ t.count }}</span></a>
+	<a class="review-filter btn btn-outline-info btn-sm" data-tag="{{ t.name }}" href="/reviews/?tag={{ t.name }}">{{ t.name }} <span class="badge">{{ t.count }}</span></a>
 	{% endfor %}
 	{% if tagFilters.moreTags.length %}
-	<button type="button" class="review-tags-toggle btn btn-default btn-xs">More tags&hellip;</button>
+	<button type="button" class="review-tags-toggle btn btn-outline-info btn-sm">More tags&hellip;</button>
 	<span class="review-tags-more" hidden>
 		{% for t in tagFilters.moreTags %}
-		<a class="review-filter btn btn-default btn-xs" data-tag="{{ t.name }}" href="/reviews/?tag={{ t.name }}">{{ t.name }} <span class="badge">{{ t.count }}</span></a>
+		<a class="review-filter btn btn-outline-info btn-sm" data-tag="{{ t.name }}" href="/reviews/?tag={{ t.name }}">{{ t.name }} <span class="badge">{{ t.count }}</span></a>
 		{% endfor %}
 	</span>
 	{% endif %}

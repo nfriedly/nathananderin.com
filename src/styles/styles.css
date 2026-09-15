@@ -16,6 +16,13 @@ main h2 { font-size: 120%; clear: both; margin-bottom: 15px; }
     .navbar { margin-top: 0; }
 }
 
+/* Active nav item: replicates the v3 navbar-default active link styling,
+   since Bootstrap 5 no longer styles active nav items by default. */
+.navbar .nav-item.active > .nav-link {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
 /* Transparent navbar: used inside the review hero header where the page
    background image should reach the very top of the viewport. */
 .navbar-transparent {
@@ -23,29 +30,29 @@ main h2 { font-size: 120%; clear: both; margin-bottom: 15px; }
     border: none;
     margin-bottom: 25px;
     min-height: 50px;
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.9%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
-.navbar-transparent .navbar-nav > li > a,
-.navbar-transparent .navbar-nav > li > a:hover,
-.navbar-transparent .navbar-nav > li > a:focus {
+.navbar-transparent .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.6);
+}
+.navbar-transparent .navbar-nav .nav-link,
+.navbar-transparent .navbar-nav .nav-link:hover,
+.navbar-transparent .navbar-nav .nav-link:focus {
     color: #fff;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
 }
-.navbar-transparent .navbar-nav > .active > a,
-.navbar-transparent .navbar-nav > .active > a:hover,
-.navbar-transparent .navbar-nav > .active > a:focus {
+.navbar-transparent .navbar-nav .active > .nav-link,
+.navbar-transparent .navbar-nav .active > .nav-link:hover,
+.navbar-transparent .navbar-nav .active > .nav-link:focus {
     color: #fff;
     background: transparent;
 }
 
-.navbar-transparent .navbar-nav > li > a:hover,
-.navbar-transparent .navbar-nav > li > a:focus,
-.navbar-transparent .navbar-nav > .active > a:hover,
-.navbar-transparent .navbar-nav > .active > a:focus {
+.navbar-transparent .navbar-nav .nav-link:hover,
+.navbar-transparent .navbar-nav .nav-link:focus,
+.navbar-transparent .navbar-nav .active > .nav-link:hover,
+.navbar-transparent .navbar-nav .active > .nav-link:focus {
     text-shadow: 1px 1px 2px black, 0 1px 3px rgba(0, 0, 0, 0.6);
-}
-
-.navbar-transparent.navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
 }
 
 header.hero {
@@ -174,7 +181,7 @@ ul.links li.text {
 
 .review-filters { margin-bottom: 25px; }
 .review-filters .review-filters-label { font-weight: bold; margin-right: 10px; }
-.review-filters .review-filter { margin-right: 5px; }
+.review-filters .review-filter, .review-filters .review-tags-toggle { margin-right: 5px; padding: 0 3px; font-size: 12px; line-height: 1.5; color:black; }
 .review-filters .review-filter.active { border-color: #286090; background: #286090; color: #fff; }
 .review-filters .review-filter .badge { background: #fff; color: #286090; }
 .review-filters .review-filter.active .badge { background: #fff; color: #286090; }
@@ -192,6 +199,19 @@ ul.links li.text {
 .review-body img.right { float: right; margin: 5px 0 10px 15px; max-width: 45%; }
 
 .review-photos img, .review-photos video { max-width:100%; height:auto; }
+.review-photos .thumbnail {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 4px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.review-photos .thumbnail > a,
+.review-photos .thumbnail > video { display: block; }
+.review-photos .caption {
+    padding: 9px;
+    color: #333;
+}
 
 .review-box {
     background: #f8f8f8;
@@ -218,7 +238,7 @@ ul.links li.text {
         top: -95px;
         z-index: 1;
     }
-    .review-box .row > [class*="col-sm-"] {
+    .review-box .row > [class*="col-"] {
         width: 100%;
     }
     .review-body {

@@ -44,12 +44,12 @@ navInHeader: true
 <div class="review-box{% if images and images.hero %} has-hero{% endif %}">
     <div class="row">
         {% if images and images.product %}
-        <div class="col-sm-3">
-            <img class="img-responsive" width="476" src="{{ page.url }}{{ images.product }}" alt="{{ product.title or product.name or '' }}">
+        <div class="col-md-3">
+            <img class="img-fluid" width="476" src="{{ page.url }}{{ images.product }}" alt="{{ product.title or product.name or '' }}">
         </div>
-        <div class="col-sm-9">
+        <div class="col-md-9">
         {% else %}
-        <div class="col-sm-12">
+        <div class="col-md-12">
         {% endif %}
             {% if product and (product.title or product.name) %}<h2>{{ product.title or product.name }}</h2>{% endif %}
             {% if product and product.author %}<p class="product-author">by {{ product.author }}</p>{% endif %}
@@ -85,7 +85,7 @@ navInHeader: true
   {% for photo in row %}
     {% set alt = photo | stripExt | stripLeadingNumber %}
     {% set src = page.url ~ photo %}
-    <div class="col-xs-12 col-sm-6 col-md-3">
+    <div class="col-12 col-md-6 col-lg-3">
       <figure class="thumbnail">
         {% if photo.endsWith('.mp4') %}
           <video controls preload="metadata">
@@ -124,7 +124,7 @@ navInHeader: true
         {% if not img and item.data.images and item.data.images.product %}
             {% set img = item.url ~ item.data.images.product %}
         {% endif %}
-        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="col-12 col-md-6 col-lg-4">
             <a class="related-review-card" href="{{ item.url }}">
                 {% if img %}<img width="390" src="{{ img }}" alt="{{ item.data | reviewH1Title }}" loading="lazy">{% endif %}
                 <h3>{{ item.data | reviewH1Title }}</h3>
