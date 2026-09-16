@@ -5,7 +5,7 @@
     <link>https://www.nathananderin.com/reviews/</link>
     <description>Reviews of products we&apos;ve bought and books we&apos;ve read.</description>
     <atom:link href="https://www.nathananderin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 15 Sep 2026 23:02:18 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 16:43:08 GMT</lastBuildDate>
     <item>
       <title>Awesome sound, half-baked features</title>
       <link>https://www.nathananderin.com/reviews/2026-08-25-hopestar-a90-bluetooth-speaker/</link>
@@ -701,6 +701,12 @@
       <link>https://www.nathananderin.com/reviews/2013-11-14-as-we-reach-album/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2013-11-14-as-we-reach-album/</guid>
       <description>I first heard this song when my mom was in the middle of battling cancer. It meant a lot to me then and means a lot to me now. Great words. Truly inspired.</description>
+    </item>
+    <item>
+      <title>Reviews (2)</title>
+      <link>https://www.nathananderin.com/reviews/2/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/reviews/2/</guid>
+      <description></description>
     </item>
     <item>
       <title>Pax, Journey Home Book Review</title>
@@ -2147,6 +2153,12 @@
       <link>https://www.nathananderin.com/book-reviews/2011-03-12-rise-and-fall-of-prohibition-book/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2011-03-12-rise-and-fall-of-prohibition-book/</guid>
       <description>This book was clearly run through OCR software and not given even a cursory proofreading.</description>
+    </item>
+    <item>
+      <title>Book Reviews (2)</title>
+      <link>https://www.nathananderin.com/book-reviews/2/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
