@@ -60,7 +60,7 @@ navInHeader: true
             <p>
                 {% for buy in buys %}
                 <a class="btn btn-primary btn-buy" href="{{ buy.href }}" target="_blank" rel="nofollow sponsored noopener">
-                    {% if buy.favicon %}<img class="site-favicon" src="{{ buy.favicon }}" alt="" width="16" height="16">{% endif %}
+                    {% if buy.favicon %}<img class="site-favicon" src="{{ buy.favicon }}" alt="" width="32" height="32">{% endif %}
                     {{ buy.site }}
                 </a>
                 {% endfor %}

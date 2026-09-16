@@ -372,6 +372,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/**/*.jpeg");
   eleventyConfig.addPassthroughCopy("src/**/*.webp");
   eleventyConfig.addPassthroughCopy("src/**/*.mp4");
+  eleventyConfig.addPassthroughCopy("src/scripts");
 
   eleventyConfig.addFilter("starsHtml", starsHtml);
   eleventyConfig.addFilter("thumbUrl", thumbUrl);
@@ -439,13 +440,15 @@ function mapReviewItem(item) {
   return item;
 }
 
-eleventyConfig.addCollection("reviews", function (collectionApi) {
-  return collectionApi.getFilteredByTag("review").sort(byInputPathDesc).map(mapReviewItem);
-});
+function addSplitReviewCollections(eleventyConfig, name, tag) {
+  const full = (collectionApi) => collectionApi.getFilteredByTag(tag).sort(byInputPathDesc).map(mapReviewItem);
+  eleventyConfig.addCollection(name, full);
+  eleventyConfig.addCollection(name + "Start", (collectionApi) => full(collectionApi).slice(0, 10));
+  eleventyConfig.addCollection(name + "End", (collectionApi) => full(collectionApi).slice(10));
+}
 
-eleventyConfig.addCollection("bookReviews", function (collectionApi) {
-  return collectionApi.getFilteredByTag("book-review").sort(byInputPathDesc).map(mapReviewItem);
-});
+addSplitReviewCollections(eleventyConfig, "reviews", "review");
+addSplitReviewCollections(eleventyConfig, "bookReviews", "book-review");
 
 // Merged newest-first feed/homepage collection of product + book reviews
 eleventyConfig.addCollection("allReviews", function (collectionApi) {

@@ -1,11 +1,12 @@
 ---
 layout: main
-title: Reviews
+tags: []
+title: "Reviews (2)"
 section: reviews
 ---
 
 <main>
-<h1>Reviews by Nathan and Erin</h1>
+<h1>Reviews by Nathan and Erin (2)</h1>
 
 <div class="review-filters">
 	<span class="review-filters-label">Filter by reviewer:</span>
@@ -35,16 +36,12 @@ section: reviews
 
 <div class="reviews">
 {% set showBoth = true %}
-{% for post in collections.reviewsStart %}
+{% for post in collections.reviewsEnd %}
     {% include "partials/review-card.njk" %}
 {% endfor %}
-{% if collections.reviews.length > 10 %}
-<div id="load-more" class="text-center">
-	<a id="load-more-link" href="/reviews/2/">Load more&hellip;</a>
-	<span id="load-more-loading" hidden><i class="fa-solid fa-spinner fa-spin"></i> Loading&hellip;</span>
 </div>
-{% endif %}
-</div>
+
+<p><a href="/reviews/">Back to page 1</a></p>
 </main>
 
 <script src="/scripts/reviews.js"></script>
