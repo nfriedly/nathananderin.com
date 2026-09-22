@@ -441,7 +441,14 @@ function mapReviewItem(item) {
 }
 
 function addSplitReviewCollections(eleventyConfig, name, tag) {
-  const full = (collectionApi) => collectionApi.getFilteredByTag(tag).sort(byInputPathDesc).map(mapReviewItem);
+  // the paging templates (src/<folder>/2.njk) inherit the folder's dir-data
+  // tags and must not be treated as reviews
+  const isPagingPage = (item) => /2\.njk$/.test(String(item.inputPath));
+  const full = (collectionApi) => collectionApi
+    .getFilteredByTag(tag)
+    .filter((item) => !isPagingPage(item))
+    .sort(byInputPathDesc)
+    .map(mapReviewItem);
   eleventyConfig.addCollection(name, full);
   eleventyConfig.addCollection(name + "Start", (collectionApi) => full(collectionApi).slice(0, 10));
   eleventyConfig.addCollection(name + "End", (collectionApi) => full(collectionApi).slice(10));
