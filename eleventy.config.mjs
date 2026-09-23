@@ -1,8 +1,8 @@
-const path = require("path");
-const fs = require("fs");
-const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
-const aliExpressLinks = require("./lib/ali-express-links");
-const favicons = require("./lib/favicons");
+import path from "path";
+import fs from "fs";
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import * as aliExpressLinks from "./lib/ali-express-links.mjs";
+import * as favicons from "./lib/favicons.mjs";
 
 function splitFrontmatter(text) {
   const m = /^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/.exec(text);
@@ -393,7 +393,7 @@ function reviewFaviconHosts() {
   return hosts;
 }
 
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
   const settings = {
     dir: {
       input: "src",
