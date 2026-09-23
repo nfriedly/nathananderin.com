@@ -14,7 +14,7 @@ navInHeader: true
 {% endif %}
 
 {% if images and images.hero %}
-<header class="hero review-hero" style="--bg-img: url('{{ images.hero }}');">
+<header class="hero review-hero" style="--bg-img: url('{% srcResized images.hero, 2652 %}');">
     {% set navClass = 'navbar-transparent' %}
     {% set navContainer = false %}
     {% include "partials/navbar.njk" %}

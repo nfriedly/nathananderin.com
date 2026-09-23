@@ -1,6 +1,6 @@
 import path from "path";
 import fs from "fs";
-import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import Image, { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import * as aliExpressLinks from "./lib/ali-express-links.mjs";
 import * as favicons from "./lib/favicons.mjs";
 
@@ -427,6 +427,19 @@ export default function (eleventyConfig) {
         }
       };
     });
+  });
+
+  eleventyConfig.addShortcode("srcResized", async function (src, maxWidth) {
+
+    let metadata = await Image(`src${src}`, {
+      transformOnRequest: process.env.ELEVENTY_RUN_MODE === "serve",
+      outputDir: "./_site/img/",
+      widths: [maxWidth],
+      formats: ["webp"],
+    });
+
+    let data = metadata.webp[metadata.webp.length - 1];
+    return data.url;
   });
 
   eleventyConfig.addLayoutAlias("main", "layouts/main.njk");
