@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 4
 reviewId: R17P8M6ODC8X0Y
-reviewUrl: "https://amazon.com/gp/customer-reviews/R17P8M6ODC8X0Y"
+originalUrl: "https://amazon.com/gp/customer-reviews/R17P8M6ODC8X0Y"
 product:
   name: Ntaanoo MagSafe Battery Pack
   price: 9.99

@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 5
 reviewId: R3Q77RJSV78XSS
-reviewUrl: "https://amazon.com/gp/customer-reviews/R3Q77RJSV78XSS"
+originalUrl: "https://amazon.com/gp/customer-reviews/R3Q77RJSV78XSS"
 product:
   name: Weller WESD51 Digital Soldering Station
   url: "https://www.amazon.com/dp/B000ARU9PO"

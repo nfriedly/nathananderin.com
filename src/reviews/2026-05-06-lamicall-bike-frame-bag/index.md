@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 4
 reviewId: R2E9UNGQDIU4BH
-reviewUrl: "https://amazon.com/gp/customer-reviews/R2E9UNGQDIU4BH"
+originalUrl: "https://amazon.com/gp/customer-reviews/R2E9UNGQDIU4BH"
 product:
   name: Lamicall Bike Frame Bag
   price: 29.99

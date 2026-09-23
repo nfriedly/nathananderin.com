@@ -4,7 +4,7 @@ reviewDate: "2023-12-04"
 author: nathan
 source: purchased
 stars: 4
-reviewUrl: "https://www.newegg.com/p/0J2-001S-000B0#IsFeedbackTab"
+originalUrl: "https://www.newegg.com/p/0J2-001S-000B0#IsFeedbackTab"
 product:
   name: ORICO 4-Port USB 3.0 Hub
   title: 4-Port USB HUB 3.0, ORICO USB Splitter for Laptop with 0.5ft Cable, Multi USB Port Expander, Fast Data Transfer Compatible with Mac OS 10.X and Above, Linux, Android-Black

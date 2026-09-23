@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 5
 reviewId: RUCA1SYN0HKRC
-reviewUrl: "https://amazon.com/gp/customer-reviews/RUCA1SYN0HKRC"
+originalUrl: "https://amazon.com/gp/customer-reviews/RUCA1SYN0HKRC"
 product:
   name: 65w USB-C charging brick
   price: 15.99

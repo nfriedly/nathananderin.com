@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 5
 reviewId: R13MM6P1O0OELG
-reviewUrl: "https://amazon.com/gp/customer-reviews/R13MM6P1O0OELG"
+originalUrl: "https://amazon.com/gp/customer-reviews/R13MM6P1O0OELG"
 product:
   name: USB-C to USB-B printer cable
   price: 11.99

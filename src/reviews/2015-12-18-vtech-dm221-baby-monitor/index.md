@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 3
 reviewId: R3EAZCGKSOX6K4
-reviewUrl: "https://amazon.com/gp/customer-reviews/R3EAZCGKSOX6K4"
+originalUrl: "https://amazon.com/gp/customer-reviews/R3EAZCGKSOX6K4"
 product:
   name: VTech DM221 Baby Monitor
   url: "https://www.amazon.com/dp/B007NG5UF4"

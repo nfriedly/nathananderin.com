@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 3
 reviewId: RWM8WXYAMVCD8
-reviewUrl: "https://amazon.com/gp/customer-reviews/RWM8WXYAMVCD8"
+originalUrl: "https://amazon.com/gp/customer-reviews/RWM8WXYAMVCD8"
 product:
   name: DisplayPort to HDMI Cable
   price: 9.99

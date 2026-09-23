@@ -4,7 +4,7 @@ author: nathan
 source: purchased
 stars: 5
 reviewId: 326900
-reviewUrl: "https://pcpartpicker.com/b/fmC6Mp#review_326900"
+originalUrl: "https://pcpartpicker.com/b/fmC6Mp#review_326900"
 product:
   name: TEAMGROUP MP34 4 TB M.2-2280 PCIe 3.0 X4 NVME Solid State Drive
   search:

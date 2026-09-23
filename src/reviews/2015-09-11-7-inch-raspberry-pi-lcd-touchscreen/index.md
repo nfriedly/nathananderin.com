@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 2
 reviewId: R4MLPOO8XP9WQ
-reviewUrl: "https://amazon.com/gp/customer-reviews/R4MLPOO8XP9WQ"
+originalUrl: "https://amazon.com/gp/customer-reviews/R4MLPOO8XP9WQ"
 product:
   name: "7\" Raspberry Pi LCD Touchscreen"
   url: "https://www.amazon.com/dp/B00XUAIP9K"

@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 5
 reviewId: R34J6ZDNZJ3A4L
-reviewUrl: "https://amazon.com/gp/customer-reviews/R34J6ZDNZJ3A4L"
+originalUrl: "https://amazon.com/gp/customer-reviews/R34J6ZDNZJ3A4L"
 product:
   name: USB-C to mini-B cable
   price: 7.99

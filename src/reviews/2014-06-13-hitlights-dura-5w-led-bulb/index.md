@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 2
 reviewId: R2LDP5XOWOOO7Y
-reviewUrl: "https://amazon.com/gp/customer-reviews/R2LDP5XOWOOO7Y"
+originalUrl: "https://amazon.com/gp/customer-reviews/R2LDP5XOWOOO7Y"
 product:
   name: HitLights Dura GU10 LED Bulb (5W)
   url: "https://www.amazon.com/dp/B005AW6QA6"

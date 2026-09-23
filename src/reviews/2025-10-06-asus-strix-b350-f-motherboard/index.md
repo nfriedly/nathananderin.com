@@ -4,7 +4,7 @@ author: nathan
 source: purchased
 stars: 5
 reviewId: 326898
-reviewUrl: "https://pcpartpicker.com/b/fmC6Mp#review_326898"
+originalUrl: "https://pcpartpicker.com/b/fmC6Mp#review_326898"
 product:
   name: Asus STRIX B350-F GAMING ATX AM4 Motherboard
   search:

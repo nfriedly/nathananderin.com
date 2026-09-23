@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 5
 reviewId: RKRL5OLWHBY76
-reviewUrl: "https://amazon.com/gp/customer-reviews/RKRL5OLWHBY76"
+originalUrl: "https://amazon.com/gp/customer-reviews/RKRL5OLWHBY76"
 product:
   name: USB-C cables (4-pack)
   price: 7.49

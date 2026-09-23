@@ -6,7 +6,7 @@ featured: true
 source: purchased
 stars: 4
 reviewId: R2DTCIJYI8HCLG
-reviewUrl: "https://amazon.com/gp/customer-reviews/R2DTCIJYI8HCLG"
+originalUrl: "https://amazon.com/gp/customer-reviews/R2DTCIJYI8HCLG"
 product:
   name: Dangbei N2 Projector
   url: "https://www.amazon.com/dp/B0D7BFHWC3"

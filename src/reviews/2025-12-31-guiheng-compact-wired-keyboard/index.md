@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 4
 reviewId: R1KT6J7IR6A7F3
-reviewUrl: "https://amazon.com/gp/customer-reviews/R1KT6J7IR6A7F3"
+originalUrl: "https://amazon.com/gp/customer-reviews/R1KT6J7IR6A7F3"
 product:
   name: Guiheng Compact Keyboard (68-key)
   url: "https://www.amazon.com/dp/B0F21W8RBR"

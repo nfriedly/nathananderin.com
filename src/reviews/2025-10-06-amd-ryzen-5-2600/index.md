@@ -4,7 +4,7 @@ author: nathan
 source: purchased
 stars: 5
 reviewId: 326897
-reviewUrl: "https://pcpartpicker.com/b/fmC6Mp#review_326897"
+originalUrl: "https://pcpartpicker.com/b/fmC6Mp#review_326897"
 product:
   name: AMD Ryzen 5 2600 3.4 GHz 6-Core Processor
   search:

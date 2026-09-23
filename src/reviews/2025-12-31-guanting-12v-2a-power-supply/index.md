@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 5
 reviewId: R3EB7WCAIEODXC
-reviewUrl: "https://amazon.com/gp/customer-reviews/R3EB7WCAIEODXC"
+originalUrl: "https://amazon.com/gp/customer-reviews/R3EB7WCAIEODXC"
 product:
   name: GuanTing 12V 2A Power Supply
   url: "https://www.amazon.com/dp/B086T1N5R4"

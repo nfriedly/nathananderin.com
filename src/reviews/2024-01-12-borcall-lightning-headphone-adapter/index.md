@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 3
 reviewId: RSARSG1MJ5HRX
-reviewUrl: "https://amazon.com/gp/customer-reviews/RSARSG1MJ5HRX"
+originalUrl: "https://amazon.com/gp/customer-reviews/RSARSG1MJ5HRX"
 product:
   name: bcall Lightning to 3.5mm Adapter (3-pack)
   url: "https://www.amazon.com/dp/B0C4TB19C2"

@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 4
 reviewId: RDQ7D00VA9RG2
-reviewUrl: "https://amazon.com/gp/customer-reviews/RDQ7D00VA9RG2"
+originalUrl: "https://amazon.com/gp/customer-reviews/RDQ7D00VA9RG2"
 product:
   name: 100w USB-C charging brick
   price: 15.99

@@ -5,7 +5,7 @@ author: erin
 source: purchased
 stars: 5
 reviewId: R3CNX3OGFOPFCS
-reviewUrl: "https://amazon.com/gp/customer-reviews/R3CNX3OGFOPFCS"
+originalUrl: "https://amazon.com/gp/customer-reviews/R3CNX3OGFOPFCS"
 product:
   name: Smart Sheep Wool Dryer Balls
   url: "https://www.amazon.com/dp/B00GA9P5P0"

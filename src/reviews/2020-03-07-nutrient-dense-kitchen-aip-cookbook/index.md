@@ -5,7 +5,7 @@ author: erin
 source: purchased
 stars: 5
 reviewId: R390ZN1GR0I5CU
-reviewUrl: "https://amazon.com/gp/customer-reviews/R390ZN1GR0I5CU"
+originalUrl: "https://amazon.com/gp/customer-reviews/R390ZN1GR0I5CU"
 product:
   name: "The Nutrient-Dense Kitchen: 125 Autoimmune Paleo Recipes for Deep Healing and Vibrant Health"
   url: "https://www.amazon.com/dp/0692042024"

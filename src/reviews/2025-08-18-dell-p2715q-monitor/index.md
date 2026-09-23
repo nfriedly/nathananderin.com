@@ -4,7 +4,7 @@ author: nathan
 source: purchased
 stars: 3
 reviewId: 324295
-reviewUrl: "https://pcpartpicker.com/b/HGLscf#review_324295"
+originalUrl: "https://pcpartpicker.com/b/HGLscf#review_324295"
 product:
   name: "Dell P2715Q 27.0\" 3840 x 2160 60 Hz Monitor"
   search:

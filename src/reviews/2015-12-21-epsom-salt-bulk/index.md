@@ -5,7 +5,7 @@ author: erin
 source: purchased
 stars: 5
 reviewId: R6VFHMJGWP24M
-reviewUrl: "https://amazon.com/gp/customer-reviews/R6VFHMJGWP24M"
+originalUrl: "https://amazon.com/gp/customer-reviews/R6VFHMJGWP24M"
 product:
   name: Epsoak Epsom Salt 19 Lbs
   title: Epsoak Epsom Salt 19 lb. Magnesium Sulfate USP. Resealable Epsom Salt Bag Unscented, Made in The USA, Cruelty-Free Certified 

@@ -7,7 +7,7 @@ source: vine
 stars: 4
 video: video.mp4
 reviewId: R1H82HU4I6OXQL
-reviewUrl: "https://amazon.com/gp/customer-reviews/R1H82HU4I6OXQL"
+originalUrl: "https://amazon.com/gp/customer-reviews/R1H82HU4I6OXQL"
 product:
   name: USB card reader
   title: "USB C USB A Sim Card Reader Smart Card Reader, 6 in 2 CAC Reader DOD Military/SIM/SD/TF/MS Pro Duo/M2/ID/IC/PIV Card, SIM Card Reader for Windows,Linux,MacOS"

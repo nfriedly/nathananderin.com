@@ -1,0 +1,14 @@
+{%- set photo = false %}
+{%- if post.data.images and post.data.images.photos and post.data.images.photos.length %}{% set photo = post.url ~ post.data.images.photos[0] %}{% endif %}
+{%- set midColWidth = 12 %}
+{%- if photo %}{% set midColWidth = 10 %}{% endif %}
+<a class="card review-card text-body text-decoration-none" href="{{ post.url }}" data-author="{{ post.data.author }}">
+  <div class="row g-0">
+	{% if photo %}<div class="col-md-2 col-sm-1"><img class="img-fluid" width="400" src="{{ photo }}" alt=""></div>{% endif %}
+	<div class="card-body col-md-{{ midColWidth }}">
+		<h2 class="card-title">{{ post.data.title }}</h2>
+		<p class="review-meta card-text">by {{ authorName(post.data.author) }}{% if post.data.date %} &middot; {{ post.data.date | dateLabel }}{% endif %}</p>
+		<p class="excerpt card-text">{{ post.data.excerpt }}</p>
+	</div>
+  </div>
+</a>

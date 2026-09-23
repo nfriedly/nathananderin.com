@@ -4,7 +4,7 @@ reviewDate: "2014-03-20"
 author: nathan
 source: purchased
 stars: 4
-reviewUrl: "https://www.newegg.com/p/N82E16856164009#IsFeedbackTab"
+originalUrl: "https://www.newegg.com/p/N82E16856164009#IsFeedbackTab"
 product:
   name: GIGABYTE GB-BXA8-5545 Mini-PC
   title: GIGABYTE GB-BXA8-5545 Mini-PC Barebone

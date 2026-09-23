@@ -5,7 +5,7 @@ author: erin
 source: purchased
 stars: 5
 reviewId: R16PA89H7KCAIR
-reviewUrl: "https://amazon.com/gp/customer-reviews/R16PA89H7KCAIR"
+originalUrl: "https://amazon.com/gp/customer-reviews/R16PA89H7KCAIR"
 product:
   name: Chef'n EcoCrock Counter Compost Bin
   title: Chef'n 401-420-120 EcoCrock Counter Compost Bin Black and White 3.3 liter 1

@@ -4,7 +4,7 @@ author: nathan
 source: purchased
 stars: 2
 reviewId: 326904
-reviewUrl: "https://pcpartpicker.com/b/fmC6Mp#review_326904"
+originalUrl: "https://pcpartpicker.com/b/fmC6Mp#review_326904"
 product:
   name: Cougar Pioneer-X ATX Mid Tower Case
   search:

@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 4
 reviewId: RPUFNCTY769TV
-reviewUrl: "https://amazon.com/gp/customer-reviews/RPUFNCTY769TV"
+originalUrl: "https://amazon.com/gp/customer-reviews/RPUFNCTY769TV"
 product:
   name: HDMI Dummy Plug (2K)
   price: 4.98

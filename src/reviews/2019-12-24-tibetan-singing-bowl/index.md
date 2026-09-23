@@ -5,7 +5,7 @@ author: erin
 source: purchased
 stars: 5
 reviewId: R10LG3HFKUFQNJ
-reviewUrl: "https://amazon.com/gp/customer-reviews/R10LG3HFKUFQNJ"
+originalUrl: "https://amazon.com/gp/customer-reviews/R10LG3HFKUFQNJ"
 product:
   name: "Tibetan Singing Bowl (3.5\")"
   url: "https://www.amazon.com/dp/B01A6B0ICC"

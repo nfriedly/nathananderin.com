@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 5
 reviewId: R3HX91NFBT9B2
-reviewUrl: "https://amazon.com/gp/customer-reviews/R3HX91NFBT9B2"
+originalUrl: "https://amazon.com/gp/customer-reviews/R3HX91NFBT9B2"
 product:
   name: USB-C headphone adapters (3-pack)
   price: 8.99

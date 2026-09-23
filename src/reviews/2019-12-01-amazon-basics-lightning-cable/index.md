@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 4
 reviewId: R3HPF3I3FUBCU4
-reviewUrl: "https://amazon.com/gp/customer-reviews/R3HPF3I3FUBCU4"
+originalUrl: "https://amazon.com/gp/customer-reviews/R3HPF3I3FUBCU4"
 product:
   name: "Amazon Basics USB-A Cable with Lightning Connector"
   url: "https://www.amazon.com/dp/B07DWD58FZ"

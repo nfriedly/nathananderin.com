@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 5
 reviewId: R1UGBXAW1VYT9T
-reviewUrl: "https://amazon.com/gp/customer-reviews/R1UGBXAW1VYT9T"
+originalUrl: "https://amazon.com/gp/customer-reviews/R1UGBXAW1VYT9T"
 product:
   name: USB-C to DisplayPort Cable
   price: 8.99

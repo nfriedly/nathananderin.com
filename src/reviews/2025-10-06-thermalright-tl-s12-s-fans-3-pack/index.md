@@ -4,7 +4,7 @@ author: nathan
 source: purchased
 stars: 3
 reviewId: 326903
-reviewUrl: "https://pcpartpicker.com/b/fmC6Mp#review_326903"
+originalUrl: "https://pcpartpicker.com/b/fmC6Mp#review_326903"
 product:
   name: Thermalright TL-S12-S X3 47.6 CFM 120 mm Fans 3-Pack
   search:

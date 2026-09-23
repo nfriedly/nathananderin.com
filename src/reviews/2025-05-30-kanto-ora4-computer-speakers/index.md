@@ -6,7 +6,7 @@ featured: true
 source: purchased
 stars: 5
 reviewId: R36YGNCZ55VSXJ
-reviewUrl: "https://amazon.com/gp/customer-reviews/R36YGNCZ55VSXJ"
+originalUrl: "https://amazon.com/gp/customer-reviews/R36YGNCZ55VSXJ"
 product:
   name: Kanto ORA4 Desktop Speakers
   url: "https://www.amazon.com/dp/B0DH8N2S3T"

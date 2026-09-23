@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 5
 reviewId: R2B0D9LA6B93JR
-reviewUrl: "https://amazon.com/gp/customer-reviews/R2B0D9LA6B93JR"
+originalUrl: "https://amazon.com/gp/customer-reviews/R2B0D9LA6B93JR"
 product:
   name: Coromose Dot View Case (HTC One M8)
   url: "https://www.amazon.com/dp/B00NAMMI5U"

@@ -5,7 +5,7 @@ author: erin
 source: purchased
 stars: 5
 reviewId: RZDJXRFH3OGII
-reviewUrl: "https://amazon.com/gp/customer-reviews/RZDJXRFH3OGII"
+originalUrl: "https://amazon.com/gp/customer-reviews/RZDJXRFH3OGII"
 product:
   name: DefenderShield Blue Light Glasses (Kids)
   url: "https://www.amazon.com/dp/B08C1QTMDF"

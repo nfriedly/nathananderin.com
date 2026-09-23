@@ -4,7 +4,7 @@ reviewDate: "2014-03-31"
 author: nathan
 source: purchased
 stars: 5
-reviewUrl: "https://www.bhphotovideo.com/c/product/632236-REG/Comprehensive_DP2HDMF_DisplayPort_Male_to_HDMI_Female.html"
+originalUrl: "https://www.bhphotovideo.com/c/product/632236-REG/Comprehensive_DP2HDMF_DisplayPort_Male_to_HDMI_Female.html"
 product:
   name: "Comprehensive DP2HDMF DisplayPort Male to HDMI Female 8\" Cable"
   title: "Comprehensive DisplayPort Male to HDMI Female 8\" Cable"

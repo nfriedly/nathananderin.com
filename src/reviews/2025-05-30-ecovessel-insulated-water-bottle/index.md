@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 2
 reviewId: R39UKNHJNJSK96
-reviewUrl: "https://amazon.com/gp/customer-reviews/R39UKNHJNJSK96"
+originalUrl: "https://amazon.com/gp/customer-reviews/R39UKNHJNJSK96"
 product:
   name: EcoVessel Insulated Water Bottle
   url: "https://www.amazon.com/dp/B08YSPMT14"

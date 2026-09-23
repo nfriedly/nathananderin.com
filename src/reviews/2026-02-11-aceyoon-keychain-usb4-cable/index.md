@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 5
 reviewId: R1CWWQAWOFNTZL
-reviewUrl: "https://amazon.com/gp/customer-reviews/R1CWWQAWOFNTZL"
+originalUrl: "https://amazon.com/gp/customer-reviews/R1CWWQAWOFNTZL"
 product:
   name: aceyoon Keychain USB-C Cable (240W)
   price: 12.99

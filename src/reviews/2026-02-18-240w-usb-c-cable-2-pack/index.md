@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 4
 reviewId: R1L0L4OO1YS2GS
-reviewUrl: "https://amazon.com/gp/customer-reviews/R1L0L4OO1YS2GS"
+originalUrl: "https://amazon.com/gp/customer-reviews/R1L0L4OO1YS2GS"
 product:
   name: 240W USB-C Cable (2-pack, 3.3ft)
   price: 12.99

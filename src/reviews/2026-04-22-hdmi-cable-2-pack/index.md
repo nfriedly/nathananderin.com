@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 5
 reviewId: R3N5FD0ZL2V18W
-reviewUrl: "https://amazon.com/gp/customer-reviews/R3N5FD0ZL2V18W"
+originalUrl: "https://amazon.com/gp/customer-reviews/R3N5FD0ZL2V18W"
 product:
   name: HDMI 2.0 Cable (2-pack, 6ft)
   price: 7.99

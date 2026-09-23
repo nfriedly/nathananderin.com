@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 4
 reviewId: RTBPZKJL0F5HL
-reviewUrl: "https://amazon.com/gp/customer-reviews/RTBPZKJL0F5HL"
+originalUrl: "https://amazon.com/gp/customer-reviews/RTBPZKJL0F5HL"
 product:
   name: JSAUX Lightning to 3.5mm Adapter (2-pack)
   url: "https://www.amazon.com/dp/B08KXMVP6N"

@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 5
 reviewId: R1NBBSW8JPZAFK
-reviewUrl: "https://amazon.com/gp/customer-reviews/R1NBBSW8JPZAFK"
+originalUrl: "https://amazon.com/gp/customer-reviews/R1NBBSW8JPZAFK"
 product:
   name: Hubsan X4 Quadcopter (H107L)
   url: "https://www.amazon.com/dp/B00IZC6C8E"

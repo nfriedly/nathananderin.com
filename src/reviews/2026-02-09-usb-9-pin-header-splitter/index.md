@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 4
 reviewId: R35ZF00YX013T4
-reviewUrl: "https://amazon.com/gp/customer-reviews/R35ZF00YX013T4"
+originalUrl: "https://amazon.com/gp/customer-reviews/R35ZF00YX013T4"
 product:
   name: USB 9-pin splitter
   price: 9.99

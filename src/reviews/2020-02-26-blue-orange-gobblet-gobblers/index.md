@@ -5,7 +5,7 @@ author: erin
 source: purchased
 stars: 5
 reviewId: R2K2CYKG70VBJU
-reviewUrl: "https://amazon.com/gp/customer-reviews/R2K2CYKG70VBJU"
+originalUrl: "https://amazon.com/gp/customer-reviews/R2K2CYKG70VBJU"
 product:
   name: Blue Orange Gobblet Gobblers
   url: "https://www.amazon.com/dp/B00TS6PYK8"

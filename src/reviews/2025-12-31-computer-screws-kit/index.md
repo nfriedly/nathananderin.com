@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 5
 reviewId: RE0AN93IVUEXV
-reviewUrl: 'https://amazon.com/gp/customer-reviews/RE0AN93IVUEXV'
+originalUrl: 'https://amazon.com/gp/customer-reviews/RE0AN93IVUEXV'
 product:
   name: Computer Screws Kit
   title: >-

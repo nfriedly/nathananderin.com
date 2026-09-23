@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 5
 reviewId: R1YER0LLHG39UQ
-reviewUrl: "https://amazon.com/gp/customer-reviews/R1YER0LLHG39UQ"
+originalUrl: "https://amazon.com/gp/customer-reviews/R1YER0LLHG39UQ"
 product:
   name: UVOOI USB-C to VGA Cable
   price: 6.99

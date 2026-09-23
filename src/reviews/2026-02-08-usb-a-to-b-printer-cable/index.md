@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 5
 reviewId: R2BBK0TSFR8G8H
-reviewUrl: "https://amazon.com/gp/customer-reviews/R2BBK0TSFR8G8H"
+originalUrl: "https://amazon.com/gp/customer-reviews/R2BBK0TSFR8G8H"
 product:
   name: USB A to B printer cable
   price: 7.99

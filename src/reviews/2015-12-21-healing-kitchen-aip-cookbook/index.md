@@ -5,7 +5,7 @@ author: erin
 source: purchased
 stars: 5
 reviewId: R20AWFEAE98O54
-reviewUrl: "https://amazon.com/gp/customer-reviews/R20AWFEAE98O54"
+originalUrl: "https://amazon.com/gp/customer-reviews/R20AWFEAE98O54"
 product:
   name: "Healing Kitchen: 175+ Quick & Easy Paleo Recipes to Help You Thrive"
   url: "https://www.amazon.com/dp/1628600942"

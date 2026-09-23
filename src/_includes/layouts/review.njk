@@ -40,7 +40,7 @@ navInHeader: true
 
 <div class="review-main">
 
-{% if (product and (product.name or product.title)) or (images and images.product) or reviewUrl %}
+{% if (product and (product.name or product.title)) or (images and images.product) or originalUrl %}
 <div class="review-box card{% if images and images.hero %} has-hero{% endif %}">
     <div class="card-body">
     <div class="row">
@@ -106,8 +106,8 @@ navInHeader: true
 {% endfor %}
 {% endif %}
 
-{% if reviewUrl %}
-<p class="review-origin">This review originally appeared on <a href="{{ affiliateUrl(reviewUrl) }}" rel="alternate">{{ reviewUrl | sourceLabel }}</a>, however nathananderin.com should be considered the canonical source as I keep it up-to-date over time.</p>
+{% if originalUrl %}
+<p class="review-origin">This review originally appeared on <a href="{{ affiliateUrl(originalUrl) }}" rel="alternate">{{ originalUrl | sourceLabel }}</a>, however nathananderin.com should be considered the canonical source as I keep it up-to-date over time.</p>
 {% endif %}
 
 </main>

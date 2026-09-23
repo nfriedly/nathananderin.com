@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 5
 reviewId: RFYZ2G6MS4TGX
-reviewUrl: 'https://amazon.com/gp/customer-reviews/RFYZ2G6MS4TGX'
+originalUrl: 'https://amazon.com/gp/customer-reviews/RFYZ2G6MS4TGX'
 product:
   name: NOOT battery for Samsung Galaxy S3
   title: >-

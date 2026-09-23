@@ -4,7 +4,7 @@ reviewDate: "2019-12-15"
 author: nathan
 source: purchased
 stars: 3
-reviewUrl: "https://www.newegg.com/p/0JC-000D-005G2#IsFeedbackTab"
+originalUrl: "https://www.newegg.com/p/0JC-000D-005G2#IsFeedbackTab"
 product:
   name: "LG 43MU79-B 43\" 4K Monitor"
   title: "LG 43MU79-B Matte Black 43\" (42.51\" Diagonal) UHD 3840 x 2160 4K Monitor, 350 cd/m2, HDMI, DisplayPort, USB Type-C, Tilt, VESA Compatible"

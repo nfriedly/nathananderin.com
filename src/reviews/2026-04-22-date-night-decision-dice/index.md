@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 4
 reviewId: RUQT8CIBCNQI4
-reviewUrl: "https://amazon.com/gp/customer-reviews/RUQT8CIBCNQI4"
+originalUrl: "https://amazon.com/gp/customer-reviews/RUQT8CIBCNQI4"
 product:
   name: "Date Night Food Decision Dice: 3 PCS Real Wood Dice Set"
   price: 12.99

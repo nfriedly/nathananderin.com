@@ -5,7 +5,7 @@ author: erin
 source: purchased
 stars: 5
 reviewId: R7V50HG1XQFEB
-reviewUrl: "https://amazon.com/gp/customer-reviews/R7V50HG1XQFEB"
+originalUrl: "https://amazon.com/gp/customer-reviews/R7V50HG1XQFEB"
 product:
   name: "Made Whole: More Than 145 Anti-Inflammatory Keto-Paleo Recipes to Nourish You from the Inside Out"
   url: "https://www.amazon.com/dp/1628602945"

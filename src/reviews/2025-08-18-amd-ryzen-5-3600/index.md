@@ -4,7 +4,7 @@ author: nathan
 source: purchased
 stars: 5
 reviewId: 324299
-reviewUrl: "https://pcpartpicker.com/b/HGLscf#review_324299"
+originalUrl: "https://pcpartpicker.com/b/HGLscf#review_324299"
 product:
   name: AMD Ryzen 5 3600 3.6 GHz 6-Core Processor
   search:

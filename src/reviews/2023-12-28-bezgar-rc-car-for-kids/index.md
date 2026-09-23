@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 3
 reviewId: RYGC8BJ59AWY8
-reviewUrl: "https://amazon.com/gp/customer-reviews/RYGC8BJ59AWY8"
+originalUrl: "https://amazon.com/gp/customer-reviews/RYGC8BJ59AWY8"
 product:
   name: BEZGAR RC Car (1:14 Truck)
   url: "https://www.amazon.com/dp/B0040UTBHY"

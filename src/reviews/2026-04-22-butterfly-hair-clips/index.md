@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 5
 reviewId: REHOT6C7HBBEJ
-reviewUrl: "https://amazon.com/gp/customer-reviews/REHOT6C7HBBEJ"
+originalUrl: "https://amazon.com/gp/customer-reviews/REHOT6C7HBBEJ"
 product:
   name: Mini Butterfly Hair Clips (80-pack)
   price: 6.64

@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 2
 reviewId: R18305L6J60KPB
-reviewUrl: "https://amazon.com/gp/customer-reviews/R18305L6J60KPB"
+originalUrl: "https://amazon.com/gp/customer-reviews/R18305L6J60KPB"
 product:
   name: Lighting EVER GU10 LED Bulb (4W)
   url: 

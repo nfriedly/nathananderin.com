@@ -4,7 +4,7 @@ author: nathan
 source: purchased
 stars: 4
 reviewId: 324300
-reviewUrl: "https://pcpartpicker.com/b/HGLscf#review_324300"
+originalUrl: "https://pcpartpicker.com/b/HGLscf#review_324300"
 product:
   name: Crucial Ballistix Sport LT 16 GB (2 x 8 GB) DDR4-3200 CL16 Memory
   search:

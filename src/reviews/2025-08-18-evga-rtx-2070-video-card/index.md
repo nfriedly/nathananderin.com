@@ -4,7 +4,7 @@ author: nathan
 source: purchased
 stars: 4
 reviewId: 324293
-reviewUrl: "https://pcpartpicker.com/b/HGLscf#review_324293"
+originalUrl: "https://pcpartpicker.com/b/HGLscf#review_324293"
 product:
   name: EVGA Black GeForce RTX 2070 8 GB Video Card
   search:

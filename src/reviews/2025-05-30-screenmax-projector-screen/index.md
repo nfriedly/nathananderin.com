@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 4
 reviewId: R3FS6B1ES1DRTO
-reviewUrl: "https://amazon.com/gp/customer-reviews/R3FS6B1ES1DRTO"
+originalUrl: "https://amazon.com/gp/customer-reviews/R3FS6B1ES1DRTO"
 product:
   name: "SCREENMAX 120\" Foldable Projector Screen with Carry Bag"
   url: "https://www.amazon.com/dp/B0DH2G3C18"

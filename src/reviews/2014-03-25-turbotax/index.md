@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 2
 reviewId: R2M0A9DX9EFHX1
-reviewUrl: "https://amazon.com/gp/customer-reviews/R2M0A9DX9EFHX1"
+originalUrl: "https://amazon.com/gp/customer-reviews/R2M0A9DX9EFHX1"
 product:
   oldUrl: "https://www.amazon.com/dp/B00FFINXBU"
   name: "TurboTax Home and Business"

@@ -1,6 +1,6 @@
 {% set purchasedNote = (source == 'purchase' or source == 'purchased') and not (tags is defined and 'book-review' in tags) %}
 {% set vineNote = source == 'vine' %}
-{% set affiliateNote = hasAmazonLinks(product, reviewUrl) %}
+{% set affiliateNote = hasAmazonLinks(product, originalUrl) %}
 {% if customDisclaimer %}
 <p class="disclosure">
     {{ customDisclaimer }}

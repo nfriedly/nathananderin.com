@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 1
 reviewId: RH3RHVLB2FARK
-reviewUrl: "https://amazon.com/gp/customer-reviews/RH3RHVLB2FARK"
+originalUrl: "https://amazon.com/gp/customer-reviews/RH3RHVLB2FARK"
 product:
   name: "Speck SeeThru Case (MacBook Pro 15\")"
   url: "https://www.amazon.com/dp/B00OY3DI1W"

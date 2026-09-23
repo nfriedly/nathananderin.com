@@ -5,7 +5,7 @@ author: erin
 source: purchased
 stars: 5
 reviewId: R217XDM6U9F532
-reviewUrl: "https://amazon.com/gp/customer-reviews/R217XDM6U9F532"
+originalUrl: "https://amazon.com/gp/customer-reviews/R217XDM6U9F532"
 product:
   name: Wild Zora Meat & Veggie Bars (Lamb)
   url: "https://www.amazon.com/dp/B01FG0447S"

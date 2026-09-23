@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 4
 reviewId: RMR01QH4FPEEK
-reviewUrl: "https://amazon.com/gp/customer-reviews/RMR01QH4FPEEK"
+originalUrl: "https://amazon.com/gp/customer-reviews/RMR01QH4FPEEK"
 product:
   name: Guiheng Rainbow Backlit Keyboard (104-key)
   price: 21.99

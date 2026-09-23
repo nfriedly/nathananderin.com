@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 5
 reviewId: R4UJVLZ0O6J4A
-reviewUrl: "https://amazon.com/gp/customer-reviews/R4UJVLZ0O6J4A"
+originalUrl: "https://amazon.com/gp/customer-reviews/R4UJVLZ0O6J4A"
 product:
   name: USB to Optical Sound Card
   url: "https://www.amazon.com/dp/B0B9H53KD9"

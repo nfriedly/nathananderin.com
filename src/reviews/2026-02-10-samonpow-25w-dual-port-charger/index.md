@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 4
 reviewId: R26KW7FEWGKXDJ
-reviewUrl: "https://amazon.com/gp/customer-reviews/R26KW7FEWGKXDJ"
+originalUrl: "https://amazon.com/gp/customer-reviews/R26KW7FEWGKXDJ"
 product:
   name: SAMONPOW 25W Dual-Port USB-C Charger
   price: 9.99

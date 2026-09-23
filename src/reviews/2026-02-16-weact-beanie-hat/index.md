@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 5
 reviewId: RHUZHCR6A8MLR
-reviewUrl: "https://amazon.com/gp/customer-reviews/RHUZHCR6A8MLR"
+originalUrl: "https://amazon.com/gp/customer-reviews/RHUZHCR6A8MLR"
 product:
   name: WEACT Beanie Hat
   price: 9.98

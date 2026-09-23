@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 3
 reviewId: R3BAB2JHTAEMT3
-reviewUrl: "https://amazon.com/gp/customer-reviews/R3BAB2JHTAEMT3"
+originalUrl: "https://amazon.com/gp/customer-reviews/R3BAB2JHTAEMT3"
 product:
   name: MVBOONE Pixel Watch 4 Charger
   price: 14.88

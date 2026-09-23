@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 2
 reviewId: R1W30OW5WP2SBX
-reviewUrl: 'https://amazon.com/gp/customer-reviews/R1W30OW5WP2SBX'
+originalUrl: 'https://amazon.com/gp/customer-reviews/R1W30OW5WP2SBX'
 product:
   name: The Hubsan X4 H107L Quadcopter Crash Pack
   oldUrl: 'https://www.amazon.com/dp/B00S7KERTK'

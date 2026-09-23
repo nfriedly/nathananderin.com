@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 5
 reviewId: R1N8TC9J2F4T5Y
-reviewUrl: "https://amazon.com/gp/customer-reviews/R1N8TC9J2F4T5Y"
+originalUrl: "https://amazon.com/gp/customer-reviews/R1N8TC9J2F4T5Y"
 product:
   name: HDMI-VGA adapter
   price: 7.99

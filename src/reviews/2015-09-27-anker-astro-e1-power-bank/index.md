@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 5
 reviewId: R2EAJCKMQHYNLH
-reviewUrl: "https://amazon.com/gp/customer-reviews/R2EAJCKMQHYNLH"
+originalUrl: "https://amazon.com/gp/customer-reviews/R2EAJCKMQHYNLH"
 product:
   name: Anker Astro E1 5200mAh Power Bank
   url: "https://www.amazon.com/dp/B00P7N0320"

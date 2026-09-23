@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 5
 reviewId: R3OYF8R8N5M9AC
-reviewUrl: "https://amazon.com/gp/customer-reviews/R3OYF8R8N5M9AC"
+originalUrl: "https://amazon.com/gp/customer-reviews/R3OYF8R8N5M9AC"
 product:
   name: Summer 3Dlite Stroller
   url: "https://www.amazon.com/dp/B00O20OCQC"

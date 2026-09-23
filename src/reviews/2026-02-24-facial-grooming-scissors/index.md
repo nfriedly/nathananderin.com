@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 5
 reviewId: R3LDJI9VNDN48M
-reviewUrl: "https://amazon.com/gp/customer-reviews/R3LDJI9VNDN48M"
+originalUrl: "https://amazon.com/gp/customer-reviews/R3LDJI9VNDN48M"
 product:
   name: Facial Grooming Scissors
   price: 2.98

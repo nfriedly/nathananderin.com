@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 4
 reviewId: R2C935FQZWPLVD
-reviewUrl: "https://amazon.com/gp/customer-reviews/R2C935FQZWPLVD"
+originalUrl: "https://amazon.com/gp/customer-reviews/R2C935FQZWPLVD"
 product:
   name: Collapsible Trunk Organizer
   price: 14.99

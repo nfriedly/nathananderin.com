@@ -4,7 +4,7 @@ author: nathan
 source: purchased
 stars: 5
 reviewId: 326901
-reviewUrl: "https://pcpartpicker.com/b/fmC6Mp#review_326901"
+originalUrl: "https://pcpartpicker.com/b/fmC6Mp#review_326901"
 product:
   name: Sapphire Radeon VII 16GB Graphics Card
   title: Sapphire Radeon VII 16 GB HBM Video Card

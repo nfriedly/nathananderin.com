@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 5
 reviewId: R2HSMXOR19AKNE
-reviewUrl: "https://amazon.com/gp/customer-reviews/R2HSMXOR19AKNE"
+originalUrl: "https://amazon.com/gp/customer-reviews/R2HSMXOR19AKNE"
 product:
   name: Pattern Prime USB-C to USB-A Adapters (3-pack)
   price: 4.99

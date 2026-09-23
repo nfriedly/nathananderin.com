@@ -1,0 +1,55 @@
+---
+layout: main
+cssClass: review single
+navInHeader: true
+---
+
+{% set h1 = title %}
+
+{% if images and images.hero %}
+<header class="hero review-hero" style="--bg-img: url('{{ images.hero }}');">
+    {% set navClass = 'navbar-transparent' %}
+    {% set navContainer = false %}
+    {% include "partials/navbar.njk" %}
+    <h1><span>{{ h1 }}</span></h1>
+    <p class="review-meta"><span>by {{ authorName(author) }} Friedly</span></p>
+</header>
+{% else %}
+{% set navContainer = false %}
+{% include "partials/navbar.njk" %}
+<h1>{{ h1 }}</h1>
+<p class="review-meta">
+    by {{ authorName(author) }} Friedly{% if date %} &middot; {{ date | dateLabel }}{% endif %}
+</p>
+{% endif %}
+
+<main>
+
+<div class="review-body">
+{{ content | safe }}
+</div>
+
+{% if images and images.photos and images.photos.length %}
+{% for row in images.photos | batch(4) %}
+<div class="review-photos row">
+  {% for photo in row %}
+    {% set alt = photo | stripExt | stripLeadingNumber %}
+    {% set src = page.url ~ photo %}
+    <div class="col-12 col-md-6 col-lg-3">
+      <figure class="card review-photo-card">
+        <a href="{{ src }}" class="review-photo-link">
+          <img class="card-img-top review-photo-media" width="558" src="{{ src }}" alt="{{ alt }}">
+        </a>
+        <figcaption class="card-body caption py-2 px-2">{{ alt }}</figcaption>
+      </figure>
+    </div>
+  {% endfor %}
+</div>
+{% endfor %}
+{% endif %}
+
+{% if originalUrl %}
+<p class="review-origin">This was originally posted on <a href="{{ originalUrl }}" rel="alternate">{{ originalUrl | sourceLabel }}</a>; nathananderin.com should be considered the canonical source.</p>
+{% endif %}
+
+</main>

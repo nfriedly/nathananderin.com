@@ -7,7 +7,7 @@ featured: true
 source: vine
 stars: 4
 reviewId: R2LSOQUXX7VQH7
-reviewUrl: "https://amazon.com/gp/customer-reviews/R2LSOQUXX7VQH7"
+originalUrl: "https://amazon.com/gp/customer-reviews/R2LSOQUXX7VQH7"
 product:
   name: YD05 Waterproof Bluetooth Earbuds
   price: 6.99

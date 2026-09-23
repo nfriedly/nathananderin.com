@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 2
 reviewId: R19WX3L7TZ8OB5
-reviewUrl: "https://amazon.com/gp/customer-reviews/R19WX3L7TZ8OB5"
+originalUrl: "https://amazon.com/gp/customer-reviews/R19WX3L7TZ8OB5"
 product:
   name: KCEVE USB KVM Switch (2 PCs)
   price: 15.99

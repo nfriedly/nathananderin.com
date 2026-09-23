@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 5
 reviewId: R1CDL4BR4I9M7M
-reviewUrl: "https://amazon.com/gp/customer-reviews/R1CDL4BR4I9M7M"
+originalUrl: "https://amazon.com/gp/customer-reviews/R1CDL4BR4I9M7M"
 product:
   name: USB-C 100w braided cable
   price: 9.99

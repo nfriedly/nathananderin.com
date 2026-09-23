@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 5
 reviewId: R2FCA3A49TV0WT
-reviewUrl: "https://amazon.com/gp/customer-reviews/R2FCA3A49TV0WT"
+originalUrl: "https://amazon.com/gp/customer-reviews/R2FCA3A49TV0WT"
 product:
   name: DisplayPort to USB-C Cable
   price: 6.99

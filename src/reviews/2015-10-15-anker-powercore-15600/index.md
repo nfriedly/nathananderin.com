@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 5
 reviewId: RDK4IVZ5DG7EO
-reviewUrl: 'https://amazon.com/gp/customer-reviews/RDK4IVZ5DG7EO'
+originalUrl: 'https://amazon.com/gp/customer-reviews/RDK4IVZ5DG7EO'
 product:
   name: Anker PowerCore 15600
   title: >-

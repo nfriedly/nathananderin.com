@@ -6,7 +6,7 @@ author: nathan
 source: vine
 stars: 5
 reviewId: R3RPGCV2X847LM
-reviewUrl: "https://amazon.com/gp/customer-reviews/R3RPGCV2X847LM"
+originalUrl: "https://amazon.com/gp/customer-reviews/R3RPGCV2X847LM"
 product:
   name: Hagibis Wedge USB-C Cable
   price: 5.99
