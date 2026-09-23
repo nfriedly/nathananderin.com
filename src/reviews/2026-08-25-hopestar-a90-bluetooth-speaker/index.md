@@ -53,7 +53,7 @@ When I plugged it into USB-C, it drew ~60w (with a 100W e-marked cable and 85W c
 
 The microphone works but is kind of annoying. It has a fake echo turned on by default (possibly to hide some latency?) and I haven't figured out how to turn it off. There's an echo button, but it seems like it actually makes the +/- buttons temporarily control the microphone volume (?) There are also volume controls on the mic itself, and some other settings that I don't understand. It is pretty good at suppressing feedback (possibly related to the latency), and my kids like it. But I probably won't use it.
 
-## RGB Lights
+## <img class="float-start img-thumbnail" src="./RGB lights.jpg" alt="RGB Lights" width="300" />RGB Lights
 
 The RGB lights are meh. My kids like them, but I cycled through all of them and didn't find any of them that appealing. Half of them don't seem to even respond to the music.
 

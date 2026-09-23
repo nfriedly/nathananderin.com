@@ -90,6 +90,38 @@ function stripExt(filename) {
   return filename.replace(/\.[^.]+$/, "");
 }
 
+// Filenames referenced by inline images in a post body — both markdown
+// `![alt](file)` and raw HTML `<img src>` — so the auto-gallery can skip
+// images that are already shown in the body. Matches on the final path
+// segment, so relative paths, sub-paths, angle-bracketed, and URL-encoded
+// references all resolve to the same folder file.
+function inlineImageRefs(body) {
+  const refs = new Set();
+  if (!body) return refs;
+  const add = (raw) => {
+    let s = String(raw || "").trim();
+    s = s.replace(/^<+|>+$/g, "");
+    s = s.replace(/^\.\.?\/+/, "");
+    s = s.split(/[?#]/)[0];
+    try {
+      s = decodeURIComponent(s);
+    } catch (_e) {
+      // leave un-decoded, e.g. a malformed percent-encoding
+    }
+    s = path.basename(s).trim();
+    if (s) refs.add(s);
+  };
+  String(body).replace(/!\[[^\]]*\]\(([^)]*)\)/g, (m, src) => {
+    add(src);
+    return m;
+  });
+  String(body).replace(/<img\b[^>]*?\bsrc\s*=\s*["']([^"']*)["']/gi, (m, src) => {
+    add(src);
+    return m;
+  });
+  return refs;
+}
+
 function stripLeadingNumber(filename) {
   return filename.replace(/^\d+\.\s*/, "");
 }
@@ -441,10 +473,14 @@ const byInputPathDesc = (a, b) => String(b.inputPath).localeCompare(String(a.inp
 
 function mapReviewItem(item) {
   // Auto-build excerpt from the review body
-  if (!item.data.excerpt && item.inputPath && /\.(md)$/.test(item.inputPath)) {
+  let body = null;
+  if (item.inputPath && /\.(md)$/.test(item.inputPath)) {
     const raw = fs.readFileSync(item.inputPath, "utf8");
     const fm = splitFrontmatter(raw);
-    if (fm) item.data.excerpt = makeExcerpt(fm.body);
+    if (fm) {
+      body = fm.body;
+      if (!item.data.excerpt) item.data.excerpt = makeExcerpt(fm.body);
+    }
   }
 
   // Auto-populate images from filesystem. Folder-per-entry convention only
@@ -458,7 +494,10 @@ function mapReviewItem(item) {
         .filter((f) => /\.(jpe?g|png|webp|gif|mp4)$/i.test(f))
         .sort();
       const productFile = files.find((f) => /^(product|cover)\./i.test(f));
-      const photoFiles = files.filter((f) => !/^(product|cover)\./i.test(f));
+      // Skip photos that are already embedded in the body so the end-of-post
+      // gallery doesn't repeat them.
+      const inline = inlineImageRefs(body);
+      const photoFiles = files.filter((f) => !/^(product|cover)\./i.test(f) && !inline.has(f));
       item.data.images = item.data.images || {};
       if (productFile) item.data.images.product = productFile;
       if (photoFiles.length) item.data.images.photos = photoFiles;
