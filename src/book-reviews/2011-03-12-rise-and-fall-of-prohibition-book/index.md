@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 1
 reviewId: R1P5EZG7W87DMI
-reviewUrl: "https://amazon.com/gp/customer-reviews/R1P5EZG7W87DMI"
+originalUrl: "https://amazon.com/gp/customer-reviews/R1P5EZG7W87DMI"
 product:
   name: The Rise and Fall of Prohibition
   url: "https://www.amazon.com/dp/1153137011"

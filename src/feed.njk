@@ -5,12 +5,12 @@ eleventyExcludeFromCollections: true
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nathan and Erin Friedly — Reviews</title>
-    <link>https://www.nathananderin.com/reviews/</link>
-    <description>Reviews of products we&apos;ve bought and books we&apos;ve read.</description>
+    <title>Nathan and Erin Friedly</title>
+    <link>https://www.nathananderin.com/</link>
+    <description>Reviews, poetry, art, and more from Nathan and Erin Friedly.</description>
     <atom:link href="https://www.nathananderin.com/feed.xml" rel="self" type="application/rss+xml"/>
     <lastBuildDate>{% buildDate %}</lastBuildDate>
-    {%- for post in collections.allReviews %}
+    {%- for post in collections.allPosts %}
     <item>
       <title>{{ post.data | reviewH1Title }}</title>
       <link>https://www.nathananderin.com{{ post.url }}</link>

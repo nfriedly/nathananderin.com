@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 1
 reviewId: R2NAICP8E2UMAO
-reviewUrl: "https://amazon.com/gp/customer-reviews/R2NAICP8E2UMAO"
+originalUrl: "https://amazon.com/gp/customer-reviews/R2NAICP8E2UMAO"
 product:
   name: Effective Cycling, seventh edition
   url: "https://www.amazon.com/dp/B08BT1JHT5"

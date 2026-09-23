@@ -1,0 +1,28 @@
+---
+layout: main
+tags: []
+title: "Poetry (2)"
+section: poetry
+---
+
+<main>
+<h1>Poetry by Nathan and Erin (2)</h1>
+
+<div class="review-filters">
+	<span class="review-filters-label">Filter by author:</span>
+	<a class="review-filter btn btn-outline-info btn-sm" data-author="" href="/poetry/">All</a>
+	<a class="review-filter btn btn-outline-info btn-sm" data-author="nathan" href="/poetry/?author=nathan">Nathan <span class="badge">{{ collections.poetry | countByAuthor('nathan') }}</span></a>
+	<a class="review-filter btn btn-outline-info btn-sm" data-author="erin" href="/poetry/?author=erin">Erin <span class="badge">{{ collections.poetry | countByAuthor('erin') }}</span></a>
+	<a class="review-filter-clear" href="/poetry/">Clear filter [X]</a>
+</div>
+
+<div class="reviews">
+{% for post in collections.poetryEnd %}
+    {% include "partials/piece-card.njk" %}
+{% endfor %}
+</div>
+
+<p><a href="/poetry/">Back to page 1</a></p>
+</main>
+
+<script src="/scripts/reviews.js"></script>

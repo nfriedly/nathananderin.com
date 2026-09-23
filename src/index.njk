@@ -34,7 +34,23 @@ nav: false
     </div>
 
     <hr>
-
+    
+    <div class="row">
+        <div class="col-md-6">
+    <section class="posts">
+        <h2>Recent Poetry &amp; Art</h2>
+        {% for post in collections.art | recentReviews(2) %}
+            {% include "partials/piece-card.njk" %}
+        {% endfor %}
+        
+        {% for post in collections.poetry | recentReviews(2) %}
+            {% include "partials/piece-card.njk" %}
+        {% endfor %}
+        <p><a href="/poetry/">Browse poetry &raquo;</a> &nbsp; <a href="/art/">Browse art &raquo;</a></p>
+    </section>
+    </div>
+    
+        <div class="col-md-6">
     <section class="posts">
         <h2>Recent Reviews</h2>
         {% for post in collections.bookReviews | recentReviews(2) %}
@@ -45,6 +61,8 @@ nav: false
             {% set showBoth = false %}
             {% include "partials/review-card.njk" %}
         {% endfor %}
-        <p><a href="/reviews/">Browse product reviews &raquo;</a> <a href="/book-reviews/">Browse book reviews &raquo;</a></p>
+        <p><a href="/reviews/">Browse product reviews &raquo;</a> &nbsp; <a href="/book-reviews/">Browse book reviews &raquo;</a></p>
     </section>
+      </div>
+</div>
 </main>

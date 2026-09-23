@@ -69,6 +69,19 @@ function money(price) {
   return Number(price).toFixed(2);
 }
 
+// Format a YYYY-MM-DD date string as "Month D, YYYY" for poetry/art entries.
+function dateLabel(d) {
+  if (!d) return "";
+  const m = String(d).match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (!m) return String(d);
+  return new Date(Date.UTC(+m[1], +m[2] - 1, +m[3])).toLocaleDateString("en-US", {
+    timeZone: "UTC",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+}
+
 function dataTags(tags) {
   return (tags || []).filter((t) => t !== "review" && t !== "book-review").join(" ");
 }
@@ -138,14 +151,14 @@ function isAmazonUrl(url) {
   }
 }
 
-function hasAmazonLinks(product, reviewUrl) {
+function hasAmazonLinks(product, originalUrl) {
   if (product) {
     if (product.urls && product.urls.length) {
       return product.urls.some((l) => l.url && /amazon/i.test(l.url));
     }
     if (product.url) return /amazon/i.test(product.url);
   }
-  if (reviewUrl) return /amazon/i.test(String(reviewUrl));
+  if (originalUrl) return /amazon/i.test(String(originalUrl));
   return false;
 }
 
@@ -359,8 +372,34 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin);
 
+  // Poetry entries are written one line per break; enable markdown-it's
+  // `breaks` option (single newline -> <br>, blank line still -> new <p>) for
+  // files under src/poetry/ only, since the markdown library is shared.
+  eleventyConfig.amendLibrary("md", function (mdLib) {
+    mdLib.use(function breaksForPoetry(md) {
+      const originalRender = md.render.bind(md);
+      md.render = function (src, env) {
+        const inputPath =
+          (env && env.page && env.page.inputPath) ||
+          (env && env.eleventy && env.eleventy.inputPath) ||
+          "";
+        if (!/\bsrc\/poetry\//.test(inputPath.replace(/\\/g, "/"))) {
+          return originalRender(src, env);
+        }
+        const prevBreaks = md.options.breaks;
+        md.options.breaks = true;
+        try {
+          return originalRender(src, env);
+        } finally {
+          md.options.breaks = prevBreaks;
+        }
+      };
+    });
+  });
+
   eleventyConfig.addLayoutAlias("main", "layouts/main.njk");
   eleventyConfig.addLayoutAlias("review", "layouts/review.njk");
+  eleventyConfig.addLayoutAlias("entry", "layouts/entry.njk");
 
   eleventyConfig.addPassthroughCopy("src/CNAME");
   eleventyConfig.addPassthroughCopy("src/.nojekyll");
@@ -381,6 +420,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("sourceLabel", sourceLabel);
   eleventyConfig.addFilter("stripExt", stripExt);
   eleventyConfig.addFilter("stripLeadingNumber", stripLeadingNumber);
+  eleventyConfig.addFilter("dateLabel", dateLabel);
   eleventyConfig.addFilter("reviewH1Title", reviewH1Title);
   eleventyConfig.addFilter("reviewSuffix", reviewSuffix);
   eleventyConfig.addFilter("reviewH2Title", reviewH2Title);
@@ -407,8 +447,10 @@ function mapReviewItem(item) {
     if (fm) item.data.excerpt = makeExcerpt(fm.body);
   }
 
-  // Auto-populate images from filesystem
-  if (item.inputPath && /\.(md)$/.test(item.inputPath)) {
+  // Auto-populate images from filesystem. Folder-per-entry convention only
+  // (the file is named index.md inside its own folder); standalone .md files
+  // like poetry entries have no images of their own.
+  if (item.inputPath && /index\.md$/.test(item.inputPath)) {
     const reviewDir = path.dirname(item.inputPath);
     if (fs.existsSync(reviewDir)) {
       const files = fs
@@ -423,12 +465,12 @@ function mapReviewItem(item) {
 
       // Hero image for the top of the review page: an explicit `hero:`
       // frontmatter value wins, otherwise use the first non-video photo.
-      const reviewUrl = item.url && !item.url.endsWith("/") ? item.url + "/" : item.url || "/";
-      let hero = heroImageUrl(reviewUrl, item.data.hero);
+      const originalUrl = item.url && !item.url.endsWith("/") ? item.url + "/" : item.url || "/";
+      let hero = heroImageUrl(originalUrl, item.data.hero);
       if (/\.mp4$/i.test(hero)) hero = ""; // can't use a video as a background
       if (!hero) {
         const firstPhoto = photoFiles.find((f) => !/\.mp4$/i.test(f));
-        if (firstPhoto) hero = reviewUrl + firstPhoto;
+        if (firstPhoto) hero = originalUrl + firstPhoto;
       }
       if (hero) item.data.images.hero = hero;
     }
@@ -456,12 +498,26 @@ function addSplitReviewCollections(eleventyConfig, name, tag) {
 
 addSplitReviewCollections(eleventyConfig, "reviews", "review");
 addSplitReviewCollections(eleventyConfig, "bookReviews", "book-review");
+addSplitReviewCollections(eleventyConfig, "poetry", "poetry");
+addSplitReviewCollections(eleventyConfig, "art", "art");
 
 // Merged newest-first feed/homepage collection of product + book reviews
 eleventyConfig.addCollection("allReviews", function (collectionApi) {
   return collectionApi
     .getFilteredByTag("review")
     .concat(collectionApi.getFilteredByTag("book-review"))
+    .sort(byInputPathDesc)
+    .map(mapReviewItem);
+});
+
+// Everything in one newest-first collection for feed.xml: reviews, books,
+// poetry, and art.
+eleventyConfig.addCollection("allPosts", function (collectionApi) {
+  return collectionApi
+    .getFilteredByTag("review")
+    .concat(collectionApi.getFilteredByTag("book-review"))
+    .concat(collectionApi.getFilteredByTag("poetry"))
+    .concat(collectionApi.getFilteredByTag("art"))
     .sort(byInputPathDesc)
     .map(mapReviewItem);
 });

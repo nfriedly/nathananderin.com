@@ -5,7 +5,7 @@ author: erin
 source: purchased
 stars: 5
 reviewId: R1EANKFHQEL4XQ
-reviewUrl: "https://amazon.com/gp/customer-reviews/R1EANKFHQEL4XQ"
+originalUrl: "https://amazon.com/gp/customer-reviews/R1EANKFHQEL4XQ"
 product:
   name: "El Deafo: A Graphic Novel"
   url: "https://www.amazon.com/dp/B00LW8U2UM"

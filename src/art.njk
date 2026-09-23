@@ -1,0 +1,31 @@
+---
+layout: main
+title: Art
+section: art
+---
+
+<main>
+<h1>Art by Nathan and Erin</h1>
+
+<div class="review-filters">
+	<span class="review-filters-label">Filter by author:</span>
+	<a class="review-filter btn btn-outline-info btn-sm" data-author="" href="/art/">All</a>
+	<a class="review-filter btn btn-outline-info btn-sm" data-author="nathan" href="/art/?author=nathan">Nathan <span class="badge">{{ collections.art | countByAuthor('nathan') }}</span></a>
+	<a class="review-filter btn btn-outline-info btn-sm" data-author="erin" href="/art/?author=erin">Erin <span class="badge">{{ collections.art | countByAuthor('erin') }}</span></a>
+	<a class="review-filter-clear" href="/art/">Clear filter [X]</a>
+</div>
+
+<div class="reviews">
+{% for post in collections.artStart %}
+    {% include "partials/piece-card.njk" %}
+{% endfor %}
+{% if collections.art.length > 10 %}
+<div id="load-more" class="text-center">
+	<a id="load-more-link" href="/art/2/">Load more&hellip;</a>
+	<span id="load-more-loading" hidden><i class="fa-solid fa-spinner fa-spin"></i> Loading&hellip;</span>
+</div>
+{% endif %}
+</div>
+</main>
+
+<script src="/scripts/reviews.js"></script>

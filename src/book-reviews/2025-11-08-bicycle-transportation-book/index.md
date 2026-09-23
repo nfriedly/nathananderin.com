@@ -5,7 +5,7 @@ author: nathan
 source: purchased
 stars: 1
 reviewId: R1BMXSQPG9Y2GC
-reviewUrl: "https://amazon.com/gp/customer-reviews/R1BMXSQPG9Y2GC"
+originalUrl: "https://amazon.com/gp/customer-reviews/R1BMXSQPG9Y2GC"
 product:
   name: "Bicycle Transportation, Second Edition: A Handbook for Cycling Transportation Engineers"
   url: "https://www.amazon.com/dp/0262560798"
