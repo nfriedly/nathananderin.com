@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nathan and Erin Friedly — Reviews</title>
-    <link>https://www.nathananderin.com/reviews/</link>
-    <description>Reviews of products we&apos;ve bought and books we&apos;ve read.</description>
+    <title>Nathan and Erin Friedly</title>
+    <link>https://www.nathananderin.com/</link>
+    <description>Reviews, poetry, art, and more from Nathan and Erin Friedly.</description>
     <atom:link href="https://www.nathananderin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 22 Sep 2026 21:07:17 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 04:21:24 GMT</lastBuildDate>
     <item>
       <title>Awesome sound, half-baked features</title>
       <link>https://www.nathananderin.com/reviews/2026-08-25-hopestar-a90-bluetooth-speaker/</link>
@@ -706,6 +706,36 @@
       <title>Reviews (2)</title>
       <link>https://www.nathananderin.com/reviews/2/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/reviews/2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nature Scenes</title>
+      <link>https://www.nathananderin.com/poetry/2027-07-12-nature-scenes/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/poetry/2027-07-12-nature-scenes/</guid>
+      <description>I watched the deer munch on grass, clover, and mulberry leaves. One stomped and playfully chased another away. A buck got surprised by the tree branches snapping and ran off out of sight.</description>
+    </item>
+    <item>
+      <title>Grace</title>
+      <link>https://www.nathananderin.com/poetry/2026-08-02-grace/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/poetry/2026-08-02-grace/</guid>
+      <description>It’s OK to regret. It;s natural, right. Just don’t stay there. Don’t make it your new home. Let it be a milestone that passes and fades in the distance. A stop with a plaque. A part of the journey, but…</description>
+    </item>
+    <item>
+      <title>The Color of Night</title>
+      <link>https://www.nathananderin.com/poetry/2026-07-26-color-of-night/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/poetry/2026-07-26-color-of-night/</guid>
+      <description>It’s the color of rest, of sleep, of rejuvenation. Not death, not stopped, just a slowing down. Reflecting. The color of a long day come to an end. The color of a new beginning starting. It washes over…</description>
+    </item>
+    <item>
+      <title>Unfocused</title>
+      <link>https://www.nathananderin.com/poetry/2026-07-19-unfocused/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/poetry/2026-07-19-unfocused/</guid>
+      <description>Cross my eyes and get the focus just wrong, and then it appears: a circle, a leaf, an elephant, a formerly invisible world.</description>
+    </item>
+    <item>
+      <title>Poetry (2)</title>
+      <link>https://www.nathananderin.com/poetry/2/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/poetry/2/</guid>
       <description></description>
     </item>
     <item>
@@ -2158,6 +2188,30 @@
       <title>Book Reviews (2)</title>
       <link>https://www.nathananderin.com/book-reviews/2/</link>
       <guid isPermaLink="true">https://www.nathananderin.com/book-reviews/2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stamps</title>
+      <link>https://www.nathananderin.com/art/2026-09-13-stamps/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/art/2026-09-13-stamps/</guid>
+      <description>Everyone made stamps at the Springfield Museum of Art!</description>
+    </item>
+    <item>
+      <title>Peace Dove</title>
+      <link>https://www.nathananderin.com/art/2026-08-09-felt-dove/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/art/2026-08-09-felt-dove/</guid>
+      <description>Peace dove with an olive branch, made out of felt at the Springfield Museum of Art.</description>
+    </item>
+    <item>
+      <title>Wire Airplane</title>
+      <link>https://www.nathananderin.com/art/2023-08-27-wire-airplane/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/art/2023-08-27-wire-airplane/</guid>
+      <description>I made something at the Springfield Museum of Art!</description>
+    </item>
+    <item>
+      <title>Art (2)</title>
+      <link>https://www.nathananderin.com/art/2/</link>
+      <guid isPermaLink="true">https://www.nathananderin.com/art/2/</guid>
       <description></description>
     </item>
   </channel>
