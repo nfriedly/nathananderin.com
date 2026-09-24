@@ -11,7 +11,7 @@
   <div class="row g-0">
 	{% if primaryImg %}<div class="col-md-2 col-sm-1"><img class="img-fluid" width="400" src="{{ primaryImg }}" alt=""></div>{% endif %}
 	<div class="card-body col-md-{{ midColWidth }}">
-		<h2 class="card-title">{{ post.data | reviewH1Title }}</h2>
+		<h2 class="card-title">{{ post.data | postTitle }}</h2>
 		{% set nameOnFirst = not post.data.title %}
 		{% set showName = not nameOnFirst and post.data.product and post.data.product.name %}
 		{% set showStars = post.data.stars %}

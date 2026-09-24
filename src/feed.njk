@@ -12,7 +12,7 @@ eleventyExcludeFromCollections: true
     <lastBuildDate>{% buildDate %}</lastBuildDate>
     {%- for post in collections.allPosts %}
     <item>
-      <title>{{ post.data | reviewH1Title }}</title>
+      <title>{{ post.data | postTitle }}</title>
       <link>https://www.nathananderin.com{{ post.url }}</link>
       <guid isPermaLink="true">https://www.nathananderin.com{{ post.url }}</guid>
       <description>{{ post.data.excerpt }}</description>

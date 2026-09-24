@@ -39,11 +39,11 @@ nav: false
         <div class="col-md-6">
     <section class="posts">
         <h2>Recent Poetry &amp; Art</h2>
-        {% for post in collections.art | recentReviews(2) %}
+        {% for post in collections.art | recentPosts(2) %}
             {% include "partials/piece-card.njk" %}
         {% endfor %}
         
-        {% for post in collections.poetry | recentReviews(2) %}
+        {% for post in collections.poetry | recentPosts(2) %}
             {% include "partials/piece-card.njk" %}
         {% endfor %}
         <p><a href="/poetry/">Browse poetry &raquo;</a> &nbsp; <a href="/art/">Browse art &raquo;</a></p>
@@ -53,11 +53,11 @@ nav: false
         <div class="col-md-6">
     <section class="posts">
         <h2>Recent Reviews</h2>
-        {% for post in collections.bookReviews | recentReviews(2) %}
+        {% for post in collections.bookReviews | recentPosts(2) %}
             {% set showBoth = false %}
             {% include "partials/review-card.njk" %}
         {% endfor %}
-        {% for post in collections.reviews | featuredReviews(2) %}
+        {% for post in collections.reviews | featuredPosts(2) %}
             {% set showBoth = false %}
             {% include "partials/review-card.njk" %}
         {% endfor %}

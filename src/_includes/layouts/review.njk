@@ -4,11 +4,11 @@ cssClass: review single
 navInHeader: true
 ---
 
-{% set h1 = title or (product.name ~ (product.name | reviewSuffix(tags))) %}
+{% set h1 = title or (product.name ~ (product.name | postSuffix(tags))) %}
 {% if subTitle %}
     {% set h2 = subTitle %}
 {% elif title and product and product.name %}
-    {% set h2 = product.name ~ (product.name | reviewSuffix(tags)) %}
+    {% set h2 = product.name ~ (product.name | postSuffix(tags)) %}
 {% else %}
     {% set h2 = '' %}
 {% endif %}
@@ -128,10 +128,10 @@ navInHeader: true
         {% endif %}
         <div class="col">
             <a class="card h-100 related-review-card text-body text-decoration-none" href="{{ item.url }}">
-                {% if img %}<img class="card-img-top related-card-img" width="390" src="{{ img }}" alt="{{ item.data | reviewH1Title }}" loading="lazy">{% endif %}
+                {% if img %}<img class="card-img-top related-card-img" width="390" src="{{ img }}" alt="{{ item.data | postTitle }}" loading="lazy">{% endif %}
                 <div class="card-body">
-                    <h3>{{ item.data | reviewH1Title }}</h3>
-                    {% set subtitle = item.data | reviewH2Title %}
+                    <h3>{{ item.data | postTitle }}</h3>
+                    {% set subtitle = item.data | postSubtitle %}
                     {% if subtitle %}<p class="related-subtitle card-text">{{ subtitle }}</p>{% endif %}
                 </div>
             </a>
