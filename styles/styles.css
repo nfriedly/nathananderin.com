@@ -251,6 +251,10 @@ ul.links li.text {
     }
 }
 
+.review-body .img-thumbnail { margin-top:0; }
+.review-body .img-thumbnail.float-start { margin-right: 15px; }
+.review-body .img-thumbnail.float-end { margin-left: 15px; }
+
 .disclosure {
     font-size: 85%;
     color: #777;
