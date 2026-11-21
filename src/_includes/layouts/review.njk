@@ -86,6 +86,7 @@ navInHeader: true
 <div class="review-photos row">
   {% for photo in row %}
     {% set alt = photo | stripExt | stripLeadingNumber %}
+    {% set caption = photo | photoCaption %}
     {% set src = page.url ~ photo %}
     <div class="col-12 col-md-6 col-lg-3">
       <figure class="card review-photo-card">
@@ -98,7 +99,7 @@ navInHeader: true
             <img class="card-img-top review-photo-media" width="558" src="{{ src }}" alt="{{ alt }}">
           </a>
         {% endif %}
-        <figcaption class="card-body caption py-2 px-2">{{ alt }}</figcaption>
+        {% if caption %}<figcaption class="card-body caption py-2 px-2">{{ caption }}</figcaption>{% endif %}
       </figure>
     </div>
   {% endfor %}

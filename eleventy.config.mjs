@@ -1,7 +1,7 @@
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import * as aliExpressLinks from "./lib/ali-express-links.mjs";
 import * as favicons from "./lib/favicons.mjs";
-import { dateLabel, dataTags, authorName, money, sourceLabel, starsHtml, stripExt, stripLeadingNumber } from "./lib/format.mjs";
+import { dateLabel, dataTags, authorName, money, sourceLabel, starsHtml, stripExt, stripLeadingNumber, photoCaption } from "./lib/format.mjs";
 import { postPageTitle, postSubtitle, postSuffix, postTitle, relatedReviews } from "./lib/reviews.mjs";
 import { addSplitCollections, buildAllPosts, buildAllReviews, countByAuthor, featuredPosts, recentPosts, tagGroups } from "./lib/collections.mjs";
 import { amazonSearchUrl, applyAffiliateUrl, buildBuyLinks, hasAmazonLinks, isAmazonUrl, reviewFaviconHosts } from "./lib/affiliates.mjs";
@@ -69,6 +69,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("sourceLabel", sourceLabel);
   eleventyConfig.addFilter("stripExt", stripExt);
   eleventyConfig.addFilter("stripLeadingNumber", stripLeadingNumber);
+  eleventyConfig.addFilter("photoCaption", photoCaption);
   eleventyConfig.addFilter("dateLabel", dateLabel);
   eleventyConfig.addFilter("postTitle", postTitle);
   eleventyConfig.addFilter("postSuffix", postSuffix);
